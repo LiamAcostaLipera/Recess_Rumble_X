@@ -4,7 +4,8 @@
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -4134,7 +4135,7 @@ MonoBehaviour:
     _serializedValue: 4294967296
   wrapMode: 0
   characterPrefab: {fileID: 1311943263835902, guid: ceeaecc0393d0fb438fde5457a24ead6,
-    type: 2}
+    type: 3}
   moveName: Crouching Heavy Punch
   description: Crouching Heavy Punch
   fps: 60
@@ -4372,6 +4373,8 @@ MonoBehaviour:
       shakeDensity: 0.8
       _shakeDensity:
         _serializedValue: 3435973888
+      _shakeCameraDensity:
+        _serializedValue: 3435973836
       editorToggle: 0
     overrideHitEffectsBlock: 0
     hitEffectsBlock:
@@ -4394,6 +4397,8 @@ MonoBehaviour:
       shakeCameraOnHit: 1
       shakeDensity: 0.8
       _shakeDensity:
+        _serializedValue: 3435973836
+      _shakeCameraDensity:
         _serializedValue: 3435973836
       editorToggle: 0
     overrideEffectSpawnPoint: 0
@@ -4894,6 +4899,8 @@ MonoBehaviour:
       shakeDensity: 0.8
       _shakeDensity:
         _serializedValue: 3435973888
+      _shakeCameraDensity:
+        _serializedValue: 3435973836
       editorToggle: 0
     hitAbsorption: 0
     damageAbsorption: 0

@@ -4,7 +4,8 @@
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -20,8 +21,9 @@ MonoBehaviour:
 
     Fight Style: Shotokan
 
-    To enable throw, open the Hit Box Setup and set the last hitbox colision type
-    to "throw".
+    To
+    enable throw, open the Hit Box Setup and set the last hitbox colision type to
+    "throw".
 
     Throw moves are located under the Moves folder (ThrowReactionCustom)'
   selectionAnimation: {fileID: 0}

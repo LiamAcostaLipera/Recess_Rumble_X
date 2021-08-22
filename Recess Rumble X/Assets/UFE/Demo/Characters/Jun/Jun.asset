@@ -36,7 +36,7 @@ MonoBehaviour:
   maxGaugePoints: 400
   characterPrefabStorage: 1
   characterPrefab: {fileID: 0}
-  prefabResourcePath: Characters\Mike
+  prefabResourcePath: Characters\Jun
   alternativeCostumes: []
   initialPosition:
     x:
@@ -49,11 +49,11 @@ MonoBehaviour:
     x:
       _serializedValue: 0
     y:
-      _serializedValue: 3037000704
+      _serializedValue: 0
     z:
       _serializedValue: 0
     w:
-      _serializedValue: 3037000704
+      _serializedValue: 4294967296
   physics:
     moveForwardSpeed: 7.5
     _moveForwardSpeed:
@@ -127,13 +127,13 @@ MonoBehaviour:
   blendingTime: 0.1
   _blendingTime:
     _serializedValue: 429496736
-  animationType: 0
-  avatar: {fileID: 0}
+  animationType: 1
+  avatar: {fileID: 9000000, guid: 320b1c2af77554f99a1658df4a6d3d5c, type: 3}
   applyRootMotion: 0
   animationFlow: 0
-  useAnimationMaps: 1
+  useAnimationMaps: 0
   stanceResourcePath:
-  - MoveSets\Mike_Stance_1
+  - MoveSets\Jun_Stance_1
   moves: []
   aiInstructionsSet:
   - aiInfo: {fileID: 11400000, guid: 50d4630698994bd45b6f19bf649b3a90, type: 2}
