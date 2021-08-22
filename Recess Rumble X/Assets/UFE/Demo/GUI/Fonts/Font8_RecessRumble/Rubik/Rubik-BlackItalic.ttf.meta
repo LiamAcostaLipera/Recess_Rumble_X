@@ -1,0 +1,37 @@
+fileFormatVersion: 2
+guid: 8f92cd303b6f69148b5865962b0f98fd
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Rubik
+  fontNames:
+  - Rubik
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 5ed15ac15cc50c941bd69fcccb91455c, type: 3}
+  - {fileID: 12800000, guid: 34a94fe2c9b386a48a3c7d5981fc0dd5, type: 3}
+  - {fileID: 12800000, guid: 15d110132f40ec949b073a5efde96049, type: 3}
+  - {fileID: 12800000, guid: 1f144d43349d3fe4b8a5ba69adc4c821, type: 3}
+  - {fileID: 12800000, guid: d59f4e53f69c0c2428ad6a8f8d2e1c28, type: 3}
+  - {fileID: 12800000, guid: 383338832d31dbf4cab3dde281a2d49b, type: 3}
+  - {fileID: 12800000, guid: 6e6a0a55b4b817842960e00570620718, type: 3}
+  - {fileID: 12800000, guid: 179653665104a3346a69cd7248fb712f, type: 3}
+  - {fileID: 12800000, guid: ce3833277b40b0f4bad2153dca400865, type: 3}
+  - {fileID: 12800000, guid: 6e109eb8171430a49b6ed6dfeb5d180b, type: 3}
+  - {fileID: 12800000, guid: bc7e6eaab79af1b4eaad6ea1eac1a6f7, type: 3}
+  - {fileID: 12800000, guid: f3d5575b39a2e7940baa5c6c1d680358, type: 3}
+  - {fileID: 12800000, guid: 9539620cfb9e8694496d265fb55ecfc7, type: 3}
+  - {fileID: 12800000, guid: e196e9bcde25afc49a69faf94f3ac057, type: 3}
+  - {fileID: 12800000, guid: d667771d74c1c354490e816d69d0bd4a, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
