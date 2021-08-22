@@ -42,27 +42,27 @@ MonoBehaviour:
   p1CharStorage: {fileID: 11400000, guid: 0b27e2c8b54306b4b8d9b39f9552e18d, type: 2}
   p2CharStorage: {fileID: 11400000, guid: 573f29652f969dd429ee24d097b56bc0, type: 2}
   selectedStage:
-    stageName: Training Room
+    stageName: 
     stageResourcePath: 
     musicResourcePath: 
-    screenshot: {fileID: 2800000, guid: 08a565ac17d3e904d8d5f53e183b64d2, type: 3}
-    prefab: {fileID: 100000, guid: 064338a39a43ad647989c96c321658a2, type: 3}
-    music: {fileID: 8300000, guid: 78a0035e01d5f0346a8eb0fc22bb4fa2, type: 3}
+    screenshot: {fileID: 0}
+    prefab: {fileID: 0}
+    music: {fileID: 0}
     groundFriction: 100
     _groundFriction:
       _serializedValue: 429496729600
-    leftBoundary: -37
+    leftBoundary: -38
     _leftBoundary:
-      _serializedValue: -158913789952
-    rightBoundary: 37
+      _serializedValue: -163208757248
+    rightBoundary: 38
     _rightBoundary:
-      _serializedValue: 158913789952
+      _serializedValue: 163208757248
     _groundHeight:
       _serializedValue: 0
   stagePrefabStorage: 0
   stageMusicStorage: 0
   p1CPUControl: 0
-  p2CPUControl: 1
+  p2CPUControl: 0
   gameName: UFE Training Room
   gameGUI:
     hasGauge: 1
@@ -778,7 +778,7 @@ MonoBehaviour:
     cInputNegativeAlternativeKey: Joy1 Axis 1-
     inputViewerIcon1: {fileID: 2800000, guid: f029529e09f1c12428dcc1a8c7dcb91c, type: 3}
     inputViewerIcon2: {fileID: 2800000, guid: 0f1eb58df8917b74f804b8cb97615fd5, type: 3}
-    activeIcon: {fileID: 2800000, guid: f029529e09f1c12428dcc1a8c7dcb91c, type: 3}
+    activeIcon: {fileID: 2800000, guid: 0f1eb58df8917b74f804b8cb97615fd5, type: 3}
   - inputType: 1
     inputButtonName: P1KeyboardVertical
     engineRelatedButton: 2
@@ -886,7 +886,7 @@ MonoBehaviour:
   player2_Inputs:
   - inputType: 0
     inputButtonName: P2KeyboardHorizontal
-    engineRelatedButton: 0
+    engineRelatedButton: 1
     joystickAxisName: P2JoystickHorizontal
     cInputPositiveKeyName: P2Right
     cInputPositiveDefaultKey: RightArrow
@@ -899,7 +899,7 @@ MonoBehaviour:
     activeIcon: {fileID: 2800000, guid: 0f1eb58df8917b74f804b8cb97615fd5, type: 3}
   - inputType: 1
     inputButtonName: P2KeyboardVertical
-    engineRelatedButton: 3
+    engineRelatedButton: 2
     joystickAxisName: P2JoystickVertical
     cInputPositiveKeyName: P2Up
     cInputPositiveDefaultKey: UpArrow
@@ -1039,8 +1039,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 5d6dc227d62e62a40af291dbbd4c5276, type: 2}
   - {fileID: 11400000, guid: 0b27e2c8b54306b4b8d9b39f9552e18d, type: 2}
   debugOptions:
-    startGameImmediately: 1
-    skipLoadingScreen: 1
+    startGameImmediately: 0
+    skipLoadingScreen: 0
     matchType: 1
     debugMode: 1
     emulateNetwork: 0

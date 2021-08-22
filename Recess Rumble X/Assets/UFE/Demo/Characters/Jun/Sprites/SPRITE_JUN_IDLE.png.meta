@@ -126,9 +126,9 @@ TextureImporter:
       name: SPRITE_JUN_IDLE_0
       rect:
         serializedVersion: 2
-        x: 106
+        x: 145
         y: 184
-        width: 704
+        width: 705
         height: 1700
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -147,9 +147,9 @@ TextureImporter:
       name: SPRITE_JUN_IDLE_1
       rect:
         serializedVersion: 2
-        x: 1007
+        x: 1037
         y: 181
-        width: 697
+        width: 696
         height: 1718
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -168,9 +168,9 @@ TextureImporter:
       name: SPRITE_JUN_IDLE_2
       rect:
         serializedVersion: 2
-        x: 1953
-        y: 190
-        width: 690
+        x: 1969
+        y: 156
+        width: 691
         height: 1674
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -189,9 +189,9 @@ TextureImporter:
       name: SPRITE_JUN_IDLE_3
       rect:
         serializedVersion: 2
-        x: 2903
+        x: 2907
         y: 195
-        width: 694
+        width: 693
         height: 1682
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -210,10 +210,10 @@ TextureImporter:
       name: SPRITE_JUN_IDLE_4
       rect:
         serializedVersion: 2
-        x: 3847
+        x: 3765
         y: 174
-        width: 723
-        height: 1719
+        width: 722
+        height: 1692
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -231,7 +231,7 @@ TextureImporter:
       name: SPRITE_JUN_IDLE_5
       rect:
         serializedVersion: 2
-        x: 4799
+        x: 4677
         y: 184
         width: 701
         height: 1707
@@ -252,9 +252,9 @@ TextureImporter:
       name: SPRITE_JUN_IDLE_6
       rect:
         serializedVersion: 2
-        x: 5730
+        x: 5596
         y: 184
-        width: 700
+        width: 698
         height: 1675
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -273,7 +273,7 @@ TextureImporter:
       name: SPRITE_JUN_IDLE_7
       rect:
         serializedVersion: 2
-        x: 6538
+        x: 6519
         y: 184
         width: 705
         height: 1693

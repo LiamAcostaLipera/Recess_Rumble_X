@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Jun
   m_EditorClassIdentifier: 
   version: 0
-  profilePictureSmall: {fileID: 2800000, guid: cd71eb977d9832d4abdfaa91b5d8f694, type: 3}
+  profilePictureSmall: {fileID: 2800000, guid: f8f3af36edf700c40a9222d7bbda964a, type: 3}
   profilePictureBig: {fileID: 2800000, guid: 311e4e50756f91a44856cc66be812384, type: 3}
   characterName: JUN
   gender: 1

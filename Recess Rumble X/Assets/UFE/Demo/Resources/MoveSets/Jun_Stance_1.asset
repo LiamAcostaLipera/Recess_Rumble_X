@@ -72,7 +72,7 @@ MonoBehaviour:
         _serializedValue: 0
       invincible: 0
       disableHeadLook: 0
-      applyRootMotion: 0
+      applyRootMotion: 1
       downClip: 0
       soundEffects: []
       continuousSound: 0
@@ -148,7 +148,7 @@ MonoBehaviour:
         _serializedValue: 0
       invincible: 0
       disableHeadLook: 0
-      applyRootMotion: 0
+      applyRootMotion: 1
       downClip: 0
       soundEffects: []
       continuousSound: 0
@@ -224,7 +224,7 @@ MonoBehaviour:
         _serializedValue: 0
       invincible: 0
       disableHeadLook: 0
-      applyRootMotion: 0
+      applyRootMotion: 1
       downClip: 0
       soundEffects: []
       continuousSound: 0
