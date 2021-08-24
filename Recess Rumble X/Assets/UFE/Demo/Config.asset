@@ -40,7 +40,7 @@ MonoBehaviour:
   player1Character: {fileID: 0}
   player2Character: {fileID: 0}
   p1CharStorage: {fileID: 11400000, guid: 0b27e2c8b54306b4b8d9b39f9552e18d, type: 2}
-  p2CharStorage: {fileID: 11400000, guid: 573f29652f969dd429ee24d097b56bc0, type: 2}
+  p2CharStorage: {fileID: 11400000, guid: 0b27e2c8b54306b4b8d9b39f9552e18d, type: 2}
   selectedStage:
     stageName: 
     stageResourcePath: 
@@ -886,7 +886,7 @@ MonoBehaviour:
   player2_Inputs:
   - inputType: 0
     inputButtonName: P2KeyboardHorizontal
-    engineRelatedButton: 1
+    engineRelatedButton: 0
     joystickAxisName: P2JoystickHorizontal
     cInputPositiveKeyName: P2Right
     cInputPositiveDefaultKey: RightArrow
@@ -899,7 +899,7 @@ MonoBehaviour:
     activeIcon: {fileID: 2800000, guid: 0f1eb58df8917b74f804b8cb97615fd5, type: 3}
   - inputType: 1
     inputButtonName: P2KeyboardVertical
-    engineRelatedButton: 2
+    engineRelatedButton: 3
     joystickAxisName: P2JoystickVertical
     cInputPositiveKeyName: P2Up
     cInputPositiveDefaultKey: UpArrow
@@ -1259,7 +1259,7 @@ MonoBehaviour:
     onlySendInputChanges: 1
     inputMessageFrequency: 0
     synchronizationMessageFrequency: 0
-  music: 0
-  musicVolume: 0
-  soundfx: 0
-  soundfxVolume: 0.4707514
+  music: 1
+  musicVolume: 1
+  soundfx: 1
+  soundfxVolume: 1

@@ -92,7 +92,7 @@ MonoBehaviour:
     _groundCollisionMass:
       _serializedValue: 8589934592
   headLook:
-    enabled: 0
+    enabled: 1
     segments: []
     nonAffectedJoints: []
     target: 1
