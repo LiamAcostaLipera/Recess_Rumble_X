@@ -253,7 +253,7 @@ MonoBehaviour:
       clip6: {fileID: 0}
       animMap:
       - animationMaps: []
-        clip: {fileID: 0}
+        clip: {fileID: 7400000, guid: 471f6c802a6c42e42a4ea8ca490b1b45, type: 2}
         length:
           _serializedValue: 0
         bakeSpeed: 0
@@ -285,8 +285,8 @@ MonoBehaviour:
       animationSpeed: 1
       _animationSpeed:
         _serializedValue: 4294967296
-      wrapMode: 0
-      autoSpeed: 1
+      wrapMode: 2
+      autoSpeed: 0
       restingClipInterval: 6
       _restingClipInterval:
         _serializedValue: 25769803776
@@ -316,9 +316,9 @@ MonoBehaviour:
         initialRotation: {x: 0, y: 0, z: 0}
         positionOffSet: {x: 0, y: 0, z: 0}
         bodyPart: 0
-      reference: 0
-      name: 
-      editorToggle: 0
+      reference: 3
+      name: crouching
+      editorToggle: 1
       soundEffectsToggle: 0
     takeOff:
       clip1: {fileID: 0}
@@ -3822,5 +3822,10 @@ MonoBehaviour:
     blockEnabled: 1
     parryEnabled: 0
   attackMoves:
-  - {fileID: 11400000, guid: 63f44c3a39c2a5c44b2b7e2ac01bd324, type: 2}
+  - {fileID: 11400000, guid: aa38abc6b6a840944b4264b7bba1d671, type: 2}
+  - {fileID: 11400000, guid: fe0c099e67d462048bf159f88767206a, type: 2}
+  - {fileID: 11400000, guid: 7500ccb700a0e204a8c7644ebf12623f, type: 2}
+  - {fileID: 11400000, guid: 621c6817d5eb98e4f8de03feb8ee8052, type: 2}
   - {fileID: 11400000, guid: af6a9b21bfc191d4495af4f08544fd8a, type: 2}
+  - {fileID: 11400000, guid: 63f44c3a39c2a5c44b2b7e2ac01bd324, type: 2}
+  - {fileID: 11400000, guid: ad7ac227243b2bc4687894e3bc2ff139, type: 2}
