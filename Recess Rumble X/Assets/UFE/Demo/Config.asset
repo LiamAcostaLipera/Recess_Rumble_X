@@ -42,21 +42,21 @@ MonoBehaviour:
   p1CharStorage: {fileID: 11400000, guid: 0b27e2c8b54306b4b8d9b39f9552e18d, type: 2}
   p2CharStorage: {fileID: 11400000, guid: 0b27e2c8b54306b4b8d9b39f9552e18d, type: 2}
   selectedStage:
-    stageName: 
+    stageName: Training Room
     stageResourcePath: 
     musicResourcePath: 
-    screenshot: {fileID: 0}
-    prefab: {fileID: 0}
-    music: {fileID: 0}
+    screenshot: {fileID: 2800000, guid: 08a565ac17d3e904d8d5f53e183b64d2, type: 3}
+    prefab: {fileID: 100000, guid: 064338a39a43ad647989c96c321658a2, type: 3}
+    music: {fileID: 8300000, guid: 78a0035e01d5f0346a8eb0fc22bb4fa2, type: 3}
     groundFriction: 100
     _groundFriction:
       _serializedValue: 429496729600
-    leftBoundary: -38
+    leftBoundary: -37
     _leftBoundary:
-      _serializedValue: -163208757248
-    rightBoundary: 38
+      _serializedValue: -158913789952
+    rightBoundary: 37
     _rightBoundary:
-      _serializedValue: 163208757248
+      _serializedValue: 158913789952
     _groundHeight:
       _serializedValue: 0
   stagePrefabStorage: 0
@@ -1094,7 +1094,7 @@ MonoBehaviour:
     refillTime: 3
   challengeModeOptions: []
   aiOptions:
-    engine: 0
+    engine: 1
     attackWhenEnemyIsDown: 0
     moveWhenEnemyIsDown: 1
     inputFrequency: 0
@@ -1200,20 +1200,20 @@ MonoBehaviour:
       overrideComboEfficiency: 1
       comboEfficiency: 1
       startupBehavior: 4
-    selectedDifficultyLevel: 4
+    selectedDifficultyLevel: 0
     selectedDifficulty:
-      difficultyLevel: 4
+      difficultyLevel: 0
       overrideTimeBetweenDecisions: 1
-      timeBetweenDecisions: 0
+      timeBetweenDecisions: 0.4
       overrideTimeBetweenActions: 1
-      timeBetweenActions: 0.05
+      timeBetweenActions: 0.1
       overrideAggressiveness: 1
-      aggressiveness: 0.6
-      overrideRuleCompliance: 1
+      aggressiveness: 0.1
+      overrideRuleCompliance: 0
       ruleCompliance: 0.9
       overrideComboEfficiency: 1
-      comboEfficiency: 1
-      startupBehavior: 4
+      comboEfficiency: 0.1
+      startupBehavior: 3
   networkOptions:
     forceAnimationControl: 1
     disableRootMotion: 0
@@ -1259,7 +1259,7 @@ MonoBehaviour:
     onlySendInputChanges: 1
     inputMessageFrequency: 0
     synchronizationMessageFrequency: 0
-  music: 1
-  musicVolume: 1
-  soundfx: 1
-  soundfxVolume: 1
+  music: 0
+  musicVolume: 0
+  soundfx: 0
+  soundfxVolume: 0
