@@ -4132,7 +4132,7 @@ MonoBehaviour:
     bakeSpeed: 0
   animationSpeed: 1
   _animationSpeed:
-    _serializedValue: 2619930112
+    _serializedValue: 2576980480
   wrapMode: 0
   characterPrefab: {fileID: 0}
   moveName: Jumping Heavy Kick
@@ -4187,7 +4187,7 @@ MonoBehaviour:
   speedKeyFrameToggle: 0
   fixedSpeed: 1
   animSpeedKeyFrame: []
-  totalFrames: 41
+  totalFrames: 42
   startUpFrames: 5
   activeFrames: 8
   recoveryFrames: 13
