@@ -40,7 +40,7 @@ MonoBehaviour:
   player1Character: {fileID: 0}
   player2Character: {fileID: 0}
   p1CharStorage: {fileID: 11400000, guid: 0b27e2c8b54306b4b8d9b39f9552e18d, type: 2}
-  p2CharStorage: {fileID: 11400000, guid: 54057043117984643925ed339c232c0d, type: 2}
+  p2CharStorage: {fileID: 11400000, guid: f0ed0d0ea0c86e24e8af99019d695928, type: 2}
   selectedStage:
     stageName: Training Room
     stageResourcePath: 
@@ -768,7 +768,7 @@ MonoBehaviour:
   player1_Inputs:
   - inputType: 0
     inputButtonName: P1KeyboardHorizontal
-    engineRelatedButton: 1
+    engineRelatedButton: 0
     joystickAxisName: P1JoystickHorizontal
     cInputPositiveKeyName: P1Right
     cInputPositiveDefaultKey: D
@@ -899,7 +899,7 @@ MonoBehaviour:
     activeIcon: {fileID: 2800000, guid: 0f1eb58df8917b74f804b8cb97615fd5, type: 3}
   - inputType: 1
     inputButtonName: P2KeyboardVertical
-    engineRelatedButton: 3
+    engineRelatedButton: 2
     joystickAxisName: P2JoystickVertical
     cInputPositiveKeyName: P2Up
     cInputPositiveDefaultKey: UpArrow
@@ -1039,7 +1039,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 5d6dc227d62e62a40af291dbbd4c5276, type: 2}
   - {fileID: 11400000, guid: 0b27e2c8b54306b4b8d9b39f9552e18d, type: 2}
   debugOptions:
-    startGameImmediately: 0
+    startGameImmediately: 1
     skipLoadingScreen: 1
     matchType: 1
     debugMode: 1
@@ -1259,7 +1259,7 @@ MonoBehaviour:
     onlySendInputChanges: 1
     inputMessageFrequency: 0
     synchronizationMessageFrequency: 0
-  music: 0
-  musicVolume: 0
-  soundfx: 0
-  soundfxVolume: 0
+  music: 1
+  musicVolume: 1
+  soundfx: 1
+  soundfxVolume: 1

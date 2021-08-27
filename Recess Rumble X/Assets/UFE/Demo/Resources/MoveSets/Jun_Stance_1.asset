@@ -937,158 +937,6 @@ MonoBehaviour:
       clip6: {fileID: 0}
       animMap:
       - animationMaps: []
-        clip: {fileID: 0}
-        length:
-          _serializedValue: 0
-        bakeSpeed: 0
-      - animationMaps: []
-        clip: {fileID: 0}
-        length:
-          _serializedValue: 0
-        bakeSpeed: 0
-      - animationMaps: []
-        clip: {fileID: 0}
-        length:
-          _serializedValue: 0
-        bakeSpeed: 0
-      - animationMaps: []
-        clip: {fileID: 0}
-        length:
-          _serializedValue: 0
-        bakeSpeed: 0
-      - animationMaps: []
-        clip: {fileID: 0}
-        length:
-          _serializedValue: 0
-        bakeSpeed: 0
-      - animationMaps: []
-        clip: {fileID: 0}
-        length:
-          _serializedValue: 0
-        bakeSpeed: 0
-      animationSpeed: 1
-      _animationSpeed:
-        _serializedValue: 4294967296
-      wrapMode: 0
-      autoSpeed: 1
-      restingClipInterval: 6
-      _restingClipInterval:
-        _serializedValue: 25769803776
-      overrideBlendingIn: 0
-      overrideBlendingOut: 0
-      blendingIn: 0
-      _blendingIn:
-        _serializedValue: 0
-      blendingOut: 0
-      _blendingOut:
-        _serializedValue: 0
-      invincible: 0
-      disableHeadLook: 0
-      applyRootMotion: 0
-      downClip: 0
-      soundEffects: []
-      continuousSound: 0
-      particleEffect:
-        editorToggle: 0
-        prefab: {fileID: 0}
-        duration: 1
-        stick: 0
-        destroyOnMoveOver: 0
-        followRotation: 0
-        lockLocalPosition: 0
-        mirrorOn2PSide: 0
-        initialRotation: {x: 0, y: 0, z: 0}
-        positionOffSet: {x: 0, y: 0, z: 0}
-        bodyPart: 0
-      reference: 0
-      name: 
-      editorToggle: 0
-      soundEffectsToggle: 0
-    blockingCrouchingHit:
-      clip1: {fileID: 0}
-      clip2: {fileID: 0}
-      clip3: {fileID: 0}
-      clip4: {fileID: 0}
-      clip5: {fileID: 0}
-      clip6: {fileID: 0}
-      animMap:
-      - animationMaps: []
-        clip: {fileID: 0}
-        length:
-          _serializedValue: 0
-        bakeSpeed: 0
-      - animationMaps: []
-        clip: {fileID: 0}
-        length:
-          _serializedValue: 0
-        bakeSpeed: 0
-      - animationMaps: []
-        clip: {fileID: 0}
-        length:
-          _serializedValue: 0
-        bakeSpeed: 0
-      - animationMaps: []
-        clip: {fileID: 0}
-        length:
-          _serializedValue: 0
-        bakeSpeed: 0
-      - animationMaps: []
-        clip: {fileID: 0}
-        length:
-          _serializedValue: 0
-        bakeSpeed: 0
-      - animationMaps: []
-        clip: {fileID: 0}
-        length:
-          _serializedValue: 0
-        bakeSpeed: 0
-      animationSpeed: 1
-      _animationSpeed:
-        _serializedValue: 4294967296
-      wrapMode: 0
-      autoSpeed: 1
-      restingClipInterval: 6
-      _restingClipInterval:
-        _serializedValue: 25769803776
-      overrideBlendingIn: 0
-      overrideBlendingOut: 0
-      blendingIn: 0
-      _blendingIn:
-        _serializedValue: 0
-      blendingOut: 0
-      _blendingOut:
-        _serializedValue: 0
-      invincible: 0
-      disableHeadLook: 0
-      applyRootMotion: 0
-      downClip: 0
-      soundEffects: []
-      continuousSound: 0
-      particleEffect:
-        editorToggle: 0
-        prefab: {fileID: 0}
-        duration: 1
-        stick: 0
-        destroyOnMoveOver: 0
-        followRotation: 0
-        lockLocalPosition: 0
-        mirrorOn2PSide: 0
-        initialRotation: {x: 0, y: 0, z: 0}
-        positionOffSet: {x: 0, y: 0, z: 0}
-        bodyPart: 0
-      reference: 0
-      name: 
-      editorToggle: 0
-      soundEffectsToggle: 0
-    blockingHighPose:
-      clip1: {fileID: 0}
-      clip2: {fileID: 0}
-      clip3: {fileID: 0}
-      clip4: {fileID: 0}
-      clip5: {fileID: 0}
-      clip6: {fileID: 0}
-      animMap:
-      - animationMaps: []
         clip: {fileID: 7400000, guid: f1c46833dd9e80e4bbf448a802b6b7b3, type: 2}
         length:
           _serializedValue: 0
@@ -1120,7 +968,159 @@ MonoBehaviour:
         bakeSpeed: 0
       animationSpeed: 1
       _animationSpeed:
-        _serializedValue: 4294967296
+        _serializedValue: 8589934592
+      wrapMode: 1
+      autoSpeed: 0
+      restingClipInterval: 6
+      _restingClipInterval:
+        _serializedValue: 25769803776
+      overrideBlendingIn: 0
+      overrideBlendingOut: 0
+      blendingIn: 0
+      _blendingIn:
+        _serializedValue: 0
+      blendingOut: 0
+      _blendingOut:
+        _serializedValue: 0
+      invincible: 0
+      disableHeadLook: 0
+      applyRootMotion: 0
+      downClip: 0
+      soundEffects: []
+      continuousSound: 0
+      particleEffect:
+        editorToggle: 0
+        prefab: {fileID: 0}
+        duration: 1
+        stick: 0
+        destroyOnMoveOver: 0
+        followRotation: 0
+        lockLocalPosition: 0
+        mirrorOn2PSide: 0
+        initialRotation: {x: 0, y: 0, z: 0}
+        positionOffSet: {x: 0, y: 0, z: 0}
+        bodyPart: 0
+      reference: 15
+      name: blockingCrouchingPose
+      editorToggle: 0
+      soundEffectsToggle: 0
+    blockingCrouchingHit:
+      clip1: {fileID: 0}
+      clip2: {fileID: 0}
+      clip3: {fileID: 0}
+      clip4: {fileID: 0}
+      clip5: {fileID: 0}
+      clip6: {fileID: 0}
+      animMap:
+      - animationMaps: []
+        clip: {fileID: 7400000, guid: 281ef04cef7fc6e4385a01ae0fbd4fc7, type: 2}
+        length:
+          _serializedValue: 0
+        bakeSpeed: 0
+      - animationMaps: []
+        clip: {fileID: 0}
+        length:
+          _serializedValue: 0
+        bakeSpeed: 0
+      - animationMaps: []
+        clip: {fileID: 0}
+        length:
+          _serializedValue: 0
+        bakeSpeed: 0
+      - animationMaps: []
+        clip: {fileID: 0}
+        length:
+          _serializedValue: 0
+        bakeSpeed: 0
+      - animationMaps: []
+        clip: {fileID: 0}
+        length:
+          _serializedValue: 0
+        bakeSpeed: 0
+      - animationMaps: []
+        clip: {fileID: 0}
+        length:
+          _serializedValue: 0
+        bakeSpeed: 0
+      animationSpeed: 1
+      _animationSpeed:
+        _serializedValue: 8589934592
+      wrapMode: 1
+      autoSpeed: 0
+      restingClipInterval: 6
+      _restingClipInterval:
+        _serializedValue: 25769803776
+      overrideBlendingIn: 0
+      overrideBlendingOut: 0
+      blendingIn: 0
+      _blendingIn:
+        _serializedValue: 0
+      blendingOut: 0
+      _blendingOut:
+        _serializedValue: 0
+      invincible: 0
+      disableHeadLook: 0
+      applyRootMotion: 0
+      downClip: 0
+      soundEffects: []
+      continuousSound: 0
+      particleEffect:
+        editorToggle: 0
+        prefab: {fileID: 0}
+        duration: 1
+        stick: 0
+        destroyOnMoveOver: 0
+        followRotation: 0
+        lockLocalPosition: 0
+        mirrorOn2PSide: 0
+        initialRotation: {x: 0, y: 0, z: 0}
+        positionOffSet: {x: 0, y: 0, z: 0}
+        bodyPart: 0
+      reference: 16
+      name: blockingCrouchingHit
+      editorToggle: 0
+      soundEffectsToggle: 0
+    blockingHighPose:
+      clip1: {fileID: 0}
+      clip2: {fileID: 0}
+      clip3: {fileID: 0}
+      clip4: {fileID: 0}
+      clip5: {fileID: 0}
+      clip6: {fileID: 0}
+      animMap:
+      - animationMaps: []
+        clip: {fileID: 7400000, guid: e13367feaf55afc4aa9c4f0ee2d8f3c6, type: 2}
+        length:
+          _serializedValue: 0
+        bakeSpeed: 0
+      - animationMaps: []
+        clip: {fileID: 0}
+        length:
+          _serializedValue: 0
+        bakeSpeed: 0
+      - animationMaps: []
+        clip: {fileID: 0}
+        length:
+          _serializedValue: 0
+        bakeSpeed: 0
+      - animationMaps: []
+        clip: {fileID: 0}
+        length:
+          _serializedValue: 0
+        bakeSpeed: 0
+      - animationMaps: []
+        clip: {fileID: 0}
+        length:
+          _serializedValue: 0
+        bakeSpeed: 0
+      - animationMaps: []
+        clip: {fileID: 0}
+        length:
+          _serializedValue: 0
+        bakeSpeed: 0
+      animationSpeed: 1
+      _animationSpeed:
+        _serializedValue: 8589934592
       wrapMode: 8
       autoSpeed: 0
       restingClipInterval: 6
@@ -1152,8 +1152,8 @@ MonoBehaviour:
         initialRotation: {x: 0, y: 0, z: 0}
         positionOffSet: {x: 0, y: 0, z: 0}
         bodyPart: 0
-      reference: 0
-      name: 
+      reference: 12
+      name: blockingHighPose
       editorToggle: 1
       soundEffectsToggle: 0
     blockingHighHit:
@@ -1165,17 +1165,17 @@ MonoBehaviour:
       clip6: {fileID: 0}
       animMap:
       - animationMaps: []
-        clip: {fileID: 0}
+        clip: {fileID: 7400000, guid: 00508313dce17564da8b9a8a052589ff, type: 2}
         length:
           _serializedValue: 0
         bakeSpeed: 0
       - animationMaps: []
-        clip: {fileID: 0}
+        clip: {fileID: 7400000, guid: 00508313dce17564da8b9a8a052589ff, type: 2}
         length:
           _serializedValue: 0
         bakeSpeed: 0
       - animationMaps: []
-        clip: {fileID: 0}
+        clip: {fileID: 7400000, guid: 00508313dce17564da8b9a8a052589ff, type: 2}
         length:
           _serializedValue: 0
         bakeSpeed: 0
@@ -1196,9 +1196,9 @@ MonoBehaviour:
         bakeSpeed: 0
       animationSpeed: 1
       _animationSpeed:
-        _serializedValue: 4294967296
-      wrapMode: 0
-      autoSpeed: 1
+        _serializedValue: 14474039296
+      wrapMode: 1
+      autoSpeed: 0
       restingClipInterval: 6
       _restingClipInterval:
         _serializedValue: 25769803776
@@ -1228,8 +1228,8 @@ MonoBehaviour:
         initialRotation: {x: 0, y: 0, z: 0}
         positionOffSet: {x: 0, y: 0, z: 0}
         bodyPart: 0
-      reference: 0
-      name: 
+      reference: 13
+      name: blockingHighHit
       editorToggle: 0
       soundEffectsToggle: 0
     blockingLowHit:
@@ -1241,17 +1241,17 @@ MonoBehaviour:
       clip6: {fileID: 0}
       animMap:
       - animationMaps: []
-        clip: {fileID: 0}
+        clip: {fileID: 7400000, guid: 00508313dce17564da8b9a8a052589ff, type: 2}
         length:
           _serializedValue: 0
         bakeSpeed: 0
       - animationMaps: []
-        clip: {fileID: 0}
+        clip: {fileID: 7400000, guid: 00508313dce17564da8b9a8a052589ff, type: 2}
         length:
           _serializedValue: 0
         bakeSpeed: 0
       - animationMaps: []
-        clip: {fileID: 0}
+        clip: {fileID: 7400000, guid: 00508313dce17564da8b9a8a052589ff, type: 2}
         length:
           _serializedValue: 0
         bakeSpeed: 0
@@ -1272,9 +1272,9 @@ MonoBehaviour:
         bakeSpeed: 0
       animationSpeed: 1
       _animationSpeed:
-        _serializedValue: 4294967296
-      wrapMode: 0
-      autoSpeed: 1
+        _serializedValue: 14474039296
+      wrapMode: 1
+      autoSpeed: 0
       restingClipInterval: 6
       _restingClipInterval:
         _serializedValue: 25769803776
@@ -1304,8 +1304,8 @@ MonoBehaviour:
         initialRotation: {x: 0, y: 0, z: 0}
         positionOffSet: {x: 0, y: 0, z: 0}
         bodyPart: 0
-      reference: 0
-      name: 
+      reference: 14
+      name: blockingLowHit
       editorToggle: 0
       soundEffectsToggle: 0
     blockingAirPose:
@@ -2381,32 +2381,32 @@ MonoBehaviour:
       clip6: {fileID: 0}
       animMap:
       - animationMaps: []
-        clip: {fileID: 0}
+        clip: {fileID: 7400000, guid: 281ef04cef7fc6e4385a01ae0fbd4fc7, type: 2}
         length:
           _serializedValue: 0
         bakeSpeed: 0
       - animationMaps: []
-        clip: {fileID: 0}
+        clip: {fileID: 7400000, guid: 281ef04cef7fc6e4385a01ae0fbd4fc7, type: 2}
         length:
           _serializedValue: 0
         bakeSpeed: 0
       - animationMaps: []
-        clip: {fileID: 0}
+        clip: {fileID: 7400000, guid: 281ef04cef7fc6e4385a01ae0fbd4fc7, type: 2}
         length:
           _serializedValue: 0
         bakeSpeed: 0
       - animationMaps: []
-        clip: {fileID: 0}
+        clip: {fileID: 7400000, guid: 281ef04cef7fc6e4385a01ae0fbd4fc7, type: 2}
         length:
           _serializedValue: 0
         bakeSpeed: 0
       - animationMaps: []
-        clip: {fileID: 0}
+        clip: {fileID: 7400000, guid: 281ef04cef7fc6e4385a01ae0fbd4fc7, type: 2}
         length:
           _serializedValue: 0
         bakeSpeed: 0
       - animationMaps: []
-        clip: {fileID: 0}
+        clip: {fileID: 7400000, guid: 281ef04cef7fc6e4385a01ae0fbd4fc7, type: 2}
         length:
           _serializedValue: 0
         bakeSpeed: 0
@@ -2444,8 +2444,8 @@ MonoBehaviour:
         initialRotation: {x: 0, y: 0, z: 0}
         positionOffSet: {x: 0, y: 0, z: 0}
         bodyPart: 0
-      reference: 0
-      name: 
+      reference: 25
+      name: getHitCrouching
       editorToggle: 0
       soundEffectsToggle: 0
     getHitHigh:
@@ -2717,8 +2717,8 @@ MonoBehaviour:
       animationSpeed: 1
       _animationSpeed:
         _serializedValue: 4294967296
-      wrapMode: 0
-      autoSpeed: 1
+      wrapMode: 8
+      autoSpeed: 0
       restingClipInterval: 6
       _restingClipInterval:
         _serializedValue: 25769803776
@@ -2733,7 +2733,7 @@ MonoBehaviour:
       invincible: 0
       disableHeadLook: 0
       applyRootMotion: 0
-      downClip: 0
+      downClip: 1
       soundEffects: []
       continuousSound: 0
       particleEffect:
@@ -2837,7 +2837,7 @@ MonoBehaviour:
       clip6: {fileID: 0}
       animMap:
       - animationMaps: []
-        clip: {fileID: 0}
+        clip: {fileID: 7400000, guid: 281ef04cef7fc6e4385a01ae0fbd4fc7, type: 2}
         length:
           _serializedValue: 0
         bakeSpeed: 0
@@ -2900,8 +2900,8 @@ MonoBehaviour:
         initialRotation: {x: 0, y: 0, z: 0}
         positionOffSet: {x: 0, y: 0, z: 0}
         bodyPart: 0
-      reference: 0
-      name: 
+      reference: 31
+      name: getHitCrumple
       editorToggle: 0
       soundEffectsToggle: 0
     getHitKnockBack:
@@ -2989,7 +2989,7 @@ MonoBehaviour:
       clip6: {fileID: 0}
       animMap:
       - animationMaps: []
-        clip: {fileID: 0}
+        clip: {fileID: 7400000, guid: 281ef04cef7fc6e4385a01ae0fbd4fc7, type: 2}
         length:
           _serializedValue: 0
         bakeSpeed: 0
@@ -3052,8 +3052,8 @@ MonoBehaviour:
         initialRotation: {x: 0, y: 0, z: 0}
         positionOffSet: {x: 0, y: 0, z: 0}
         bodyPart: 0
-      reference: 0
-      name: 
+      reference: 30
+      name: getHitSweep
       editorToggle: 0
       soundEffectsToggle: 0
     standUp:
@@ -3822,14 +3822,13 @@ MonoBehaviour:
     blockEnabled: 1
     parryEnabled: 0
   attackMoves:
-  - {fileID: 11400000, guid: 60a6bfdc28675f14eb93e0870a423f3c, type: 2}
-  - {fileID: 11400000, guid: aa38abc6b6a840944b4264b7bba1d671, type: 2}
-  - {fileID: 11400000, guid: 3f4fbf0f5e08f094f9f6d97c623399a1, type: 2}
-  - {fileID: 11400000, guid: ad7ac227243b2bc4687894e3bc2ff139, type: 2}
-  - {fileID: 11400000, guid: 63f44c3a39c2a5c44b2b7e2ac01bd324, type: 2}
-  - {fileID: 11400000, guid: af6a9b21bfc191d4495af4f08544fd8a, type: 2}
-  - {fileID: 11400000, guid: 621c6817d5eb98e4f8de03feb8ee8052, type: 2}
-  - {fileID: 11400000, guid: 7500ccb700a0e204a8c7644ebf12623f, type: 2}
-  - {fileID: 11400000, guid: fe0c099e67d462048bf159f88767206a, type: 2}
-  - {fileID: 11400000, guid: aa38abc6b6a840944b4264b7bba1d671, type: 2}
   - {fileID: 11400000, guid: 3335017801ede5c4fbe0bf6f7502ac4a, type: 2}
+  - {fileID: 11400000, guid: fe0c099e67d462048bf159f88767206a, type: 2}
+  - {fileID: 11400000, guid: 7500ccb700a0e204a8c7644ebf12623f, type: 2}
+  - {fileID: 11400000, guid: 621c6817d5eb98e4f8de03feb8ee8052, type: 2}
+  - {fileID: 11400000, guid: af6a9b21bfc191d4495af4f08544fd8a, type: 2}
+  - {fileID: 11400000, guid: 63f44c3a39c2a5c44b2b7e2ac01bd324, type: 2}
+  - {fileID: 11400000, guid: ad7ac227243b2bc4687894e3bc2ff139, type: 2}
+  - {fileID: 11400000, guid: 3f4fbf0f5e08f094f9f6d97c623399a1, type: 2}
+  - {fileID: 11400000, guid: aa38abc6b6a840944b4264b7bba1d671, type: 2}
+  - {fileID: 11400000, guid: 60a6bfdc28675f14eb93e0870a423f3c, type: 2}
