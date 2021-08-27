@@ -3,14 +3,16 @@
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 03f9522b1b0f53b4c87d047ac5c3794f, type: 3}
   m_Name: Outro
   m_EditorClassIdentifier: 
+  version: 0
   animationClip: {fileID: 7400000, guid: d2a0638b855fb2c4bbe50d0b77bfebb2, type: 2}
   animMap:
     animationMaps:
@@ -12070,13 +12072,14 @@ MonoBehaviour:
           _serializedValue: 0
         z:
           _serializedValue: 0
-    clip: {fileID: 7400000, guid: d2a0638b855fb2c4bbe50d0b77bfebb2, type: 2}
+    clip: {fileID: 7400000, guid: 0c2a1608870977946bb58a41e0d5b345, type: 2}
     length:
-      _serializedValue: 6299285504
+      _serializedValue: 1789569792
+    bakeSpeed: 0
   animationSpeed: 1
   _animationSpeed:
     _serializedValue: 4294967296
-  wrapMode: 8
+  wrapMode: 1
   characterPrefab: {fileID: 0}
   moveName: Outro
   description: Outro
@@ -12130,7 +12133,7 @@ MonoBehaviour:
   speedKeyFrameToggle: 0
   fixedSpeed: 1
   animSpeedKeyFrame: []
-  totalFrames: 88
+  totalFrames: 26
   startUpFrames: 5
   activeFrames: 5
   recoveryFrames: 5
@@ -12157,6 +12160,36 @@ MonoBehaviour:
   onPressExecution: 1
   buttonSequence: 
   buttonExecution: 
+  defaultInputs:
+    chargeMove: 0
+    _chargeTiming:
+      _serializedValue: 3006477107
+    allowInputLeniency: 0
+    allowNegativeEdge: 1
+    leniencyBuffer: 3
+    onReleaseExecution: 0
+    requireButtonPress: 1
+    onPressExecution: 1
+    buttonSequence: 
+    buttonExecution: 
+    editorToggle: 0
+    buttonSequenceToggle: 0
+    buttonExecutionToggle: 0
+  altInputs:
+    chargeMove: 0
+    _chargeTiming:
+      _serializedValue: 3006477107
+    allowInputLeniency: 0
+    allowNegativeEdge: 1
+    leniencyBuffer: 3
+    onReleaseExecution: 0
+    requireButtonPress: 1
+    onPressExecution: 1
+    buttonSequence: 
+    buttonExecution: 
+    editorToggle: 0
+    buttonSequenceToggle: 0
+    buttonExecutionToggle: 0
   previousMoves: []
   opponentConditions:
     basicMoveLimitation: 
@@ -12330,10 +12363,13 @@ MonoBehaviour:
       hitStop: 0.1
       _hitStop:
         _serializedValue: 429496729
+      mirrorOn2PSide: 0
       shakeCharacterOnHit: 1
       shakeCameraOnHit: 1
       shakeDensity: 0.8
       _shakeDensity:
+        _serializedValue: 3435973836
+      _shakeCameraDensity:
         _serializedValue: 3435973836
       editorToggle: 0
     hitAbsorption: 0

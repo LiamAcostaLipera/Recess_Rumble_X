@@ -4,7 +4,8 @@
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -3303,15 +3304,16 @@ MonoBehaviour:
           _serializedValue: 0
         z:
           _serializedValue: 0
-    clip: {fileID: 7400000, guid: b86771b3598fbf54dab82bf12a903ebf, type: 2}
+    clip: {fileID: 7400000, guid: ef4be7db4b13056458a44743b6a445b6, type: 2}
     length:
-      _serializedValue: 1717987072
+      _serializedValue: 1431655808
     bakeSpeed: 0
   animationSpeed: 1.4
   _animationSpeed:
     _serializedValue: 6012954112
   wrapMode: 0
-  characterPrefab: {fileID: 0}
+  characterPrefab: {fileID: 8498428861453813788, guid: 35b7fcd061711d14c9d6e9e57c71dd99,
+    type: 3}
   moveName: Light Punch
   description: Light Punch
   fps: 60
@@ -3364,10 +3366,10 @@ MonoBehaviour:
   speedKeyFrameToggle: 0
   fixedSpeed: 1
   animSpeedKeyFrame: []
-  totalFrames: 17
+  totalFrames: 15
   startUpFrames: 6
   activeFrames: 1
-  recoveryFrames: 10
+  recoveryFrames: 8
   applyRootMotion: 0
   forceGrounded: 0
   rootMotionNode: 0
@@ -3542,6 +3544,8 @@ MonoBehaviour:
       shakeDensity: 0.8
       _shakeDensity:
         _serializedValue: 3435973888
+      _shakeCameraDensity:
+        _serializedValue: 3435973836
       editorToggle: 0
     overrideHitEffectsBlock: 0
     hitEffectsBlock:
@@ -3564,6 +3568,8 @@ MonoBehaviour:
       shakeCameraOnHit: 1
       shakeDensity: 0.8
       _shakeDensity:
+        _serializedValue: 3435973836
+      _shakeCameraDensity:
         _serializedValue: 3435973836
       editorToggle: 0
     overrideEffectSpawnPoint: 0
@@ -4002,6 +4008,8 @@ MonoBehaviour:
       shakeDensity: 0.8
       _shakeDensity:
         _serializedValue: 3435973888
+      _shakeCameraDensity:
+        _serializedValue: 3435973836
       editorToggle: 0
     hitAbsorption: 0
     damageAbsorption: 0

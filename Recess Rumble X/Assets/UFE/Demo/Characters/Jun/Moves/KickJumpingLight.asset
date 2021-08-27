@@ -3,8 +3,9 @@
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -4125,9 +4126,9 @@ MonoBehaviour:
           _serializedValue: 0
         z:
           _serializedValue: 0
-    clip: {fileID: 7400000, guid: 61775cd7294c95948a285c5c86cabdfd, type: 2}
+    clip: {fileID: 7400000, guid: 58962de82437b2c44aed60f68e2e69c9, type: 2}
     length:
-      _serializedValue: 2147483648
+      _serializedValue: 1431655808
     bakeSpeed: 0
   animationSpeed: 1
   _animationSpeed:
@@ -4146,7 +4147,7 @@ MonoBehaviour:
   invertRotationRight: 0
   autoCorrectRotation: 0
   frameWindowRotation: 0
-  gaugeToggle: 1
+  gaugeToggle: 0
   startDrainingGauge: 0
   inhibitGainWhileDraining: 0
   stopDrainingGauge: 0
@@ -4186,7 +4187,7 @@ MonoBehaviour:
   speedKeyFrameToggle: 0
   fixedSpeed: 1
   animSpeedKeyFrame: []
-  totalFrames: 30
+  totalFrames: 20
   startUpFrames: 5
   activeFrames: 11
   recoveryFrames: 14
@@ -4382,11 +4383,14 @@ MonoBehaviour:
       hitStop: 0.1
       _hitStop:
         _serializedValue: 429496736
+      mirrorOn2PSide: 0
       shakeCharacterOnHit: 1
       shakeCameraOnHit: 1
       shakeDensity: 0.8
       _shakeDensity:
         _serializedValue: 3435973888
+      _shakeCameraDensity:
+        _serializedValue: 3435973836
       editorToggle: 0
     overrideHitEffectsBlock: 0
     hitEffectsBlock:
@@ -4404,10 +4408,13 @@ MonoBehaviour:
       hitStop: 0.1
       _hitStop:
         _serializedValue: 429496729
+      mirrorOn2PSide: 0
       shakeCharacterOnHit: 1
       shakeCameraOnHit: 1
       shakeDensity: 0.8
       _shakeDensity:
+        _serializedValue: 3435973836
+      _shakeCameraDensity:
         _serializedValue: 3435973836
       editorToggle: 0
     overrideEffectSpawnPoint: 0
@@ -4448,6 +4455,7 @@ MonoBehaviour:
     resetPreviousHorizontalPush: 1
     resetPreviousVerticalPush: 1
     applyDifferentAirForce: 0
+    applyDifferentBlockForce: 0
     pushForce: {x: 0, y: 0}
     _pushForce:
       x:
@@ -4458,6 +4466,13 @@ MonoBehaviour:
         _serializedValue: 0
     pushForceAir: {x: 0, y: 0}
     _pushForceAir:
+      x:
+        _serializedValue: 0
+      y:
+        _serializedValue: 0
+      z:
+        _serializedValue: 0
+    _pushForceBlock:
       x:
         _serializedValue: 0
       y:
@@ -4781,11 +4796,14 @@ MonoBehaviour:
       hitStop: 0.1
       _hitStop:
         _serializedValue: 429496736
+      mirrorOn2PSide: 0
       shakeCharacterOnHit: 1
       shakeCameraOnHit: 1
       shakeDensity: 0.8
       _shakeDensity:
         _serializedValue: 3435973888
+      _shakeCameraDensity:
+        _serializedValue: 3435973836
       editorToggle: 0
     overrideHitEffectsBlock: 0
     hitEffectsBlock:
@@ -4803,10 +4821,13 @@ MonoBehaviour:
       hitStop: 0.1
       _hitStop:
         _serializedValue: 429496729
+      mirrorOn2PSide: 0
       shakeCharacterOnHit: 1
       shakeCameraOnHit: 1
       shakeDensity: 0.8
       _shakeDensity:
+        _serializedValue: 3435973836
+      _shakeCameraDensity:
         _serializedValue: 3435973836
       editorToggle: 0
     overrideEffectSpawnPoint: 0
@@ -4847,6 +4868,7 @@ MonoBehaviour:
     resetPreviousHorizontalPush: 1
     resetPreviousVerticalPush: 1
     applyDifferentAirForce: 0
+    applyDifferentBlockForce: 0
     pushForce: {x: 5, y: 5}
     _pushForce:
       x:
@@ -4857,6 +4879,13 @@ MonoBehaviour:
         _serializedValue: 0
     pushForceAir: {x: 0, y: 0}
     _pushForceAir:
+      x:
+        _serializedValue: 0
+      y:
+        _serializedValue: 0
+      z:
+        _serializedValue: 0
+    _pushForceBlock:
       x:
         _serializedValue: 0
       y:
@@ -5231,11 +5260,14 @@ MonoBehaviour:
       hitStop: 0.1
       _hitStop:
         _serializedValue: 429496736
+      mirrorOn2PSide: 0
       shakeCharacterOnHit: 1
       shakeCameraOnHit: 1
       shakeDensity: 0.8
       _shakeDensity:
         _serializedValue: 3435973888
+      _shakeCameraDensity:
+        _serializedValue: 3435973836
       editorToggle: 0
     hitAbsorption: 0
     damageAbsorption: 0

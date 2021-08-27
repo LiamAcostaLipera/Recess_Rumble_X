@@ -1,0 +1,227 @@
+fileFormatVersion: 2
+guid: 9b2b4ecc2b7953944974ed3f712fa9e8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5758444884845947510
+    second: JUN_standingLP_0
+  - first:
+      213: -4307596888743697190
+    second: JUN_standingLP_1
+  - first:
+      213: 2756434836366924860
+    second: JUN_standingLP_2
+  - first:
+      213: 6903175457409239324
+    second: JUN_standingLP_3
+  - first:
+      213: 3628676355562321577
+    second: JUN_standingLP_4
+  - first:
+      213: 8390447460265179973
+    second: SPRITE_JUN_STANDING_LP_0
+  - first:
+      213: -886430425880440447
+    second: SPRITE_JUN_STANDING_LP_1
+  - first:
+      213: 981752655884282565
+    second: SPRITE_JUN_STANDING_LP_2
+  - first:
+      213: -7822706357822556456
+    second: SPRITE_JUN_STANDING_LP_3
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SPRITE_JUN_STANDING_LP_0
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 184
+        width: 707
+        height: 1697
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54b3fa7b28bd07470800000000000000
+      internalID: 8390447460265179973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_JUN_STANDING_LP_1
+      rect:
+        serializedVersion: 2
+        x: 1145
+        y: 190
+        width: 1263
+        height: 1660
+      alignment: 9
+      pivot: {x: 0.3446504, y: -0.0028816592}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1815c436934c2b3f0800000000000000
+      internalID: -886430425880440447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_JUN_STANDING_LP_2
+      rect:
+        serializedVersion: 2
+        x: 2507
+        y: 185
+        width: 1174
+        height: 1658
+      alignment: 9
+      pivot: {x: 0.36954385, y: -0.0028851444}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ca6747c6d2ef9d00800000000000000
+      internalID: 981752655884282565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_JUN_STANDING_LP_3
+      rect:
+        serializedVersion: 2
+        x: 3807
+        y: 179
+        width: 813
+        height: 1686
+      alignment: 9
+      pivot: {x: 0.45866665, y: 0.00000000905029}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d6fbc7930a207390800000000000000
+      internalID: -7822706357822556456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 0ddc49c581d978e4da25272ec8bea35c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

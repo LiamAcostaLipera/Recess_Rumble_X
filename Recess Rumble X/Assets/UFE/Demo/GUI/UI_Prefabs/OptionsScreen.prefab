@@ -176,11 +176,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: b74447a0709dacc4d80c9a89d84734db, type: 3}
+    m_Font: {fileID: 12800000, guid: 0903f05a78424b24fa9c61fcec4b3c70, type: 3}
     m_FontSize: 60
     m_FontStyle: 0
     m_BestFit: 1
-    m_MinSize: 6
+    m_MinSize: 5
     m_MaxSize: 80
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -188,7 +188,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: atras
+  m_Text: "ATR\xC1S"
 --- !u!1 &100004
 GameObject:
   m_ObjectHideFlags: 0
@@ -637,8 +637,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: b74447a0709dacc4d80c9a89d84734db, type: 3}
-    m_FontSize: 60
+    m_Font: {fileID: 12800000, guid: 0903f05a78424b24fa9c61fcec4b3c70, type: 3}
+    m_FontSize: 55
     m_FontStyle: 0
     m_BestFit: 1
     m_MinSize: 4
@@ -649,7 +649,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Controles
+  m_Text: CONTROLES
 --- !u!1 &100016
 GameObject:
   m_ObjectHideFlags: 0
@@ -845,11 +845,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: b74447a0709dacc4d80c9a89d84734db, type: 3}
-    m_FontSize: 60
+    m_Font: {fileID: 12800000, guid: 0903f05a78424b24fa9c61fcec4b3c70, type: 3}
+    m_FontSize: 55
     m_FontStyle: 0
     m_BestFit: 1
-    m_MinSize: 6
+    m_MinSize: 5
     m_MaxSize: 60
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -857,7 +857,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Dificultad
+  m_Text: DIFICULTAD
 --- !u!1 &100020
 GameObject:
   m_ObjectHideFlags: 0
@@ -1608,7 +1608,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 130, y: 0}
+  m_AnchoredPosition: {x: 122, y: 0}
   m_SizeDelta: {x: -160, y: 0}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!222 &22200030
@@ -1639,19 +1639,19 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: b74447a0709dacc4d80c9a89d84734db, type: 3}
-    m_FontSize: 50
+    m_Font: {fileID: 12800000, guid: 0903f05a78424b24fa9c61fcec4b3c70, type: 3}
+    m_FontSize: 35
     m_FontStyle: 0
     m_BestFit: 1
-    m_MinSize: 4
-    m_MaxSize: 60
+    m_MinSize: 3
+    m_MaxSize: 300
     m_Alignment: 3
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Debug Mode
+  m_Text: DEBUG MODE
 --- !u!1 &100042
 GameObject:
   m_ObjectHideFlags: 0
@@ -2209,7 +2209,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 11c62540efb1f7849b9dcecdaf4b56b7, type: 3}
+    m_Font: {fileID: 12800000, guid: 0903f05a78424b24fa9c61fcec4b3c70, type: 3}
     m_FontSize: 16
     m_FontStyle: 0
     m_BestFit: 1
@@ -2221,7 +2221,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: OPTIONS
+  m_Text: OPCIONES
 --- !u!114 &11428526
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2695,8 +2695,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: b74447a0709dacc4d80c9a89d84734db, type: 3}
-    m_FontSize: 50
+    m_Font: {fileID: 12800000, guid: 0903f05a78424b24fa9c61fcec4b3c70, type: 3}
+    m_FontSize: 55
     m_FontStyle: 0
     m_BestFit: 1
     m_MinSize: 4
@@ -2707,7 +2707,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: AI Engine
+  m_Text: AL ENGINE
 --- !u!1 &100066
 GameObject:
   m_ObjectHideFlags: 0
@@ -2984,11 +2984,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: b74447a0709dacc4d80c9a89d84734db, type: 3}
-    m_FontSize: 60
+    m_Font: {fileID: 12800000, guid: 0903f05a78424b24fa9c61fcec4b3c70, type: 3}
+    m_FontSize: 55
     m_FontStyle: 0
     m_BestFit: 1
-    m_MinSize: 6
+    m_MinSize: 5
     m_MaxSize: 60
     m_Alignment: 3
     m_AlignByGeometry: 0
@@ -2996,7 +2996,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Musica
+  m_Text: "M\xDASICA"
 --- !u!1 &153120
 GameObject:
   m_ObjectHideFlags: 0
@@ -3197,11 +3197,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: b74447a0709dacc4d80c9a89d84734db, type: 3}
-    m_FontSize: 60
+    m_Font: {fileID: 12800000, guid: 0903f05a78424b24fa9c61fcec4b3c70, type: 3}
+    m_FontSize: 55
     m_FontStyle: 0
     m_BestFit: 1
-    m_MinSize: 6
+    m_MinSize: 5
     m_MaxSize: 60
     m_Alignment: 3
     m_AlignByGeometry: 0
@@ -3209,7 +3209,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Efectos '
+  m_Text: EFECTOS
 --- !u!1 &161670
 GameObject:
   m_ObjectHideFlags: 0
@@ -3424,8 +3424,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: b74447a0709dacc4d80c9a89d84734db, type: 3}
-    m_FontSize: 40
+    m_Font: {fileID: 12800000, guid: 0903f05a78424b24fa9c61fcec4b3c70, type: 3}
+    m_FontSize: 50
     m_FontStyle: 0
     m_BestFit: 1
     m_MinSize: 4

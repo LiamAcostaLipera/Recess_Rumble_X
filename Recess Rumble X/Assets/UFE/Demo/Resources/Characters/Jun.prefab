@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 2219698049520821436}
   m_Layer: 0
   m_Name: Jun
-  m_TagString: Untagged
+  m_TagString: PlayableCharacters
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -116,7 +116,80 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isHit: 0
-  hitBoxes: []
+  hitBoxes:
+  - defaultVisibility: 1
+    bodyPart: 17
+    type: 0
+    shape: 1
+    rect:
+      serializedVersion: 2
+      x: -1.17
+      y: 2.25
+      width: 2.44
+      height: 3.54
+    _rect:
+      topRight:
+        x:
+          _serializedValue: 5454608896
+        y:
+          _serializedValue: 9663676416
+        z:
+          _serializedValue: 0
+      topLeft:
+        x:
+          _serializedValue: -5025111552
+        y:
+          _serializedValue: 9663676416
+        z:
+          _serializedValue: 0
+      bottomRight:
+        x:
+          _serializedValue: 5454608896
+        y:
+          _serializedValue: 24867860480
+        z:
+          _serializedValue: 0
+      bottomLeft:
+        x:
+          _serializedValue: -5025111552
+        y:
+          _serializedValue: 24867860480
+        z:
+          _serializedValue: 0
+      x:
+        _serializedValue: -5025111552
+      y:
+        _serializedValue: 9663676416
+      width:
+        _serializedValue: 10479720448
+      height:
+        _serializedValue: 15204184064
+      xMax:
+        _serializedValue: 5454608896
+      yMax:
+        _serializedValue: 24867860480
+    followXBounds: 0
+    followYBounds: 0
+    radius: 0.5
+    _radius:
+      _serializedValue: 6700148736
+    offSet: {x: 0, y: 0}
+    _offSet:
+      x:
+        _serializedValue: 0
+      y:
+        _serializedValue: 16664473600
+      z:
+        _serializedValue: 0
+    collisionType: 0
+    position: {fileID: 8498428861453813763}
+    mappedPosition:
+      x:
+        _serializedValue: 0
+      y:
+        _serializedValue: 0
+      z:
+        _serializedValue: 0
   activeHurtBoxes: []
   blockableArea:
     activeFramesBegin: 0
@@ -194,11 +267,11 @@ MonoBehaviour:
   collisionBoxSize:
     _serializedValue: 8589934592
   currentMirror: 0
-  bakeSpeed: 0
+  bakeSpeed: 1
   animationMaps: []
   controlsScript: {fileID: 0}
   previewInvertRotation: 0
   previewMirror: 0
-  rectangleHitBoxLocationTest: 1
+  rectangleHitBoxLocationTest: 0
   rectTexture: {fileID: 0}
   moveSetScript: {fileID: 0}

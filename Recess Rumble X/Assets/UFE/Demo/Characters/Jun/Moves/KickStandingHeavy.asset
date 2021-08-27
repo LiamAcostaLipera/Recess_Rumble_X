@@ -4,7 +4,8 @@
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -3851,15 +3852,16 @@ MonoBehaviour:
           _serializedValue: 0
         z:
           _serializedValue: 0
-    clip: {fileID: 7400000, guid: 5c831aa4dd9779e4080abb1c262b3845, type: 2}
+    clip: {fileID: 7400000, guid: 254247c825be8ef4486388d1d9db073f, type: 2}
     length:
-      _serializedValue: 2004318208
+      _serializedValue: 3221225472
     bakeSpeed: 0
   animationSpeed: 0.85
   _animationSpeed:
-    _serializedValue: 3650722304
-  wrapMode: 0
-  characterPrefab: {fileID: 0}
+    _serializedValue: 2791728640
+  wrapMode: 1
+  characterPrefab: {fileID: 8498428861453813788, guid: 35b7fcd061711d14c9d6e9e57c71dd99,
+    type: 3}
   moveName: Heavy Kick
   description: Heavy Kick
   fps: 60
@@ -3872,7 +3874,7 @@ MonoBehaviour:
   invertRotationRight: 0
   autoCorrectRotation: 0
   frameWindowRotation: 0
-  gaugeToggle: 1
+  gaugeToggle: 0
   startDrainingGauge: 0
   inhibitGainWhileDraining: 0
   stopDrainingGauge: 0
@@ -3912,10 +3914,10 @@ MonoBehaviour:
   speedKeyFrameToggle: 0
   fixedSpeed: 1
   animSpeedKeyFrame: []
-  totalFrames: 32
-  startUpFrames: 10
+  totalFrames: 70
+  startUpFrames: 21
   activeFrames: 7
-  recoveryFrames: 15
+  recoveryFrames: 25
   applyRootMotion: 0
   forceGrounded: 0
   rootMotionNode: 0
@@ -4044,8 +4046,8 @@ MonoBehaviour:
   stanceChanges: []
   cameraMovements: []
   hits:
-  - activeFramesBegin: 11
-    activeFramesEnds: 18
+  - activeFramesBegin: 22
+    activeFramesEnds: 29
     hitConfirmType: 0
     throwMove: {fileID: 0}
     techMove: {fileID: 0}
@@ -4057,9 +4059,9 @@ MonoBehaviour:
     unblockable: 0
     spaceBetweenHits: 0
     groundHit: 1
-    crouchingHit: 1
-    airHit: 1
-    stunHit: 1
+    crouchingHit: 0
+    airHit: 0
+    stunHit: 0
     opponentConditions:
       basicMoveLimitation: 
       possibleMoveStates: []
@@ -4091,6 +4093,8 @@ MonoBehaviour:
       shakeDensity: 0.8
       _shakeDensity:
         _serializedValue: 3435973888
+      _shakeCameraDensity:
+        _serializedValue: 3435973836
       editorToggle: 1
     overrideHitEffectsBlock: 0
     hitEffectsBlock:
@@ -4113,6 +4117,8 @@ MonoBehaviour:
       shakeCameraOnHit: 1
       shakeDensity: 0.8
       _shakeDensity:
+        _serializedValue: 3435973836
+      _shakeCameraDensity:
         _serializedValue: 3435973836
       editorToggle: 0
     overrideEffectSpawnPoint: 0
@@ -4261,74 +4267,12 @@ MonoBehaviour:
     selfForceToggle: 0
     stageReactionsToggle: 0
     overrideEventsToggle: 0
-    hitConditionsToggle: 1
+    hitConditionsToggle: 0
     pullInToggle: 0
-    hurtBoxesToggle: 0
+    hurtBoxesToggle: 1
     wallBounceToggle: 0
     groundBounceToggle: 0
-    hurtBoxes:
-    - bodyPart: 2
-      shape: 1
-      rect:
-        serializedVersion: 2
-        x: 1.45
-        y: -1.18
-        width: 2.73
-        height: 3.48
-      _rect:
-        topRight:
-          x:
-            _serializedValue: 17952964608
-          y:
-            _serializedValue: -5068061184
-          z:
-            _serializedValue: 0
-        topLeft:
-          x:
-            _serializedValue: 6227702784
-          y:
-            _serializedValue: -5068061184
-          z:
-            _serializedValue: 0
-        bottomRight:
-          x:
-            _serializedValue: 17952964608
-          y:
-            _serializedValue: 9878425600
-          z:
-            _serializedValue: 0
-        bottomLeft:
-          x:
-            _serializedValue: 6227702784
-          y:
-            _serializedValue: 9878425600
-          z:
-            _serializedValue: 0
-        x:
-          _serializedValue: 6227702784
-        y:
-          _serializedValue: -5068061184
-        width:
-          _serializedValue: 11725260800
-        height:
-          _serializedValue: 14946486272
-        xMax:
-          _serializedValue: 17952964608
-        yMax:
-          _serializedValue: 9878425600
-      followXBounds: 0
-      followYBounds: 0
-      radius: 0.8
-      _radius:
-        _serializedValue: 3435973888
-      offSet: {x: 0, y: 0}
-      _offSet:
-        x:
-          _serializedValue: 0
-        y:
-          _serializedValue: 0
-        z:
-          _serializedValue: 0
+    hurtBoxes: []
   blockableArea:
     activeFramesBegin: 4
     activeFramesEnds: 18
@@ -4427,6 +4371,8 @@ MonoBehaviour:
       shakeDensity: 0.8
       _shakeDensity:
         _serializedValue: 3435973888
+      _shakeCameraDensity:
+        _serializedValue: 3435973836
       editorToggle: 0
     hitAbsorption: 0
     damageAbsorption: 0

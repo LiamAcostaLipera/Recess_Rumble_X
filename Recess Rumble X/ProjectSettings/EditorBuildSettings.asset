@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/UFE/Scenes/TrainingRoom.unity
+    path: Assets/UFE/Demo/TrainingRoom.unity
     guid: a4f99dda2dd9d4442b85a6936f4bb0d9
+  - enabled: 1
+    path: Assets/UFE/Demo/Testing_Sprites.unity
+    guid: adc989ec5f40ded4d88683960cb3f00d
   m_configObjects: {}

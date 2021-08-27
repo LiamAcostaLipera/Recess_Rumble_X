@@ -86,8 +86,10 @@ public class ControlsScript : MonoBehaviour {
 	public HeadLookScript headLookScript;
 	public GameObject emulatedCam;
 	public CameraScript cameraScript;
+	public GameObject Player1_Playable;     // AGREGEEEEEEEEEEEEEEEEEEEEEEEEEE
+	private SpriteRenderer mySpriteRenderer_Playable1; // AGREGEEEEEEEEEEEEEEEEEEEEEEEEEE
 
-    public Text debugger;
+	public Text debugger;
     public string aiDebugger { get; set; }
     public CharacterDebugInfo debugInfo;
     public int playerNum;
@@ -101,7 +103,8 @@ public class ControlsScript : MonoBehaviour {
     [HideInInspector] public ControlsScript opControlsScript;
 
     void Start() {
-        foreach (ButtonPress bp in System.Enum.GetValues(typeof(ButtonPress))) {
+		
+		foreach (ButtonPress bp in System.Enum.GetValues(typeof(ButtonPress))) {
             inputHeldDown.Add(bp, 0);
         }
 
@@ -111,6 +114,7 @@ public class ControlsScript : MonoBehaviour {
             //transform.position = new Vector3(UFE.config.roundOptions.p1XPosition, .009f, 0);
             worldTransform.position = new FPVector(UFE.config.roundOptions._p1XPosition, .009, 0);
 			opponent = GameObject.Find("Player2");
+			//Player1_Playable = GameObject.FindGameObjectsWithTag("PlayableCharacters");  //AGREGEEEEEEEEEEEEEEE
 			if (myInfo == null)
                 Debug.LogError("Player 1 character not found! Make sure you have set the characters correctly in the Editor");
 
@@ -241,12 +245,20 @@ public class ControlsScript : MonoBehaviour {
             else
             {
                 myMoveSetScript.SetMecanimMirror(toggle);
-                if (!myInfo.useAnimationMaps) myHitBoxesScript.InvertHitBoxes(toggle);
+				mySpriteRenderer_Playable1 = character.GetComponent<SpriteRenderer>(); // AGREGUEEEEEEEEEEEE
+				if (mySpriteRenderer_Playable1.flipX == true) {	mySpriteRenderer_Playable1.flipX = false;}      // AGREGUEEEEEEEEEEEE
+				else  mySpriteRenderer_Playable1.flipX = true; 
+
+				if (!myInfo.useAnimationMaps) myHitBoxesScript.InvertHitBoxes(toggle);
             }
         }
         myHitBoxesScript.currentMirror = toggle;
     }
 	
+
+
+
+
 	public void InvertRotation(){
 		standardYRotation = -standardYRotation;
 	}
