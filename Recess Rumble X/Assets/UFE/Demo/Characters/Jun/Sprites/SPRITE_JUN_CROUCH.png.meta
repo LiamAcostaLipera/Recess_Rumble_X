@@ -23,6 +23,27 @@ TextureImporter:
   - first:
       213: -5946855857664499155
     second: CrouchJun_6
+  - first:
+      213: -8088270212000718916
+    second: SPRITE_JUN_CROUCH_3
+  - first:
+      213: -6909319654819407466
+    second: SPRITE_JUN_CROUCH_4
+  - first:
+      213: -1620691903515280356
+    second: SPRITE_JUN_CROUCH_5
+  - first:
+      213: 492765863356124744
+    second: SPRITE_JUN_CROUCH_6
+  - first:
+      213: 300714682849473655
+    second: SPRITE_JUN_CROUCH_0
+  - first:
+      213: 8879870655829431619
+    second: SPRITE_JUN_CROUCH_1
+  - first:
+      213: -2326524097306949980
+    second: SPRITE_JUN_CROUCH_2
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -120,70 +141,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CrouchJun_0
-      rect:
-        serializedVersion: 2
-        x: 234
-        y: 196
-        width: 688
-        height: 1680
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9ad14de7717787dd0800000000000000
-      internalID: -2488107851326415447
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CrouchJun_1
-      rect:
-        serializedVersion: 2
-        x: 1277
-        y: 181
-        width: 851
-        height: 1606
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5a90793d67a8a57b0800000000000000
-      internalID: -5234719373904115291
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CrouchJun_2
-      rect:
-        serializedVersion: 2
-        x: 2325
-        y: 172
-        width: 734
-        height: 1137
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3e30b75c848e40120800000000000000
-      internalID: 2379281902406927331
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CrouchJun_3
+      name: SPRITE_JUN_CROUCH_3
       rect:
         serializedVersion: 2
         x: 3292
@@ -197,14 +155,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 84dd352fb86d46e90800000000000000
-      internalID: -7033260821491491512
+      spriteID: cbfd25e7811b0cf80800000000000000
+      internalID: -8088270212000718916
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CrouchJun_4
+      name: SPRITE_JUN_CROUCH_4
       rect:
         serializedVersion: 2
         x: 4195
@@ -218,14 +176,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 24a10e324004642b0800000000000000
-      internalID: -5600718700062696894
+      spriteID: 6995dde816a2d10a0800000000000000
+      internalID: -6909319654819407466
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CrouchJun_5
+      name: SPRITE_JUN_CROUCH_5
       rect:
         serializedVersion: 2
         x: 5090
@@ -239,14 +197,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 67c9250fcbf2f37a0800000000000000
-      internalID: -6395340457310512010
+      spriteID: c1cbe90fc452289e0800000000000000
+      internalID: -1620691903515280356
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CrouchJun_6
+      name: SPRITE_JUN_CROUCH_6
       rect:
         serializedVersion: 2
         x: 6017
@@ -260,8 +218,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d22e471fa16887da0800000000000000
-      internalID: -5946855857664499155
+      spriteID: 84ec7c221f7a6d600800000000000000
+      internalID: 492765863356124744
       vertices: []
       indices: 
       edges: []

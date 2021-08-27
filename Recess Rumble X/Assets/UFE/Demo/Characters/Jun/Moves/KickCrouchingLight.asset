@@ -3325,7 +3325,7 @@ MonoBehaviour:
   invertRotationRight: 0
   autoCorrectRotation: 0
   frameWindowRotation: 0
-  gaugeToggle: 1
+  gaugeToggle: 0
   startDrainingGauge: 0
   inhibitGainWhileDraining: 0
   stopDrainingGauge: 0
@@ -3368,7 +3368,7 @@ MonoBehaviour:
   totalFrames: 17
   startUpFrames: 4
   activeFrames: 3
-  recoveryFrames: 9
+  recoveryFrames: 10
   applyRootMotion: 0
   forceGrounded: 0
   rootMotionNode: 0

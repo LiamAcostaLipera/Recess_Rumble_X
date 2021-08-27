@@ -3,14 +3,16 @@
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 03f9522b1b0f53b4c87d047ac5c3794f, type: 3}
   m_Name: Intro
   m_EditorClassIdentifier: 
+  version: 0
   animationClip: {fileID: 7400000, guid: d51b0de6f046bc7489820b97bb5a81fe, type: 2}
   animMap:
     animationMaps:
@@ -15361,6 +15363,7 @@ MonoBehaviour:
     clip: {fileID: 7400000, guid: d51b0de6f046bc7489820b97bb5a81fe, type: 2}
     length:
       _serializedValue: 8017272832
+    bakeSpeed: 0
   animationSpeed: 1
   _animationSpeed:
     _serializedValue: 4294967296
@@ -15418,7 +15421,7 @@ MonoBehaviour:
   speedKeyFrameToggle: 0
   fixedSpeed: 1
   animSpeedKeyFrame: []
-  totalFrames: 112
+  totalFrames: 113
   startUpFrames: 5
   activeFrames: 5
   recoveryFrames: 5
@@ -15445,6 +15448,36 @@ MonoBehaviour:
   onPressExecution: 1
   buttonSequence: 
   buttonExecution: 
+  defaultInputs:
+    chargeMove: 0
+    _chargeTiming:
+      _serializedValue: 3006477107
+    allowInputLeniency: 0
+    allowNegativeEdge: 1
+    leniencyBuffer: 3
+    onReleaseExecution: 0
+    requireButtonPress: 1
+    onPressExecution: 1
+    buttonSequence: 
+    buttonExecution: 
+    editorToggle: 0
+    buttonSequenceToggle: 0
+    buttonExecutionToggle: 0
+  altInputs:
+    chargeMove: 0
+    _chargeTiming:
+      _serializedValue: 3006477107
+    allowInputLeniency: 0
+    allowNegativeEdge: 1
+    leniencyBuffer: 3
+    onReleaseExecution: 0
+    requireButtonPress: 1
+    onPressExecution: 1
+    buttonSequence: 
+    buttonExecution: 
+    editorToggle: 0
+    buttonSequenceToggle: 0
+    buttonExecutionToggle: 0
   previousMoves: []
   opponentConditions:
     basicMoveLimitation: 
@@ -15596,10 +15629,13 @@ MonoBehaviour:
       hitStop: 0.1
       _hitStop:
         _serializedValue: 429496729
+      mirrorOn2PSide: 0
       shakeCharacterOnHit: 1
       shakeCameraOnHit: 1
       shakeDensity: 0.8
       _shakeDensity:
+        _serializedValue: 3435973836
+      _shakeCameraDensity:
         _serializedValue: 3435973836
       editorToggle: 0
     hitAbsorption: 0

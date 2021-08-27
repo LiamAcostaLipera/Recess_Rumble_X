@@ -132,6 +132,7 @@ GameObject:
   - component: {fileID: 315360520}
   - component: {fileID: 315360519}
   - component: {fileID: 315360517}
+  - component: {fileID: 315360518}
   m_Layer: 0
   m_Name: UFE Manager
   m_TagString: Untagged
@@ -152,6 +153,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   UFE_Config: {fileID: 11400000, guid: eaf439cbd252e074bb21dd77f6faed12, type: 2}
+--- !u!114 &315360518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 315360516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f721b1fc385bcd94197fcb33c9735e18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &315360519
 MonoBehaviour:
   m_ObjectHideFlags: 0

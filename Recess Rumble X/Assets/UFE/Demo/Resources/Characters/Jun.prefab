@@ -194,11 +194,11 @@ MonoBehaviour:
   collisionBoxSize:
     _serializedValue: 8589934592
   currentMirror: 0
-  bakeSpeed: 0
+  bakeSpeed: 1
   animationMaps: []
   controlsScript: {fileID: 0}
   previewInvertRotation: 0
   previewMirror: 0
-  rectangleHitBoxLocationTest: 1
+  rectangleHitBoxLocationTest: 0
   rectTexture: {fileID: 0}
   moveSetScript: {fileID: 0}

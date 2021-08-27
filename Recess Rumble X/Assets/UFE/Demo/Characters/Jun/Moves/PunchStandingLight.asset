@@ -3312,7 +3312,8 @@ MonoBehaviour:
   _animationSpeed:
     _serializedValue: 6012954112
   wrapMode: 0
-  characterPrefab: {fileID: 0}
+  characterPrefab: {fileID: 8498428861453813788, guid: 35b7fcd061711d14c9d6e9e57c71dd99,
+    type: 3}
   moveName: Light Punch
   description: Light Punch
   fps: 60
@@ -3368,7 +3369,7 @@ MonoBehaviour:
   totalFrames: 15
   startUpFrames: 6
   activeFrames: 1
-  recoveryFrames: 10
+  recoveryFrames: 8
   applyRootMotion: 0
   forceGrounded: 0
   rootMotionNode: 0

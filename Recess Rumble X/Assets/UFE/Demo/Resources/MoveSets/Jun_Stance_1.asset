@@ -253,7 +253,7 @@ MonoBehaviour:
       clip6: {fileID: 0}
       animMap:
       - animationMaps: []
-        clip: {fileID: 7400000, guid: 471f6c802a6c42e42a4ea8ca490b1b45, type: 2}
+        clip: {fileID: 7400000, guid: cde4a7f3fc244e140ad0a39a242ce1f3, type: 2}
         length:
           _serializedValue: 0
         bakeSpeed: 0
@@ -318,7 +318,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 3
       name: crouching
-      editorToggle: 1
+      editorToggle: 0
       soundEffectsToggle: 0
     takeOff:
       clip1: {fileID: 0}
@@ -1881,8 +1881,8 @@ MonoBehaviour:
       animationSpeed: 1
       _animationSpeed:
         _serializedValue: 4294967296
-      wrapMode: 0
-      autoSpeed: 1
+      wrapMode: 8
+      autoSpeed: 0
       restingClipInterval: 6
       _restingClipInterval:
         _serializedValue: 25769803776
@@ -2261,7 +2261,7 @@ MonoBehaviour:
       animationSpeed: 1
       _animationSpeed:
         _serializedValue: 4294967296
-      wrapMode: 0
+      wrapMode: 8
       autoSpeed: 1
       restingClipInterval: 6
       _restingClipInterval:
@@ -2793,7 +2793,7 @@ MonoBehaviour:
       animationSpeed: 1
       _animationSpeed:
         _serializedValue: 4294967296
-      wrapMode: 0
+      wrapMode: 8
       autoSpeed: 1
       restingClipInterval: 6
       _restingClipInterval:
@@ -2869,7 +2869,7 @@ MonoBehaviour:
       animationSpeed: 1
       _animationSpeed:
         _serializedValue: 4294967296
-      wrapMode: 0
+      wrapMode: 8
       autoSpeed: 1
       restingClipInterval: 6
       _restingClipInterval:
@@ -2885,7 +2885,7 @@ MonoBehaviour:
       invincible: 0
       disableHeadLook: 0
       applyRootMotion: 0
-      downClip: 0
+      downClip: 1
       soundEffects: []
       continuousSound: 0
       particleEffect:
@@ -2945,7 +2945,7 @@ MonoBehaviour:
       animationSpeed: 1
       _animationSpeed:
         _serializedValue: 4294967296
-      wrapMode: 0
+      wrapMode: 8
       autoSpeed: 1
       restingClipInterval: 6
       _restingClipInterval:
@@ -2961,7 +2961,7 @@ MonoBehaviour:
       invincible: 0
       disableHeadLook: 0
       applyRootMotion: 0
-      downClip: 0
+      downClip: 1
       soundEffects: []
       continuousSound: 0
       particleEffect:
@@ -3021,8 +3021,8 @@ MonoBehaviour:
       animationSpeed: 1
       _animationSpeed:
         _serializedValue: 4294967296
-      wrapMode: 0
-      autoSpeed: 1
+      wrapMode: 8
+      autoSpeed: 0
       restingClipInterval: 6
       _restingClipInterval:
         _serializedValue: 25769803776
@@ -3037,7 +3037,7 @@ MonoBehaviour:
       invincible: 0
       disableHeadLook: 0
       applyRootMotion: 0
-      downClip: 0
+      downClip: 1
       soundEffects: []
       continuousSound: 0
       particleEffect:
@@ -3065,7 +3065,7 @@ MonoBehaviour:
       clip6: {fileID: 0}
       animMap:
       - animationMaps: []
-        clip: {fileID: 0}
+        clip: {fileID: 7400000, guid: 00508313dce17564da8b9a8a052589ff, type: 2}
         length:
           _serializedValue: 0
         bakeSpeed: 0
@@ -3819,16 +3819,16 @@ MonoBehaviour:
     moveEnabled: 1
     jumpEnabled: 1
     crouchEnabled: 1
-    blockEnabled: 1
+    blockEnabled: 0
     parryEnabled: 0
   attackMoves:
-  - {fileID: 11400000, guid: aa38abc6b6a840944b4264b7bba1d671, type: 2}
-  - {fileID: 11400000, guid: fe0c099e67d462048bf159f88767206a, type: 2}
-  - {fileID: 11400000, guid: 7500ccb700a0e204a8c7644ebf12623f, type: 2}
-  - {fileID: 11400000, guid: 621c6817d5eb98e4f8de03feb8ee8052, type: 2}
-  - {fileID: 11400000, guid: af6a9b21bfc191d4495af4f08544fd8a, type: 2}
-  - {fileID: 11400000, guid: 63f44c3a39c2a5c44b2b7e2ac01bd324, type: 2}
-  - {fileID: 11400000, guid: ad7ac227243b2bc4687894e3bc2ff139, type: 2}
-  - {fileID: 11400000, guid: 3f4fbf0f5e08f094f9f6d97c623399a1, type: 2}
-  - {fileID: 11400000, guid: aa38abc6b6a840944b4264b7bba1d671, type: 2}
   - {fileID: 11400000, guid: 60a6bfdc28675f14eb93e0870a423f3c, type: 2}
+  - {fileID: 11400000, guid: aa38abc6b6a840944b4264b7bba1d671, type: 2}
+  - {fileID: 11400000, guid: 3f4fbf0f5e08f094f9f6d97c623399a1, type: 2}
+  - {fileID: 11400000, guid: ad7ac227243b2bc4687894e3bc2ff139, type: 2}
+  - {fileID: 11400000, guid: 63f44c3a39c2a5c44b2b7e2ac01bd324, type: 2}
+  - {fileID: 11400000, guid: af6a9b21bfc191d4495af4f08544fd8a, type: 2}
+  - {fileID: 11400000, guid: 621c6817d5eb98e4f8de03feb8ee8052, type: 2}
+  - {fileID: 11400000, guid: 7500ccb700a0e204a8c7644ebf12623f, type: 2}
+  - {fileID: 11400000, guid: fe0c099e67d462048bf159f88767206a, type: 2}
+  - {fileID: 11400000, guid: aa38abc6b6a840944b4264b7bba1d671, type: 2}
