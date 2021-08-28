@@ -458,13 +458,13 @@ public class UFE : MonoBehaviour, UFEInterface
 		else if (!on && isPlayingMusic)	UFE.StopMusic();
 
 		PlayerPrefs.SetInt(UFE.MusicEnabledKey, on ? 1 : 0);
-		PlayerPrefs.Save();
+		PlayerPrefs.Save();               
 	}
-	
+
 	public static void SetSoundFX(bool on){
 		UFE.config.soundfx = on;
 		PlayerPrefs.SetInt(UFE.SoundsEnabledKey, on ? 1 : 0);
-		PlayerPrefs.Save();
+		PlayerPrefs.Save();        
 	}
 	
 	public static void SetMusicVolume(float volume){
@@ -472,16 +472,16 @@ public class UFE : MonoBehaviour, UFEInterface
 		if (UFE.musicAudioSource != null) UFE.musicAudioSource.volume = volume;
 
 		PlayerPrefs.SetFloat(UFE.MusicVolumeKey, volume);
-		PlayerPrefs.Save();
+		PlayerPrefs.Save();              
 	}
 
 	public static void SetSoundFXVolume(float volume){
 		if (UFE.config != null) UFE.config.soundfxVolume = volume;
 		PlayerPrefs.SetFloat(UFE.SoundsVolumeKey, volume);
-		PlayerPrefs.Save();
+		PlayerPrefs.Save();              
 	}
-    
-    public static void StopMusic()
+
+	public static void StopMusic()
     {
         if (UFE.musicAudioSource.clip != null) UFE.musicAudioSource.Stop();
     }
