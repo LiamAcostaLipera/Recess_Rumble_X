@@ -781,7 +781,7 @@ MonoBehaviour:
     activeIcon: {fileID: 2800000, guid: 0f1eb58df8917b74f804b8cb97615fd5, type: 3}
   - inputType: 1
     inputButtonName: P1KeyboardVertical
-    engineRelatedButton: 2
+    engineRelatedButton: 3
     joystickAxisName: P1JoystickVertical
     cInputPositiveKeyName: P1Up
     cInputPositiveDefaultKey: W
@@ -1039,7 +1039,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 5d6dc227d62e62a40af291dbbd4c5276, type: 2}
   - {fileID: 11400000, guid: 0b27e2c8b54306b4b8d9b39f9552e18d, type: 2}
   debugOptions:
-    startGameImmediately: 1
+    startGameImmediately: 0
     skipLoadingScreen: 1
     matchType: 1
     debugMode: 1
@@ -1200,20 +1200,20 @@ MonoBehaviour:
       overrideComboEfficiency: 1
       comboEfficiency: 1
       startupBehavior: 4
-    selectedDifficultyLevel: 5
+    selectedDifficultyLevel: 2
     selectedDifficulty:
-      difficultyLevel: 5
-      overrideTimeBetweenDecisions: 1
+      difficultyLevel: 2
+      overrideTimeBetweenDecisions: 0
       timeBetweenDecisions: 0
-      overrideTimeBetweenActions: 1
-      timeBetweenActions: 0
-      overrideAggressiveness: 1
-      aggressiveness: 0.7
-      overrideRuleCompliance: 1
+      overrideTimeBetweenActions: 0
+      timeBetweenActions: 0.05
+      overrideAggressiveness: 0
+      aggressiveness: 0.4
+      overrideRuleCompliance: 0
       ruleCompliance: 0.9
-      overrideComboEfficiency: 1
+      overrideComboEfficiency: 0
       comboEfficiency: 1
-      startupBehavior: 4
+      startupBehavior: 3
   networkOptions:
     forceAnimationControl: 1
     disableRootMotion: 0
@@ -1259,7 +1259,7 @@ MonoBehaviour:
     onlySendInputChanges: 1
     inputMessageFrequency: 0
     synchronizationMessageFrequency: 0
-  music: 1
-  musicVolume: 0.1
-  soundfx: 1
-  soundfxVolume: 0.1
+  music: 0
+  musicVolume: 0
+  soundfx: 0
+  soundfxVolume: 0
