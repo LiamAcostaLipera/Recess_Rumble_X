@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7672969713700712025}
   - component: {fileID: 5166454658696991184}
   - component: {fileID: 2219698049520821436}
+  - component: {fileID: 4556177595083072484}
   m_Layer: 0
   m_Name: Jun
   m_TagString: PlayableCharacters
@@ -123,51 +124,51 @@ MonoBehaviour:
     shape: 1
     rect:
       serializedVersion: 2
-      x: -1.17
-      y: 2.25
+      x: -1.2
+      y: 0
       width: 2.44
-      height: 3.54
+      height: 5.6
     _rect:
       topRight:
         x:
-          _serializedValue: 5454608896
+          _serializedValue: 5325759488
         y:
-          _serializedValue: 9663676416
+          _serializedValue: 0
         z:
           _serializedValue: 0
       topLeft:
         x:
-          _serializedValue: -5025111552
+          _serializedValue: -5153960960
         y:
-          _serializedValue: 9663676416
+          _serializedValue: 0
         z:
           _serializedValue: 0
       bottomRight:
         x:
-          _serializedValue: 5454608896
+          _serializedValue: 5325759488
         y:
-          _serializedValue: 24867860480
+          _serializedValue: 24051816448
         z:
           _serializedValue: 0
       bottomLeft:
         x:
-          _serializedValue: -5025111552
+          _serializedValue: -5153960960
         y:
-          _serializedValue: 24867860480
+          _serializedValue: 24051816448
         z:
           _serializedValue: 0
       x:
-        _serializedValue: -5025111552
+        _serializedValue: -5153960960
       y:
-        _serializedValue: 9663676416
+        _serializedValue: 0
       width:
         _serializedValue: 10479720448
       height:
-        _serializedValue: 15204184064
+        _serializedValue: 24051816448
       xMax:
-        _serializedValue: 5454608896
+        _serializedValue: 5325759488
       yMax:
-        _serializedValue: 24867860480
+        _serializedValue: 24051816448
     followXBounds: 0
     followYBounds: 0
     radius: 0.5
@@ -183,6 +184,79 @@ MonoBehaviour:
         _serializedValue: 0
     collisionType: 0
     position: {fileID: 8498428861453813763}
+    mappedPosition:
+      x:
+        _serializedValue: 0
+      y:
+        _serializedValue: 0
+      z:
+        _serializedValue: 0
+  - defaultVisibility: 1
+    bodyPart: 18
+    type: 0
+    shape: 0
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 4
+      height: 4
+    _rect:
+      topRight:
+        x:
+          _serializedValue: 0
+        y:
+          _serializedValue: 0
+        z:
+          _serializedValue: 0
+      topLeft:
+        x:
+          _serializedValue: 0
+        y:
+          _serializedValue: 0
+        z:
+          _serializedValue: 0
+      bottomRight:
+        x:
+          _serializedValue: 0
+        y:
+          _serializedValue: 0
+        z:
+          _serializedValue: 0
+      bottomLeft:
+        x:
+          _serializedValue: 0
+        y:
+          _serializedValue: 0
+        z:
+          _serializedValue: 0
+      x:
+        _serializedValue: 0
+      y:
+        _serializedValue: 0
+      width:
+        _serializedValue: 0
+      height:
+        _serializedValue: 0
+      xMax:
+        _serializedValue: 0
+      yMax:
+        _serializedValue: 0
+    followXBounds: 0
+    followYBounds: 0
+    radius: 0.5
+    _radius:
+      _serializedValue: 9363028992
+    offSet: {x: 0, y: 0}
+    _offSet:
+      x:
+        _serializedValue: 0
+      y:
+        _serializedValue: 4810363392
+      z:
+        _serializedValue: 0
+    collisionType: 1
+    position: {fileID: 0}
     mappedPosition:
       x:
         _serializedValue: 0
@@ -275,3 +349,22 @@ MonoBehaviour:
   rectangleHitBoxLocationTest: 0
   rectTexture: {fileID: 0}
   moveSetScript: {fileID: 0}
+--- !u!114 &4556177595083072484
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8498428861453813788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57c008f954fe54a8bb972de1018a2cb8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RootBone: {fileID: 0}
+  m_BoneTransforms: []
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_UseBatching: 1
+  m_AlwaysUpdate: 1
