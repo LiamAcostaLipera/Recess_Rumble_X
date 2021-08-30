@@ -988,7 +988,7 @@ MonoBehaviour:
     inputViewerIcon6: {fileID: 2800000, guid: 90523496d8897124e989ad256f109d27, type: 3}
   - inputType: 1
     inputButtonName: P2KeyboardVertical
-    engineRelatedButton: 3
+    engineRelatedButton: 2
     joystickAxisName: P2JoystickVertical
     cInputPositiveKeyName: P2Up
     cInputPositiveDefaultKey: UpArrow
@@ -1371,7 +1371,7 @@ MonoBehaviour:
       charactersToggle: 0
     teamsToggle: 0
   debugOptions:
-    debugMode: 1
+    debugMode: 0
     emulateNetwork: 0
     trainingModeDebugger: 1
     preloadedObjects: 0
@@ -1540,19 +1540,19 @@ MonoBehaviour:
       overrideComboEfficiency: 1
       comboEfficiency: 1
       startupBehavior: 4
-    selectedDifficultyLevel: 2
+    selectedDifficultyLevel: 1
     selectedDifficulty:
-      difficultyLevel: 2
-      overrideTimeBetweenDecisions: 0
-      timeBetweenDecisions: 0
-      overrideTimeBetweenActions: 0
-      timeBetweenActions: 0.05
-      overrideAggressiveness: 0
-      aggressiveness: 0.4
+      difficultyLevel: 1
+      overrideTimeBetweenDecisions: 1
+      timeBetweenDecisions: 0.3
+      overrideTimeBetweenActions: 1
+      timeBetweenActions: 0.1
+      overrideAggressiveness: 1
+      aggressiveness: 0.3
       overrideRuleCompliance: 0
       ruleCompliance: 0.9
-      overrideComboEfficiency: 0
-      comboEfficiency: 1
+      overrideComboEfficiency: 1
+      comboEfficiency: 0.2
       startupBehavior: 3
   networkOptions:
     forceAnimationControl: 1
