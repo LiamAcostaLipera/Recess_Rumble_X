@@ -1,0 +1,404 @@
+fileFormatVersion: 2
+guid: caff38fae8af545479be33df78297ca0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5292118125803623788
+    second: JUN_HK_0
+  - first:
+      213: -2867480392799893096
+    second: JUN_HK_1
+  - first:
+      213: 66494282378177157
+    second: JUN_HK_2
+  - first:
+      213: -2113305294110115762
+    second: JUN_HK_3
+  - first:
+      213: 9014496144957811670
+    second: JUN_HK_4
+  - first:
+      213: -5580032426143840777
+    second: JUN_HK_5
+  - first:
+      213: -2730233232070154590
+    second: JUN_HK_6
+  - first:
+      213: 1114122872007932456
+    second: JUN_HK_7
+  - first:
+      213: 3210012752148333622
+    second: JUN_HK_8
+  - first:
+      213: -2730758181575412755
+    second: JUN_HK_9
+  - first:
+      213: 6368738740672457874
+    second: JUN_HK_10
+  - first:
+      213: 6672324899393718501
+    second: JUN_HK_11
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: 12
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: JUN_HK_0
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 180
+        width: 862
+        height: 1596
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c655ee58561617940800000000000000
+      internalID: 5292118125803623788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JUN_HK_1
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 172
+        width: 1220
+        height: 1611
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 899c3ca76c9a438d0800000000000000
+      internalID: -2867480392799893096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JUN_HK_2
+      rect:
+        serializedVersion: 2
+        x: 2573
+        y: 180
+        width: 1159
+        height: 1642
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58aeeb0923c3ce000800000000000000
+      internalID: 66494282378177157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JUN_HK_3
+      rect:
+        serializedVersion: 2
+        x: 3893
+        y: 210
+        width: 1090
+        height: 1535
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e483d9228080ca2e0800000000000000
+      internalID: -2113305294110115762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JUN_HK_4
+      rect:
+        serializedVersion: 2
+        x: 5357
+        y: 256
+        width: 1319
+        height: 1497
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dba655ab7ce91d70800000000000000
+      internalID: 9014496144957811670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JUN_HK_5
+      rect:
+        serializedVersion: 2
+        x: 6950
+        y: 264
+        width: 1373
+        height: 1351
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f5098c921ebf82b0800000000000000
+      internalID: -5580032426143840777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JUN_HK_6
+      rect:
+        serializedVersion: 2
+        x: 8620
+        y: 264
+        width: 1220
+        height: 1443
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a6ed7047534c1ad0800000000000000
+      internalID: -2730233232070154590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JUN_HK_7
+      rect:
+        serializedVersion: 2
+        x: 10069
+        y: 264
+        width: 877
+        height: 1496
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82abb2669d8267f00800000000000000
+      internalID: 1114122872007932456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JUN_HK_8
+      rect:
+        serializedVersion: 2
+        x: 11220
+        y: 271
+        width: 778
+        height: 1482
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 634864837914c8c20800000000000000
+      internalID: 3210012752148333622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JUN_HK_9
+      rect:
+        serializedVersion: 2
+        x: 12288
+        y: 225
+        width: 793
+        height: 1566
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de3b4bbe6e56a1ad0800000000000000
+      internalID: -2730758181575412755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JUN_HK_10
+      rect:
+        serializedVersion: 2
+        x: 13424
+        y: 225
+        width: 793
+        height: 1566
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29cec01442e426850800000000000000
+      internalID: 6368738740672457874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JUN_HK_11
+      rect:
+        serializedVersion: 2
+        x: 14591
+        y: 218
+        width: 808
+        height: 1596
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e84b5ef42cd89c50800000000000000
+      internalID: 6672324899393718501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 258cf11fd37ca1b41b09d03554bc4281
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
