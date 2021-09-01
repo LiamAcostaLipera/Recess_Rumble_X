@@ -77567,12 +77567,13 @@ MonoBehaviour:
               _serializedValue: 0
             z:
               _serializedValue: 0
-        clip: {fileID: 0}
-        customHitBoxDefinition: {fileID: 0}
+        clip: {fileID: 7400000, guid: 497f767c2dc7b2d418377888203e35e5, type: 2}
+        customHitBoxDefinition: {fileID: 11400000, guid: ea08c4a77150f4e48b8e2ed436b83fff,
+          type: 2}
         length:
-          _serializedValue: 1002159104
+          _serializedValue: 1073741824
         bakeSpeed: 0
-        hitBoxDefinitionType: 0
+        hitBoxDefinitionType: 1
       - animationMaps: []
         clip: {fileID: 0}
         customHitBoxDefinition: {fileID: 0}
@@ -109563,3 +109564,4 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 1b703d0a49b01f244a8999f925ee7a57, type: 2}
   - {fileID: 11400000, guid: 12e6dfcaa24064744b647750078f2dc8, type: 2}
   - {fileID: 11400000, guid: 46fca648e5ee8d245b899c8d88f1ea65, type: 2}
+  - {fileID: 11400000, guid: 6566a5cb98f31ae429bba765eef44729, type: 2}
