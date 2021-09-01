@@ -11,7 +11,7 @@ InputManager:
     descriptiveNegativeName: Down
     negativeButton: w
     positiveButton: s
-    altNegativeButton: 
+    altNegativeButton: space
     altPositiveButton: 
     gravity: 1000
     dead: 0.1
@@ -74,7 +74,7 @@ InputManager:
     descriptiveName: Light Punch
     descriptiveNegativeName: 
     negativeButton: 
-    positiveButton: t
+    positiveButton: j
     altNegativeButton: 
     altPositiveButton: joystick button 0
     gravity: 1000
@@ -106,7 +106,7 @@ InputManager:
     descriptiveName: Hard Punch
     descriptiveNegativeName: 
     negativeButton: 
-    positiveButton: u
+    positiveButton: k
     altNegativeButton: 
     altPositiveButton: joystick button 5
     gravity: 1000
@@ -122,7 +122,7 @@ InputManager:
     descriptiveName: Light Kick
     descriptiveNegativeName: 
     negativeButton: 
-    positiveButton: g
+    positiveButton: i
     altNegativeButton: 
     altPositiveButton: joystick button 1
     gravity: 1000
@@ -154,7 +154,7 @@ InputManager:
     descriptiveName: Hard Kick
     descriptiveNegativeName: 
     negativeButton: 
-    positiveButton: j
+    positiveButton: o
     altNegativeButton: 
     altPositiveButton: joystick button 7
     gravity: 1000
@@ -218,7 +218,7 @@ InputManager:
     descriptiveName: Start
     descriptiveNegativeName: 
     negativeButton: 
-    positiveButton: space
+    positiveButton: enter
     altNegativeButton: 
     altPositiveButton: 
     gravity: 1000
