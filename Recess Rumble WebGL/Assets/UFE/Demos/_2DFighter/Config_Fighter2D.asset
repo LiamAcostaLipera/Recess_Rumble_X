@@ -151,12 +151,6 @@ MonoBehaviour:
             type: 3}
           opponentCharacterIndex: 1
           possibleStagesIndexes: 00000000
-        - conversationBeforeBattle: {fileID: 11400004, guid: 9994f2f4c6d0c4bbaadbe0fd864bec81,
-            type: 3}
-          conversationAfterBattle: {fileID: 11400004, guid: d9ebcacaabc5e44bba98188d32b0a703,
-            type: 3}
-          opponentCharacterIndex: 3
-          possibleStagesIndexes: 00000000
         showOpponentsInEditor: 1
       - maxFights: 4
         mode: 2
@@ -170,15 +164,11 @@ MonoBehaviour:
           possibleStagesIndexes: 00000000
         showOpponentsInEditor: 1
       showStoryInEditor: 1
-    selectableCharactersInStoryMode: 0100000000000000020000000300000004000000
-    selectableCharactersInVersusMode: 0000000001000000020000000300000004000000
+    selectableCharactersInStoryMode: 01000000000000000200000003000000
+    selectableCharactersInVersusMode: 00000000010000000200000003000000
     characterStories:
-      _keys: 0000000001000000020000000300000004000000
+      _keys: 00000000010000000200000003000000
       _values:
-      - opening: {fileID: 0}
-        ending: {fileID: 0}
-        fightsGroups: []
-        showStoryInEditor: 0
       - opening: {fileID: 0}
         ending: {fileID: 0}
         fightsGroups: []
@@ -242,7 +232,7 @@ MonoBehaviour:
   deploymentOptions:
     deploymentType: 0
     activeCharacters:
-    - {fileID: 11400000, guid: d6338f103bbb0da46ba6acf3b027f17a, type: 2}
+    - {fileID: 11400000, guid: 49075f7c9de81bf49880ac0ae2087666, type: 2}
     - {fileID: 11400000, guid: d6338f103bbb0da46ba6acf3b027f17a, type: 2}
     - {fileID: 11400000, guid: d6338f103bbb0da46ba6acf3b027f17a, type: 2}
     - {fileID: 0}
@@ -1168,10 +1158,9 @@ MonoBehaviour:
         _serializedValue: 0
   characters:
   - {fileID: 11400000, guid: 573f29652f969dd429ee24d097b56bc0, type: 2}
-  - {fileID: 11400000, guid: f0ed0d0ea0c86e24e8af99019d695928, type: 2}
   - {fileID: 11400000, guid: d6338f103bbb0da46ba6acf3b027f17a, type: 2}
   - {fileID: 11400000, guid: 49075f7c9de81bf49880ac0ae2087666, type: 2}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 55d89405241307344848b26d2f8143f1, type: 2}
   teamModes:
   - modeName: Tag Battle (DBZF\Marvel) - 2D 3v3 Tag Team
     teams:
