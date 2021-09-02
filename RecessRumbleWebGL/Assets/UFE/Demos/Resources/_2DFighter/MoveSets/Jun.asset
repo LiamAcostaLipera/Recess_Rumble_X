@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Jun
   m_EditorClassIdentifier: 
   combatStance: 0
-  cinematicIntro: {fileID: 0}
+  cinematicIntro: {fileID: 11400000, guid: 816efc708e7653d4dac17eb79ec0247c, type: 2}
   cinematicOutro: {fileID: 0}
   basicMoves:
     idle:
@@ -55183,10 +55183,11 @@ MonoBehaviour:
         bakeSpeed: 0
         hitBoxDefinitionType: 1
       - animationMaps: []
-        clip: {fileID: 7400000, guid: dec89cb69d13fc34e938a88dbdea25a5, type: 2}
-        customHitBoxDefinition: {fileID: 0}
+        clip: {fileID: 7400000, guid: d4bcef49dfa80b740b8e1adae4d00d8b, type: 2}
+        customHitBoxDefinition: {fileID: 11400000, guid: 3bafb956574f23d4ba611ab502a2b5bb,
+          type: 2}
         length:
-          _serializedValue: 214748384
+          _serializedValue: 357913952
         bakeSpeed: 0
         hitBoxDefinitionType: 1
       - animationMaps: []
@@ -55245,7 +55246,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 3
       name: crouching
-      editorToggle: 1
+      editorToggle: 0
       soundEffectsToggle: 0
     takeOff:
       animMap:
@@ -64673,11 +64674,11 @@ MonoBehaviour:
               _serializedValue: 0
             z:
               _serializedValue: 0
-        clip: {fileID: 7400000, guid: e541ab59ee93bbe41bbbc48e80ed8f59, type: 2}
-        customHitBoxDefinition: {fileID: 11400000, guid: 9ee5bc9eb9a2a104ba76339f6ec326ae,
+        clip: {fileID: 7400000, guid: c5a2b2777e1b77d4ca85ec13262c5063, type: 2}
+        customHitBoxDefinition: {fileID: 11400000, guid: 7fa0dd2600771de44b4d94883096097e,
           type: 2}
         length:
-          _serializedValue: 572662336
+          _serializedValue: 715827904
         bakeSpeed: 0
         hitBoxDefinitionType: 1
       - animationMaps: []
@@ -64750,7 +64751,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 15
       name: blockingCrouchingPose
-      editorToggle: 1
+      editorToggle: 0
       soundEffectsToggle: 0
     blockingCrouchingHit:
       animMap:
@@ -88325,10 +88326,11 @@ MonoBehaviour:
               _serializedValue: 0
             z:
               _serializedValue: 0
-        clip: {fileID: 7400000, guid: 6c38d4e45a244584686f7a9563fa36df, type: 2}
-        customHitBoxDefinition: {fileID: 0}
+        clip: {fileID: 7400000, guid: 8f7c022c6fb1b9949bd66b8d149c0a78, type: 2}
+        customHitBoxDefinition: {fileID: 11400000, guid: 46b97647ce640414d96c3863eb38942d,
+          type: 2}
         length:
-          _serializedValue: 1288490368
+          _serializedValue: 1789569792
         bakeSpeed: 0
         hitBoxDefinitionType: 1
       - animationMaps: []
