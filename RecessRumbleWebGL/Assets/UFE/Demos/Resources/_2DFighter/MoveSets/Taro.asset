@@ -34072,7 +34072,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 0
       name: idle
-      editorToggle: 1
+      editorToggle: 0
       soundEffectsToggle: 0
     moveForward:
       animMap:
@@ -39557,8 +39557,8 @@ MonoBehaviour:
               _serializedValue: 0
             z:
               _serializedValue: 0
-        clip: {fileID: 7400000, guid: 95b1b4505476ef144bb526e980d5fcca, type: 2}
-        customHitBoxDefinition: {fileID: 11400000, guid: d1e9bec677744984887b75872365ecd8,
+        clip: {fileID: 7400000, guid: f87648e0474373040beca8b3b1fd77bc, type: 2}
+        customHitBoxDefinition: {fileID: 11400000, guid: 06efcc0e604b9ec4aa5d8a0e214458cc,
           type: 2}
         length:
           _serializedValue: 1789569792
@@ -45119,8 +45119,8 @@ MonoBehaviour:
               _serializedValue: 0
             z:
               _serializedValue: 0
-        clip: {fileID: 7400000, guid: 95b1b4505476ef144bb526e980d5fcca, type: 2}
-        customHitBoxDefinition: {fileID: 11400000, guid: d1e9bec677744984887b75872365ecd8,
+        clip: {fileID: 7400000, guid: f87648e0474373040beca8b3b1fd77bc, type: 2}
+        customHitBoxDefinition: {fileID: 11400000, guid: 06efcc0e604b9ec4aa5d8a0e214458cc,
           type: 2}
         length:
           _serializedValue: 1789569792
@@ -45196,7 +45196,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 2
       name: moveBack
-      editorToggle: 0
+      editorToggle: 1
       soundEffectsToggle: 0
     moveSideways:
       animMap:

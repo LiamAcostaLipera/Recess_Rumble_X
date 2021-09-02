@@ -3434,6 +3434,7 @@ MonoBehaviour:
     hitType: 0
     ignoreInputs: 0
     ignorePlayerConditions: 0
+    ignoreGauge: 0
     nextMoveStartupFrame: 1
     linkableMoves:
     - {fileID: 11400000, guid: 2200eb3c44e8d124e95f20d6a4e1a005, type: 2}
@@ -3712,9 +3713,18 @@ MonoBehaviour:
     groundBounceToggle: 0
     hurtBoxes:
     - bodyPart: 0
+      followXBounds: 0
+      followYBounds: 0
       hitBoxDefinitionIndex: 4
-      shape: 1
-      type: 0
+      _offSet:
+        x:
+          _serializedValue: 0
+        y:
+          _serializedValue: 0
+        z:
+          _serializedValue: 0
+      _radius:
+        _serializedValue: 2147483648
       _rect:
         _x:
           _serializedValue: 0
@@ -3756,17 +3766,8 @@ MonoBehaviour:
           _serializedValue: 13099650048
         yMax:
           _serializedValue: 5712306688
-      followXBounds: 0
-      followYBounds: 0
-      _radius:
-        _serializedValue: 2147483648
-      _offSet:
-        x:
-          _serializedValue: 0
-        y:
-          _serializedValue: 0
-        z:
-          _serializedValue: 0
+      shape: 1
+      type: 0
   blockableArea:
     enabled: 1
     activeFramesBegin: 5

@@ -4225,7 +4225,7 @@ MonoBehaviour:
       blocking: 0
       stunned: 0
     basicMovesToggle: 0
-    statesToggle: 1
+    statesToggle: 0
   moveClassification:
     attackType: 1
     hitType: 0
@@ -4398,9 +4398,9 @@ MonoBehaviour:
     hitStrength: 2
     hitStunType: 1
     _hitStunOnHit:
-      _serializedValue: 120259084288
+      _serializedValue: 85899345920
     _hitStunOnBlock:
-      _serializedValue: 42949672960
+      _serializedValue: 0
     frameAdvantageOnHit: 0
     frameAdvantageOnBlock: 0
     damageScaling: 1
@@ -4519,7 +4519,7 @@ MonoBehaviour:
         z:
           _serializedValue: 0
     hitToggle: 1
-    damageOptionsToggle: 0
+    damageOptionsToggle: 1
     hitStunOptionsToggle: 0
     forceOptionsToggle: 0
     opponentForceToggle: 1
@@ -4591,7 +4591,7 @@ MonoBehaviour:
   blockableArea:
     enabled: 1
     activeFramesBegin: 0
-    activeFramesEnds: 20
+    activeFramesEnds: 29
     bodyPart: 2
     hitBoxDefinitionIndex: 0
     shape: 1
@@ -4679,7 +4679,7 @@ MonoBehaviour:
   stateOverride: []
   armorOptions:
     activeFramesBegin: 0
-    activeFramesEnds: 0
+    activeFramesEnds: 1
     overrideHitEffects: 0
     hitEffects:
       hitParticle: {fileID: 0}

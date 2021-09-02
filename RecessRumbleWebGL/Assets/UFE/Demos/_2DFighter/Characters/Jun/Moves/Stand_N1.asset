@@ -3334,8 +3334,8 @@ MonoBehaviour:
   fixedSpeed: 1
   animSpeedKeyFrame: []
   totalFrames: 20
-  startUpFrames: 9
-  activeFrames: 3
+  startUpFrames: 8
+  activeFrames: 4
   recoveryFrames: 8
   applyRootMotion: 0
   lockXMotion: 0
@@ -3493,7 +3493,7 @@ MonoBehaviour:
   stanceChanges: []
   cameraMovements: []
   hits:
-  - activeFramesBegin: 9
+  - activeFramesBegin: 8
     activeFramesEnds: 12
     hitConfirmType: 0
     throwMove: {fileID: 0}
@@ -3859,7 +3859,7 @@ MonoBehaviour:
   stateOverride: []
   armorOptions:
     activeFramesBegin: 0
-    activeFramesEnds: 0
+    activeFramesEnds: 1
     overrideHitEffects: 0
     hitEffects:
       hitParticle: {fileID: 0}

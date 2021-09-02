@@ -630,22 +630,7 @@ MonoBehaviour:
     hitBoxType: 0
   - name: Hit
     activeFrames:
-    - active: 1
-      position:
-        x:
-          _serializedValue: 1202590848
-        y:
-          _serializedValue: 2705829376
-        z:
-          _serializedValue: 0
-      cubeWidth:
-        _serializedValue: 6184753152
-      cubeHeight:
-        _serializedValue: 4896262656
-      radius:
-        _serializedValue: 2147483648
-      range: 5
-    - active: 1
+    - active: 0
       position:
         x:
           _serializedValue: 1202590848
@@ -660,7 +645,7 @@ MonoBehaviour:
       radius:
         _serializedValue: 2147483648
       range: 0
-    - active: 1
+    - active: 0
       position:
         x:
           _serializedValue: 1202590848
@@ -675,7 +660,7 @@ MonoBehaviour:
       radius:
         _serializedValue: 2147483648
       range: 0
-    - active: 1
+    - active: 0
       position:
         x:
           _serializedValue: 1202590848
@@ -690,7 +675,22 @@ MonoBehaviour:
       radius:
         _serializedValue: 2147483648
       range: 0
-    - active: 1
+    - active: 0
+      position:
+        x:
+          _serializedValue: 1202590848
+        y:
+          _serializedValue: 2705829376
+        z:
+          _serializedValue: 0
+      cubeWidth:
+        _serializedValue: 6184753152
+      cubeHeight:
+        _serializedValue: 4896262656
+      radius:
+        _serializedValue: 2147483648
+      range: 0
+    - active: 0
       position:
         x:
           _serializedValue: 1202590848
