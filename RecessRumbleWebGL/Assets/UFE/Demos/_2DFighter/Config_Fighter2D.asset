@@ -230,7 +230,7 @@ MonoBehaviour:
     draw: Draw
     defaultSelection: 1
   deploymentOptions:
-    deploymentType: 0
+    deploymentType: 2
     activeCharacters:
     - {fileID: 11400000, guid: 49075f7c9de81bf49880ac0ae2087666, type: 2}
     - {fileID: 11400000, guid: d6338f103bbb0da46ba6acf3b027f17a, type: 2}
@@ -1423,7 +1423,7 @@ MonoBehaviour:
     refillTime: 3
   challengeModeOptions: []
   aiOptions:
-    engine: 1
+    engine: 0
     attackWhenEnemyIsDown: 0
     moveWhenEnemyIsDown: 1
     inputFrequency: 0
