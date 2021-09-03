@@ -3360,11 +3360,11 @@ MonoBehaviour:
     onReleaseExecution: 0
     requireButtonPress: 1
     onPressExecution: 1
-    buttonSequence: 0000000006000000
-    buttonExecution: 
+    buttonSequence: 000000000300000011000000
+    buttonExecution: 06000000
     editorToggle: 1
     buttonSequenceToggle: 1
-    buttonExecutionToggle: 0
+    buttonExecutionToggle: 1
   altInputs:
     chargeMove: 0
     _chargeTiming:
@@ -3447,7 +3447,17 @@ MonoBehaviour:
     editorToggle: 0
   sortOrder: []
   particleEffects: []
-  appliedForces: []
+  appliedForces:
+  - castingFrame: 6
+    resetPreviousVertical: 0
+    resetPreviousHorizontal: 0
+    _force:
+      x:
+        _serializedValue: 42949672960
+      y:
+        _serializedValue: 214748364800
+      z:
+        _serializedValue: 0
   slowMoEffects: []
   bodyPartVisibilityChanges: []
   opponentOverride: []
@@ -3558,7 +3568,7 @@ MonoBehaviour:
     _damageOnBlock:
       _serializedValue: 0
     doesntKill: 0
-    hitType: 4
+    hitType: 3
     resetPreviousHorizontalPush: 0
     resetPreviousVerticalPush: 0
     resetPreviousSidewaysPush: 0
@@ -3569,9 +3579,9 @@ MonoBehaviour:
     applyDifferentSelfBlockForce: 0
     _pushForce:
       x:
-        _serializedValue: 0
+        _serializedValue: 25769803776
       y:
-        _serializedValue: 0
+        _serializedValue: 128849018880
       z:
         _serializedValue: 0
     _pushForceAir:
@@ -3669,9 +3679,9 @@ MonoBehaviour:
     hitToggle: 1
     damageOptionsToggle: 0
     hitStunOptionsToggle: 0
-    forceOptionsToggle: 0
-    opponentForceToggle: 0
-    selfForceToggle: 0
+    forceOptionsToggle: 1
+    opponentForceToggle: 1
+    selfForceToggle: 1
     stageReactionsToggle: 0
     overrideEventsToggle: 0
     hitConditionsToggle: 0
@@ -3700,7 +3710,7 @@ MonoBehaviour:
           _serializedValue: 0
         topRight:
           x:
-            _serializedValue: 0
+            _serializedValue: 6957847040
           y:
             _serializedValue: 0
           z:
@@ -3714,27 +3724,27 @@ MonoBehaviour:
             _serializedValue: 0
         bottomRight:
           x:
-            _serializedValue: 0
+            _serializedValue: 6957847040
           y:
-            _serializedValue: 0
+            _serializedValue: 30537218048
           z:
             _serializedValue: 0
         bottomLeft:
           x:
             _serializedValue: 0
           y:
-            _serializedValue: 0
+            _serializedValue: 30537218048
           z:
             _serializedValue: 0
         width:
-          _serializedValue: 0
+          _serializedValue: 6957847040
         height:
-          _serializedValue: 0
+          _serializedValue: 30537218048
         xMax:
-          _serializedValue: 0
+          _serializedValue: 6957847040
         yMax:
-          _serializedValue: 0
-      shape: 0
+          _serializedValue: 30537218048
+      shape: 1
       type: 0
   blockableArea:
     enabled: 1
