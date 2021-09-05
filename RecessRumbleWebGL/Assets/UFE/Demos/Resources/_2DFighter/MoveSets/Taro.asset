@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Taro
   m_EditorClassIdentifier: 
   combatStance: 0
-  cinematicIntro: {fileID: 0}
+  cinematicIntro: {fileID: 11400000, guid: 089594d978bf24b468a17967c6c03ea3, type: 2}
   cinematicOutro: {fileID: 0}
   basicMoves:
     idle:
@@ -109563,3 +109563,4 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 1b703d0a49b01f244a8999f925ee7a57, type: 2}
   - {fileID: 11400000, guid: 12e6dfcaa24064744b647750078f2dc8, type: 2}
   - {fileID: 11400000, guid: 884e0797b41410c47825d45bd9a5ef32, type: 2}
+  - {fileID: 11400000, guid: bc004fb633779234d9b8eb0c399ae64e, type: 2}

@@ -3224,7 +3224,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.72156864, g: 0.70980394, b: 0.5058824, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -3504,18 +3504,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.72156864, g: 0.70980394, b: 0.5058824, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: b74447a0709dacc4d80c9a89d84734db, type: 3}
-    m_FontSize: 16
+    m_Font: {fileID: 12800000, guid: b46d4bbbed10e3b44890f906f6957e8e, type: 3}
+    m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 1
-    m_MinSize: 8
+    m_MinSize: 0
     m_MaxSize: 40
     m_Alignment: 3
     m_AlignByGeometry: 0
@@ -3523,14 +3523,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Fireball - Down, Forward, Punch (any)\nDragon Punch - Forward, Down, Forward,
-    Punch (any)\nSuper Fireball - Down, Forward, Down, Forward, Light Punch\nSuper
-    Dragon Punch - Down, Forward, Down, Forward, Medium Punch\n\nCustom Combo 1:\nLight
-    Punch, Light Kick, Medium Kick, Heavy Kick\n\nCustom Combo 2:\nLight Punch, Heavy
-    Dragon Punch\n\nCustom Combo 3:\nCrouching Light Punch, Crouching Light Kick,
-    Crouching Medium Punch, \nCrouching Medium Kick, Crouching Heavy Kick\n\nCustom
-    Combo 4:\nCrouching Medium Kick, Crouching Heavy Punch, Jump, Medium Kick,\nMedium
-    Punch, (land) Crouching Heavy Punch, Super Fireball"
+  m_Text: "Especial 1:\n\u2192 + \u2190 + \u2192 + Pi\xF1a Ligera\n\nEspecial 2:\n\u2193
+    + \u2192 + Pi\xF1a Fuerte\n\nSuper:"
 --- !u!1 &100084
 GameObject:
   m_ObjectHideFlags: 0
@@ -4889,7 +4883,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.72156864, g: 0.70980394, b: 0.5058824, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
