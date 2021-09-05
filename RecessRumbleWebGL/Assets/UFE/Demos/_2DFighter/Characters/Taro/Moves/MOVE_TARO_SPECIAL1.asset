@@ -3334,8 +3334,8 @@ MonoBehaviour:
   fixedSpeed: 1
   animSpeedKeyFrame: []
   totalFrames: 15
-  startUpFrames: 1
-  activeFrames: 13
+  startUpFrames: 0
+  activeFrames: 14
   recoveryFrames: 1
   applyRootMotion: 0
   lockXMotion: 0
@@ -3479,7 +3479,17 @@ MonoBehaviour:
     value: 201
     editorToggle: 0
   particleEffects: []
-  appliedForces: []
+  appliedForces:
+  - castingFrame: 2
+    resetPreviousVertical: 0
+    resetPreviousHorizontal: 0
+    _force:
+      x:
+        _serializedValue: 257698037760
+      y:
+        _serializedValue: 0
+      z:
+        _serializedValue: 0
   slowMoEffects: []
   bodyPartVisibilityChanges: []
   opponentOverride: []
@@ -3493,7 +3503,7 @@ MonoBehaviour:
   stanceChanges: []
   cameraMovements: []
   hits:
-  - activeFramesBegin: 1
+  - activeFramesBegin: 0
     activeFramesEnds: 14
     hitConfirmType: 0
     throwMove: {fileID: 0}
@@ -3576,9 +3586,9 @@ MonoBehaviour:
     overrideHitAnimation: 0
     newHitAnimation: 27
     hitStrength: 2
-    hitStunType: 1
+    hitStunType: 2
     _hitStunOnHit:
-      _serializedValue: 0
+      _serializedValue: 8589934592
     _hitStunOnBlock:
       _serializedValue: 0
     frameAdvantageOnHit: 0
@@ -3601,7 +3611,7 @@ MonoBehaviour:
     applyDifferentSelfBlockForce: 0
     _pushForce:
       x:
-        _serializedValue: 0
+        _serializedValue: 85899345920
       y:
         _serializedValue: 0
       z:
@@ -3700,9 +3710,9 @@ MonoBehaviour:
           _serializedValue: 0
     hitToggle: 1
     damageOptionsToggle: 0
-    hitStunOptionsToggle: 0
+    hitStunOptionsToggle: 1
     forceOptionsToggle: 0
-    opponentForceToggle: 0
+    opponentForceToggle: 1
     selfForceToggle: 0
     stageReactionsToggle: 0
     overrideEventsToggle: 0

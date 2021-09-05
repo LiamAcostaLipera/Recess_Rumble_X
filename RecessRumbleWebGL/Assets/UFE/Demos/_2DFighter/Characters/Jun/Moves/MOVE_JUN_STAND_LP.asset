@@ -3315,7 +3315,7 @@ MonoBehaviour:
   wrapMode: 0
   characterPrefab: {fileID: 8012443432642201050, guid: 2e3c7091bee7b0d4295a877bc08481dc,
     type: 3}
-  moveName: Standing Light Kick
+  moveName: MOVE_JUN_STAND_LP
   description: Standing Light Kick
   fps: 60
   ignoreGravity: 0
