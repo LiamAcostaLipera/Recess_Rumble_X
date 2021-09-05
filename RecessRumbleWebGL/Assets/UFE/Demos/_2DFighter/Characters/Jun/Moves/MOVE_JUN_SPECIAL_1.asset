@@ -3362,8 +3362,8 @@ MonoBehaviour:
     onPressExecution: 1
     buttonSequence: 000000000100000000000000
     buttonExecution: 04000000
-    editorToggle: 1
-    buttonSequenceToggle: 1
+    editorToggle: 0
+    buttonSequenceToggle: 0
     buttonExecutionToggle: 1
   altInputs:
     chargeMove: 0
@@ -3749,7 +3749,7 @@ MonoBehaviour:
   blockableArea:
     enabled: 1
     activeFramesBegin: 0
-    activeFramesEnds: 0
+    activeFramesEnds: 39
     bodyPart: 0
     hitBoxDefinitionIndex: 0
     shape: 0
