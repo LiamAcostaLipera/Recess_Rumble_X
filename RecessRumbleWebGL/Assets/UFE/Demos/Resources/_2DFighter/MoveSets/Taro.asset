@@ -55167,27 +55167,27 @@ MonoBehaviour:
               _serializedValue: 0
             z:
               _serializedValue: 0
-        clip: {fileID: 7400000, guid: acdb2a1ff5640bb43bb4ed4e945bd1a5, type: 2}
-        customHitBoxDefinition: {fileID: 11400000, guid: fc185d1df11272242956b283a9b6e5cd,
+        clip: {fileID: 7400000, guid: bc29fcdf5bd324e4fbe7f6bd09b5a5ed, type: 2}
+        customHitBoxDefinition: {fileID: 11400000, guid: c1f586f9a24c5dd4c994df73cda788d5,
           type: 2}
         length:
-          _serializedValue: 357913952
+          _serializedValue: 1789569792
         bakeSpeed: 0
         hitBoxDefinitionType: 1
       - animationMaps: []
-        clip: {fileID: 7400000, guid: 8e9ee75a287cb1c449eda77ed0d3e0af, type: 2}
-        customHitBoxDefinition: {fileID: 11400000, guid: ca55e971fecfd2a4ea41e8fb7c175dfe,
+        clip: {fileID: 7400000, guid: 7025e764b4fb0114ca98f8c154155458, type: 2}
+        customHitBoxDefinition: {fileID: 11400000, guid: bcc4480bf475a6d4283c30ec668cca38,
           type: 2}
         length:
           _serializedValue: 1431655808
         bakeSpeed: 0
         hitBoxDefinitionType: 1
       - animationMaps: []
-        clip: {fileID: 7400000, guid: dec89cb69d13fc34e938a88dbdea25a5, type: 2}
-        customHitBoxDefinition: {fileID: 11400000, guid: 3b14b16d8ee36b349acc5bce6b92b6a2,
+        clip: {fileID: 7400000, guid: 1e17f244c9207954e8a1cdcbe7fc478e, type: 2}
+        customHitBoxDefinition: {fileID: 11400000, guid: c05d1f2bb23c2bb4bbd8aaa92651ed7b,
           type: 2}
         length:
-          _serializedValue: 214748384
+          _serializedValue: 1073741824
         bakeSpeed: 0
         hitBoxDefinitionType: 1
       - animationMaps: []
@@ -55246,7 +55246,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 3
       name: crouching
-      editorToggle: 0
+      editorToggle: 1
       soundEffectsToggle: 0
     takeOff:
       animMap:
