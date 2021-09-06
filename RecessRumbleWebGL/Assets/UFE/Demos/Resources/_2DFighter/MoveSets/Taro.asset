@@ -55246,7 +55246,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 3
       name: crouching
-      editorToggle: 1
+      editorToggle: 0
       soundEffectsToggle: 0
     takeOff:
       animMap:
@@ -88325,11 +88325,11 @@ MonoBehaviour:
               _serializedValue: 0
             z:
               _serializedValue: 0
-        clip: {fileID: 7400000, guid: 6c38d4e45a244584686f7a9563fa36df, type: 2}
-        customHitBoxDefinition: {fileID: 11400000, guid: 4260ea87c271b6b4a9be202fbe653e65,
+        clip: {fileID: 7400000, guid: 5a2190d27fc8df44985f550f49e8b021, type: 2}
+        customHitBoxDefinition: {fileID: 11400000, guid: 32c961213c7590b408d1319043b21817,
           type: 2}
         length:
-          _serializedValue: 1288490368
+          _serializedValue: 715827904
         bakeSpeed: 0
         hitBoxDefinitionType: 1
       - animationMaps: []
@@ -88423,7 +88423,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 23
       name: getHitHigh
-      editorToggle: 0
+      editorToggle: 1
       soundEffectsToggle: 0
     getHitLow:
       animMap:
