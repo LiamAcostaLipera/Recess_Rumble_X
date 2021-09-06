@@ -3580,7 +3580,7 @@ MonoBehaviour:
     damageScaling: 0
     damageType: 0
     _damageOnHit:
-      _serializedValue: 0
+      _serializedValue: 17179869184
     _damageOnBlock:
       _serializedValue: 0
     doesntKill: 0
@@ -3693,7 +3693,7 @@ MonoBehaviour:
         z:
           _serializedValue: 0
     hitToggle: 1
-    damageOptionsToggle: 0
+    damageOptionsToggle: 1
     hitStunOptionsToggle: 0
     forceOptionsToggle: 0
     opponentForceToggle: 0

@@ -3524,7 +3524,7 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "Especial 1:\n\u2192 + \u2190 + \u2192 + Pi\xF1a Ligera\n\nEspecial 2:\n\u2193
-    + \u2192 + Pi\xF1a Fuerte\n\nSuper:"
+    + \u2192 + Pi\xF1a Fuerte\n\nSuper:\n\u2193 + \u2192 + Patada Fuerte"
 --- !u!1 &100084
 GameObject:
   m_ObjectHideFlags: 0

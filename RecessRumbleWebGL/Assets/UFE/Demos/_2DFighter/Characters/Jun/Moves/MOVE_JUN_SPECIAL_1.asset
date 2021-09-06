@@ -3556,7 +3556,7 @@ MonoBehaviour:
     hitStrength: 2
     hitStunType: 1
     _hitStunOnHit:
-      _serializedValue: 0
+      _serializedValue: 2147483648
     _hitStunOnBlock:
       _serializedValue: 0
     frameAdvantageOnHit: 0
@@ -3564,7 +3564,7 @@ MonoBehaviour:
     damageScaling: 0
     damageType: 0
     _damageOnHit:
-      _serializedValue: 0
+      _serializedValue: 42949672960
     _damageOnBlock:
       _serializedValue: 0
     doesntKill: 0

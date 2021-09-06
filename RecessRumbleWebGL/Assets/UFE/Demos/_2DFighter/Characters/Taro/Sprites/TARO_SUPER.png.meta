@@ -1,0 +1,341 @@
+fileFormatVersion: 2
+guid: eae93eee60db28b41a30ea383e21ff00
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5919867509713407431
+    second: TARO_SUPER_0
+  - first:
+      213: 6661849391575629010
+    second: TARO_SUPER_1
+  - first:
+      213: -3267874158698239434
+    second: TARO_SUPER_2
+  - first:
+      213: -673991821771151491
+    second: TARO_SUPER_3
+  - first:
+      213: 5598209982355975333
+    second: TARO_SUPER_3
+  - first:
+      213: 6703044132863000240
+    second: TARO_SUPER_3
+  - first:
+      213: -3680343798712603584
+    second: TARO_SUPER_6
+  - first:
+      213: 4566196990558568697
+    second: TARO_SUPER_3
+  - first:
+      213: 4006557960066645076
+    second: TARO_SUPER_
+  - first:
+      213: -5716880285037304424
+    second: TARO_SUPER_3
+  - first:
+      213: -8534115425903268912
+    second: TARO_SUPER_
+  - first:
+      213: -2656112291239351269
+    second: TARO_SUPER_9
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: 12
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TARO_SUPER_0
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 4191
+        width: 1385
+        height: 1626
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cd08d1a228972250800000000000000
+      internalID: 5919867509713407431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TARO_SUPER_1
+      rect:
+        serializedVersion: 2
+        x: 2579
+        y: 4137
+        width: 1200
+        height: 1547
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dc7404c9b4a37c50800000000000000
+      internalID: 6661849391575629010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TARO_SUPER_2
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 2187
+        width: 1351
+        height: 1586
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63aec1044cd26a2d0800000000000000
+      internalID: -3267874158698239434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TARO_SUPER_4
+      rect:
+        serializedVersion: 2
+        x: 4519
+        y: 2183
+        width: 1501
+        height: 1635
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5acaf508156d0bd40800000000000000
+      internalID: 5598209982355975333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TARO_SUPER_5
+      rect:
+        serializedVersion: 2
+        x: 6715
+        y: 2175
+        width: 2176
+        height: 1740
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0beb015ef1ff50d50800000000000000
+      internalID: 6703044132863000240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TARO_SUPER_8
+      rect:
+        serializedVersion: 2
+        x: 7804
+        y: 122
+        width: 1311
+        height: 1881
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04c6c6a70daccecc0800000000000000
+      internalID: -3680343798712603584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TARO_SUPER_6
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 190
+        width: 2174
+        height: 1639
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f083bc58f36e5f30800000000000000
+      internalID: 4566196990558568697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TARO_SUPER_
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 190
+        width: 2096
+        height: 1708
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45c39cdac372a9730800000000000000
+      internalID: 4006557960066645076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TARO_SUPER_3
+      rect:
+        serializedVersion: 2
+        x: 2532
+        y: 2175
+        width: 1233
+        height: 1636
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d77efc1520085a6f0800000000000000
+      internalID: -673991821771151491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5536249fe3d99c34ea9effbc2a15db2a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

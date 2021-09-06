@@ -3334,9 +3334,9 @@ MonoBehaviour:
   fixedSpeed: 1
   animSpeedKeyFrame: []
   totalFrames: 30
-  startUpFrames: 5
-  activeFrames: 14
-  recoveryFrames: 3
+  startUpFrames: 10
+  activeFrames: 9
+  recoveryFrames: 11
   applyRootMotion: 0
   lockXMotion: 0
   lockYMotion: 0
@@ -3487,7 +3487,7 @@ MonoBehaviour:
   stanceChanges: []
   cameraMovements: []
   hits:
-  - activeFramesBegin: 5
+  - activeFramesBegin: 10
     activeFramesEnds: 19
     hitConfirmType: 0
     throwMove: {fileID: 0}
@@ -3580,7 +3580,7 @@ MonoBehaviour:
     damageScaling: 0
     damageType: 0
     _damageOnHit:
-      _serializedValue: 0
+      _serializedValue: 17179869184
     _damageOnBlock:
       _serializedValue: 0
     doesntKill: 0
@@ -3693,7 +3693,7 @@ MonoBehaviour:
         z:
           _serializedValue: 0
     hitToggle: 1
-    damageOptionsToggle: 0
+    damageOptionsToggle: 1
     hitStunOptionsToggle: 0
     forceOptionsToggle: 0
     opponentForceToggle: 0
@@ -3726,7 +3726,7 @@ MonoBehaviour:
           _serializedValue: 0
         topRight:
           x:
-            _serializedValue: 9448928256
+            _serializedValue: 2147483648
           y:
             _serializedValue: 0
           z:
@@ -3740,26 +3740,26 @@ MonoBehaviour:
             _serializedValue: 0
         bottomRight:
           x:
-            _serializedValue: 9448928256
+            _serializedValue: 2147483648
           y:
-            _serializedValue: 7559142400
+            _serializedValue: 2147483648
           z:
             _serializedValue: 0
         bottomLeft:
           x:
             _serializedValue: 0
           y:
-            _serializedValue: 7559142400
+            _serializedValue: 2147483648
           z:
             _serializedValue: 0
         width:
-          _serializedValue: 9448928256
+          _serializedValue: 2147483648
         height:
-          _serializedValue: 7559142400
+          _serializedValue: 2147483648
         xMax:
-          _serializedValue: 9448928256
+          _serializedValue: 2147483648
         yMax:
-          _serializedValue: 7559142400
+          _serializedValue: 2147483648
       shape: 1
       type: 0
   blockableArea:

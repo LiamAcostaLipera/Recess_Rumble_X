@@ -217,10 +217,10 @@ MonoBehaviour:
     draw: Draw
     defaultSelection: 1
   deploymentOptions:
-    deploymentType: 2
+    deploymentType: 0
     activeCharacters:
-    - {fileID: 11400000, guid: 55d89405241307344848b26d2f8143f1, type: 2}
     - {fileID: 11400000, guid: 49075f7c9de81bf49880ac0ae2087666, type: 2}
+    - {fileID: 11400000, guid: 55d89405241307344848b26d2f8143f1, type: 2}
     - {fileID: 11400000, guid: d6338f103bbb0da46ba6acf3b027f17a, type: 2}
     - {fileID: 0}
     - {fileID: 0}
@@ -949,7 +949,7 @@ MonoBehaviour:
   player2_Inputs:
   - inputType: 0
     inputButtonName: P2KeyboardHorizontal
-    engineRelatedButton: 1
+    engineRelatedButton: 0
     joystickAxisName: P2JoystickHorizontal
     cInputPositiveKeyName: P2Right
     cInputPositiveDefaultKey: RightArrow
@@ -1514,19 +1514,19 @@ MonoBehaviour:
       overrideComboEfficiency: 1
       comboEfficiency: 1
       startupBehavior: 4
-    selectedDifficultyLevel: 2
+    selectedDifficultyLevel: 1
     selectedDifficulty:
-      difficultyLevel: 2
-      overrideTimeBetweenDecisions: 0
-      timeBetweenDecisions: 0
-      overrideTimeBetweenActions: 0
-      timeBetweenActions: 0.05
-      overrideAggressiveness: 0
-      aggressiveness: 0.4
+      difficultyLevel: 1
+      overrideTimeBetweenDecisions: 1
+      timeBetweenDecisions: 0.3
+      overrideTimeBetweenActions: 1
+      timeBetweenActions: 0.1
+      overrideAggressiveness: 1
+      aggressiveness: 0.3
       overrideRuleCompliance: 0
       ruleCompliance: 0.9
-      overrideComboEfficiency: 0
-      comboEfficiency: 1
+      overrideComboEfficiency: 1
+      comboEfficiency: 0.2
       startupBehavior: 3
   networkOptions:
     forceAnimationControl: 1
@@ -1578,7 +1578,7 @@ MonoBehaviour:
     synchronizationMessageFrequency: 2
     synchronizationAction: 1
   music: 1
-  musicVolume: 1
+  musicVolume: 0.9284931
   soundfx: 1
   soundfxVolume: 1
   colorStateOne: {r: 1, g: 0, b: 0, a: 1}
