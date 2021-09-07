@@ -4901,7 +4901,7 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "PLAYER 1\n\nMOVIMIENTO - W A S D\nSALTAR - ESPACIO\nPI\xD1A LIGERA - J\nPATADA
-    LIGERA - I\nPI\xD1A FUERTE - K\nPATADA FUERTE - O"
+    LIGERA - I\nPI\xD1A FUERTE - K\nPATADA FUERTE - O\nTHROW - I + O"
 --- !u!1 &100114
 GameObject:
   m_ObjectHideFlags: 0

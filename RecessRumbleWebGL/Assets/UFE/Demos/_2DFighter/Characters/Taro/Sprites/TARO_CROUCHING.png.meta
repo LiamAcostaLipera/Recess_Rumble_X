@@ -120,12 +120,12 @@ TextureImporter:
       name: TARO_CROUCHING_0
       rect:
         serializedVersion: 2
-        x: 255
-        y: 161
+        x: 288
+        y: 357
         width: 1270
         height: 1779
-      alignment: 9
-      pivot: {x: 0.44, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -141,10 +141,10 @@ TextureImporter:
       name: TARO_CROUCHING_1
       rect:
         serializedVersion: 2
-        x: 1840
-        y: 175
-        width: 954
-        height: 1219
+        x: 1946
+        y: 332
+        width: 1002
+        height: 1370
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

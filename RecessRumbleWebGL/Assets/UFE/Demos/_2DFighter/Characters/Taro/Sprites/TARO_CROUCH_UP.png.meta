@@ -8,6 +8,12 @@ TextureImporter:
   - first:
       213: 8448062747890258403
     second: TARO_CROUCHING_1
+  - first:
+      213: 3364744769027936132
+    second: TARO_CROUCH_UP_0
+  - first:
+      213: -7357168040776042592
+    second: TARO_CROUCH_UP_1
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -117,34 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: TARO_CROUCHING_0
+      name: TARO_CROUCH_UP_0
       rect:
         serializedVersion: 2
-        x: 255
-        y: 161
+        x: 288
+        y: 357
         width: 1270
         height: 1779
-      alignment: 9
-      pivot: {x: 0.44, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 97b3930bb169ae980800000000000000
-      internalID: -8508823500298306695
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TARO_CROUCHING_1
-      rect:
-        serializedVersion: 2
-        x: 1840
-        y: 175
-        width: 954
-        height: 1219
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -152,8 +137,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3e195383f4c8d3570800000000000000
-      internalID: 8448062747890258403
+      spriteID: 48f83cd4a89f1be20800000000000000
+      internalID: 3364744769027936132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TARO_CROUCH_UP_1
+      rect:
+        serializedVersion: 2
+        x: 1946
+        y: 332
+        width: 1002
+        height: 1370
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a7ffa895a616e990800000000000000
+      internalID: -7357168040776042592
       vertices: []
       indices: 
       edges: []
