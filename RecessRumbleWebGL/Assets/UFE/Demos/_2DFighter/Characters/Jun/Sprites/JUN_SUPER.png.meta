@@ -1,0 +1,428 @@
+fileFormatVersion: 2
+guid: 2eac3c21e0844924795c2919e5abf04f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 467508580248791533
+    second: JUN_SUPER_0
+  - first:
+      213: 4499574266647241613
+    second: JUN_SUPER_1
+  - first:
+      213: 6436321809201272967
+    second: JUN_SUPER_2
+  - first:
+      213: -5365722366078532078
+    second: JUN_SUPER_3
+  - first:
+      213: 4469435566882091705
+    second: JUN_SUPER_5
+  - first:
+      213: -5474500549154594421
+    second: JUN_SUPER_8
+  - first:
+      213: 2754618671921390277
+    second: JUN_SUPER_8
+  - first:
+      213: 2853429209081040861
+    second: JUN_SUPER_9
+  - first:
+      213: 2950312269312039524
+    second: JUN_SUPER_10
+  - first:
+      213: -5649941259414812035
+    second: JUN_SUPER_11
+  - first:
+      213: -5011614289201333285
+    second: JUN_SUPER_6
+  - first:
+      213: -7536252936550322759
+    second: JUN_SUPER_12
+  - first:
+      213: -1662944442914780968
+    second: JUN_SUPER_7
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 110
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: 12
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: JUN_SUPER_0
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 3211
+        width: 904
+        height: 1467
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de92d27a39cec7600800000000000000
+      internalID: 467508580248791533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JUN_SUPER_1
+      rect:
+        serializedVersion: 2
+        x: 1564
+        y: 3297
+        width: 1684
+        height: 1669
+      alignment: 9
+      pivot: {x: 0.34454113, y: -0.00000014627959}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d836ffba4f2b17e30800000000000000
+      internalID: 4499574266647241613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JUN_SUPER_2
+      rect:
+        serializedVersion: 2
+        x: 3484
+        y: 3297
+        width: 1776
+        height: 1959
+      alignment: 9
+      pivot: {x: 0.3261071, y: -0.00000012462513}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7889a899598625950800000000000000
+      internalID: 6436321809201272967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JUN_SUPER_3
+      rect:
+        serializedVersion: 2
+        x: 5612
+        y: 3116
+        width: 1804
+        height: 2309
+      alignment: 9
+      pivot: {x: 0.3458122, y: 0.00088563096}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2164586dfef1985b0800000000000000
+      internalID: -5365722366078532078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JUN_SUPER_5
+      rect:
+        serializedVersion: 2
+        x: 7866
+        y: 3107
+        width: 2557
+        height: 2273
+      alignment: 9
+      pivot: {x: 0.2957048, y: 0.0026115421}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b2f08ec7ff960e30800000000000000
+      internalID: 4469435566882091705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JUN_SUPER_8
+      rect:
+        serializedVersion: 2
+        x: 4931
+        y: 756
+        width: 754
+        height: 1979
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b81a5f471caa604b0800000000000000
+      internalID: -5474500549154594421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JUN_SUPER_9
+      rect:
+        serializedVersion: 2
+        x: 5994
+        y: 1143
+        width: 880
+        height: 1827
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c26887661f5a3620800000000000000
+      internalID: 2754618671921390277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JUN_SUPER_10
+      rect:
+        serializedVersion: 2
+        x: 7124
+        y: 1079
+        width: 889
+        height: 1612
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddfcffe5fba699720800000000000000
+      internalID: 2853429209081040861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JUN_SUPER_11
+      rect:
+        serializedVersion: 2
+        x: 8547
+        y: 970
+        width: 693
+        height: 1708
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46a12d4a06d91f820800000000000000
+      internalID: 2950312269312039524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JUN_SUPER_12
+      rect:
+        serializedVersion: 2
+        x: 9584
+        y: 565
+        width: 694
+        height: 1967
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7ac1c6fb506791b0800000000000000
+      internalID: -5649941259414812035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JUN_SUPER_6
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 547
+        width: 3007
+        height: 2262
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdbf1ec4b5b237ab0800000000000000
+      internalID: -5011614289201333285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JUN_SUPER_13
+      rect:
+        serializedVersion: 2
+        x: 10556
+        y: 359
+        width: 766
+        height: 1857
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bd6c6b02e9d96790800000000000000
+      internalID: -7536252936550322759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JUN_SUPER_7
+      rect:
+        serializedVersion: 2
+        x: 3509
+        y: 402
+        width: 1015
+        height: 1219
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d8cadef6d80ce8e0800000000000000
+      internalID: -1662944442914780968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 569499bf7776d374ca9fc4e0b2721ca8
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
