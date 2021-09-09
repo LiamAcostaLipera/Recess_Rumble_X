@@ -11,6 +11,30 @@ TextureImporter:
   - first:
       213: -5801907925196244759
     second: TARO_CROUCH_IDLE_2
+  - first:
+      213: 1047010929401561905
+    second: TARO_CROUCH_LOOP_0
+  - first:
+      213: -920130495003778467
+    second: TARO_CROUCH_LOOP_1
+  - first:
+      213: 3287272473336238530
+    second: TARO_CROUCH_LOOP_2
+  - first:
+      213: -7857003864720739087
+    second: TARO_CROUCH_LOOP_3
+  - first:
+      213: -3018347639059269553
+    second: TARO_CROUCH_LOOP_4
+  - first:
+      213: 7853208610862141283
+    second: TARO_CROUCH_LOOP_5
+  - first:
+      213: -4180155260715998148
+    second: TARO_CROUCH_LOOP_6
+  - first:
+      213: -7054681955295667492
+    second: TARO_CROUCH_LOOP_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -54,7 +78,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 90
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -116,17 +140,65 @@ TextureImporter:
     overridden: 1
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Lumin
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: TARO_CROUCH_IDLE_0
+      name: TARO_CROUCH_LOOP_0
       rect:
         serializedVersion: 2
-        x: 226
-        y: 171
-        width: 967
-        height: 1188
+        x: 192
+        y: 256
+        width: 1006
+        height: 1375
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -134,20 +206,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 840c790f9835830c0800000000000000
-      internalID: -4595831567819489208
+      spriteID: 1338eea94eab78e00800000000000000
+      internalID: 1047010929401561905
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TARO_CROUCH_IDLE_1
+      name: TARO_CROUCH_LOOP_1
       rect:
         serializedVersion: 2
-        x: 1411
-        y: 171
-        width: 970
-        height: 1157
+        x: 1442
+        y: 248
+        width: 993
+        height: 1367
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -155,20 +227,62 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e2fe06d347c9b0010800000000000000
-      internalID: 1156189752410566446
+      spriteID: d52ab4a903a0b33f0800000000000000
+      internalID: -920130495003778467
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TARO_CROUCH_IDLE_2
+      name: TARO_CROUCH_LOOP_2
       rect:
         serializedVersion: 2
-        x: 2574
-        y: 171
+        x: 2630
+        y: 243
+        width: 981
+        height: 1346
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c15025d5ecbe9d20800000000000000
+      internalID: 3287272473336238530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TARO_CROUCH_LOOP_3
+      rect:
+        serializedVersion: 2
+        x: 3798
+        y: 240
+        width: 972
+        height: 1340
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f4f27cfc9056f290800000000000000
+      internalID: -7857003864720739087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TARO_CROUCH_LOOP_4
+      rect:
+        serializedVersion: 2
+        x: 4949
+        y: 238
         width: 969
-        height: 1184
+        height: 1328
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -176,8 +290,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9e8772b5b7b7b7fa0800000000000000
-      internalID: -5801907925196244759
+      spriteID: f48bb3d60dcac16d0800000000000000
+      internalID: -3018347639059269553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TARO_CROUCH_LOOP_5
+      rect:
+        serializedVersion: 2
+        x: 6125
+        y: 240
+        width: 973
+        height: 1340
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36f0a7d9f933cfc60800000000000000
+      internalID: 7853208610862141283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TARO_CROUCH_LOOP_6
+      rect:
+        serializedVersion: 2
+        x: 7285
+        y: 243
+        width: 983
+        height: 1346
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c34ea0310fa1df5c0800000000000000
+      internalID: -4180155260715998148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TARO_CROUCH_LOOP_7
+      rect:
+        serializedVersion: 2
+        x: 8446
+        y: 248
+        width: 991
+        height: 1367
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cda5e33932cb81e90800000000000000
+      internalID: -7054681955295667492
       vertices: []
       indices: 
       edges: []
