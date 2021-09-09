@@ -79,12 +79,12 @@ MonoBehaviour:
   muteAnnouncer: 0
   announcer:
     announcerName: 
-    round1: {fileID: 8300000, guid: 29f0ab38d48b8b745bdf51df2206c1a7, type: 3}
-    round2: {fileID: 8300000, guid: dd95b07db1ae4484683d8310b87ab369, type: 3}
-    round3: {fileID: 8300000, guid: 65be6ec910104024c89c602815d0303d, type: 3}
-    otherRounds: {fileID: 8300000, guid: 65be6ec910104024c89c602815d0303d, type: 3}
-    finalRound: {fileID: 8300000, guid: 65be6ec910104024c89c602815d0303d, type: 3}
-    fight: {fileID: 8300000, guid: 5459d09bff4b30f4c863f30532a487c0, type: 3}
+    round1: {fileID: 0}
+    round2: {fileID: 0}
+    round3: {fileID: 0}
+    otherRounds: {fileID: 0}
+    finalRound: {fileID: 0}
+    fight: {fileID: 0}
     player1Wins: {fileID: 0}
     player2Wins: {fileID: 0}
     perfect: {fileID: 0}

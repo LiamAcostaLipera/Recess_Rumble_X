@@ -29,7 +29,7 @@ MonoBehaviour:
     stagePath: 
     screenshot: {fileID: 2800000, guid: 08a565ac17d3e904d8d5f53e183b64d2, type: 3}
     prefab: {fileID: 100000, guid: 064338a39a43ad647989c96c321658a2, type: 3}
-    music: {fileID: 8300000, guid: 78a0035e01d5f0346a8eb0fc22bb4fa2, type: 3}
+    music: {fileID: 0}
     _groundFriction:
       _serializedValue: 429496729600
     _leftBoundary:
@@ -157,8 +157,8 @@ MonoBehaviour:
             type: 3}
           opponentCharacterIndex: 0
           possibleStagesIndexes: 00000000
-        showOpponentsInEditor: 0
-      showStoryInEditor: 0
+        showOpponentsInEditor: 1
+      showStoryInEditor: 1
     selectableCharactersInStoryMode: 00000000
     selectableCharactersInVersusMode: 0000000001000000
     characterStories:
@@ -217,10 +217,10 @@ MonoBehaviour:
     draw: Draw
     defaultSelection: 1
   deploymentOptions:
-    deploymentType: 2
+    deploymentType: 0
     activeCharacters:
-    - {fileID: 11400000, guid: 55d89405241307344848b26d2f8143f1, type: 2}
     - {fileID: 11400000, guid: 49075f7c9de81bf49880ac0ae2087666, type: 2}
+    - {fileID: 11400000, guid: 55d89405241307344848b26d2f8143f1, type: 2}
     - {fileID: 11400000, guid: d6338f103bbb0da46ba6acf3b027f17a, type: 2}
     - {fileID: 0}
     - {fileID: 0}
@@ -331,7 +331,7 @@ MonoBehaviour:
       _serializedValue: 12884901888
     _slowMoSpeed:
       _serializedValue: 858993472
-    victoryMusic: {fileID: 8300000, guid: 2067a21e6d6e0a345a9eac9c41ec5d33, type: 3}
+    victoryMusic: {fileID: 0}
     resetLifePoints: 1
     resetPositions: 1
     allowMovementStart: 0
@@ -619,7 +619,7 @@ MonoBehaviour:
         _serializedValue: 2576980480
       _shakeCameraDensity:
         _serializedValue: 3865470464
-      editorToggle: 1
+      editorToggle: 0
     mediumHit:
       hitParticle: {fileID: 109728, guid: 9e918342d2a8f7842a691dff3f82f043, type: 3}
       killTime: 0.6
@@ -656,10 +656,10 @@ MonoBehaviour:
       shakeCharacterOnHit: 0
       shakeCameraOnHit: 1
       _shakeDensity:
-        _serializedValue: 5153960960
+        _serializedValue: 1288490240
       _shakeCameraDensity:
-        _serializedValue: 7730940928
-      editorToggle: 0
+        _serializedValue: 12884901888
+      editorToggle: 1
     crumpleHit:
       hitParticle: {fileID: 1459499847029934, guid: e78df5c3545b7324991134d6f0eb6528,
         type: 3}
@@ -804,7 +804,7 @@ MonoBehaviour:
   player1_Inputs:
   - inputType: 0
     inputButtonName: P1KeyboardHorizontal
-    engineRelatedButton: 1
+    engineRelatedButton: 0
     joystickAxisName: P1JoystickHorizontal
     cInputPositiveKeyName: P1Right
     cInputPositiveDefaultKey: D
@@ -820,7 +820,7 @@ MonoBehaviour:
     inputViewerIcon6: {fileID: 2800000, guid: 90523496d8897124e989ad256f109d27, type: 3}
   - inputType: 1
     inputButtonName: P1KeyboardVertical
-    engineRelatedButton: 3
+    engineRelatedButton: 2
     joystickAxisName: P1JoystickVertical
     cInputPositiveKeyName: P1Up
     cInputPositiveDefaultKey: W
@@ -965,7 +965,7 @@ MonoBehaviour:
     inputViewerIcon6: {fileID: 2800000, guid: 90523496d8897124e989ad256f109d27, type: 3}
   - inputType: 1
     inputButtonName: P2KeyboardVertical
-    engineRelatedButton: 3
+    engineRelatedButton: 2
     joystickAxisName: P2JoystickVertical
     cInputPositiveKeyName: P2Up
     cInputPositiveDefaultKey: UpArrow
@@ -1110,7 +1110,7 @@ MonoBehaviour:
     stagePath: 
     screenshot: {fileID: 2800000, guid: 08a565ac17d3e904d8d5f53e183b64d2, type: 3}
     prefab: {fileID: 100000, guid: 064338a39a43ad647989c96c321658a2, type: 3}
-    music: {fileID: 8300000, guid: 78a0035e01d5f0346a8eb0fc22bb4fa2, type: 3}
+    music: {fileID: 0}
     _groundFriction:
       _serializedValue: 429496729600
     _leftBoundary:
@@ -1129,7 +1129,7 @@ MonoBehaviour:
     stagePath: Assets/UFE/Demos/Shared_Assets/Stages/TrainingRoom2D/TrainingRoom.unity
     screenshot: {fileID: 2800000, guid: 08a565ac17d3e904d8d5f53e183b64d2, type: 3}
     prefab: {fileID: 0}
-    music: {fileID: 8300000, guid: 78a0035e01d5f0346a8eb0fc22bb4fa2, type: 3}
+    music: {fileID: 0}
     _groundFriction:
       _serializedValue: 429496729600
     _leftBoundary:
@@ -1402,9 +1402,9 @@ MonoBehaviour:
     p1StartingGauge: 0
     p2StartingGauge: 0
     p1Life: 0
-    p1Gauge: 0
+    p1Gauge: 2
     p2Life: 0
-    p2Gauge: 0
+    p2Gauge: 2
     refillTime: 3
   challengeModeOptions: []
   aiOptions:

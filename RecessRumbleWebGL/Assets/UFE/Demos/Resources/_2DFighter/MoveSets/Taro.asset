@@ -116,7 +116,7 @@ MonoBehaviour:
         positionOffSet: {x: 0, y: 0, z: 0}
         bodyPart: 0
       reference: 0
-      name: 
+      name: idle
       editorToggle: 0
       soundEffectsToggle: 0
     moveForward:
@@ -218,8 +218,8 @@ MonoBehaviour:
         initialRotation: {x: 0, y: 0, z: 0}
         positionOffSet: {x: 0, y: 0, z: 0}
         bodyPart: 0
-      reference: 0
-      name: 
+      reference: 1
+      name: moveForward
       editorToggle: 0
       soundEffectsToggle: 0
     moveBack:
@@ -321,8 +321,8 @@ MonoBehaviour:
         initialRotation: {x: 0, y: 0, z: 0}
         positionOffSet: {x: 0, y: 0, z: 0}
         bodyPart: 0
-      reference: 0
-      name: 
+      reference: 2
+      name: moveBack
       editorToggle: 0
       soundEffectsToggle: 0
     moveSideways:
@@ -528,9 +528,9 @@ MonoBehaviour:
         initialRotation: {x: 0, y: 0, z: 0}
         positionOffSet: {x: 0, y: 0, z: 0}
         bodyPart: 0
-      reference: 0
-      name: 
-      editorToggle: 0
+      reference: 3
+      name: crouching
+      editorToggle: 1
       soundEffectsToggle: 0
     takeOff:
       animMap:
@@ -733,8 +733,8 @@ MonoBehaviour:
         initialRotation: {x: 0, y: 0, z: 0}
         positionOffSet: {x: 0, y: 0, z: 0}
         bodyPart: 0
-      reference: 0
-      name: 
+      reference: 5
+      name: jumpStraight
       editorToggle: 0
       soundEffectsToggle: 0
     jumpBack:
@@ -836,8 +836,8 @@ MonoBehaviour:
         initialRotation: {x: 0, y: 0, z: 0}
         positionOffSet: {x: 0, y: 0, z: 0}
         bodyPart: 0
-      reference: 0
-      name: 
+      reference: 6
+      name: jumpBack
       editorToggle: 0
       soundEffectsToggle: 0
     jumpForward:
@@ -939,8 +939,8 @@ MonoBehaviour:
         initialRotation: {x: 0, y: 0, z: 0}
         positionOffSet: {x: 0, y: 0, z: 0}
         bodyPart: 0
-      reference: 0
-      name: 
+      reference: 7
+      name: jumpForward
       editorToggle: 0
       soundEffectsToggle: 0
     fallStraight:
@@ -1042,8 +1042,8 @@ MonoBehaviour:
         initialRotation: {x: 0, y: 0, z: 0}
         positionOffSet: {x: 0, y: 0, z: 0}
         bodyPart: 0
-      reference: 0
-      name: 
+      reference: 8
+      name: fallStraight
       editorToggle: 0
       soundEffectsToggle: 0
     fallBack:
@@ -1145,8 +1145,8 @@ MonoBehaviour:
         initialRotation: {x: 0, y: 0, z: 0}
         positionOffSet: {x: 0, y: 0, z: 0}
         bodyPart: 0
-      reference: 0
-      name: 
+      reference: 9
+      name: fallBack
       editorToggle: 0
       soundEffectsToggle: 0
     fallForward:
@@ -1248,8 +1248,8 @@ MonoBehaviour:
         initialRotation: {x: 0, y: 0, z: 0}
         positionOffSet: {x: 0, y: 0, z: 0}
         bodyPart: 0
-      reference: 0
-      name: 
+      reference: 10
+      name: fallForward
       editorToggle: 0
       soundEffectsToggle: 0
     landing:
@@ -1351,8 +1351,8 @@ MonoBehaviour:
         initialRotation: {x: 0, y: 0, z: 0}
         positionOffSet: {x: 0, y: 0, z: 0}
         bodyPart: 0
-      reference: 0
-      name: 
+      reference: 11
+      name: landing
       editorToggle: 0
       soundEffectsToggle: 0
     blockingCrouchingPose:
@@ -1454,8 +1454,8 @@ MonoBehaviour:
         initialRotation: {x: 0, y: 0, z: 0}
         positionOffSet: {x: 0, y: 0, z: 0}
         bodyPart: 0
-      reference: 0
-      name: 
+      reference: 15
+      name: blockingCrouchingPose
       editorToggle: 0
       soundEffectsToggle: 0
     blockingCrouchingHit:
@@ -1659,8 +1659,8 @@ MonoBehaviour:
         initialRotation: {x: 0, y: 0, z: 0}
         positionOffSet: {x: 0, y: 0, z: 0}
         bodyPart: 0
-      reference: 0
-      name: 
+      reference: 12
+      name: blockingHighPose
       editorToggle: 0
       soundEffectsToggle: 0
     blockingHighHit:
@@ -1764,8 +1764,8 @@ MonoBehaviour:
         initialRotation: {x: 0, y: 0, z: 0}
         positionOffSet: {x: 0, y: 0, z: 0}
         bodyPart: 0
-      reference: 0
-      name: 
+      reference: 13
+      name: blockingHighHit
       editorToggle: 0
       soundEffectsToggle: 0
     blockingLowHit:
@@ -1869,8 +1869,8 @@ MonoBehaviour:
         initialRotation: {x: 0, y: 0, z: 0}
         positionOffSet: {x: 0, y: 0, z: 0}
         bodyPart: 0
-      reference: 0
-      name: 
+      reference: 14
+      name: blockingLowHit
       editorToggle: 0
       soundEffectsToggle: 0
     blockingAirPose:
@@ -2277,8 +2277,8 @@ MonoBehaviour:
         initialRotation: {x: 0, y: 0, z: 0}
         positionOffSet: {x: 0, y: 0, z: 0}
         bodyPart: 0
-      reference: 0
-      name: 
+      reference: 19
+      name: parryHigh
       editorToggle: 0
       soundEffectsToggle: 0
     parryLow:
@@ -3094,8 +3094,8 @@ MonoBehaviour:
         initialRotation: {x: 0, y: 0, z: 0}
         positionOffSet: {x: 0, y: 0, z: 0}
         bodyPart: 0
-      reference: 0
-      name: 
+      reference: 37
+      name: fallingFromAirHit
       editorToggle: 0
       soundEffectsToggle: 0
     fallDown:
@@ -3197,8 +3197,8 @@ MonoBehaviour:
         initialRotation: {x: 0, y: 0, z: 0}
         positionOffSet: {x: 0, y: 0, z: 0}
         bodyPart: 0
-      reference: 0
-      name: 
+      reference: 36
+      name: fallDown
       editorToggle: 0
       soundEffectsToggle: 0
     airRecovery:
@@ -3506,8 +3506,8 @@ MonoBehaviour:
         initialRotation: {x: 0, y: 0, z: 0}
         positionOffSet: {x: 0, y: 0, z: 0}
         bodyPart: 0
-      reference: 0
-      name: 
+      reference: 23
+      name: getHitHigh
       editorToggle: 0
       soundEffectsToggle: 0
     getHitLow:
@@ -3611,8 +3611,8 @@ MonoBehaviour:
         initialRotation: {x: 0, y: 0, z: 0}
         positionOffSet: {x: 0, y: 0, z: 0}
         bodyPart: 0
-      reference: 0
-      name: 
+      reference: 24
+      name: getHitLow
       editorToggle: 0
       soundEffectsToggle: 0
     getHitHighKnockdown:
@@ -3918,8 +3918,8 @@ MonoBehaviour:
         initialRotation: {x: 0, y: 0, z: 0}
         positionOffSet: {x: 0, y: 0, z: 0}
         bodyPart: 0
-      reference: 0
-      name: 
+      reference: 26
+      name: getHitAir
       editorToggle: 0
       soundEffectsToggle: 0
     getHitCrumple:
@@ -4225,8 +4225,8 @@ MonoBehaviour:
         initialRotation: {x: 0, y: 0, z: 0}
         positionOffSet: {x: 0, y: 0, z: 0}
         bodyPart: 0
-      reference: 0
-      name: 
+      reference: 30
+      name: getHitSweep
       editorToggle: 0
       soundEffectsToggle: 0
     standUp:
@@ -4328,8 +4328,8 @@ MonoBehaviour:
         initialRotation: {x: 0, y: 0, z: 0}
         positionOffSet: {x: 0, y: 0, z: 0}
         bodyPart: 0
-      reference: 0
-      name: 
+      reference: 40
+      name: standUp
       editorToggle: 0
       soundEffectsToggle: 0
     standUpFromAirHit:
@@ -4431,8 +4431,8 @@ MonoBehaviour:
         initialRotation: {x: 0, y: 0, z: 0}
         positionOffSet: {x: 0, y: 0, z: 0}
         bodyPart: 0
-      reference: 0
-      name: 
+      reference: 41
+      name: standUpFromAirHit
       editorToggle: 0
       soundEffectsToggle: 0
     standUpFromKnockBack:
@@ -4534,8 +4534,8 @@ MonoBehaviour:
         initialRotation: {x: 0, y: 0, z: 0}
         positionOffSet: {x: 0, y: 0, z: 0}
         bodyPart: 0
-      reference: 0
-      name: 
+      reference: 42
+      name: standUpFromKnockBack
       editorToggle: 0
       soundEffectsToggle: 0
     standUpFromStandingHighHit:
@@ -5258,12 +5258,12 @@ MonoBehaviour:
     blockEnabled: 1
     parryEnabled: 0
   attackMoves:
+  - {fileID: 11400000, guid: 884e0797b41410c47825d45bd9a5ef32, type: 2}
+  - {fileID: 11400000, guid: bc004fb633779234d9b8eb0c399ae64e, type: 2}
+  - {fileID: 11400000, guid: 155fad1be62e61e48b1dcee5fe26ffc0, type: 2}
   - {fileID: 11400000, guid: 36d8feab6e934194bbf627302d6cc687, type: 2}
   - {fileID: 11400000, guid: 80016e49052a09644ad18ed8f3c9c59e, type: 2}
   - {fileID: 11400000, guid: 4e7555e4b499d6f46a06a5e14d57c868, type: 2}
-  - {fileID: 11400000, guid: 884e0797b41410c47825d45bd9a5ef32, type: 2}
-  - {fileID: 11400000, guid: bc004fb633779234d9b8eb0c399ae64e, type: 2}
   - {fileID: 11400000, guid: d087a2044567ce94b93965c84e0ca498, type: 2}
   - {fileID: 11400000, guid: f66308b1932fc5d42b57dff2e5bf8524, type: 2}
   - {fileID: 11400000, guid: db689009dfbcc604b9a00643971e8347, type: 2}
-  - {fileID: 11400000, guid: 155fad1be62e61e48b1dcee5fe26ffc0, type: 2}
