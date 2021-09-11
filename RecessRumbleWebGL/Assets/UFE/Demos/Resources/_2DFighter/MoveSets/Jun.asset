@@ -65030,13 +65030,12 @@ MonoBehaviour:
               _serializedValue: 0
             z:
               _serializedValue: 0
-        clip: {fileID: 7400000, guid: e541ab59ee93bbe41bbbc48e80ed8f59, type: 2}
-        customHitBoxDefinition: {fileID: 11400000, guid: 9ee5bc9eb9a2a104ba76339f6ec326ae,
-          type: 2}
+        clip: {fileID: 0}
+        customHitBoxDefinition: {fileID: 0}
         length:
           _serializedValue: 143165632
         bakeSpeed: 0
-        hitBoxDefinitionType: 1
+        hitBoxDefinitionType: 0
       - animationMaps: []
         clip: {fileID: 0}
         customHitBoxDefinition: {fileID: 0}
@@ -96722,7 +96721,7 @@ MonoBehaviour:
               _serializedValue: 0
             z:
               _serializedValue: 0
-        clip: {fileID: 7400000, guid: 6c38d4e45a244584686f7a9563fa36df, type: 2}
+        clip: {fileID: 0}
         customHitBoxDefinition: {fileID: 11400000, guid: 4260ea87c271b6b4a9be202fbe653e65,
           type: 2}
         length:
@@ -108990,7 +108989,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 0
       name: 
-      editorToggle: 1
+      editorToggle: 0
       soundEffectsToggle: 0
     standUpFromStandingHighHit:
       animMap:

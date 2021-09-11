@@ -530,7 +530,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 3
       name: crouching
-      editorToggle: 1
+      editorToggle: 0
       soundEffectsToggle: 0
     takeOff:
       animMap:
@@ -2552,7 +2552,7 @@ MonoBehaviour:
         hitBoxDefinitionType: 0
       _animationSpeed:
         _serializedValue: 4294967296
-      wrapMode: 0
+      wrapMode: 8
       autoSpeed: 1
       _restingClipInterval:
         _serializedValue: 25769803776
@@ -2654,8 +2654,8 @@ MonoBehaviour:
         hitBoxDefinitionType: 0
       _animationSpeed:
         _serializedValue: 4294967296
-      wrapMode: 0
-      autoSpeed: 1
+      wrapMode: 8
+      autoSpeed: 0
       _restingClipInterval:
         _serializedValue: 25769803776
       overrideBlendingIn: 0
@@ -2756,8 +2756,8 @@ MonoBehaviour:
         hitBoxDefinitionType: 0
       _animationSpeed:
         _serializedValue: 4294967296
-      wrapMode: 0
-      autoSpeed: 1
+      wrapMode: 8
+      autoSpeed: 0
       _restingClipInterval:
         _serializedValue: 25769803776
       overrideBlendingIn: 0
@@ -4605,7 +4605,7 @@ MonoBehaviour:
         hitBoxDefinitionType: 0
       _animationSpeed:
         _serializedValue: 4294967296
-      wrapMode: 0
+      wrapMode: 8
       autoSpeed: 1
       _restingClipInterval:
         _serializedValue: 25769803776
@@ -4707,7 +4707,7 @@ MonoBehaviour:
         hitBoxDefinitionType: 0
       _animationSpeed:
         _serializedValue: 4294967296
-      wrapMode: 0
+      wrapMode: 8
       autoSpeed: 1
       _restingClipInterval:
         _serializedValue: 25769803776
@@ -4809,7 +4809,7 @@ MonoBehaviour:
         hitBoxDefinitionType: 0
       _animationSpeed:
         _serializedValue: 4294967296
-      wrapMode: 0
+      wrapMode: 8
       autoSpeed: 1
       _restingClipInterval:
         _serializedValue: 25769803776
@@ -4911,7 +4911,7 @@ MonoBehaviour:
         hitBoxDefinitionType: 0
       _animationSpeed:
         _serializedValue: 4294967296
-      wrapMode: 0
+      wrapMode: 8
       autoSpeed: 1
       _restingClipInterval:
         _serializedValue: 25769803776
@@ -5013,7 +5013,7 @@ MonoBehaviour:
         hitBoxDefinitionType: 0
       _animationSpeed:
         _serializedValue: 4294967296
-      wrapMode: 0
+      wrapMode: 8
       autoSpeed: 1
       _restingClipInterval:
         _serializedValue: 25769803776
@@ -5115,7 +5115,7 @@ MonoBehaviour:
         hitBoxDefinitionType: 0
       _animationSpeed:
         _serializedValue: 4294967296
-      wrapMode: 0
+      wrapMode: 8
       autoSpeed: 1
       _restingClipInterval:
         _serializedValue: 25769803776
@@ -5217,7 +5217,7 @@ MonoBehaviour:
         hitBoxDefinitionType: 0
       _animationSpeed:
         _serializedValue: 4294967296
-      wrapMode: 0
+      wrapMode: 8
       autoSpeed: 1
       _restingClipInterval:
         _serializedValue: 25769803776
