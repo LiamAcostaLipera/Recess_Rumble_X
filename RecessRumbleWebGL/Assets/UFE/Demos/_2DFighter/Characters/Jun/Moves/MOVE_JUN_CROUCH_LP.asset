@@ -3437,8 +3437,8 @@ MonoBehaviour:
     ignoreGauge: 0
     nextMoveStartupFrame: 1
     linkableMoves:
-    - {fileID: 11400000, guid: 2200eb3c44e8d124e95f20d6a4e1a005, type: 2}
-    - {fileID: 11400000, guid: dfb09fc449cbab64780b2da4b8545e05, type: 2}
+    - {fileID: 0}
+    - {fileID: 0}
     linkableMovesToggle: 1
     hitConfirmToggle: 0
     counterMoveToggle: 0

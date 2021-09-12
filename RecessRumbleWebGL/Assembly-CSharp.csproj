@@ -272,25 +272,16 @@
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.29f1/Editor/Data/Managed/UnityEditor.dll</HintPath>
  </Reference>
  <Reference Include="UFE3D">
- <HintPath>C:/Users/candela/Desktop/Recess_Rumble_X_/RecessRumbleWebGL/Assets/UFE/Engine/Plugins/UFE3D.dll</HintPath>
+ <HintPath>C:/Users/Agustina/Desktop/Recess_Rumble_X/RecessRumbleWebGL/Assets/UFE/Engine/Plugins/UFE3D.dll</HintPath>
  </Reference>
  <Reference Include="AForge.Core">
- <HintPath>C:/Users/candela/Desktop/Recess_Rumble_X_/RecessRumbleWebGL/Assets/UFE/Engine/Scripts/AI/FuzzyAI/Dependencies/AForge.Core.dll</HintPath>
+ <HintPath>C:/Users/Agustina/Desktop/Recess_Rumble_X/RecessRumbleWebGL/Assets/UFE/Engine/Scripts/AI/FuzzyAI/Dependencies/AForge.Core.dll</HintPath>
  </Reference>
  <Reference Include="AForge.Fuzzy">
- <HintPath>C:/Users/candela/Desktop/Recess_Rumble_X_/RecessRumbleWebGL/Assets/UFE/Engine/Scripts/AI/FuzzyAI/Dependencies/AForge.Fuzzy.dll</HintPath>
+ <HintPath>C:/Users/Agustina/Desktop/Recess_Rumble_X/RecessRumbleWebGL/Assets/UFE/Engine/Scripts/AI/FuzzyAI/Dependencies/AForge.Fuzzy.dll</HintPath>
  </Reference>
  <Reference Include="AI4Unity.Fuzzy">
- <HintPath>C:/Users/candela/Desktop/Recess_Rumble_X_/RecessRumbleWebGL/Assets/UFE/Engine/Scripts/AI/FuzzyAI/Dependencies/AI4Unity.Fuzzy.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor.iOS.Extensions.Xcode">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.29f1/Editor/Data/PlaybackEngines/AppleTVSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor.iOS.Extensions.Xcode">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.29f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor.iOS.Extensions.Common">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.29f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll</HintPath>
+ <HintPath>C:/Users/Agustina/Desktop/Recess_Rumble_X/RecessRumbleWebGL/Assets/UFE/Engine/Scripts/AI/FuzzyAI/Dependencies/AI4Unity.Fuzzy.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.29f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
@@ -638,40 +629,40 @@
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.29f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline.Editor">
- <HintPath>C:/Users/candela/Desktop/Recess_Rumble_X_/RecessRumbleWebGL/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ <HintPath>C:/Users/Agustina/Desktop/Recess_Rumble_X/RecessRumbleWebGL/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VSCode.Editor">
- <HintPath>C:/Users/candela/Desktop/Recess_Rumble_X_/RecessRumbleWebGL/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ <HintPath>C:/Users/Agustina/Desktop/Recess_Rumble_X/RecessRumbleWebGL/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>C:/Users/candela/Desktop/Recess_Rumble_X_/RecessRumbleWebGL/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>C:/Users/Agustina/Desktop/Recess_Rumble_X/RecessRumbleWebGL/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>C:/Users/candela/Desktop/Recess_Rumble_X_/RecessRumbleWebGL/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>C:/Users/Agustina/Desktop/Recess_Rumble_X/RecessRumbleWebGL/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline">
- <HintPath>C:/Users/candela/Desktop/Recess_Rumble_X_/RecessRumbleWebGL/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+ <HintPath>C:/Users/Agustina/Desktop/Recess_Rumble_X/RecessRumbleWebGL/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
  </Reference>
  <Reference Include="Unity.CollabProxy.Editor">
- <HintPath>C:/Users/candela/Desktop/Recess_Rumble_X_/RecessRumbleWebGL/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+ <HintPath>C:/Users/Agustina/Desktop/Recess_Rumble_X/RecessRumbleWebGL/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Rider.Editor">
- <HintPath>C:/Users/candela/Desktop/Recess_Rumble_X_/RecessRumbleWebGL/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+ <HintPath>C:/Users/Agustina/Desktop/Recess_Rumble_X/RecessRumbleWebGL/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.2D.Sprite.Editor">
- <HintPath>C:/Users/candela/Desktop/Recess_Rumble_X_/RecessRumbleWebGL/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+ <HintPath>C:/Users/Agustina/Desktop/Recess_Rumble_X/RecessRumbleWebGL/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VisualStudio.Editor">
- <HintPath>C:/Users/candela/Desktop/Recess_Rumble_X_/RecessRumbleWebGL/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+ <HintPath>C:/Users/Agustina/Desktop/Recess_Rumble_X/RecessRumbleWebGL/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>C:/Users/candela/Desktop/Recess_Rumble_X_/RecessRumbleWebGL/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>C:/Users/Agustina/Desktop/Recess_Rumble_X/RecessRumbleWebGL/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="Unity.PlasticSCM.Editor">
- <HintPath>C:/Users/candela/Desktop/Recess_Rumble_X_/RecessRumbleWebGL/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
+ <HintPath>C:/Users/Agustina/Desktop/Recess_Rumble_X/RecessRumbleWebGL/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>C:/Users/candela/Desktop/Recess_Rumble_X_/RecessRumbleWebGL/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>C:/Users/Agustina/Desktop/Recess_Rumble_X/RecessRumbleWebGL/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
