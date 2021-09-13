@@ -3449,15 +3449,43 @@ MonoBehaviour:
     ignoreGauge: 0
     nextMoveStartupFrame: 1
     linkableMoves:
-    - {fileID: 11400000, guid: 2200eb3c44e8d124e95f20d6a4e1a005, type: 2}
+    - {fileID: 0}
     - {fileID: 11400000, guid: 46fca648e5ee8d245b899c8d88f1ea65, type: 2}
-    - {fileID: 11400000, guid: 6713053791658224b9ba2423839bb21e, type: 2}
-    - {fileID: 11400000, guid: 5444367db5d545d47868869e1a091fcd, type: 2}
-    - {fileID: 11400000, guid: cccdfa34dc64a614193a8ff42a3fc2c8, type: 2}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
     linkableMovesToggle: 1
     hitConfirmToggle: 0
     counterMoveToggle: 0
-  gauges: []
+  gauges:
+  - castingFrame: 0
+    targetGauge: 0
+    startDrainingGauge: 0
+    inhibitGainWhileDraining: 0
+    stopDrainingGauge: 0
+    _gaugeDPS:
+      _serializedValue: 0
+    _totalDrain:
+      _serializedValue: 0
+    _gaugeRequired:
+      _serializedValue: 0
+    _gaugeUsage:
+      _serializedValue: 0
+    _gaugeGainOnMiss:
+      _serializedValue: 0
+    _gaugeGainOnHit:
+      _serializedValue: 77309411328
+    _gaugeGainOnBlock:
+      _serializedValue: 0
+    _opGaugeGainOnBlock:
+      _serializedValue: 0
+    _opGaugeGainOnParry:
+      _serializedValue: 0
+    _opGaugeGainOnHit:
+      _serializedValue: 21474836480
+    DCMove: {fileID: 0}
+    DCStance: 0
+    editorToggle: 0
   sortOrder:
   - castingFrame: 0
     value: 201
