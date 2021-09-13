@@ -147,7 +147,7 @@ MonoBehaviour:
           opponentCharacterIndex: 1
           possibleStagesIndexes: 00000000
         showOpponentsInEditor: 1
-      showStoryInEditor: 1
+      showStoryInEditor: 0
     selectableCharactersInStoryMode: 00000000
     selectableCharactersInVersusMode: 000000000100000002000000
     characterStories:
