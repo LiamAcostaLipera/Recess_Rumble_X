@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Miku
   m_EditorClassIdentifier: 
   combatStance: 0
-  cinematicIntro: {fileID: 11400000, guid: 816efc708e7653d4dac17eb79ec0247c, type: 2}
-  cinematicOutro: {fileID: 11400000, guid: 816efc708e7653d4dac17eb79ec0247c, type: 2}
+  cinematicIntro: {fileID: 11400000, guid: 3aea8e291d7c2a745a4d6f40bacf4721, type: 2}
+  cinematicOutro: {fileID: 11400000, guid: 3aea8e291d7c2a745a4d6f40bacf4721, type: 2}
   basicMoves:
     idle:
       animMap:
