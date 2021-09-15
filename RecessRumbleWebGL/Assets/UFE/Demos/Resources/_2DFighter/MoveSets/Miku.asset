@@ -9883,8 +9883,8 @@ MonoBehaviour:
               _serializedValue: 0
             z:
               _serializedValue: 0
-        clip: {fileID: 7400000, guid: c94549197d954e34bbd4cf86789c1919, type: 2}
-        customHitBoxDefinition: {fileID: 11400000, guid: 18594e5fd904ca847b23ddcd1a7ff46e,
+        clip: {fileID: 7400000, guid: ec49b93c3790dd44382526ab4fa5a5af, type: 2}
+        customHitBoxDefinition: {fileID: 11400000, guid: 292817984ad1eee4cbb6b350aa17941a,
           type: 2}
         length:
           _serializedValue: 2863311360
@@ -34072,7 +34072,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 0
       name: idle
-      editorToggle: 0
+      editorToggle: 1
       soundEffectsToggle: 0
     moveForward:
       animMap:
@@ -39634,7 +39634,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 1
       name: moveForward
-      editorToggle: 1
+      editorToggle: 0
       soundEffectsToggle: 0
     moveBack:
       animMap:
@@ -45196,7 +45196,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 2
       name: moveBack
-      editorToggle: 1
+      editorToggle: 0
       soundEffectsToggle: 0
     moveSideways:
       animMap:
@@ -63573,7 +63573,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 11
       name: landing
-      editorToggle: 1
+      editorToggle: 0
       soundEffectsToggle: 0
     blockingCrouchingPose:
       animMap:
@@ -77566,8 +77566,8 @@ MonoBehaviour:
               _serializedValue: 0
             z:
               _serializedValue: 0
-        clip: {fileID: 7400000, guid: dfb34f3a2ed019846adac5a210ed96e2, type: 2}
-        customHitBoxDefinition: {fileID: 11400000, guid: 43460ccc66fc7a64886f8476e2219822,
+        clip: {fileID: 7400000, guid: 9b34f19be8a3c5a428f779cdd9c1b542, type: 2}
+        customHitBoxDefinition: {fileID: 11400000, guid: 745a996370ecd7744a6511d07c344b48,
           type: 2}
         length:
           _serializedValue: 1431655808
@@ -83128,8 +83128,8 @@ MonoBehaviour:
               _serializedValue: 0
             z:
               _serializedValue: 0
-        clip: {fileID: 7400000, guid: dfb34f3a2ed019846adac5a210ed96e2, type: 2}
-        customHitBoxDefinition: {fileID: 11400000, guid: 43460ccc66fc7a64886f8476e2219822,
+        clip: {fileID: 7400000, guid: 9b34f19be8a3c5a428f779cdd9c1b542, type: 2}
+        customHitBoxDefinition: {fileID: 11400000, guid: 745a996370ecd7744a6511d07c344b48,
           type: 2}
         length:
           _serializedValue: 1431655808
@@ -94173,8 +94173,8 @@ MonoBehaviour:
               _serializedValue: 0
             z:
               _serializedValue: 0
-        clip: {fileID: 7400000, guid: dfb34f3a2ed019846adac5a210ed96e2, type: 2}
-        customHitBoxDefinition: {fileID: 11400000, guid: 43460ccc66fc7a64886f8476e2219822,
+        clip: {fileID: 7400000, guid: 9b34f19be8a3c5a428f779cdd9c1b542, type: 2}
+        customHitBoxDefinition: {fileID: 11400000, guid: 745a996370ecd7744a6511d07c344b48,
           type: 2}
         length:
           _serializedValue: 1431655808
