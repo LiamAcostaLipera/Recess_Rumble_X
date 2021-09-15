@@ -4259,12 +4259,12 @@ MonoBehaviour:
     ignoreGauge: 0
     nextMoveStartupFrame: 1
     linkableMoves:
-    - {fileID: 11400000, guid: b27d4e6a2973c1a47a13969a087e1eff, type: 2}
-    - {fileID: 11400000, guid: f19a4a004a16491468eae2f9f9f88a94, type: 2}
-    - {fileID: 11400000, guid: fc9a298c598c2444a8c17295d747ee8f, type: 2}
-    - {fileID: 11400000, guid: 6713053791658224b9ba2423839bb21e, type: 2}
-    - {fileID: 11400000, guid: 5444367db5d545d47868869e1a091fcd, type: 2}
-    - {fileID: 11400000, guid: cccdfa34dc64a614193a8ff42a3fc2c8, type: 2}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
     linkableMovesToggle: 0
     hitConfirmToggle: 0
     counterMoveToggle: 0
