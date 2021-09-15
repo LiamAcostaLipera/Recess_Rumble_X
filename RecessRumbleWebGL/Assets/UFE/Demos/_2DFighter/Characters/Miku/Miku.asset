@@ -16,7 +16,7 @@ MonoBehaviour:
   profilePictureSmall: {fileID: 2800000, guid: e463ac123a3ef4045b31be0639502dff, type: 3}
   profilePictureBig: {fileID: 2800000, guid: 48a77c79188405d40a82f3fa29b43046, type: 3}
   characterName: MIKU
-  gender: 1
+  gender: 2
   characterDescription: 'Project: Fighter 3D
 
     Model Type: Sprites
