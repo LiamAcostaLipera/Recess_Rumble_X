@@ -53,9 +53,9 @@ MonoBehaviour:
       _serializedValue: 4294967296
   physics:
     _moveForwardSpeed:
-      _serializedValue: 38654705664
+      _serializedValue: 51539607552
     _moveBackSpeed:
-      _serializedValue: 30064771072
+      _serializedValue: 34359738368
     _moveSidewaysSpeed:
       _serializedValue: 17179869184
     highMovingFriction: 1
@@ -67,19 +67,19 @@ MonoBehaviour:
     canJump: 1
     pressureSensitiveJump: 0
     _jumpForce:
-      _serializedValue: 171798691840
+      _serializedValue: 206158430208
     _minJumpForce:
       _serializedValue: 128849018880
     minJumpDelay: 4
     _jumpDistance:
-      _serializedValue: 51539607552
+      _serializedValue: 60129542144
     _jumpBackDistance:
-      _serializedValue: 42949672960
+      _serializedValue: 51539607552
     cumulativeForce: 1
     multiJumps: 1
     _weight:
       _serializedValue: 1632087572480
-    jumpDelay: 5
+    jumpDelay: 6
     landingDelay: 7
     _groundCollisionMass:
       _serializedValue: 8589934592

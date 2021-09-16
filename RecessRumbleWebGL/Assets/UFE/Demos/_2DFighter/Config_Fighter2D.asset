@@ -181,7 +181,7 @@ MonoBehaviour:
   detect3D_Hits: 1
   lockZAxis: 1
   runInBackground: 1
-  useFixedUpdateInputs: 0
+  useFixedUpdateInputs: 1
   sortCharacterOnHit: 1
   foregroundSortLayer: 200
   backgroundSortLayer: 100
@@ -236,25 +236,25 @@ MonoBehaviour:
     selectedChallengeMode: 0
     skipLoadingScreen: 1
   cameraOptions:
-    initialDistance: {x: 0, y: 9, z: -46}
-    initialRotation: {x: 7, y: 0, z: 0}
-    enableLookAt: 1
+    initialDistance: {x: 0, y: 4.48, z: -70}
+    initialRotation: {x: 0, y: 0, z: 0}
+    enableLookAt: 0
     followCharacters: 0
     dollyAngle: 0
     distance3d: 0
     height3d: 0
-    enableZoom: 1
-    initialFieldOfView: 12
+    enableZoom: 0
+    initialFieldOfView: 10
     verticalPriority: 1
-    verticalThreshold: 2
-    movementSpeed: 12
-    minZoom: 40
-    maxZoom: 60
+    verticalThreshold: 8
+    movementSpeed: 3.45
+    minZoom: 66.68
+    maxZoom: 80.3
     _maxDistance:
-      _serializedValue: 77309411328
-    rotationSpeed: 12
+      _serializedValue: 68719476736
+    rotationSpeed: 0
     heightOffSet: 0.5
-    rotationOffSet: {x: 0, y: 3.5, z: 0}
+    rotationOffSet: {x: 5.2, y: 9.22, z: -0.21}
     motionSensor: 0
     motionSensibility: 1
   lockOnOptions:
@@ -797,7 +797,7 @@ MonoBehaviour:
   player1_Inputs:
   - inputType: 0
     inputButtonName: P1KeyboardHorizontal
-    engineRelatedButton: 0
+    engineRelatedButton: 1
     joystickAxisName: P1JoystickHorizontal
     cInputPositiveKeyName: P1Right
     cInputPositiveDefaultKey: D
@@ -942,7 +942,7 @@ MonoBehaviour:
   player2_Inputs:
   - inputType: 0
     inputButtonName: P2KeyboardHorizontal
-    engineRelatedButton: 0
+    engineRelatedButton: 1
     joystickAxisName: P2JoystickHorizontal
     cInputPositiveKeyName: P2Right
     cInputPositiveDefaultKey: RightArrow
