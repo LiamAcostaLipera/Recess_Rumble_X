@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Config_Fighter2D
   m_EditorClassIdentifier: 
   version: 2
-  player1Character: {fileID: 0}
-  player2Character: {fileID: 0}
+  player1Character: {fileID: 11400000, guid: 49075f7c9de81bf49880ac0ae2087666, type: 2}
+  player2Character: {fileID: 11400000, guid: 75f6f26ca92b59e4c893e99f44df6536, type: 2}
   player1Team:
   - {fileID: 0}
   - {fileID: 0}
@@ -24,18 +24,18 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   selectedStage:
-    stageName: Rooftop
+    stageName: 
     stageLoadingMethod: 0
-    stagePath: Assets/UFE/Demos/Shared_Assets/Stages/Rooftop/Rooftop.unity
-    screenshot: {fileID: 2800000, guid: eb1ca98c5975b46158786d3f8cfee2c7, type: 3}
-    prefab: {fileID: 100000, guid: 5520d39aec5319c4f951d422938cca6b, type: 3}
+    stagePath: 
+    screenshot: {fileID: 0}
+    prefab: {fileID: 0}
     music: {fileID: 0}
     _groundFriction:
       _serializedValue: 429496729600
     _leftBoundary:
-      _serializedValue: -85899345920
+      _serializedValue: -163208757248
     _rightBoundary:
-      _serializedValue: 85899345920
+      _serializedValue: 163208757248
     position:
       x:
         _serializedValue: 0
@@ -210,7 +210,7 @@ MonoBehaviour:
     draw: Draw
     defaultSelection: 1
   deploymentOptions:
-    deploymentType: 2
+    deploymentType: 0
     activeCharacters:
     - {fileID: 11400000, guid: 75f6f26ca92b59e4c893e99f44df6536, type: 2}
     - {fileID: 11400000, guid: 75f6f26ca92b59e4c893e99f44df6536, type: 2}
@@ -797,7 +797,7 @@ MonoBehaviour:
   player1_Inputs:
   - inputType: 0
     inputButtonName: P1KeyboardHorizontal
-    engineRelatedButton: 1
+    engineRelatedButton: 0
     joystickAxisName: P1JoystickHorizontal
     cInputPositiveKeyName: P1Right
     cInputPositiveDefaultKey: D
@@ -942,7 +942,7 @@ MonoBehaviour:
   player2_Inputs:
   - inputType: 0
     inputButtonName: P2KeyboardHorizontal
-    engineRelatedButton: 0
+    engineRelatedButton: 1
     joystickAxisName: P2JoystickHorizontal
     cInputPositiveKeyName: P2Right
     cInputPositiveDefaultKey: RightArrow
@@ -1098,10 +1098,67 @@ MonoBehaviour:
     confirmButton: 4
     cancelButton: 7
   stages:
-  - stageName: Rooftop
+  - stageName: ROOFTOP
     stageLoadingMethod: 0
     stagePath: Assets/UFE/Demos/Shared_Assets/Stages/Rooftop/Rooftop.unity
-    screenshot: {fileID: 2800000, guid: eb1ca98c5975b46158786d3f8cfee2c7, type: 3}
+    screenshot: {fileID: 2800000, guid: 6ff6f79984d8a0d42a69fa7126694acc, type: 3}
+    prefab: {fileID: 100000, guid: 5520d39aec5319c4f951d422938cca6b, type: 3}
+    music: {fileID: 0}
+    _groundFriction:
+      _serializedValue: 429496729600
+    _leftBoundary:
+      _serializedValue: -85899345920
+    _rightBoundary:
+      _serializedValue: 85899345920
+    position:
+      x:
+        _serializedValue: 0
+      y:
+        _serializedValue: 0
+      z:
+        _serializedValue: 0
+  - stageName: 5 B
+    stageLoadingMethod: 0
+    stagePath: 
+    screenshot: {fileID: 2800000, guid: 6ff6f79984d8a0d42a69fa7126694acc, type: 3}
+    prefab: {fileID: 100000, guid: 5520d39aec5319c4f951d422938cca6b, type: 3}
+    music: {fileID: 0}
+    _groundFriction:
+      _serializedValue: 429496729600
+    _leftBoundary:
+      _serializedValue: -85899345920
+    _rightBoundary:
+      _serializedValue: 85899345920
+    position:
+      x:
+        _serializedValue: 0
+      y:
+        _serializedValue: 0
+      z:
+        _serializedValue: 0
+  - stageName: ENTRANCE
+    stageLoadingMethod: 0
+    stagePath: 
+    screenshot: {fileID: 2800000, guid: 6ff6f79984d8a0d42a69fa7126694acc, type: 3}
+    prefab: {fileID: 100000, guid: 5520d39aec5319c4f951d422938cca6b, type: 3}
+    music: {fileID: 0}
+    _groundFriction:
+      _serializedValue: 429496729600
+    _leftBoundary:
+      _serializedValue: -85899345920
+    _rightBoundary:
+      _serializedValue: 85899345920
+    position:
+      x:
+        _serializedValue: 0
+      y:
+        _serializedValue: 0
+      z:
+        _serializedValue: 0
+  - stageName: 'CAFE '
+    stageLoadingMethod: 0
+    stagePath: 
+    screenshot: {fileID: 2800000, guid: 6ff6f79984d8a0d42a69fa7126694acc, type: 3}
     prefab: {fileID: 100000, guid: 5520d39aec5319c4f951d422938cca6b, type: 3}
     music: {fileID: 0}
     _groundFriction:

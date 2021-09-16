@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 630626367667153654}
   - component: {fileID: 944917502498629585}
   m_Layer: 0
-  m_Name: Jun
+  m_Name: Miku
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -214,7 +214,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 8882129114026711089, guid: c8debdd28ce1f044b84fa3e6a73dbbc9,
+  m_Sprite: {fileID: -4973502835898568877, guid: ffcc54126bd7b804381afa1e7e97a930,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
