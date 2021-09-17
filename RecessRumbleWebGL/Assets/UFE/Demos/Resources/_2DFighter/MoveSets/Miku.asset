@@ -39634,7 +39634,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 1
       name: moveForward
-      editorToggle: 0
+      editorToggle: 1
       soundEffectsToggle: 0
     moveBack:
       animMap:
@@ -45196,7 +45196,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 2
       name: moveBack
-      editorToggle: 0
+      editorToggle: 1
       soundEffectsToggle: 0
     moveSideways:
       animMap:
@@ -63573,7 +63573,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 11
       name: landing
-      editorToggle: 0
+      editorToggle: 1
       soundEffectsToggle: 0
     blockingCrouchingPose:
       animMap:
@@ -64751,7 +64751,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 15
       name: blockingCrouchingPose
-      editorToggle: 1
+      editorToggle: 0
       soundEffectsToggle: 0
     blockingCrouchingHit:
       animMap:
@@ -108748,11 +108748,11 @@ MonoBehaviour:
               _serializedValue: 0
             z:
               _serializedValue: 0
-        clip: {fileID: 7400000, guid: 3a44efb0279c66c41be511e1bc25df1d, type: 2}
-        customHitBoxDefinition: {fileID: 11400000, guid: df3c0bb2bb816004494104c2c0ba8c6f,
+        clip: {fileID: 7400000, guid: eb7eeb181241a5240b1cbea6d3334a58, type: 2}
+        customHitBoxDefinition: {fileID: 11400000, guid: a36d9873838635044b09a71263b351f2,
           type: 2}
         length:
-          _serializedValue: 1431655808
+          _serializedValue: 2147483648
         bakeSpeed: 0
         hitBoxDefinitionType: 1
       - animationMaps: []
@@ -108825,16 +108825,16 @@ MonoBehaviour:
         bodyPart: 0
       reference: 40
       name: standUp
-      editorToggle: 0
+      editorToggle: 1
       soundEffectsToggle: 0
     standUpFromAirHit:
       animMap:
       - animationMaps: []
-        clip: {fileID: 7400000, guid: 3a44efb0279c66c41be511e1bc25df1d, type: 2}
-        customHitBoxDefinition: {fileID: 11400000, guid: df3c0bb2bb816004494104c2c0ba8c6f,
+        clip: {fileID: 7400000, guid: eb7eeb181241a5240b1cbea6d3334a58, type: 2}
+        customHitBoxDefinition: {fileID: 11400000, guid: a36d9873838635044b09a71263b351f2,
           type: 2}
         length:
-          _serializedValue: 1431655808
+          _serializedValue: 2147483648
         bakeSpeed: 0
         hitBoxDefinitionType: 1
       - animationMaps: []
@@ -108907,16 +108907,16 @@ MonoBehaviour:
         bodyPart: 0
       reference: 41
       name: standUpFromAirHit
-      editorToggle: 0
+      editorToggle: 1
       soundEffectsToggle: 0
     standUpFromKnockBack:
       animMap:
       - animationMaps: []
-        clip: {fileID: 7400000, guid: 3a44efb0279c66c41be511e1bc25df1d, type: 2}
-        customHitBoxDefinition: {fileID: 11400000, guid: df3c0bb2bb816004494104c2c0ba8c6f,
+        clip: {fileID: 7400000, guid: eb7eeb181241a5240b1cbea6d3334a58, type: 2}
+        customHitBoxDefinition: {fileID: 11400000, guid: a36d9873838635044b09a71263b351f2,
           type: 2}
         length:
-          _serializedValue: 1431655808
+          _serializedValue: 2147483648
         bakeSpeed: 0
         hitBoxDefinitionType: 1
       - animationMaps: []
@@ -108989,7 +108989,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 42
       name: standUpFromKnockBack
-      editorToggle: 0
+      editorToggle: 1
       soundEffectsToggle: 0
     standUpFromStandingHighHit:
       animMap:
@@ -109070,7 +109070,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 0
       name: 
-      editorToggle: 0
+      editorToggle: 1
       soundEffectsToggle: 0
     standUpFromStandingMidHit:
       animMap:
@@ -109151,7 +109151,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 0
       name: 
-      editorToggle: 0
+      editorToggle: 1
       soundEffectsToggle: 0
     standUpFromCrumple:
       animMap:
@@ -109232,7 +109232,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 0
       name: 
-      editorToggle: 0
+      editorToggle: 1
       soundEffectsToggle: 0
     standUpFromSweep:
       animMap:
@@ -109313,7 +109313,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 0
       name: 
-      editorToggle: 0
+      editorToggle: 1
       soundEffectsToggle: 0
     standUpFromStandingWallBounce:
       animMap:
@@ -109394,7 +109394,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 0
       name: 
-      editorToggle: 0
+      editorToggle: 1
       soundEffectsToggle: 0
     standUpFromAirWallBounce:
       animMap:
@@ -109475,7 +109475,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 0
       name: 
-      editorToggle: 0
+      editorToggle: 1
       soundEffectsToggle: 0
     standUpFromGroundBounce:
       animMap:
@@ -109556,7 +109556,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 0
       name: 
-      editorToggle: 0
+      editorToggle: 1
       soundEffectsToggle: 0
     moveEnabled: 1
     jumpEnabled: 1
