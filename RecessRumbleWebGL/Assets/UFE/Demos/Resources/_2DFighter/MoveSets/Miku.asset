@@ -34072,7 +34072,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 0
       name: idle
-      editorToggle: 1
+      editorToggle: 0
       soundEffectsToggle: 0
     moveForward:
       animMap:
@@ -55246,7 +55246,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 3
       name: crouching
-      editorToggle: 1
+      editorToggle: 0
       soundEffectsToggle: 0
     takeOff:
       animMap:
@@ -66305,7 +66305,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 12
       name: blockingHighPose
-      editorToggle: 1
+      editorToggle: 0
       soundEffectsToggle: 0
     blockingHighHit:
       animMap:
@@ -67230,7 +67230,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 13
       name: blockingHighHit
-      editorToggle: 1
+      editorToggle: 0
       soundEffectsToggle: 0
     blockingLowHit:
       animMap:
@@ -88326,11 +88326,11 @@ MonoBehaviour:
               _serializedValue: 0
             z:
               _serializedValue: 0
-        clip: {fileID: 7400000, guid: 8f7c022c6fb1b9949bd66b8d149c0a78, type: 2}
-        customHitBoxDefinition: {fileID: 11400000, guid: 46b97647ce640414d96c3863eb38942d,
+        clip: {fileID: 7400000, guid: 7d50c63af6828804cb1b9dbe3a537a91, type: 2}
+        customHitBoxDefinition: {fileID: 11400000, guid: f67ded2e0341f704aaa05ed021d91c40,
           type: 2}
         length:
-          _serializedValue: 1789569792
+          _serializedValue: 1073741824
         bakeSpeed: 0
         hitBoxDefinitionType: 1
       - animationMaps: []
@@ -88424,7 +88424,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 23
       name: getHitHigh
-      editorToggle: 0
+      editorToggle: 1
       soundEffectsToggle: 0
     getHitLow:
       animMap:

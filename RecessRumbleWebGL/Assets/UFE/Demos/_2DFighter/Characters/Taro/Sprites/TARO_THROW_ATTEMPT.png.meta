@@ -1,22 +1,16 @@
 fileFormatVersion: 2
-guid: eb1f7f5cf1042fc4dad47fe049d0c751
+guid: 556400678d04cbe4a8e4215235f466b1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -789050031966892368
-    second: TARO_THROW_0
+      213: -4744403221111065109
+    second: TARO_THROW_ATTEMPT_0
   - first:
-      213: 537813647946081956
-    second: TARO_THROW_1
+      213: 7235496972457214319
+    second: TARO_THROW_ATTEMPT_1
   - first:
-      213: -8202439031649698237
-    second: TARO_THROW_2
-  - first:
-      213: -5068774039048942463
-    second: TARO_THROW_3
-  - first:
-      213: 109882763930088747
-    second: TARO_THROW_4
+      213: 5717243256922790074
+    second: TARO_THROW_ATTEMPT_2
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -126,13 +120,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: TARO_THROW_0
+      name: TARO_THROW_ATTEMPT_0
       rect:
         serializedVersion: 2
-        x: 45
-        y: 176
-        width: 372
-        height: 469
+        x: 261
+        y: 58
+        width: 1368
+        height: 1725
       alignment: 9
       pivot: {x: 0.44, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,20 +134,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0be4a9e2d2bbc05f0800000000000000
-      internalID: -789050031966892368
+      spriteID: be5b476486e782eb0800000000000000
+      internalID: -4744403221111065109
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TARO_THROW_1
+      name: TARO_THROW_ATTEMPT_1
       rect:
         serializedVersion: 2
-        x: 474
-        y: 171
-        width: 277
-        height: 475
+        x: 1719
+        y: 69
+        width: 1020
+        height: 1746
       alignment: 9
       pivot: {x: 0.32, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -161,29 +155,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4a6ee21d9a2b67700800000000000000
-      internalID: 537813647946081956
+      spriteID: f610ab04926a96460800000000000000
+      internalID: 7235496972457214319
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TARO_THROW_2
+      name: TARO_THROW_ATTEMPT_2
       rect:
         serializedVersion: 2
-        x: 801
-        y: 171
-        width: 280
-        height: 524
+        x: 2867
+        y: 62
+        width: 1030
+        height: 1929
       alignment: 9
-      pivot: {x: 0.376, y: 0}
+      pivot: {x: 0.4, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 34e78bab8251b2e80800000000000000
-      internalID: -8202439031649698237
+      spriteID: ab8516f637ab75f40800000000000000
+      internalID: 5717243256922790074
       vertices: []
       indices: 
       edges: []
@@ -191,7 +185,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 7eb8030dbfe2dd04e891a72a427cdd62
+    spriteID: ed3f6657407492345bf0acbd45b71b63
     internalID: 0
     vertices: []
     indices: 

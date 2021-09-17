@@ -4184,7 +4184,7 @@ MonoBehaviour:
     onPressExecution: 1
     buttonSequence: 
     buttonExecution: 0700000009000000
-    editorToggle: 0
+    editorToggle: 1
     buttonSequenceToggle: 0
     buttonExecutionToggle: 1
   altInputs:
@@ -4510,7 +4510,7 @@ MonoBehaviour:
           _serializedValue: 0
         z:
           _serializedValue: 0
-    hitToggle: 0
+    hitToggle: 1
     damageOptionsToggle: 0
     hitStunOptionsToggle: 0
     forceOptionsToggle: 0
@@ -4785,8 +4785,8 @@ MonoBehaviour:
           _serializedValue: 0
         z:
           _serializedValue: 0
-    hitToggle: 0
-    damageOptionsToggle: 0
+    hitToggle: 1
+    damageOptionsToggle: 1
     hitStunOptionsToggle: 0
     forceOptionsToggle: 0
     opponentForceToggle: 0
