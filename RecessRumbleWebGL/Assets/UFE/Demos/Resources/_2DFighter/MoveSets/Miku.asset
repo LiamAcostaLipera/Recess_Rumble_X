@@ -39634,7 +39634,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 1
       name: moveForward
-      editorToggle: 1
+      editorToggle: 0
       soundEffectsToggle: 0
     moveBack:
       animMap:
@@ -45196,7 +45196,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 2
       name: moveBack
-      editorToggle: 1
+      editorToggle: 0
       soundEffectsToggle: 0
     moveSideways:
       animMap:
@@ -55183,8 +55183,8 @@ MonoBehaviour:
         bakeSpeed: 0
         hitBoxDefinitionType: 1
       - animationMaps: []
-        clip: {fileID: 7400000, guid: d4bcef49dfa80b740b8e1adae4d00d8b, type: 2}
-        customHitBoxDefinition: {fileID: 11400000, guid: 3bafb956574f23d4ba611ab502a2b5bb,
+        clip: {fileID: 7400000, guid: 58b65ec0c47c81a42a17f6cc6dbe8432, type: 2}
+        customHitBoxDefinition: {fileID: 11400000, guid: b5905a78824e3ed4c9960e87dbd50bdc,
           type: 2}
         length:
           _serializedValue: 357913952
@@ -55213,16 +55213,16 @@ MonoBehaviour:
         hitBoxDefinitionType: 0
       _animationSpeed:
         _serializedValue: 4294967296
-      wrapMode: 8
+      wrapMode: 2
       autoSpeed: 0
       _restingClipInterval:
         _serializedValue: 25769803776
-      overrideBlendingIn: 0
-      overrideBlendingOut: 0
+      overrideBlendingIn: 1
+      overrideBlendingOut: 1
       _blendingIn:
-        _serializedValue: 1717986944
+        _serializedValue: 429496736
       _blendingOut:
-        _serializedValue: 1717986944
+        _serializedValue: 429496736
       invincible: 0
       disableHeadLook: 0
       applyRootMotion: 0
@@ -63573,7 +63573,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 11
       name: landing
-      editorToggle: 1
+      editorToggle: 0
       soundEffectsToggle: 0
     blockingCrouchingPose:
       animMap:
@@ -108825,7 +108825,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 40
       name: standUp
-      editorToggle: 1
+      editorToggle: 0
       soundEffectsToggle: 0
     standUpFromAirHit:
       animMap:
@@ -108907,7 +108907,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 41
       name: standUpFromAirHit
-      editorToggle: 1
+      editorToggle: 0
       soundEffectsToggle: 0
     standUpFromKnockBack:
       animMap:
@@ -108989,7 +108989,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 42
       name: standUpFromKnockBack
-      editorToggle: 1
+      editorToggle: 0
       soundEffectsToggle: 0
     standUpFromStandingHighHit:
       animMap:
@@ -109070,7 +109070,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 0
       name: 
-      editorToggle: 1
+      editorToggle: 0
       soundEffectsToggle: 0
     standUpFromStandingMidHit:
       animMap:
@@ -109151,7 +109151,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 0
       name: 
-      editorToggle: 1
+      editorToggle: 0
       soundEffectsToggle: 0
     standUpFromCrumple:
       animMap:
@@ -109232,7 +109232,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 0
       name: 
-      editorToggle: 1
+      editorToggle: 0
       soundEffectsToggle: 0
     standUpFromSweep:
       animMap:
@@ -109313,7 +109313,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 0
       name: 
-      editorToggle: 1
+      editorToggle: 0
       soundEffectsToggle: 0
     standUpFromStandingWallBounce:
       animMap:
@@ -109394,7 +109394,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 0
       name: 
-      editorToggle: 1
+      editorToggle: 0
       soundEffectsToggle: 0
     standUpFromAirWallBounce:
       animMap:
@@ -109475,7 +109475,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 0
       name: 
-      editorToggle: 1
+      editorToggle: 0
       soundEffectsToggle: 0
     standUpFromGroundBounce:
       animMap:
@@ -109556,7 +109556,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 0
       name: 
-      editorToggle: 1
+      editorToggle: 0
       soundEffectsToggle: 0
     moveEnabled: 1
     jumpEnabled: 1
@@ -109564,15 +109564,13 @@ MonoBehaviour:
     blockEnabled: 1
     parryEnabled: 0
   attackMoves:
-  - {fileID: 11400000, guid: 0620594d8fbbcae428e31eec9b5d1594, type: 2}
-  - {fileID: 11400000, guid: 206fdbf355ff7ba40be572a5a3c04da6, type: 2}
-  - {fileID: 11400000, guid: 2476e806e1385e44fa4e8536afa5f711, type: 2}
+  - {fileID: 11400000, guid: 974f70e779267cb4289bf15d1365bc2a, type: 2}
   - {fileID: 11400000, guid: 1819b2df0f96eed4f8778416eba6fa45, type: 2}
+  - {fileID: 11400000, guid: b4b867b08c15fa540ba7421e02a21aca, type: 2}
   - {fileID: 11400000, guid: 46fca648e5ee8d245b899c8d88f1ea65, type: 2}
   - {fileID: 11400000, guid: 98c484e25615c264eb0e8747e6d92671, type: 2}
   - {fileID: 11400000, guid: 1243b420a5b955c499bbdc7b001569be, type: 2}
   - {fileID: 11400000, guid: 1ef8dd9582e96054db44089c54d5eba9, type: 2}
-  - {fileID: 11400000, guid: b4b867b08c15fa540ba7421e02a21aca, type: 2}
   - {fileID: 11400000, guid: 3147ab48bdd6bde438d74bdb6a2006d8, type: 2}
   - {fileID: 11400000, guid: 3e7af183025a7374092f4925ca9be7de, type: 2}
   - {fileID: 11400000, guid: 5b5a6ecaa5ed33247bf89937c0150a58, type: 2}

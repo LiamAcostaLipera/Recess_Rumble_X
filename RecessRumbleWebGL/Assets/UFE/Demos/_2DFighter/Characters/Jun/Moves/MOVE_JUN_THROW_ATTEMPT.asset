@@ -4156,8 +4156,8 @@ MonoBehaviour:
   fixedSpeed: 1
   animSpeedKeyFrame: []
   totalFrames: 15
-  startUpFrames: 0
-  activeFrames: 14
+  startUpFrames: 10
+  activeFrames: 4
   recoveryFrames: 1
   applyRootMotion: 0
   lockXMotion: 0
@@ -4237,37 +4237,7 @@ MonoBehaviour:
     anyAttackType: 1
     anyHitType: 1
     anyHitConfirmType: 1
-  frameLinks:
-  - linkType: 0
-    allowBuffer: 1
-    onStrike: 1
-    onBlock: 1
-    onParry: 1
-    activeFramesBegins: 21
-    activeFramesEnds: 30
-    counterMoveType: 0
-    counterMoveFilter: {fileID: 0}
-    disableHitImpact: 1
-    anyHitStrength: 1
-    hitStrength: 0
-    anyStrokeHitBox: 1
-    hitBoxType: 0
-    anyHitType: 1
-    hitType: 0
-    ignoreInputs: 0
-    ignorePlayerConditions: 0
-    ignoreGauge: 0
-    nextMoveStartupFrame: 1
-    linkableMoves:
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    linkableMovesToggle: 0
-    hitConfirmToggle: 0
-    counterMoveToggle: 0
+  frameLinks: []
   gauges: []
   sortOrder: []
   particleEffects: []
@@ -4285,7 +4255,7 @@ MonoBehaviour:
   stanceChanges: []
   cameraMovements: []
   hits:
-  - activeFramesBegin: 0
+  - activeFramesBegin: 10
     activeFramesEnds: 14
     hitConfirmType: 1
     throwMove: {fileID: 11400000, guid: 1819b2df0f96eed4f8778416eba6fa45, type: 2}
@@ -4299,9 +4269,9 @@ MonoBehaviour:
     unblockable: 0
     spaceBetweenHits: 0
     groundHit: 1
-    crouchingHit: 0
-    airHit: 0
-    stunHit: 0
+    crouchingHit: 1
+    airHit: 1
+    stunHit: 1
     allowMultiHit: 1
     opponentConditions:
       basicMoveLimitation: 

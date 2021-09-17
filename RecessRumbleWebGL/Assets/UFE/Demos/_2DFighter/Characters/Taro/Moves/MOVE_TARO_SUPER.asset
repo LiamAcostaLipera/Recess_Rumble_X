@@ -3361,10 +3361,10 @@ MonoBehaviour:
     requireButtonPress: 1
     onPressExecution: 1
     buttonSequence: 0300000000000000
-    buttonExecution: 09000000
+    buttonExecution: 0400000007000000
     editorToggle: 1
     buttonSequenceToggle: 1
-    buttonExecutionToggle: 0
+    buttonExecutionToggle: 1
   altInputs:
     chargeMove: 0
     _chargeTiming:
@@ -3437,11 +3437,11 @@ MonoBehaviour:
     ignoreGauge: 0
     nextMoveStartupFrame: 1
     linkableMoves:
-    - {fileID: 11400000, guid: 2200eb3c44e8d124e95f20d6a4e1a005, type: 2}
+    - {fileID: 0}
     - {fileID: 11400000, guid: 46fca648e5ee8d245b899c8d88f1ea65, type: 2}
-    - {fileID: 11400000, guid: 6713053791658224b9ba2423839bb21e, type: 2}
-    - {fileID: 11400000, guid: 5444367db5d545d47868869e1a091fcd, type: 2}
-    - {fileID: 11400000, guid: cccdfa34dc64a614193a8ff42a3fc2c8, type: 2}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
     linkableMovesToggle: 1
     hitConfirmToggle: 0
     counterMoveToggle: 0

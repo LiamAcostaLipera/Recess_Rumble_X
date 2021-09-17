@@ -478,24 +478,9 @@ MonoBehaviour:
     shape: 1
     collisionType: 0
     hitBoxType: 1
-  - name: Throw Collider
+  - name: Hit
     activeFrames:
-    - active: 1
-      position:
-        x:
-          _serializedValue: -4209068032
-        y:
-          _serializedValue: 515396064
-        z:
-          _serializedValue: 0
-      cubeWidth:
-        _serializedValue: 7859790336
-      cubeHeight:
-        _serializedValue: 24051816448
-      radius:
-        _serializedValue: 2147483648
-      range: 5
-    - active: 1
+    - active: 0
       position:
         x:
           _serializedValue: -4209068032
@@ -510,7 +495,7 @@ MonoBehaviour:
       radius:
         _serializedValue: 2147483648
       range: 0
-    - active: 1
+    - active: 0
       position:
         x:
           _serializedValue: -4209068032
@@ -525,7 +510,7 @@ MonoBehaviour:
       radius:
         _serializedValue: 2147483648
       range: 0
-    - active: 1
+    - active: 0
       position:
         x:
           _serializedValue: -4209068032
@@ -540,7 +525,7 @@ MonoBehaviour:
       radius:
         _serializedValue: 2147483648
       range: 0
-    - active: 1
+    - active: 0
       position:
         x:
           _serializedValue: -4209068032
@@ -555,10 +540,10 @@ MonoBehaviour:
       radius:
         _serializedValue: 2147483648
       range: 0
-    - active: 1
+    - active: 0
       position:
         x:
-          _serializedValue: -1632087552
+          _serializedValue: -4209068032
         y:
           _serializedValue: 515396064
         z:
@@ -566,11 +551,11 @@ MonoBehaviour:
       cubeWidth:
         _serializedValue: 7859790336
       cubeHeight:
-        _serializedValue: 22119081984
+        _serializedValue: 24051816448
       radius:
         _serializedValue: 2147483648
-      range: 5
-    - active: 1
+      range: 0
+    - active: 0
       position:
         x:
           _serializedValue: -1632087552
@@ -585,7 +570,7 @@ MonoBehaviour:
       radius:
         _serializedValue: 2147483648
       range: 0
-    - active: 1
+    - active: 0
       position:
         x:
           _serializedValue: -1632087552
@@ -600,7 +585,7 @@ MonoBehaviour:
       radius:
         _serializedValue: 2147483648
       range: 0
-    - active: 1
+    - active: 0
       position:
         x:
           _serializedValue: -1632087552
@@ -615,7 +600,22 @@ MonoBehaviour:
       radius:
         _serializedValue: 2147483648
       range: 0
-    - active: 1
+    - active: 0
+      position:
+        x:
+          _serializedValue: -1632087552
+        y:
+          _serializedValue: 515396064
+        z:
+          _serializedValue: 0
+      cubeWidth:
+        _serializedValue: 7859790336
+      cubeHeight:
+        _serializedValue: 22119081984
+      radius:
+        _serializedValue: 2147483648
+      range: 0
+    - active: 0
       position:
         x:
           _serializedValue: -1632087552
@@ -706,5 +706,5 @@ MonoBehaviour:
         _serializedValue: 2147483648
       range: 0
     shape: 1
-    collisionType: 3
+    collisionType: 1
     hitBoxType: 1

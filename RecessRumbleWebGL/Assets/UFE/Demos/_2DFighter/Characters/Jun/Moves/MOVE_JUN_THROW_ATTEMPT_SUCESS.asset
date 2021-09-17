@@ -4184,7 +4184,7 @@ MonoBehaviour:
     onPressExecution: 1
     buttonSequence: 
     buttonExecution: 0700000009000000
-    editorToggle: 1
+    editorToggle: 0
     buttonSequenceToggle: 0
     buttonExecutionToggle: 1
   altInputs:
@@ -4203,7 +4203,8 @@ MonoBehaviour:
     editorToggle: 0
     buttonSequenceToggle: 0
     buttonExecutionToggle: 0
-  previousMoves: []
+  previousMoves:
+  - {fileID: 11400000, guid: b4b867b08c15fa540ba7421e02a21aca, type: 2}
   opponentConditions:
     basicMoveLimitation: 
     possibleMoveStates: []
@@ -4211,19 +4212,7 @@ MonoBehaviour:
     statesToggle: 0
   selfConditions:
     basicMoveLimitation: 
-    possibleMoveStates:
-    - possibleState: 0
-      jumpArc: 0
-      jumpArcBegins: 0
-      jumpArcEnds: 100
-      opponentDistance: 0
-      proximityRangeBegins: 0
-      proximityRangeEnds: 100
-      movingForward: 1
-      movingBack: 1
-      standBy: 1
-      blocking: 0
-      stunned: 0
+    possibleMoveStates: []
     basicMovesToggle: 0
     statesToggle: 0
   moveClassification:
@@ -4243,8 +4232,8 @@ MonoBehaviour:
     onStrike: 1
     onBlock: 1
     onParry: 1
-    activeFramesBegins: 21
-    activeFramesEnds: 30
+    activeFramesBegins: 19
+    activeFramesEnds: 20
     counterMoveType: 0
     counterMoveFilter: {fileID: 0}
     disableHitImpact: 1
@@ -4265,10 +4254,38 @@ MonoBehaviour:
     - {fileID: 0}
     - {fileID: 0}
     - {fileID: 0}
-    linkableMovesToggle: 0
+    linkableMovesToggle: 1
     hitConfirmToggle: 0
     counterMoveToggle: 0
-  gauges: []
+  gauges:
+  - castingFrame: 0
+    targetGauge: 0
+    startDrainingGauge: 0
+    inhibitGainWhileDraining: 0
+    stopDrainingGauge: 0
+    _gaugeDPS:
+      _serializedValue: 0
+    _totalDrain:
+      _serializedValue: 0
+    _gaugeRequired:
+      _serializedValue: 0
+    _gaugeUsage:
+      _serializedValue: 0
+    _gaugeGainOnMiss:
+      _serializedValue: 0
+    _gaugeGainOnHit:
+      _serializedValue: 51539607552
+    _gaugeGainOnBlock:
+      _serializedValue: 0
+    _opGaugeGainOnBlock:
+      _serializedValue: 0
+    _opGaugeGainOnParry:
+      _serializedValue: 0
+    _opGaugeGainOnHit:
+      _serializedValue: 0
+    DCMove: {fileID: 0}
+    DCStance: 0
+    editorToggle: 0
   sortOrder: []
   particleEffects: []
   appliedForces: []
@@ -4306,7 +4323,7 @@ MonoBehaviour:
   cameraMovements: []
   hits:
   - activeFramesBegin: 5
-    activeFramesEnds: 19
+    activeFramesEnds: 14
     hitConfirmType: 1
     throwMove: {fileID: 0}
     techMove: {fileID: 0}
@@ -4319,10 +4336,10 @@ MonoBehaviour:
     unblockable: 0
     spaceBetweenHits: 0
     groundHit: 1
-    crouchingHit: 0
+    crouchingHit: 1
     airHit: 1
-    stunHit: 0
-    allowMultiHit: 1
+    stunHit: 1
+    allowMultiHit: 0
     opponentConditions:
       basicMoveLimitation: 
       possibleMoveStates: []
@@ -4398,7 +4415,7 @@ MonoBehaviour:
     damageScaling: 0
     damageType: 0
     _damageOnHit:
-      _serializedValue: 0
+      _serializedValue: 34359738368
     _damageOnBlock:
       _serializedValue: 0
     doesntKill: 0
@@ -4510,7 +4527,7 @@ MonoBehaviour:
           _serializedValue: 0
         z:
           _serializedValue: 0
-    hitToggle: 1
+    hitToggle: 0
     damageOptionsToggle: 0
     hitStunOptionsToggle: 0
     forceOptionsToggle: 0
@@ -4518,7 +4535,7 @@ MonoBehaviour:
     selfForceToggle: 0
     stageReactionsToggle: 0
     overrideEventsToggle: 0
-    hitConditionsToggle: 1
+    hitConditionsToggle: 0
     pullInToggle: 0
     hurtBoxesToggle: 1
     wallBounceToggle: 0
@@ -4677,7 +4694,7 @@ MonoBehaviour:
     _damageOnBlock:
       _serializedValue: 0
     doesntKill: 0
-    hitType: 0
+    hitType: 3
     resetPreviousHorizontalPush: 0
     resetPreviousVerticalPush: 0
     resetPreviousSidewaysPush: 0
@@ -4786,7 +4803,7 @@ MonoBehaviour:
         z:
           _serializedValue: 0
     hitToggle: 1
-    damageOptionsToggle: 1
+    damageOptionsToggle: 0
     hitStunOptionsToggle: 0
     forceOptionsToggle: 0
     opponentForceToggle: 0
@@ -4795,7 +4812,7 @@ MonoBehaviour:
     overrideEventsToggle: 0
     hitConditionsToggle: 0
     pullInToggle: 0
-    hurtBoxesToggle: 0
+    hurtBoxesToggle: 1
     wallBounceToggle: 0
     groundBounceToggle: 0
     hurtBoxes:

@@ -3360,11 +3360,11 @@ MonoBehaviour:
     onReleaseExecution: 0
     requireButtonPress: 1
     onPressExecution: 1
-    buttonSequence: 0300000000000000
-    buttonExecution: 06000000
+    buttonSequence: 000000000300000000000000
+    buttonExecution: 04000000
     editorToggle: 1
-    buttonSequenceToggle: 1
-    buttonExecutionToggle: 1
+    buttonSequenceToggle: 0
+    buttonExecutionToggle: 0
   altInputs:
     chargeMove: 0
     _chargeTiming:
@@ -3376,11 +3376,11 @@ MonoBehaviour:
     onReleaseExecution: 0
     requireButtonPress: 1
     onPressExecution: 1
-    buttonSequence: 0300000000000000
-    buttonExecution: 04000000
+    buttonSequence: 000000000300000000000000
+    buttonExecution: 06000000
     editorToggle: 1
-    buttonSequenceToggle: 1
-    buttonExecutionToggle: 1
+    buttonSequenceToggle: 0
+    buttonExecutionToggle: 0
   previousMoves: []
   opponentConditions:
     basicMoveLimitation: 
