@@ -55167,11 +55167,11 @@ MonoBehaviour:
               _serializedValue: 0
             z:
               _serializedValue: 0
-        clip: {fileID: 7400000, guid: 83ea7258c80097a4e8e119577aa244da, type: 2}
-        customHitBoxDefinition: {fileID: 11400000, guid: a98e64f2644a00940898c205ad1c9a93,
+        clip: {fileID: 7400000, guid: fa6586e60d0e5fe4f9a9d5f2f4948a58, type: 2}
+        customHitBoxDefinition: {fileID: 11400000, guid: 98928b91b0737c34e843a1f02bfd7322,
           type: 2}
         length:
-          _serializedValue: 1431655808
+          _serializedValue: 1789569792
         bakeSpeed: 0
         hitBoxDefinitionType: 1
       - animationMaps: []
@@ -55246,7 +55246,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 3
       name: crouching
-      editorToggle: 0
+      editorToggle: 1
       soundEffectsToggle: 0
     takeOff:
       animMap:
@@ -88424,7 +88424,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 23
       name: getHitHigh
-      editorToggle: 1
+      editorToggle: 0
       soundEffectsToggle: 0
     getHitLow:
       animMap:
