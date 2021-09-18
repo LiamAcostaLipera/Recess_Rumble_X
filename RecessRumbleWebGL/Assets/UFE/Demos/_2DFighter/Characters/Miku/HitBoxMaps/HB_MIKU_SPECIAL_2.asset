@@ -1203,7 +1203,7 @@ MonoBehaviour:
     shape: 1
     collisionType: 3
     hitBoxType: 1
-  - name: Hit
+  - name: Spawn
     activeFrames:
     - active: 0
       position:
@@ -1280,12 +1280,27 @@ MonoBehaviour:
       radius:
         _serializedValue: 2147483648
       range: 0
-    - active: 0
+    - active: 1
       position:
         x:
-          _serializedValue: 0
+          _serializedValue: 2147483648
         y:
+          _serializedValue: 16234976256
+        z:
           _serializedValue: 0
+      cubeWidth:
+        _serializedValue: 2147483648
+      cubeHeight:
+        _serializedValue: 2147483648
+      radius:
+        _serializedValue: 2147483648
+      range: 5
+    - active: 1
+      position:
+        x:
+          _serializedValue: 2147483648
+        y:
+          _serializedValue: 16234976256
         z:
           _serializedValue: 0
       cubeWidth:
@@ -1295,12 +1310,12 @@ MonoBehaviour:
       radius:
         _serializedValue: 2147483648
       range: 0
-    - active: 0
+    - active: 1
       position:
         x:
-          _serializedValue: 0
+          _serializedValue: 2147483648
         y:
-          _serializedValue: 0
+          _serializedValue: 16234976256
         z:
           _serializedValue: 0
       cubeWidth:
@@ -1310,12 +1325,12 @@ MonoBehaviour:
       radius:
         _serializedValue: 2147483648
       range: 0
-    - active: 0
+    - active: 1
       position:
         x:
-          _serializedValue: 0
+          _serializedValue: 2147483648
         y:
-          _serializedValue: 0
+          _serializedValue: 16234976256
         z:
           _serializedValue: 0
       cubeWidth:
@@ -1325,27 +1340,12 @@ MonoBehaviour:
       radius:
         _serializedValue: 2147483648
       range: 0
-    - active: 0
+    - active: 1
       position:
         x:
-          _serializedValue: 0
+          _serializedValue: 2147483648
         y:
-          _serializedValue: 0
-        z:
-          _serializedValue: 0
-      cubeWidth:
-        _serializedValue: 2147483648
-      cubeHeight:
-        _serializedValue: 2147483648
-      radius:
-        _serializedValue: 2147483648
-      range: 0
-    - active: 0
-      position:
-        x:
-          _serializedValue: 0
-        y:
-          _serializedValue: 0
+          _serializedValue: 16234976256
         z:
           _serializedValue: 0
       cubeWidth:

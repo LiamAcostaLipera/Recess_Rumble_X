@@ -13,10 +13,10 @@ TextureImporter:
     second: MIKU_STANDING_HP_2
   - first:
       213: -5904376227876414352
-    second: MIKU_STANDING_HP_4
+    second: MIKU_STANDING_HP_3
   - first:
       213: 7743951545312767896
-    second: MIKU_STANDING_HP_5
+    second: MIKU_STANDING_HP_4
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -189,11 +189,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MIKU_STANDING_HP_4
+      name: MIKU_STANDING_HP_3
       rect:
         serializedVersion: 2
-        x: 4558
-        y: 93
+        x: 4554
+        y: 97
         width: 1582
         height: 1457
       alignment: 9
@@ -210,7 +210,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MIKU_STANDING_HP_5
+      name: MIKU_STANDING_HP_4
       rect:
         serializedVersion: 2
         x: 6479
