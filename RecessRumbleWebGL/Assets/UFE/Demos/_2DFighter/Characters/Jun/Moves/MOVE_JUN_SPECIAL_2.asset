@@ -3363,8 +3363,8 @@ MonoBehaviour:
     buttonSequence: 000000000300000000000000
     buttonExecution: 04000000
     editorToggle: 1
-    buttonSequenceToggle: 0
-    buttonExecutionToggle: 0
+    buttonSequenceToggle: 1
+    buttonExecutionToggle: 1
   altInputs:
     chargeMove: 0
     _chargeTiming:
@@ -3379,8 +3379,8 @@ MonoBehaviour:
     buttonSequence: 000000000300000000000000
     buttonExecution: 06000000
     editorToggle: 1
-    buttonSequenceToggle: 0
-    buttonExecutionToggle: 0
+    buttonSequenceToggle: 1
+    buttonExecutionToggle: 1
   previousMoves: []
   opponentConditions:
     basicMoveLimitation: 

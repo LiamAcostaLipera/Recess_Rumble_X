@@ -111,48 +111,6 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: MIKU_BLOCK_0
-      rect:
-        serializedVersion: 2
-        x: 225
-        y: 376
-        width: 743
-        height: 1579
-      alignment: 9
-      pivot: {x: 0.4577124, y: -0.000000057981467}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c2a6ec612907463b0800000000000000
-      internalID: -5520163470499222996
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MIKU_BLOCK_1
-      rect:
-        serializedVersion: 2
-        x: 1189
-        y: 376
-        width: 889
-        height: 1576
-      alignment: 9
-      pivot: {x: 0.47517222, y: 0.00031828517}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 513512125931166b0800000000000000
-      internalID: -5304937354838846699
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: MIKU_BLOCK_2
       rect:
         serializedVersion: 2
