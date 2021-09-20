@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   combatStance: 0
   cinematicIntro: {fileID: 11400000, guid: 816efc708e7653d4dac17eb79ec0247c, type: 2}
-  cinematicOutro: {fileID: 11400000, guid: 816efc708e7653d4dac17eb79ec0247c, type: 2}
+  cinematicOutro: {fileID: 11400000, guid: 885217323ce39b04f8e0a91e7a4cbb62, type: 2}
   basicMoves:
     idle:
       animMap:

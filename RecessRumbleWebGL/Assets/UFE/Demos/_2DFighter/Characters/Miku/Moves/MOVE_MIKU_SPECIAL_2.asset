@@ -3360,7 +3360,7 @@ MonoBehaviour:
     onReleaseExecution: 0
     requireButtonPress: 1
     onPressExecution: 1
-    buttonSequence: 000000000300000000000000
+    buttonSequence: 0300000000000000
     buttonExecution: 04000000
     editorToggle: 1
     buttonSequenceToggle: 1
@@ -3376,7 +3376,7 @@ MonoBehaviour:
     onReleaseExecution: 0
     requireButtonPress: 1
     onPressExecution: 1
-    buttonSequence: 000000000300000000000000
+    buttonSequence: 0300000000000000
     buttonExecution: 06000000
     editorToggle: 1
     buttonSequenceToggle: 1
