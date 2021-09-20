@@ -4291,27 +4291,7 @@ MonoBehaviour:
   appliedForces: []
   slowMoEffects: []
   bodyPartVisibilityChanges: []
-  opponentOverride:
-  - _position:
-      x:
-        _serializedValue: -30064771072
-      y:
-        _serializedValue: 12884901888
-      z:
-        _serializedValue: 0
-    castingFrame: 5
-    blendSpeed: 77
-    stun: 1
-    _stunTime:
-      _serializedValue: 34359738368
-    overrideHitAnimations: 1
-    resetAppliedForces: 1
-    standUpOptions: 1
-    characterSpecific: 0
-    move: {fileID: 0}
-    characterSpecificMoves: []
-    animationPreview: 0
-    movesToggle: 0
+  opponentOverride: []
   characterAssist: []
   soundEffects:
   - castingFrame: 0
@@ -4705,9 +4685,9 @@ MonoBehaviour:
     applyDifferentSelfBlockForce: 0
     _pushForce:
       x:
-        _serializedValue: 0
+        _serializedValue: -85899345920
       y:
-        _serializedValue: 0
+        _serializedValue: 150323855360
       z:
         _serializedValue: 0
     _pushForceAir:
@@ -4805,8 +4785,8 @@ MonoBehaviour:
     hitToggle: 1
     damageOptionsToggle: 0
     hitStunOptionsToggle: 0
-    forceOptionsToggle: 0
-    opponentForceToggle: 0
+    forceOptionsToggle: 1
+    opponentForceToggle: 1
     selfForceToggle: 0
     stageReactionsToggle: 0
     overrideEventsToggle: 0

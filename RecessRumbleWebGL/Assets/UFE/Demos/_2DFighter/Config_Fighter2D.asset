@@ -24,18 +24,18 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   selectedStage:
-    stageName: 
+    stageName: 5B
     stageLoadingMethod: 0
     stagePath: 
-    screenshot: {fileID: 0}
-    prefab: {fileID: 0}
+    screenshot: {fileID: 2800000, guid: 7a2abaf5eb3ec8845802e0e2b8e02ea9, type: 3}
+    prefab: {fileID: 100000, guid: 7f4458eca3b0fda48844cd225f15e75e, type: 3}
     music: {fileID: 0}
     _groundFriction:
-      _serializedValue: 429496729600
+      _serializedValue: 515396075520
     _leftBoundary:
-      _serializedValue: -163208757248
+      _serializedValue: -68719476736
     _rightBoundary:
-      _serializedValue: 163208757248
+      _serializedValue: 73014444032
     position:
       x:
         _serializedValue: 0
@@ -130,7 +130,7 @@ MonoBehaviour:
     onlineModeAfterBattleScreen: {fileID: 3037139450037907122, guid: 091e344efe34e334cace17124d4c47ed,
       type: 3}
   storyMode:
-    useSameStoryForAllCharacters: 1
+    useSameStoryForAllCharacters: 0
     canCharactersFightAgainstThemselves: 1
     defaultStory:
       opening: {fileID: 11400004, guid: 40c65adfe829a4a59bf7fc39d9560079, type: 3}
@@ -138,7 +138,7 @@ MonoBehaviour:
       fightsGroups:
       - maxFights: 3
         mode: 1
-        name: Random Fights
+        name: TEAM JUN
         opponents:
         - conversationBeforeBattle: {fileID: 11400004, guid: 9994f2f4c6d0c4bbaadbe0fd864bec81,
             type: 3}
@@ -146,8 +146,26 @@ MonoBehaviour:
             type: 3}
           opponentCharacterIndex: 1
           possibleStagesIndexes: 00000000
+        - conversationBeforeBattle: {fileID: 0}
+          conversationAfterBattle: {fileID: 0}
+          opponentCharacterIndex: 1
+          possibleStagesIndexes: 01000000
         showOpponentsInEditor: 0
-      showStoryInEditor: 0
+      - maxFights: 4
+        mode: 2
+        name: TEAM MIKU
+        opponents:
+        - conversationBeforeBattle: {fileID: 0}
+          conversationAfterBattle: {fileID: 0}
+          opponentCharacterIndex: 0
+          possibleStagesIndexes: 00000000
+        showOpponentsInEditor: 0
+      - maxFights: 4
+        mode: 2
+        name: TEAM MARIE
+        opponents: []
+        showOpponentsInEditor: 0
+      showStoryInEditor: 1
     selectableCharactersInStoryMode: 000000000100000002000000
     selectableCharactersInVersusMode: 000000000100000002000000
     characterStories:
@@ -155,8 +173,18 @@ MonoBehaviour:
       _values:
       - opening: {fileID: 0}
         ending: {fileID: 0}
-        fightsGroups: []
-        showStoryInEditor: 0
+        fightsGroups:
+        - maxFights: 4
+          mode: 2
+          name: VS MIKU
+          opponents:
+          - conversationBeforeBattle: {fileID: 7516048182482662173, guid: 2c0d2bf5b2a77c74d948d158f3340ea6,
+              type: 3}
+            conversationAfterBattle: {fileID: 0}
+            opponentCharacterIndex: 2
+            possibleStagesIndexes: 01000000
+          showOpponentsInEditor: 1
+        showStoryInEditor: 1
       - opening: {fileID: 0}
         ending: {fileID: 0}
         fightsGroups: []
@@ -182,7 +210,7 @@ MonoBehaviour:
   lockZAxis: 1
   runInBackground: 1
   useFixedUpdateInputs: 1
-  sortCharacterOnHit: 1
+  sortCharacterOnHit: 0
   foregroundSortLayer: 200
   backgroundSortLayer: 100
   languages:
@@ -592,7 +620,7 @@ MonoBehaviour:
       maxDelayedStandTime:
         _serializedValue: 0
   hitOptions:
-    resetAnimationOnHit: 1
+    resetAnimationOnHit: 0
     weakHit:
       hitParticle: {fileID: 194664, guid: b71a09eefd747c94787f6bc98149a21d, type: 3}
       killTime: 0.6
@@ -782,12 +810,12 @@ MonoBehaviour:
       _freezingTime:
         _serializedValue: 0
       _animationSpeed:
-        _serializedValue: 429496736
-      autoHitStop: 1
+        _serializedValue: 0
+      autoHitStop: 0
       _hitStop:
         _serializedValue: 0
       mirrorOn2PSide: 0
-      shakeCharacterOnHit: 1
+      shakeCharacterOnHit: 0
       shakeCameraOnHit: 0
       _shakeDensity:
         _serializedValue: 3435973888
@@ -797,7 +825,7 @@ MonoBehaviour:
   player1_Inputs:
   - inputType: 0
     inputButtonName: P1KeyboardHorizontal
-    engineRelatedButton: 0
+    engineRelatedButton: 1
     joystickAxisName: P1JoystickHorizontal
     cInputPositiveKeyName: P1Right
     cInputPositiveDefaultKey: D
@@ -1105,7 +1133,7 @@ MonoBehaviour:
     prefab: {fileID: 100000, guid: 5520d39aec5319c4f951d422938cca6b, type: 3}
     music: {fileID: 0}
     _groundFriction:
-      _serializedValue: 429496729600
+      _serializedValue: 515396075520
     _leftBoundary:
       _serializedValue: -85899345920
     _rightBoundary:
@@ -1124,7 +1152,7 @@ MonoBehaviour:
     prefab: {fileID: 100000, guid: 7f4458eca3b0fda48844cd225f15e75e, type: 3}
     music: {fileID: 0}
     _groundFriction:
-      _serializedValue: 429496729600
+      _serializedValue: 515396075520
     _leftBoundary:
       _serializedValue: -68719476736
     _rightBoundary:
@@ -1143,7 +1171,7 @@ MonoBehaviour:
     prefab: {fileID: 100000, guid: 5520d39aec5319c4f951d422938cca6b, type: 3}
     music: {fileID: 0}
     _groundFriction:
-      _serializedValue: 429496729600
+      _serializedValue: 515396075520
     _leftBoundary:
       _serializedValue: -85899345920
     _rightBoundary:
@@ -1162,7 +1190,7 @@ MonoBehaviour:
     prefab: {fileID: 100000, guid: 5520d39aec5319c4f951d422938cca6b, type: 3}
     music: {fileID: 0}
     _groundFriction:
-      _serializedValue: 429496729600
+      _serializedValue: 515396075520
     _leftBoundary:
       _serializedValue: -85899345920
     _rightBoundary:

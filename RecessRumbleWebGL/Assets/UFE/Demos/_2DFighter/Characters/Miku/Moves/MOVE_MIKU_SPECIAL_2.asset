@@ -3848,7 +3848,7 @@ MonoBehaviour:
     directionAngle: 0
     _duration:
       _serializedValue: 21474836480
-    impactDuration: 1
+    impactDuration: 0.2
     fixedZAxis: 0
     projectileCollision: 1
     unblockable: 0
