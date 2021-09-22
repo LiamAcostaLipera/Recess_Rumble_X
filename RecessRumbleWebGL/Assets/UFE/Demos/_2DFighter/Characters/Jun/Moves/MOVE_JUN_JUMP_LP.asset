@@ -3364,7 +3364,7 @@ MonoBehaviour:
     buttonExecution: 04000000
     editorToggle: 1
     buttonSequenceToggle: 0
-    buttonExecutionToggle: 1
+    buttonExecutionToggle: 0
   altInputs:
     chargeMove: 0
     _chargeTiming:

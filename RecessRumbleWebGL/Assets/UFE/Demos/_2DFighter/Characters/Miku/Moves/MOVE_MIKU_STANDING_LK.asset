@@ -159,7 +159,7 @@ MonoBehaviour:
     throwMove: {fileID: 0}
     techMove: {fileID: 0}
     techable: 1
-    resetHitAnimations: 0
+    resetHitAnimations: 1
     forceStand: 0
     fixRotation: 0
     armorBreaker: 0
@@ -170,7 +170,7 @@ MonoBehaviour:
     crouchingHit: 1
     airHit: 1
     stunHit: 1
-    allowMultiHit: 0
+    allowMultiHit: 1
     opponentConditions:
       basicMoveLimitation: 
       possibleMoveStates: []
@@ -359,7 +359,7 @@ MonoBehaviour:
         z:
           _serializedValue: 0
     hitToggle: 1
-    damageOptionsToggle: 1
+    damageOptionsToggle: 0
     hitStunOptionsToggle: 0
     forceOptionsToggle: 0
     opponentForceToggle: 0
