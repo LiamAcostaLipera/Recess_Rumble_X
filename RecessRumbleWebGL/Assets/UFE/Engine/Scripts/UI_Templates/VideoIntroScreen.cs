@@ -61,7 +61,8 @@ public class VideoIntroScreen : IntroScreen {
         }
 
         videoPlayer.playOnAwake = false;
-        videoPlayer.renderMode = videoRenderMode;
+        //videoPlayer.renderMode = videoRenderMode;
+        videoPlayer.renderMode = VideoRenderMode.CameraFarPlane;
         videoPlayer.targetCamera = Camera.main;
         videoPlayer.targetMaterialRenderer = GetComponent<Renderer>();
         videoPlayer.targetMaterialProperty = "_MainTex";
