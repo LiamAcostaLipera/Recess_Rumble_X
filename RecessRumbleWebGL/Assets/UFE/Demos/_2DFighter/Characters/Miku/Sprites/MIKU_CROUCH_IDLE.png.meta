@@ -1,22 +1,22 @@
 fileFormatVersion: 2
-guid: 5ff9e80ad06bffd43a5c7dee2134b9d0
+guid: 38c3079457a21c847b3451b325685cad
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8909870474978709063
-    second: MIKU_CROUCH_IDLE_0
+      213: -2502025891975809276
+    second: MIKU_CROUCH 1_0
   - first:
-      213: 8387177524391855650
-    second: MIKU_CROUCH_IDLE_1
+      213: 8038973077028188184
+    second: MIKU_CROUCH 1_0
   - first:
-      213: 7290755082074722274
-    second: MIKU_CROUCH_IDLE_2
+      213: -5252003814096273285
+    second: MIKU_CROUCH 1_2
   - first:
-      213: -398370498888743342
-    second: MIKU_CROUCH_IDLE_3
+      213: -6246149791211360
+    second: MIKU_CROUCH 1_1
   - first:
-      213: 2296872227947867723
-    second: MIKU_CROUCH_IDLE_4
+      213: -82309731929449015
+    second: MIKU_CROUCH 1_2
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -60,7 +60,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 135
+  spritePixelsToUnits: 140
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -100,7 +100,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
-    maxTextureSize: 8192
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: 12
     textureCompression: 1
@@ -114,13 +114,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: MIKU_CROUCH_IDLE_0
+      name: MIKU_CROUCH 1_0
       rect:
         serializedVersion: 2
-        x: 260
-        y: 223
-        width: 1220
-        height: 1582
+        x: 1315
+        y: 224
+        width: 1192
+        height: 1544
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,19 +128,40 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 74ec8df8df736ab70800000000000000
-      internalID: 8909870474978709063
+      spriteID: 407b3f125b4074dd0800000000000000
+      internalID: -2502025891975809276
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MIKU_CROUCH_IDLE_1
+      name: MIKU_CROUCH 1_1
       rect:
         serializedVersion: 2
-        x: 1919
-        y: 223
-        width: 1196
+        x: 2659
+        y: 224
+        width: 1211
+        height: 1543
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 810b137db6b209f60800000000000000
+      internalID: 8038973077028188184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MIKU_CROUCH 1_2
+      rect:
+        serializedVersion: 2
+        x: 4022
+        y: 220
+        width: 1206
         height: 1547
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -149,20 +170,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2264481758d356470800000000000000
-      internalID: 8387177524391855650
+      spriteID: b708bcd7b522d17b0800000000000000
+      internalID: -5252003814096273285
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MIKU_CROUCH_IDLE_2
+      name: MIKU_CROUCH 1_3
       rect:
         serializedVersion: 2
-        x: 3563
-        y: 219
-        width: 1166
-        height: 1511
+        x: 5315
+        y: 224
+        width: 1211
+        height: 1543
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -170,20 +191,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2ef007b7e17fd2560800000000000000
-      internalID: 7290755082074722274
+      spriteID: 0a02b7ce82fc9eff0800000000000000
+      internalID: -6246149791211360
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MIKU_CROUCH_IDLE_3
+      name: MIKU_CROUCH 1_4
       rect:
         serializedVersion: 2
-        x: 5171
-        y: 223
-        width: 1196
-        height: 1547
+        x: 6663
+        y: 218
+        width: 1207
+        height: 1564
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -191,29 +212,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 256cdb45424b87af0800000000000000
-      internalID: -398370498888743342
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MIKU_CROUCH_IDLE_4
-      rect:
-        serializedVersion: 2
-        x: 6675
-        y: 223
-        width: 1220
-        height: 1582
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b4eea493f1120ef10800000000000000
-      internalID: 2296872227947867723
+      spriteID: 9cd99c22cb39bdef0800000000000000
+      internalID: -82309731929449015
       vertices: []
       indices: 
       edges: []
@@ -221,7 +221,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 97129419d4efb024187887e68985ecb9
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
