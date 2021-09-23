@@ -48,7 +48,7 @@ MonoBehaviour:
   hasFadeIn: 1
   hasFadeOut: 1
   wrapInput: 1
-  videoRenderMode: 1
+  videoRenderMode: 0
   videoClip: {fileID: 32900000, guid: 98fa3b14ac4376f44aa87405357db83b, type: 3}
   loadFromUrl: 0
   pathOrUrl: file://%StreamingAssets%/video.ogv

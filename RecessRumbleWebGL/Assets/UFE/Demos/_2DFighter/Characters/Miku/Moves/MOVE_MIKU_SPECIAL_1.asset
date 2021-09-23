@@ -3580,9 +3580,9 @@ MonoBehaviour:
     overrideHitAnimation: 0
     newHitAnimation: 27
     hitStrength: 2
-    hitStunType: 1
+    hitStunType: 2
     _hitStunOnHit:
-      _serializedValue: 0
+      _serializedValue: 4294967296
     _hitStunOnBlock:
       _serializedValue: 0
     frameAdvantageOnHit: 0
@@ -3595,8 +3595,8 @@ MonoBehaviour:
       _serializedValue: 0
     doesntKill: 0
     hitType: 3
-    resetPreviousHorizontalPush: 0
-    resetPreviousVerticalPush: 0
+    resetPreviousHorizontalPush: 1
+    resetPreviousVerticalPush: 1
     resetPreviousSidewaysPush: 0
     resetJumpForce: 0
     applyDifferentAirForce: 0
@@ -3702,9 +3702,9 @@ MonoBehaviour:
           _serializedValue: 0
         z:
           _serializedValue: 0
-    hitToggle: 0
+    hitToggle: 1
     damageOptionsToggle: 1
-    hitStunOptionsToggle: 0
+    hitStunOptionsToggle: 1
     forceOptionsToggle: 1
     opponentForceToggle: 1
     selfForceToggle: 0
@@ -3728,7 +3728,7 @@ MonoBehaviour:
         z:
           _serializedValue: 0
       _radius:
-        _serializedValue: 2147483648
+        _serializedValue: 16664473600
       _rect:
         _x:
           _serializedValue: 0
@@ -3736,7 +3736,7 @@ MonoBehaviour:
           _serializedValue: 0
         topRight:
           x:
-            _serializedValue: 0
+            _serializedValue: 2147483648
           y:
             _serializedValue: 0
           z:
@@ -3750,26 +3750,26 @@ MonoBehaviour:
             _serializedValue: 0
         bottomRight:
           x:
-            _serializedValue: 0
+            _serializedValue: 2147483648
           y:
-            _serializedValue: 0
+            _serializedValue: 2147483648
           z:
             _serializedValue: 0
         bottomLeft:
           x:
             _serializedValue: 0
           y:
-            _serializedValue: 0
+            _serializedValue: 2147483648
           z:
             _serializedValue: 0
         width:
-          _serializedValue: 0
+          _serializedValue: 2147483648
         height:
-          _serializedValue: 0
+          _serializedValue: 2147483648
         xMax:
-          _serializedValue: 0
+          _serializedValue: 2147483648
         yMax:
-          _serializedValue: 0
+          _serializedValue: 2147483648
       shape: 0
       type: 0
   blockableArea:
@@ -3778,13 +3778,13 @@ MonoBehaviour:
     activeFramesEnds: 1
     bodyPart: 0
     hitBoxDefinitionIndex: 0
-    shape: 0
+    shape: 1
     rect:
       serializedVersion: 2
       x: 0
       y: 0
-      width: 4
-      height: 4
+      width: 2.77
+      height: 3.27
     _rect:
       _x:
         _serializedValue: 0
@@ -3792,7 +3792,7 @@ MonoBehaviour:
         _serializedValue: 0
       topRight:
         x:
-          _serializedValue: 0
+          _serializedValue: 11897059328
         y:
           _serializedValue: 0
         z:
@@ -3806,26 +3806,26 @@ MonoBehaviour:
           _serializedValue: 0
       bottomRight:
         x:
-          _serializedValue: 0
+          _serializedValue: 11897059328
         y:
-          _serializedValue: 0
+          _serializedValue: 14044542976
         z:
           _serializedValue: 0
       bottomLeft:
         x:
           _serializedValue: 0
         y:
-          _serializedValue: 0
+          _serializedValue: 14044542976
         z:
           _serializedValue: 0
       width:
-        _serializedValue: 0
+        _serializedValue: 11897059328
       height:
-        _serializedValue: 0
+        _serializedValue: 14044542976
       xMax:
-        _serializedValue: 0
+        _serializedValue: 11897059328
       yMax:
-        _serializedValue: 0
+        _serializedValue: 14044542976
     followXBounds: 0
     followYBounds: 0
     _radius:
@@ -3853,9 +3853,9 @@ MonoBehaviour:
         _serializedValue: 0
     position:
       x:
-        _serializedValue: 0
+        _serializedValue: -6957847040
       y:
-        _serializedValue: 0
+        _serializedValue: 6227702784
       z:
         _serializedValue: 0
   lockOnTargets: []

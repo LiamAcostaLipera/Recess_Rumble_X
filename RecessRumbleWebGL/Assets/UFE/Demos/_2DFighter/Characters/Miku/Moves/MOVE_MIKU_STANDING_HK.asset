@@ -46,8 +46,8 @@ MonoBehaviour:
   animSpeedKeyFrame: []
   totalFrames: 35
   startUpFrames: 10
-  activeFrames: 9
-  recoveryFrames: 7
+  activeFrames: 19
+  recoveryFrames: 6
   applyRootMotion: 0
   lockXMotion: 0
   lockYMotion: 0
@@ -157,7 +157,7 @@ MonoBehaviour:
   cameraMovements: []
   hits:
   - activeFramesBegin: 10
-    activeFramesEnds: 19
+    activeFramesEnds: 29
     hitConfirmType: 0
     throwMove: {fileID: 0}
     techMove: {fileID: 0}
@@ -239,9 +239,9 @@ MonoBehaviour:
     overrideHitAnimation: 0
     newHitAnimation: 27
     hitStrength: 2
-    hitStunType: 1
+    hitStunType: 2
     _hitStunOnHit:
-      _serializedValue: 0
+      _serializedValue: 1288490240
     _hitStunOnBlock:
       _serializedValue: 0
     frameAdvantageOnHit: 0
@@ -363,7 +363,7 @@ MonoBehaviour:
           _serializedValue: 0
     hitToggle: 1
     damageOptionsToggle: 1
-    hitStunOptionsToggle: 0
+    hitStunOptionsToggle: 1
     forceOptionsToggle: 0
     opponentForceToggle: 0
     selfForceToggle: 0

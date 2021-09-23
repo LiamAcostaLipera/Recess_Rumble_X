@@ -251,9 +251,9 @@ MonoBehaviour:
     overrideHitAnimation: 0
     newHitAnimation: 27
     hitStrength: 2
-    hitStunType: 1
+    hitStunType: 2
     _hitStunOnHit:
-      _serializedValue: 0
+      _serializedValue: 1288490240
     _hitStunOnBlock:
       _serializedValue: 0
     frameAdvantageOnHit: 0

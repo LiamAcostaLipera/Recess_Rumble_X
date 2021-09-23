@@ -3554,7 +3554,7 @@ MonoBehaviour:
     overrideHitAnimation: 0
     newHitAnimation: 27
     hitStrength: 2
-    hitStunType: 1
+    hitStunType: 2
     _hitStunOnHit:
       _serializedValue: 2147483648
     _hitStunOnBlock:
@@ -3678,7 +3678,7 @@ MonoBehaviour:
           _serializedValue: 0
     hitToggle: 1
     damageOptionsToggle: 0
-    hitStunOptionsToggle: 0
+    hitStunOptionsToggle: 1
     forceOptionsToggle: 0
     opponentForceToggle: 0
     selfForceToggle: 0
@@ -3752,13 +3752,13 @@ MonoBehaviour:
     activeFramesEnds: 39
     bodyPart: 0
     hitBoxDefinitionIndex: 0
-    shape: 0
+    shape: 1
     rect:
       serializedVersion: 2
       x: 0
       y: 0
-      width: 4
-      height: 4
+      width: 1.93
+      height: 1.33
     _rect:
       _x:
         _serializedValue: 0
@@ -3766,7 +3766,7 @@ MonoBehaviour:
         _serializedValue: 0
       topRight:
         x:
-          _serializedValue: 0
+          _serializedValue: 8289286656
         y:
           _serializedValue: 0
         z:
@@ -3780,26 +3780,26 @@ MonoBehaviour:
           _serializedValue: 0
       bottomRight:
         x:
-          _serializedValue: 0
+          _serializedValue: 8289286656
         y:
-          _serializedValue: 0
+          _serializedValue: 5712306688
         z:
           _serializedValue: 0
       bottomLeft:
         x:
           _serializedValue: 0
         y:
-          _serializedValue: 0
+          _serializedValue: 5712306688
         z:
           _serializedValue: 0
       width:
-        _serializedValue: 0
+        _serializedValue: 8289286656
       height:
-        _serializedValue: 0
+        _serializedValue: 5712306688
       xMax:
-        _serializedValue: 0
+        _serializedValue: 8289286656
       yMax:
-        _serializedValue: 0
+        _serializedValue: 5712306688
     followXBounds: 0
     followYBounds: 0
     _radius:
@@ -3827,9 +3827,9 @@ MonoBehaviour:
         _serializedValue: 0
     position:
       x:
-        _serializedValue: 0
+        _serializedValue: -3822520832
       y:
-        _serializedValue: 0
+        _serializedValue: 8976481280
       z:
         _serializedValue: 0
   lockOnTargets: []

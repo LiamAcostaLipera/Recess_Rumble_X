@@ -3411,7 +3411,7 @@ MonoBehaviour:
     recoverySpeed: 4
     hitConfirmType: 0
     preferableDistance: 2
-    gaugeUsage: 2
+    gaugeUsage: 5
     anyAttackType: 1
     anyHitType: 1
     anyHitConfirmType: 1
@@ -3853,7 +3853,7 @@ MonoBehaviour:
     hitStunOnHit: 0
     hitStunOnBlock: 0
     overrideHitEffects: 0
-    fixRotation: 0
+    fixRotation: 1
     armorBreaker: 0
     hitEffects:
       hitParticle: {fileID: 0}
@@ -3884,7 +3884,7 @@ MonoBehaviour:
     _damageOnBlock:
       _serializedValue: 0
     damageScaling: 1
-    obeyDirectionalHit: 1
+    obeyDirectionalHit: 0
     hitEffectsOnHit: 1
     resetPreviousHorizontalPush: 0
     resetPreviousVerticalPush: 0
@@ -3919,6 +3919,6 @@ MonoBehaviour:
     forceGrounded: 0
     moveLinksToggle: 0
     damageOptionsToggle: 1
-    hitStunOptionsToggle: 0
+    hitStunOptionsToggle: 1
     preview: 1
     moveName: 

@@ -131,7 +131,7 @@ MonoBehaviour:
       type: 3}
   storyMode:
     useSameStoryForAllCharacters: 0
-    canCharactersFightAgainstThemselves: 1
+    canCharactersFightAgainstThemselves: 0
     defaultStory:
       opening: {fileID: 11400004, guid: 40c65adfe829a4a59bf7fc39d9560079, type: 3}
       ending: {fileID: 11400004, guid: bb6bf06c538904fd8bce94fe3390c7e4, type: 3}
@@ -184,6 +184,10 @@ MonoBehaviour:
               type: 3}
             opponentCharacterIndex: 2
             possibleStagesIndexes: 01000000
+          - conversationBeforeBattle: {fileID: 0}
+            conversationAfterBattle: {fileID: 0}
+            opponentCharacterIndex: 1
+            possibleStagesIndexes: 00000000
           showOpponentsInEditor: 1
         showStoryInEditor: 1
       - opening: {fileID: 0}
@@ -207,7 +211,7 @@ MonoBehaviour:
   warmAllShaders: 1
   _gravity:
     _serializedValue: 1803886208
-  detect3D_Hits: 1
+  detect3D_Hits: 0
   lockZAxis: 1
   runInBackground: 1
   useFixedUpdateInputs: 1
@@ -241,8 +245,8 @@ MonoBehaviour:
   deploymentOptions:
     deploymentType: 0
     activeCharacters:
+    - {fileID: 11400000, guid: 55d89405241307344848b26d2f8143f1, type: 2}
     - {fileID: 11400000, guid: 75f6f26ca92b59e4c893e99f44df6536, type: 2}
-    - {fileID: 11400000, guid: 49075f7c9de81bf49880ac0ae2087666, type: 2}
     - {fileID: 11400000, guid: d6338f103bbb0da46ba6acf3b027f17a, type: 2}
     - {fileID: 0}
     - {fileID: 0}
@@ -260,7 +264,7 @@ MonoBehaviour:
     - {fileID: 0}
     - {fileID: 0}
     - {fileID: 0}
-    AIControlled: 00000000000000010101010101010101010101
+    AIControlled: 00010000000000010101010101010101010101
     selectedTeamMode: 0
     selectedChallengeMode: 0
     skipLoadingScreen: 1
@@ -274,7 +278,7 @@ MonoBehaviour:
     height3d: 0
     enableZoom: 0
     initialFieldOfView: 10
-    verticalPriority: 1
+    verticalPriority: 0
     verticalThreshold: 8
     movementSpeed: 3.45
     minZoom: 66.68
@@ -298,7 +302,7 @@ MonoBehaviour:
       _serializedValue: 0
   characterRotationOptions:
     autoMirror: 1
-    rotateWhileJumping: 0
+    rotateWhileJumping: 1
     rotateOnMoveOnly: 0
     fixRotationWhenStunned: 0
     fixRotationWhenBlocking: 1
@@ -393,7 +397,7 @@ MonoBehaviour:
       _serializedValue: 858993472
     bounceSound: {fileID: 8300000, guid: 7cec4e4ba24f7db48b78639aa5b10a64, type: 3}
   counterHitOptions:
-    startUpFrames: 1
+    startUpFrames: 0
     activeFrames: 0
     recoveryFrames: 0
     _damageIncrease:
@@ -1472,17 +1476,17 @@ MonoBehaviour:
     engine: 0
     attackWhenEnemyIsDown: 0
     moveWhenEnemyIsDown: 1
-    inputFrequency: 0
-    behaviourToggle: 0
+    inputFrequency: 0.2
+    behaviourToggle: 1
     distanceBehaviour:
     - characterDistance: 2
       proximityRangeBegins: 0
       proximityRangeEnds: 30
-      movingForwardProbability: 0
+      movingForwardProbability: 0.1
       movingBackProbability: 0.3
-      jumpingProbability: 0.6
+      jumpingProbability: 1
       crouchProbability: 0.5
-      attackProbability: 0.9
+      attackProbability: 0.602
     - characterDistance: 3
       proximityRangeBegins: 31
       proximityRangeEnds: 70
