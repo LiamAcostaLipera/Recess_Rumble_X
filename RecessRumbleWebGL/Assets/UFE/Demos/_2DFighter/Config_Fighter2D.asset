@@ -180,7 +180,8 @@ MonoBehaviour:
           opponents:
           - conversationBeforeBattle: {fileID: 7516048182482662173, guid: 2c0d2bf5b2a77c74d948d158f3340ea6,
               type: 3}
-            conversationAfterBattle: {fileID: 0}
+            conversationAfterBattle: {fileID: 7516048182482662173, guid: cd151d28eb0534e4fbcaf6e5d9ac85b5,
+              type: 3}
             opponentCharacterIndex: 2
             possibleStagesIndexes: 01000000
           showOpponentsInEditor: 1
@@ -970,7 +971,7 @@ MonoBehaviour:
   player2_Inputs:
   - inputType: 0
     inputButtonName: P2KeyboardHorizontal
-    engineRelatedButton: 0
+    engineRelatedButton: 1
     joystickAxisName: P2JoystickHorizontal
     cInputPositiveKeyName: P2Right
     cInputPositiveDefaultKey: RightArrow

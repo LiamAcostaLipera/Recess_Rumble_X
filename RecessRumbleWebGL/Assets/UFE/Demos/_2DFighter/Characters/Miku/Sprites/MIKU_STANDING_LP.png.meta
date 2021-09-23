@@ -108,27 +108,6 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: MIKU_STANDING_LP_0
-      rect:
-        serializedVersion: 2
-        x: 440
-        y: 193
-        width: 710
-        height: 1579
-      alignment: 9
-      pivot: {x: 0.46969518, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0b37a2b0cc1db6a60800000000000000
-      internalID: 7668453464819266480
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: MIKU_STANDING_LP_1
       rect:
         serializedVersion: 2
