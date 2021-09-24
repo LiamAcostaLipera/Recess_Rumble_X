@@ -15,11 +15,11 @@ MonoBehaviour:
   gameplayType: 0
   animMap:
     animationMaps: []
-    clip: {fileID: 7400000, guid: 8f4cadaacc2cb3643a040a4cb2c3778f, type: 2}
+    clip: {fileID: 7400000, guid: 5759ce301bcaf024abcf13ac35801506, type: 2}
     customHitBoxDefinition: {fileID: 11400000, guid: b3e7829a75e7d494c8cd857eff7f66d6,
       type: 2}
     length:
-      _serializedValue: 1073741824
+      _serializedValue: 715827904
     bakeSpeed: 0
     hitBoxDefinitionType: 1
   _animationSpeed:
@@ -44,10 +44,10 @@ MonoBehaviour:
   speedKeyFrameToggle: 0
   fixedSpeed: 1
   animSpeedKeyFrame: []
-  totalFrames: 15
+  totalFrames: 10
   startUpFrames: 0
-  activeFrames: 14
-  recoveryFrames: 1
+  activeFrames: 4
+  recoveryFrames: 6
   applyRootMotion: 0
   lockXMotion: 0
   lockYMotion: 0
@@ -153,7 +153,7 @@ MonoBehaviour:
   cameraMovements: []
   hits:
   - activeFramesBegin: 0
-    activeFramesEnds: 14
+    activeFramesEnds: 4
     hitConfirmType: 1
     throwMove: {fileID: 11400000, guid: db65132d9106ca3438edd10bc8d2e262, type: 2}
     techMove: {fileID: 0}
@@ -174,7 +174,7 @@ MonoBehaviour:
       basicMoveLimitation: 
       possibleMoveStates: []
       basicMovesToggle: 0
-      statesToggle: 0
+      statesToggle: 1
     downHit: 0
     resetPreviousHitStun: 0
     resetCrumples: 0
@@ -367,7 +367,7 @@ MonoBehaviour:
     overrideEventsToggle: 0
     hitConditionsToggle: 0
     pullInToggle: 0
-    hurtBoxesToggle: 1
+    hurtBoxesToggle: 0
     wallBounceToggle: 0
     groundBounceToggle: 0
     hurtBoxes:

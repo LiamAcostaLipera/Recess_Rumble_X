@@ -3841,7 +3841,7 @@ MonoBehaviour:
       x:
         _serializedValue: 0
       y:
-        _serializedValue: -8589934592
+        _serializedValue: -4294967296
       z:
         _serializedValue: 0
     speed: 14
@@ -3955,13 +3955,13 @@ MonoBehaviour:
       hitBoxDefinitionIndex: 0
       _offSet:
         x:
-          _serializedValue: -558345728
+          _serializedValue: -2018634624
         y:
-          _serializedValue: 6012954112
+          _serializedValue: 4810363392
         z:
           _serializedValue: 0
       _radius:
-        _serializedValue: 4853313024
+        _serializedValue: 2576980480
       _rect:
         _x:
           _serializedValue: 0

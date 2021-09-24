@@ -333,10 +333,10 @@ MonoBehaviour:
           _serializedValue: 0
         z:
           _serializedValue: 0
-    hitToggle: 1
+    hitToggle: 0
     damageOptionsToggle: 0
-    hitStunOptionsToggle: 1
-    forceOptionsToggle: 1
+    hitStunOptionsToggle: 0
+    forceOptionsToggle: 0
     opponentForceToggle: 1
     selfForceToggle: 0
     stageReactionsToggle: 0

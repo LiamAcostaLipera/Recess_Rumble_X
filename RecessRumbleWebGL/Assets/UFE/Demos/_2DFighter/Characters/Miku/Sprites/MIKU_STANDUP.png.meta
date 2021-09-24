@@ -117,48 +117,6 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: MIKU_STANDUP_0
-      rect:
-        serializedVersion: 2
-        x: 203
-        y: 1876
-        width: 2138
-        height: 509
-      alignment: 9
-      pivot: {x: 0.4623903, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a74d61c5df4627410800000000000000
-      internalID: 1473351067438077050
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MIKU_STANDUP_1
-      rect:
-        serializedVersion: 2
-        x: 618
-        y: 76
-        width: 1675
-        height: 1568
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4f1d866f687fe6e40800000000000000
-      internalID: 5651726741428294132
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: MIKU_STANDUP_2
       rect:
         serializedVersion: 2
