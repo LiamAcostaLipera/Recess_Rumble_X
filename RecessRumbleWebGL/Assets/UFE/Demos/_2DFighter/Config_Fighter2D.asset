@@ -18,7 +18,7 @@ MonoBehaviour:
   player1Team:
   - {fileID: 0}
   - {fileID: 0}
-  - {fileID: 11400000, guid: d6338f103bbb0da46ba6acf3b027f17a, type: 2}
+  - {fileID: 0}
   player2Team:
   - {fileID: 0}
   - {fileID: 0}
@@ -166,17 +166,17 @@ MonoBehaviour:
         opponents: []
         showOpponentsInEditor: 0
       showStoryInEditor: 1
-    selectableCharactersInStoryMode: 000000000100000002000000
-    selectableCharactersInVersusMode: 000000000100000002000000
+    selectableCharactersInStoryMode: 00000000010000000200000003000000
+    selectableCharactersInVersusMode: 00000000010000000200000003000000
     characterStories:
-      _keys: 000000000100000002000000
+      _keys: 00000000010000000200000003000000
       _values:
       - opening: {fileID: 0}
         ending: {fileID: 0}
         fightsGroups:
         - maxFights: 4
           mode: 2
-          name: VS MIKU
+          name: Historia
           opponents:
           - conversationBeforeBattle: {fileID: 7516048182482662173, guid: 2c0d2bf5b2a77c74d948d158f3340ea6,
               type: 3}
@@ -184,12 +184,24 @@ MonoBehaviour:
               type: 3}
             opponentCharacterIndex: 2
             possibleStagesIndexes: 01000000
-          - conversationBeforeBattle: {fileID: 0}
-            conversationAfterBattle: {fileID: 0}
+          - conversationBeforeBattle: {fileID: 7516048182482662173, guid: 08764329f0af9f84c8673deb55267003,
+              type: 3}
+            conversationAfterBattle: {fileID: 7516048182482662173, guid: 1a1ffa7d77840104b8dbeae4e62ccb40,
+              type: 3}
+            opponentCharacterIndex: 3
+            possibleStagesIndexes: 03000000
+          - conversationBeforeBattle: {fileID: 7516048182482662173, guid: b2140c53fc4c6e7488a0a533c1099954,
+              type: 3}
+            conversationAfterBattle: {fileID: 7516048182482662173, guid: 932a31e079708e34eb6a874fdef33b8d,
+              type: 3}
             opponentCharacterIndex: 1
             possibleStagesIndexes: 00000000
           showOpponentsInEditor: 1
         showStoryInEditor: 1
+      - opening: {fileID: 0}
+        ending: {fileID: 0}
+        fightsGroups: []
+        showStoryInEditor: 0
       - opening: {fileID: 0}
         ending: {fileID: 0}
         fightsGroups: []
@@ -247,7 +259,7 @@ MonoBehaviour:
     activeCharacters:
     - {fileID: 11400000, guid: 75f6f26ca92b59e4c893e99f44df6536, type: 2}
     - {fileID: 11400000, guid: 55d89405241307344848b26d2f8143f1, type: 2}
-    - {fileID: 11400000, guid: d6338f103bbb0da46ba6acf3b027f17a, type: 2}
+    - {fileID: 0}
     - {fileID: 0}
     - {fileID: 0}
     - {fileID: 0}
@@ -975,7 +987,7 @@ MonoBehaviour:
   player2_Inputs:
   - inputType: 0
     inputButtonName: P2KeyboardHorizontal
-    engineRelatedButton: 1
+    engineRelatedButton: 0
     joystickAxisName: P2JoystickHorizontal
     cInputPositiveKeyName: P2Right
     cInputPositiveDefaultKey: RightArrow
@@ -1211,6 +1223,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 49075f7c9de81bf49880ac0ae2087666, type: 2}
   - {fileID: 11400000, guid: 55d89405241307344848b26d2f8143f1, type: 2}
   - {fileID: 11400000, guid: 75f6f26ca92b59e4c893e99f44df6536, type: 2}
+  - {fileID: 11400000, guid: 6b761e7adeeaaef45af82e3fdda6d92d, type: 2}
   teamModes:
   - modeName: Tag Battle (DBZF\Marvel) - 2D 3v3 Tag Team
     teams:
