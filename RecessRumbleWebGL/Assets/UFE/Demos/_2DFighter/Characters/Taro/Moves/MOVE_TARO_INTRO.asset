@@ -3306,12 +3306,12 @@ MonoBehaviour:
     clip: {fileID: 7400000, guid: 3dd412b867fc13e4093418889d6a08c3, type: 2}
     customHitBoxDefinition: {fileID: 0}
     length:
-      _serializedValue: 6084537344
+      _serializedValue: 2863311360
     bakeSpeed: 0
     hitBoxDefinitionType: 0
   _animationSpeed:
     _serializedValue: 4294967296
-  wrapMode: 1
+  wrapMode: 8
   characterPrefab: {fileID: 8012443432642201050, guid: 65ae2e4e01ea6a74888196ce312cccf0,
     type: 3}
   moveName: MOVE_TARO_INTRO
@@ -3329,10 +3329,13 @@ MonoBehaviour:
   cooldown: 1
   cooldownFrames: 30
   disableHeadLook: 1
-  speedKeyFrameToggle: 0
-  fixedSpeed: 1
-  animSpeedKeyFrame: []
-  totalFrames: 86
+  speedKeyFrameToggle: 1
+  fixedSpeed: 0
+  animSpeedKeyFrame:
+  - castingFrame: 0
+    _speed:
+      _serializedValue: 4294967296
+  totalFrames: 40
   startUpFrames: 5
   activeFrames: 19
   recoveryFrames: 6
@@ -3352,15 +3355,15 @@ MonoBehaviour:
     chargeMove: 0
     _chargeTiming:
       _serializedValue: 3006477056
-    allowInputLeniency: 1
+    allowInputLeniency: 0
     allowNegativeEdge: 0
     forceAxisPrecision: 0
     leniencyBuffer: 3
     onReleaseExecution: 0
     requireButtonPress: 1
-    onPressExecution: 1
-    buttonSequence: 0300000000000000
-    buttonExecution: 06000000
+    onPressExecution: 0
+    buttonSequence: 
+    buttonExecution: 
     editorToggle: 1
     buttonSequenceToggle: 1
     buttonExecutionToggle: 1

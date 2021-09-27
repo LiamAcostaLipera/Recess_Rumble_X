@@ -63573,7 +63573,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 11
       name: landing
-      editorToggle: 1
+      editorToggle: 0
       soundEffectsToggle: 0
     blockingCrouchingPose:
       animMap:
@@ -96723,8 +96723,7 @@ MonoBehaviour:
             z:
               _serializedValue: 0
         clip: {fileID: 0}
-        customHitBoxDefinition: {fileID: 11400000, guid: 4260ea87c271b6b4a9be202fbe653e65,
-          type: 2}
+        customHitBoxDefinition: {fileID: 0}
         length:
           _serializedValue: 1288490368
         bakeSpeed: 0

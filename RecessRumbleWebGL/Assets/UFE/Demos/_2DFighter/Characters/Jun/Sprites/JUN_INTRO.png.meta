@@ -221,27 +221,6 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: JUN_INTRO_5
-      rect:
-        serializedVersion: 2
-        x: 2500
-        y: 38
-        width: 433
-        height: 932
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 903776e613c9a8500800000000000000
-      internalID: 399303253095314185
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     physicsShape: []
     bones: []

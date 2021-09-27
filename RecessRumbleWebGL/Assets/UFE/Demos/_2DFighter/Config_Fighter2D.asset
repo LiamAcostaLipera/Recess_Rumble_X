@@ -24,18 +24,18 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   selectedStage:
-    stageName: ENTRANCE
+    stageName: AZOTEA
     stageLoadingMethod: 0
-    stagePath: 
+    stagePath: Assets/UFE/Demos/Shared_Assets/Stages/Rooftop/Rooftop.unity
     screenshot: {fileID: 2800000, guid: 6ff6f79984d8a0d42a69fa7126694acc, type: 3}
     prefab: {fileID: 100000, guid: 5520d39aec5319c4f951d422938cca6b, type: 3}
     music: {fileID: 0}
     _groundFriction:
       _serializedValue: 515396075520
     _leftBoundary:
-      _serializedValue: -85899345920
+      _serializedValue: -64424509440
     _rightBoundary:
-      _serializedValue: 85899345920
+      _serializedValue: 68719476736
     position:
       x:
         _serializedValue: 0
@@ -266,10 +266,10 @@ MonoBehaviour:
     draw: Draw
     defaultSelection: 1
   deploymentOptions:
-    deploymentType: 0
+    deploymentType: 1
     activeCharacters:
     - {fileID: 11400000, guid: 75f6f26ca92b59e4c893e99f44df6536, type: 2}
-    - {fileID: 11400000, guid: 55d89405241307344848b26d2f8143f1, type: 2}
+    - {fileID: 11400000, guid: 75f6f26ca92b59e4c893e99f44df6536, type: 2}
     - {fileID: 0}
     - {fileID: 0}
     - {fileID: 0}
@@ -375,7 +375,7 @@ MonoBehaviour:
     _showMenuDelay:
       _serializedValue: 15032385536
     _newRoundDelay:
-      _serializedValue: 12884901888
+      _serializedValue: 21474836480
     _slowMoTimer:
       _serializedValue: 8589934592
     _slowMoSpeed:
@@ -385,7 +385,7 @@ MonoBehaviour:
     resetPositions: 1
     allowMovementStart: 0
     allowMovementEnd: 0
-    playIntrosAtSameTime: 0
+    playIntrosAtSameTime: 1
     inhibitGaugeGain: 1
     rotateBodyKO: 1
     slowMotionKO: 1
@@ -853,7 +853,7 @@ MonoBehaviour:
   player1_Inputs:
   - inputType: 0
     inputButtonName: P1KeyboardHorizontal
-    engineRelatedButton: 0
+    engineRelatedButton: 1
     joystickAxisName: P1JoystickHorizontal
     cInputPositiveKeyName: P1Right
     cInputPositiveDefaultKey: D
@@ -869,7 +869,7 @@ MonoBehaviour:
     inputViewerIcon6: {fileID: 2800000, guid: 90523496d8897124e989ad256f109d27, type: 3}
   - inputType: 1
     inputButtonName: P1KeyboardVertical
-    engineRelatedButton: 2
+    engineRelatedButton: 3
     joystickAxisName: P1JoystickVertical
     cInputPositiveKeyName: P1Up
     cInputPositiveDefaultKey: W
@@ -1603,20 +1603,20 @@ MonoBehaviour:
       overrideComboEfficiency: 1
       comboEfficiency: 1
       startupBehavior: 4
-    selectedDifficultyLevel: 1
+    selectedDifficultyLevel: 5
     selectedDifficulty:
-      difficultyLevel: 1
+      difficultyLevel: 5
       overrideTimeBetweenDecisions: 1
-      timeBetweenDecisions: 0.3
+      timeBetweenDecisions: 0
       overrideTimeBetweenActions: 1
-      timeBetweenActions: 0.1
+      timeBetweenActions: 0
       overrideAggressiveness: 1
-      aggressiveness: 0.3
-      overrideRuleCompliance: 0
+      aggressiveness: 0.7
+      overrideRuleCompliance: 1
       ruleCompliance: 0.9
       overrideComboEfficiency: 1
-      comboEfficiency: 0.2
-      startupBehavior: 3
+      comboEfficiency: 1
+      startupBehavior: 4
   networkOptions:
     forceAnimationControl: 1
     disableRootMotion: 0

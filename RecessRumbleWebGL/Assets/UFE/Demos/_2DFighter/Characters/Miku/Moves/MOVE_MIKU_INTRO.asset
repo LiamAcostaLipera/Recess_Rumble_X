@@ -3304,15 +3304,14 @@ MonoBehaviour:
         z:
           _serializedValue: 0
     clip: {fileID: 7400000, guid: 8d9ce0bc9b0c24b4d9255e0e86238de0, type: 2}
-    customHitBoxDefinition: {fileID: 11400000, guid: 3174631249f97334e9da57f56f85511b,
-      type: 2}
+    customHitBoxDefinition: {fileID: 0}
     length:
-      _serializedValue: 3937053184
+      _serializedValue: 3579139328
     bakeSpeed: 0
     hitBoxDefinitionType: 0
   _animationSpeed:
     _serializedValue: 4294967296
-  wrapMode: 0
+  wrapMode: 8
   characterPrefab: {fileID: 8012443432642201050, guid: 9559fd7b3861edc479dca0c8ab08b149,
     type: 3}
   moveName: MOVE_MIKU_INTRO
@@ -3331,9 +3330,12 @@ MonoBehaviour:
   cooldownFrames: 0
   disableHeadLook: 1
   speedKeyFrameToggle: 0
-  fixedSpeed: 1
-  animSpeedKeyFrame: []
-  totalFrames: 45
+  fixedSpeed: 0
+  animSpeedKeyFrame:
+  - castingFrame: 0
+    _speed:
+      _serializedValue: 4294967296
+  totalFrames: 51
   startUpFrames: 5
   activeFrames: 14
   recoveryFrames: 26
@@ -3343,7 +3345,7 @@ MonoBehaviour:
   lockZMotion: 0
   forceGrounded: 0
   rootMotionNode: 0
-  overrideBlendingIn: 1
+  overrideBlendingIn: 0
   overrideBlendingOut: 0
   _blendingIn:
     _serializedValue: 0
@@ -3361,8 +3363,8 @@ MonoBehaviour:
     requireButtonPress: 1
     onPressExecution: 1
     buttonSequence: 
-    buttonExecution: 07000000
-    editorToggle: 0
+    buttonExecution: 
+    editorToggle: 1
     buttonSequenceToggle: 0
     buttonExecutionToggle: 0
   altInputs:
@@ -3378,7 +3380,7 @@ MonoBehaviour:
     onPressExecution: 1
     buttonSequence: 
     buttonExecution: 
-    editorToggle: 0
+    editorToggle: 1
     buttonSequenceToggle: 0
     buttonExecutionToggle: 0
   previousMoves: []
@@ -3442,35 +3444,7 @@ MonoBehaviour:
     linkableMovesToggle: 1
     hitConfirmToggle: 0
     counterMoveToggle: 0
-  gauges:
-  - castingFrame: 0
-    targetGauge: 0
-    startDrainingGauge: 0
-    inhibitGainWhileDraining: 0
-    stopDrainingGauge: 0
-    _gaugeDPS:
-      _serializedValue: 0
-    _totalDrain:
-      _serializedValue: 0
-    _gaugeRequired:
-      _serializedValue: 0
-    _gaugeUsage:
-      _serializedValue: 0
-    _gaugeGainOnMiss:
-      _serializedValue: 0
-    _gaugeGainOnHit:
-      _serializedValue: 17179869184
-    _gaugeGainOnBlock:
-      _serializedValue: 21474836480
-    _opGaugeGainOnBlock:
-      _serializedValue: 8589934592
-    _opGaugeGainOnParry:
-      _serializedValue: 42949672960
-    _opGaugeGainOnHit:
-      _serializedValue: 4294967296
-    DCMove: {fileID: 0}
-    DCStance: 0
-    editorToggle: 0
+  gauges: []
   sortOrder: []
   particleEffects: []
   appliedForces: []
