@@ -39557,8 +39557,8 @@ MonoBehaviour:
               _serializedValue: 0
             z:
               _serializedValue: 0
-        clip: {fileID: 7400000, guid: 95b1b4505476ef144bb526e980d5fcca, type: 2}
-        customHitBoxDefinition: {fileID: 11400000, guid: d1e9bec677744984887b75872365ecd8,
+        clip: {fileID: 7400000, guid: d22d8e9fa1a63074ba82662f9b9b6024, type: 2}
+        customHitBoxDefinition: {fileID: 11400000, guid: 9c5957d048d406d43bbe5b3e312c5c67,
           type: 2}
         length:
           _serializedValue: 1789569792
@@ -45119,8 +45119,8 @@ MonoBehaviour:
               _serializedValue: 0
             z:
               _serializedValue: 0
-        clip: {fileID: 7400000, guid: 95b1b4505476ef144bb526e980d5fcca, type: 2}
-        customHitBoxDefinition: {fileID: 11400000, guid: d1e9bec677744984887b75872365ecd8,
+        clip: {fileID: 7400000, guid: d22d8e9fa1a63074ba82662f9b9b6024, type: 2}
+        customHitBoxDefinition: {fileID: 11400000, guid: 9c5957d048d406d43bbe5b3e312c5c67,
           type: 2}
         length:
           _serializedValue: 1789569792
@@ -58620,8 +58620,8 @@ MonoBehaviour:
               _serializedValue: 0
             z:
               _serializedValue: 0
-        clip: {fileID: 7400000, guid: 0107b05ecd27b594c8faa18075e14085, type: 2}
-        customHitBoxDefinition: {fileID: 11400000, guid: c27f72befe677d44a962668804bbd37a,
+        clip: {fileID: 7400000, guid: d4b24ed1e6681224e955dc3aee790ade, type: 2}
+        customHitBoxDefinition: {fileID: 11400000, guid: 70947ff09695dbc40bec330026f094fc,
           type: 2}
         length:
           _serializedValue: 1073741824
@@ -58702,8 +58702,8 @@ MonoBehaviour:
     jumpBack:
       animMap:
       - animationMaps: []
-        clip: {fileID: 7400000, guid: 0107b05ecd27b594c8faa18075e14085, type: 2}
-        customHitBoxDefinition: {fileID: 11400000, guid: c27f72befe677d44a962668804bbd37a,
+        clip: {fileID: 7400000, guid: d4b24ed1e6681224e955dc3aee790ade, type: 2}
+        customHitBoxDefinition: {fileID: 11400000, guid: 70947ff09695dbc40bec330026f094fc,
           type: 2}
         length:
           _serializedValue: 1073741824
@@ -58784,8 +58784,8 @@ MonoBehaviour:
     jumpForward:
       animMap:
       - animationMaps: []
-        clip: {fileID: 7400000, guid: 0107b05ecd27b594c8faa18075e14085, type: 2}
-        customHitBoxDefinition: {fileID: 11400000, guid: c27f72befe677d44a962668804bbd37a,
+        clip: {fileID: 7400000, guid: d4b24ed1e6681224e955dc3aee790ade, type: 2}
+        customHitBoxDefinition: {fileID: 11400000, guid: 70947ff09695dbc40bec330026f094fc,
           type: 2}
         length:
           _serializedValue: 1073741824
@@ -61332,8 +61332,8 @@ MonoBehaviour:
               _serializedValue: 0
             z:
               _serializedValue: 0
-        clip: {fileID: 7400000, guid: 81e437972a8db3e418866df825653066, type: 2}
-        customHitBoxDefinition: {fileID: 11400000, guid: e7f9cc4db149b6841a06f265c9bc9d1f,
+        clip: {fileID: 7400000, guid: 58ff571bcab7d034d9de8b59fb93a71a, type: 2}
+        customHitBoxDefinition: {fileID: 11400000, guid: 5bbda3385f98e0f4e93ae73430b008be,
           type: 2}
         length:
           _serializedValue: 357913952
@@ -61414,8 +61414,8 @@ MonoBehaviour:
     fallBack:
       animMap:
       - animationMaps: []
-        clip: {fileID: 7400000, guid: 81e437972a8db3e418866df825653066, type: 2}
-        customHitBoxDefinition: {fileID: 11400000, guid: e7f9cc4db149b6841a06f265c9bc9d1f,
+        clip: {fileID: 7400000, guid: 58ff571bcab7d034d9de8b59fb93a71a, type: 2}
+        customHitBoxDefinition: {fileID: 11400000, guid: 5bbda3385f98e0f4e93ae73430b008be,
           type: 2}
         length:
           _serializedValue: 357913952
@@ -61496,8 +61496,8 @@ MonoBehaviour:
     fallForward:
       animMap:
       - animationMaps: []
-        clip: {fileID: 7400000, guid: 81e437972a8db3e418866df825653066, type: 2}
-        customHitBoxDefinition: {fileID: 11400000, guid: e7f9cc4db149b6841a06f265c9bc9d1f,
+        clip: {fileID: 7400000, guid: 58ff571bcab7d034d9de8b59fb93a71a, type: 2}
+        customHitBoxDefinition: {fileID: 11400000, guid: 5bbda3385f98e0f4e93ae73430b008be,
           type: 2}
         length:
           _serializedValue: 357913952
@@ -63496,8 +63496,8 @@ MonoBehaviour:
               _serializedValue: 0
             z:
               _serializedValue: 0
-        clip: {fileID: 7400000, guid: 58b4549dbb2f12144b57abf12be23383, type: 2}
-        customHitBoxDefinition: {fileID: 11400000, guid: ed73eb45c967de74297165565acbaf8c,
+        clip: {fileID: 7400000, guid: 9d8e9884e726b9a4aa8ad4e6d6e1c493, type: 2}
+        customHitBoxDefinition: {fileID: 11400000, guid: 14fa5929f03e00147ba935dac0902d05,
           type: 2}
         length:
           _serializedValue: 715827904
@@ -63573,7 +63573,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 11
       name: landing
-      editorToggle: 1
+      editorToggle: 0
       soundEffectsToggle: 0
     blockingCrouchingPose:
       animMap:
