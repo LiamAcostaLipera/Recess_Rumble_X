@@ -3709,7 +3709,7 @@ MonoBehaviour:
         z:
           _serializedValue: 0
     hitToggle: 1
-    damageOptionsToggle: 1
+    damageOptionsToggle: 0
     hitStunOptionsToggle: 1
     forceOptionsToggle: 0
     opponentForceToggle: 1

@@ -24,11 +24,11 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   selectedStage:
-    stageName: 'CAFE '
+    stageName: 5B
     stageLoadingMethod: 0
     stagePath: 
-    screenshot: {fileID: 2800000, guid: dd7c0aa0614877247a9787cfd1400696, type: 3}
-    prefab: {fileID: 100000, guid: c2d36dd548fde94418ef797470477ee5, type: 3}
+    screenshot: {fileID: 2800000, guid: 7a2abaf5eb3ec8845802e0e2b8e02ea9, type: 3}
+    prefab: {fileID: 100000, guid: 7f4458eca3b0fda48844cd225f15e75e, type: 3}
     music: {fileID: 0}
     _groundFriction:
       _serializedValue: 515396075520
@@ -276,10 +276,10 @@ MonoBehaviour:
     draw: Draw
     defaultSelection: 1
   deploymentOptions:
-    deploymentType: 0
+    deploymentType: 2
     activeCharacters:
+    - {fileID: 11400000, guid: 55d89405241307344848b26d2f8143f1, type: 2}
     - {fileID: 11400000, guid: 75f6f26ca92b59e4c893e99f44df6536, type: 2}
-    - {fileID: 11400000, guid: 75f6f26ca92b59e4c893e99f44df6536, type: 2}
     - {fileID: 0}
     - {fileID: 0}
     - {fileID: 0}
@@ -297,7 +297,7 @@ MonoBehaviour:
     - {fileID: 0}
     - {fileID: 0}
     - {fileID: 0}
-    AIControlled: 00000000000000010101010101010101010101
+    AIControlled: 01010000000000010101010101010101010101
     selectedTeamMode: 0
     selectedChallengeMode: 0
     skipLoadingScreen: 1
@@ -402,18 +402,19 @@ MonoBehaviour:
     cameraZoomKO: 1
     freezeCamAfterOutro: 1
   groundBounceOptions:
-    bounceForce: 2
-    bouncePrefab: {fileID: 197042, guid: 843fef1ba393e374396b9fd4fbbb02a0, type: 3}
+    bounceForce: 1
+    bouncePrefab: {fileID: 395031058680739610, guid: b2f0b8902a31c8a46a1c4bb24ed9ea36,
+      type: 3}
     bounceKillTime: 0.6
     _minimumBounceForce:
-      _serializedValue: 171798691840
+      _serializedValue: 0
     _maximumBounces:
-      _serializedValue: 8589934592
+      _serializedValue: 4294967296
     sticky: 0
     bounceHitBoxes: 1
     shakeCamOnBounce: 1
     _shakeDensity:
-      _serializedValue: 858993472
+      _serializedValue: 1288490240
     bounceSound: {fileID: 8300000, guid: 7cec4e4ba24f7db48b78639aa5b10a64, type: 3}
   wallBounceOptions:
     bounceForce: 2
@@ -466,7 +467,7 @@ MonoBehaviour:
     ignoreAppliedForceBlock: 1
     allowMoveCancel: 0
     blockHitEffects:
-      hitParticle: {fileID: 112666, guid: 3fd40a270c5473142bd7faab396e2b41, type: 3}
+      hitParticle: {fileID: 0}
       killTime: 0.5
       hitSound: {fileID: 8300000, guid: de89d708a053cb74d8701568c5ef36c9, type: 3}
       spawnPoint: 1
@@ -660,27 +661,28 @@ MonoBehaviour:
   hitOptions:
     resetAnimationOnHit: 0
     weakHit:
-      hitParticle: {fileID: 194664, guid: b71a09eefd747c94787f6bc98149a21d, type: 3}
-      killTime: 0.6
+      hitParticle: {fileID: 2427786012956944610, guid: da0de216ad60c5d46a6b049d61961615,
+        type: 3}
+      killTime: 1.6
       hitSound: {fileID: 8300000, guid: 774ee28c2b7080544a52dd5257df8dec, type: 3}
-      spawnPoint: 1
+      spawnPoint: 2
       _freezingTime:
-        _serializedValue: 429496736
+        _serializedValue: 858993472
       _animationSpeed:
         _serializedValue: 0
       autoHitStop: 1
       _hitStop:
-        _serializedValue: 429496736
+        _serializedValue: 858993472
       mirrorOn2PSide: 1
-      shakeCharacterOnHit: 0
-      shakeCameraOnHit: 0
+      shakeCharacterOnHit: 1
+      shakeCameraOnHit: 1
       _shakeDensity:
-        _serializedValue: 2576980480
+        _serializedValue: 4294967296
       _shakeCameraDensity:
-        _serializedValue: 3865470464
-      editorToggle: 0
+        _serializedValue: 2576980480
+      editorToggle: 1
     mediumHit:
-      hitParticle: {fileID: 109728, guid: 9e918342d2a8f7842a691dff3f82f043, type: 3}
+      hitParticle: {fileID: 0}
       killTime: 0.6
       hitSound: {fileID: 8300000, guid: 5b3bea24171c6534b81c07a298e51803, type: 3}
       spawnPoint: 1
@@ -700,10 +702,11 @@ MonoBehaviour:
         _serializedValue: 5153960960
       editorToggle: 0
     heavyHit:
-      hitParticle: {fileID: 184198, guid: 9c74fc77f6403ad4dba5b180423b14d1, type: 3}
-      killTime: 0.6
+      hitParticle: {fileID: 5880797563127281583, guid: 265d3a5ba69981a4698ceabcedf368b0,
+        type: 3}
+      killTime: 1.7
       hitSound: {fileID: 8300000, guid: 3864bae6ac61cd141b757a06fdd6feb2, type: 3}
-      spawnPoint: 1
+      spawnPoint: 2
       _freezingTime:
         _serializedValue: 644245120
       _animationSpeed:
@@ -712,16 +715,15 @@ MonoBehaviour:
       _hitStop:
         _serializedValue: 644245120
       mirrorOn2PSide: 0
-      shakeCharacterOnHit: 0
-      shakeCameraOnHit: 0
+      shakeCharacterOnHit: 1
+      shakeCameraOnHit: 1
       _shakeDensity:
-        _serializedValue: 1288490240
+        _serializedValue: 5583457280
       _shakeCameraDensity:
-        _serializedValue: 12884901888
+        _serializedValue: 4294967296
       editorToggle: 0
     crumpleHit:
-      hitParticle: {fileID: 1459499847029934, guid: e78df5c3545b7324991134d6f0eb6528,
-        type: 3}
+      hitParticle: {fileID: 0}
       killTime: 0.6
       hitSound: {fileID: 8300000, guid: 9b060d18ccffe394a9e36633b75d81e5, type: 3}
       spawnPoint: 1
@@ -759,7 +761,7 @@ MonoBehaviour:
         _serializedValue: 3435973888
       _shakeCameraDensity:
         _serializedValue: 3435973888
-      editorToggle: 1
+      editorToggle: 0
     customHit2:
       hitParticle: {fileID: 0}
       killTime: 0
@@ -863,7 +865,7 @@ MonoBehaviour:
   player1_Inputs:
   - inputType: 0
     inputButtonName: P1KeyboardHorizontal
-    engineRelatedButton: 0
+    engineRelatedButton: 1
     joystickAxisName: P1JoystickHorizontal
     cInputPositiveKeyName: P1Right
     cInputPositiveDefaultKey: D
@@ -879,7 +881,7 @@ MonoBehaviour:
     inputViewerIcon6: {fileID: 2800000, guid: 90523496d8897124e989ad256f109d27, type: 3}
   - inputType: 1
     inputButtonName: P1KeyboardVertical
-    engineRelatedButton: 3
+    engineRelatedButton: 2
     joystickAxisName: P1JoystickVertical
     cInputPositiveKeyName: P1Up
     cInputPositiveDefaultKey: W
@@ -1008,7 +1010,7 @@ MonoBehaviour:
   player2_Inputs:
   - inputType: 0
     inputButtonName: P2KeyboardHorizontal
-    engineRelatedButton: 1
+    engineRelatedButton: 0
     joystickAxisName: P2JoystickHorizontal
     cInputPositiveKeyName: P2Right
     cInputPositiveDefaultKey: RightArrow
@@ -1164,25 +1166,6 @@ MonoBehaviour:
     confirmButton: 4
     cancelButton: 7
   stages:
-  - stageName: AZOTEA
-    stageLoadingMethod: 0
-    stagePath: Assets/UFE/Demos/Shared_Assets/Stages/Rooftop/Rooftop.unity
-    screenshot: {fileID: 2800000, guid: 6ff6f79984d8a0d42a69fa7126694acc, type: 3}
-    prefab: {fileID: 100000, guid: 5520d39aec5319c4f951d422938cca6b, type: 3}
-    music: {fileID: 0}
-    _groundFriction:
-      _serializedValue: 515396075520
-    _leftBoundary:
-      _serializedValue: -64424509440
-    _rightBoundary:
-      _serializedValue: 68719476736
-    position:
-      x:
-        _serializedValue: 0
-      y:
-        _serializedValue: 0
-      z:
-        _serializedValue: 0
   - stageName: 5B
     stageLoadingMethod: 0
     stagePath: 
@@ -1195,6 +1178,25 @@ MonoBehaviour:
       _serializedValue: -68719476736
     _rightBoundary:
       _serializedValue: 73014444032
+    position:
+      x:
+        _serializedValue: 0
+      y:
+        _serializedValue: 0
+      z:
+        _serializedValue: 0
+  - stageName: AZOTEA
+    stageLoadingMethod: 0
+    stagePath: Assets/UFE/Demos/Shared_Assets/Stages/Rooftop/Rooftop.unity
+    screenshot: {fileID: 2800000, guid: 6ff6f79984d8a0d42a69fa7126694acc, type: 3}
+    prefab: {fileID: 100000, guid: 5520d39aec5319c4f951d422938cca6b, type: 3}
+    music: {fileID: 0}
+    _groundFriction:
+      _serializedValue: 515396075520
+    _leftBoundary:
+      _serializedValue: -64424509440
+    _rightBoundary:
+      _serializedValue: 68719476736
     position:
       x:
         _serializedValue: 0

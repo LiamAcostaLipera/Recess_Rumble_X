@@ -3911,7 +3911,7 @@ MonoBehaviour:
         _serializedValue: 0
       z:
         _serializedValue: 0
-    hitStrength: 1
+    hitStrength: 2
     hitType: 0
     moveLinkOnStrike: {fileID: 0}
     moveLinkOnBlock: {fileID: 0}
