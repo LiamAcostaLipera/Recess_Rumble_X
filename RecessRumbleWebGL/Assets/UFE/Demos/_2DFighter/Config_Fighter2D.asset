@@ -24,18 +24,18 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   selectedStage:
-    stageName: AZOTEA
+    stageName: 'CAFE '
     stageLoadingMethod: 0
-    stagePath: Assets/UFE/Demos/Shared_Assets/Stages/Rooftop/Rooftop.unity
-    screenshot: {fileID: 2800000, guid: 6ff6f79984d8a0d42a69fa7126694acc, type: 3}
-    prefab: {fileID: 100000, guid: 5520d39aec5319c4f951d422938cca6b, type: 3}
+    stagePath: 
+    screenshot: {fileID: 2800000, guid: dd7c0aa0614877247a9787cfd1400696, type: 3}
+    prefab: {fileID: 100000, guid: c2d36dd548fde94418ef797470477ee5, type: 3}
     music: {fileID: 0}
     _groundFriction:
       _serializedValue: 515396075520
     _leftBoundary:
-      _serializedValue: -64424509440
+      _serializedValue: -68719476736
     _rightBoundary:
-      _serializedValue: 68719476736
+      _serializedValue: 73014444032
     position:
       x:
         _serializedValue: 0
@@ -215,6 +215,16 @@ MonoBehaviour:
               type: 3}
             opponentCharacterIndex: 0
             possibleStagesIndexes: 02000000
+          - conversationBeforeBattle: {fileID: 7516048182482662173, guid: e4cdccf1caa48994080b168a7777b2a1,
+              type: 3}
+            conversationAfterBattle: {fileID: 7516048182482662173, guid: a3b51dc02d347a34f9f269e50bd44ca0,
+              type: 3}
+            opponentCharacterIndex: 3
+            possibleStagesIndexes: 03000000
+          - conversationBeforeBattle: {fileID: 0}
+            conversationAfterBattle: {fileID: 0}
+            opponentCharacterIndex: 1
+            possibleStagesIndexes: 00000000
           showOpponentsInEditor: 1
         showStoryInEditor: 1
       - opening: {fileID: 0}
@@ -266,7 +276,7 @@ MonoBehaviour:
     draw: Draw
     defaultSelection: 1
   deploymentOptions:
-    deploymentType: 1
+    deploymentType: 0
     activeCharacters:
     - {fileID: 11400000, guid: 75f6f26ca92b59e4c893e99f44df6536, type: 2}
     - {fileID: 11400000, guid: 75f6f26ca92b59e4c893e99f44df6536, type: 2}
@@ -853,7 +863,7 @@ MonoBehaviour:
   player1_Inputs:
   - inputType: 0
     inputButtonName: P1KeyboardHorizontal
-    engineRelatedButton: 1
+    engineRelatedButton: 0
     joystickAxisName: P1JoystickHorizontal
     cInputPositiveKeyName: P1Right
     cInputPositiveDefaultKey: D
