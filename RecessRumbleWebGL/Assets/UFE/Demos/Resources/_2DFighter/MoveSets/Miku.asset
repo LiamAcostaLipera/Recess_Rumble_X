@@ -58681,7 +58681,8 @@ MonoBehaviour:
       lockYMotion: 0
       lockZMotion: 0
       loopDownClip: 0
-      soundEffects: []
+      soundEffects:
+      - {fileID: 8300000, guid: 26ddb18438d8e7f46a2b47838f6ab228, type: 3}
       continuousSound: 0
       particleEffect:
         editorToggle: 0
@@ -58698,7 +58699,7 @@ MonoBehaviour:
       reference: 5
       name: jumpStraight
       editorToggle: 0
-      soundEffectsToggle: 0
+      soundEffectsToggle: 1
     jumpBack:
       animMap:
       - animationMaps: []
@@ -58763,7 +58764,8 @@ MonoBehaviour:
       lockYMotion: 0
       lockZMotion: 0
       loopDownClip: 0
-      soundEffects: []
+      soundEffects:
+      - {fileID: 8300000, guid: 26ddb18438d8e7f46a2b47838f6ab228, type: 3}
       continuousSound: 0
       particleEffect:
         editorToggle: 0
@@ -58780,7 +58782,7 @@ MonoBehaviour:
       reference: 6
       name: jumpBack
       editorToggle: 0
-      soundEffectsToggle: 0
+      soundEffectsToggle: 1
     jumpForward:
       animMap:
       - animationMaps: []
@@ -58845,7 +58847,8 @@ MonoBehaviour:
       lockYMotion: 0
       lockZMotion: 0
       loopDownClip: 0
-      soundEffects: []
+      soundEffects:
+      - {fileID: 8300000, guid: 26ddb18438d8e7f46a2b47838f6ab228, type: 3}
       continuousSound: 0
       particleEffect:
         editorToggle: 0
@@ -58862,7 +58865,7 @@ MonoBehaviour:
       reference: 7
       name: jumpForward
       editorToggle: 0
-      soundEffectsToggle: 0
+      soundEffectsToggle: 1
     fallStraight:
       animMap:
       - animationMaps:
@@ -63560,21 +63563,22 @@ MonoBehaviour:
       soundEffects: []
       continuousSound: 0
       particleEffect:
-        editorToggle: 0
-        prefab: {fileID: 0}
-        duration: 0
+        editorToggle: 1
+        prefab: {fileID: 481947888716730270, guid: b4f04d135faa2bc42b6a131603b9e813,
+          type: 3}
+        duration: 0.5
         stick: 0
         destroyOnMoveOver: 0
         followRotation: 0
         lockLocalPosition: 0
         mirrorOn2PSide: 0
         initialRotation: {x: 0, y: 0, z: 0}
-        positionOffSet: {x: 0, y: 0, z: 0}
+        positionOffSet: {x: 0.3, y: -2.54, z: 0}
         bodyPart: 0
       reference: 11
       name: landing
-      editorToggle: 0
-      soundEffectsToggle: 0
+      editorToggle: 1
+      soundEffectsToggle: 1
     blockingCrouchingPose:
       animMap:
       - animationMaps:
@@ -85840,7 +85844,10 @@ MonoBehaviour:
       lockYMotion: 0
       lockZMotion: 0
       loopDownClip: 0
-      soundEffects: []
+      soundEffects:
+      - {fileID: 8300000, guid: 3c02d46541fce6d47a31142bcbb7a85e, type: 3}
+      - {fileID: 8300000, guid: 00d0ca0e2e8d67a4996e79079c0f74bb, type: 3}
+      - {fileID: 8300000, guid: cf856f965b4585548a7b045a306412d8, type: 3}
       continuousSound: 0
       particleEffect:
         editorToggle: 0
@@ -85857,7 +85864,7 @@ MonoBehaviour:
       reference: 25
       name: getHitCrouching
       editorToggle: 0
-      soundEffectsToggle: 0
+      soundEffectsToggle: 1
     getHitHigh:
       animMap:
       - animationMaps:
@@ -88409,7 +88416,10 @@ MonoBehaviour:
       lockYMotion: 0
       lockZMotion: 0
       loopDownClip: 0
-      soundEffects: []
+      soundEffects:
+      - {fileID: 8300000, guid: 3c02d46541fce6d47a31142bcbb7a85e, type: 3}
+      - {fileID: 8300000, guid: 00d0ca0e2e8d67a4996e79079c0f74bb, type: 3}
+      - {fileID: 8300000, guid: cf856f965b4585548a7b045a306412d8, type: 3}
       continuousSound: 0
       particleEffect:
         editorToggle: 0
@@ -104343,7 +104353,8 @@ MonoBehaviour:
       lockYMotion: 0
       lockZMotion: 0
       loopDownClip: 0
-      soundEffects: []
+      soundEffects:
+      - {fileID: 8300000, guid: 00d0ca0e2e8d67a4996e79079c0f74bb, type: 3}
       continuousSound: 0
       particleEffect:
         editorToggle: 0
@@ -104360,7 +104371,7 @@ MonoBehaviour:
       reference: 30
       name: getHitSweep
       editorToggle: 0
-      soundEffectsToggle: 0
+      soundEffectsToggle: 1
     standUp:
       animMap:
       - animationMaps:
@@ -109568,10 +109579,10 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 6af2cf8097374534691c491a541ccbbd, type: 2}
   - {fileID: 11400000, guid: 12ba1863db7a1eb4db6103e7231915f5, type: 2}
   - {fileID: 11400000, guid: 6921442795da7b443af4d86b912e0e63, type: 2}
-  - {fileID: 11400000, guid: f085c116613a026459be404568c2540a, type: 2}
   - {fileID: 11400000, guid: 986750775b0877b4aa754df7ab68dedf, type: 2}
   - {fileID: 11400000, guid: f67688c19782bea40a3ff6edd8dec259, type: 2}
   - {fileID: 11400000, guid: eaae6bb997e422944b4e4340b115ed11, type: 2}
+  - {fileID: 11400000, guid: f085c116613a026459be404568c2540a, type: 2}
   - {fileID: 11400000, guid: d8d6e599cafd1384293dc016d6c19d1e, type: 2}
   - {fileID: 11400000, guid: 0ae84d8c0b165d14983328303bc93531, type: 2}
   - {fileID: 11400000, guid: 81bf4eb9adc49434598c4b3f9928253f, type: 2}

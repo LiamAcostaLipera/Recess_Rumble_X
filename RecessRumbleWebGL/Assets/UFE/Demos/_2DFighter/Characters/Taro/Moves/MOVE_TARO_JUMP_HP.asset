@@ -3499,8 +3499,13 @@ MonoBehaviour:
   soundEffects:
   - castingFrame: 0
     sounds:
-    - {fileID: 8300000, guid: 4d403211f8809934dab7d665b461b0e4, type: 3}
-    soundEffectsToggle: 0
+    - {fileID: 8300000, guid: c1fc60cc54dfe0c42bad64d9a9046926, type: 3}
+    soundEffectsToggle: 1
+  - castingFrame: 3
+    sounds:
+    - {fileID: 8300000, guid: 7d6993a3bec69624eb31c6fa0d6baddf, type: 3}
+    - {fileID: 0}
+    soundEffectsToggle: 1
   inGameAlert: []
   stanceChanges: []
   cameraMovements: []

@@ -3481,8 +3481,13 @@ MonoBehaviour:
   soundEffects:
   - castingFrame: 0
     sounds:
-    - {fileID: 8300000, guid: 4d403211f8809934dab7d665b461b0e4, type: 3}
-    soundEffectsToggle: 0
+    - {fileID: 8300000, guid: 35f1dd65e43abe84cb8f1fe9d6f8ec52, type: 3}
+    soundEffectsToggle: 1
+  - castingFrame: 0
+    sounds:
+    - {fileID: 8300000, guid: 1c9b9adf6038db14e9252c4581cfd231, type: 3}
+    - {fileID: 0}
+    soundEffectsToggle: 1
   inGameAlert: []
   stanceChanges: []
   cameraMovements: []
@@ -3638,7 +3643,7 @@ MonoBehaviour:
         _serializedValue: 0
       z:
         _serializedValue: 0
-    cornerPush: 1
+    cornerPush: 0
     groundBounce: 1
     overrideForcesOnGroundBounce: 0
     resetGroundBounceHorizontalPush: 0
@@ -3693,8 +3698,8 @@ MonoBehaviour:
         z:
           _serializedValue: 0
     hitToggle: 1
-    damageOptionsToggle: 1
-    hitStunOptionsToggle: 1
+    damageOptionsToggle: 0
+    hitStunOptionsToggle: 0
     forceOptionsToggle: 0
     opponentForceToggle: 0
     selfForceToggle: 0
@@ -3853,7 +3858,7 @@ MonoBehaviour:
   stateOverride: []
   armorOptions:
     activeFramesBegin: 0
-    activeFramesEnds: 0
+    activeFramesEnds: 1
     overrideHitEffects: 0
     hitEffects:
       hitParticle: {fileID: 0}

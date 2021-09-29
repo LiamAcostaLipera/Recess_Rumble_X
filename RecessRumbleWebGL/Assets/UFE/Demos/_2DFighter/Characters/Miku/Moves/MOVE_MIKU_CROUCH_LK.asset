@@ -163,7 +163,16 @@ MonoBehaviour:
   bodyPartVisibilityChanges: []
   opponentOverride: []
   characterAssist: []
-  soundEffects: []
+  soundEffects:
+  - castingFrame: 0
+    sounds:
+    - {fileID: 8300000, guid: c0b4269b0a2f9d74b8d1d1684a1f25e5, type: 3}
+    soundEffectsToggle: 1
+  - castingFrame: 4
+    sounds:
+    - {fileID: 8300000, guid: fcf502e6e50fcf947adf38ccbdbcaf7d, type: 3}
+    - {fileID: 0}
+    soundEffectsToggle: 1
   inGameAlert: []
   stanceChanges: []
   cameraMovements: []

@@ -319,7 +319,7 @@ MonoBehaviour:
     deploymentType: 0
     activeCharacters:
     - {fileID: 11400000, guid: 55d89405241307344848b26d2f8143f1, type: 2}
-    - {fileID: 11400000, guid: 75f6f26ca92b59e4c893e99f44df6536, type: 2}
+    - {fileID: 11400000, guid: 55d89405241307344848b26d2f8143f1, type: 2}
     - {fileID: 0}
     - {fileID: 0}
     - {fileID: 0}
@@ -337,7 +337,7 @@ MonoBehaviour:
     - {fileID: 0}
     - {fileID: 0}
     - {fileID: 0}
-    AIControlled: 01010000000000010101010101010101010101
+    AIControlled: 00000000000000010101010101010101010101
     selectedTeamMode: 0
     selectedChallengeMode: 0
     skipLoadingScreen: 1
@@ -447,14 +447,14 @@ MonoBehaviour:
       type: 3}
     bounceKillTime: 0.6
     _minimumBounceForce:
-      _serializedValue: 0
+      _serializedValue: 429496736
     _maximumBounces:
-      _serializedValue: 4294967296
+      _serializedValue: 0
     sticky: 0
     bounceHitBoxes: 1
     shakeCamOnBounce: 1
     _shakeDensity:
-      _serializedValue: 1288490240
+      _serializedValue: 2147483648
     bounceSound: {fileID: 8300000, guid: 7cec4e4ba24f7db48b78639aa5b10a64, type: 3}
   wallBounceOptions:
     bounceForce: 2
@@ -704,7 +704,7 @@ MonoBehaviour:
       hitParticle: {fileID: 2427786012956944610, guid: da0de216ad60c5d46a6b049d61961615,
         type: 3}
       killTime: 1.6
-      hitSound: {fileID: 8300000, guid: 774ee28c2b7080544a52dd5257df8dec, type: 3}
+      hitSound: {fileID: 8300000, guid: 1c113f51817c54c4e9da62ee1d211a76, type: 3}
       spawnPoint: 2
       _freezingTime:
         _serializedValue: 858993472
@@ -720,7 +720,7 @@ MonoBehaviour:
         _serializedValue: 4294967296
       _shakeCameraDensity:
         _serializedValue: 2576980480
-      editorToggle: 1
+      editorToggle: 0
     mediumHit:
       hitParticle: {fileID: 0}
       killTime: 0.6
@@ -745,7 +745,7 @@ MonoBehaviour:
       hitParticle: {fileID: 5880797563127281583, guid: 265d3a5ba69981a4698ceabcedf368b0,
         type: 3}
       killTime: 1.7
-      hitSound: {fileID: 8300000, guid: 3864bae6ac61cd141b757a06fdd6feb2, type: 3}
+      hitSound: {fileID: 8300000, guid: b6af284677adb624f915881e1a520ebe, type: 3}
       spawnPoint: 2
       _freezingTime:
         _serializedValue: 644245120
@@ -783,25 +783,26 @@ MonoBehaviour:
         _serializedValue: 3435973888
       editorToggle: 0
     customHit1:
-      hitParticle: {fileID: 0}
-      killTime: 0
-      hitSound: {fileID: 0}
-      spawnPoint: 1
+      hitParticle: {fileID: 2427786012956944610, guid: da0de216ad60c5d46a6b049d61961615,
+        type: 3}
+      killTime: 1.6
+      hitSound: {fileID: 8300000, guid: cb606934f98bc4d408b630aa86b79889, type: 3}
+      spawnPoint: 2
       _freezingTime:
-        _serializedValue: 0
+        _serializedValue: 858993472
       _animationSpeed:
-        _serializedValue: 429496736
+        _serializedValue: 0
       autoHitStop: 1
       _hitStop:
-        _serializedValue: 0
-      mirrorOn2PSide: 0
+        _serializedValue: 858993472
+      mirrorOn2PSide: 1
       shakeCharacterOnHit: 1
-      shakeCameraOnHit: 0
+      shakeCameraOnHit: 1
       _shakeDensity:
-        _serializedValue: 3435973888
+        _serializedValue: 4294967296
       _shakeCameraDensity:
-        _serializedValue: 3435973888
-      editorToggle: 0
+        _serializedValue: 2576980480
+      editorToggle: 1
     customHit2:
       hitParticle: {fileID: 0}
       killTime: 0
@@ -1050,7 +1051,7 @@ MonoBehaviour:
   player2_Inputs:
   - inputType: 0
     inputButtonName: P2KeyboardHorizontal
-    engineRelatedButton: 1
+    engineRelatedButton: 0
     joystickAxisName: P2JoystickHorizontal
     cInputPositiveKeyName: P2Right
     cInputPositiveDefaultKey: RightArrow
@@ -1719,9 +1720,9 @@ MonoBehaviour:
     synchronizationMessageFrequency: 2
     synchronizationAction: 1
   music: 1
-  musicVolume: 1
+  musicVolume: 0.56115556
   soundfx: 1
-  soundfxVolume: 1
+  soundfxVolume: 0.56115556
   colorStateOne: {r: 1, g: 0, b: 0, a: 1}
   colorIsHit: {r: 1, g: 0, b: 1, a: 1}
   colorBodyCollider: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
