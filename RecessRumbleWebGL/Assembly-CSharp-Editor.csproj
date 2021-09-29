@@ -55,6 +55,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\JMO Assets\Cartoon FX (legacy)\Editor\CFX_InspectorHelpEditor.cs" />
+     <Compile Include="Assets\JMO Assets\Cartoon FX (legacy)\Editor\CFX_SpawnSystemEditor.cs" />
      <Compile Include="Assets\UFE\Engine\Scripts\UI_Templates\Editor\DefaultCharacterSelectionScreenEditor.cs" />
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
@@ -254,35 +256,38 @@
  <Reference Include="UnityEditor.WebGL.Extensions">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.29f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll</HintPath>
  </Reference>
+ <Reference Include="UnityEditor.UWP.Extensions">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.29f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll</HintPath>
+ </Reference>
  <Reference Include="UFE3D">
- <HintPath>C:/Users/Nicole/Desktop/Recess_Rumble_X/RecessRumbleWebGL/Assets/UFE/Engine/Plugins/UFE3D.dll</HintPath>
+ <HintPath>C:/Users/heber/Documents/USAL/Taller de Arte/TADD4/Cuatri2/RecessRumbleWebGL/Assets/UFE/Engine/Plugins/UFE3D.dll</HintPath>
  </Reference>
  <Reference Include="UFE3D.Editor">
- <HintPath>C:/Users/Nicole/Desktop/Recess_Rumble_X/RecessRumbleWebGL/Assets/UFE/Engine/Plugins/Editor/UFE3D.Editor.dll</HintPath>
+ <HintPath>C:/Users/heber/Documents/USAL/Taller de Arte/TADD4/Cuatri2/RecessRumbleWebGL/Assets/UFE/Engine/Plugins/Editor/UFE3D.Editor.dll</HintPath>
  </Reference>
  <Reference Include="AForge.Core">
- <HintPath>C:/Users/Nicole/Desktop/Recess_Rumble_X/RecessRumbleWebGL/Assets/UFE/Engine/Scripts/AI/FuzzyAI/Dependencies/AForge.Core.dll</HintPath>
+ <HintPath>C:/Users/heber/Documents/USAL/Taller de Arte/TADD4/Cuatri2/RecessRumbleWebGL/Assets/UFE/Engine/Scripts/AI/FuzzyAI/Dependencies/AForge.Core.dll</HintPath>
  </Reference>
  <Reference Include="AForge.Fuzzy">
- <HintPath>C:/Users/Nicole/Desktop/Recess_Rumble_X/RecessRumbleWebGL/Assets/UFE/Engine/Scripts/AI/FuzzyAI/Dependencies/AForge.Fuzzy.dll</HintPath>
+ <HintPath>C:/Users/heber/Documents/USAL/Taller de Arte/TADD4/Cuatri2/RecessRumbleWebGL/Assets/UFE/Engine/Scripts/AI/FuzzyAI/Dependencies/AForge.Fuzzy.dll</HintPath>
  </Reference>
  <Reference Include="AI4Unity.Fuzzy">
- <HintPath>C:/Users/Nicole/Desktop/Recess_Rumble_X/RecessRumbleWebGL/Assets/UFE/Engine/Scripts/AI/FuzzyAI/Dependencies/AI4Unity.Fuzzy.dll</HintPath>
+ <HintPath>C:/Users/heber/Documents/USAL/Taller de Arte/TADD4/Cuatri2/RecessRumbleWebGL/Assets/UFE/Engine/Scripts/AI/FuzzyAI/Dependencies/AI4Unity.Fuzzy.dll</HintPath>
  </Reference>
  <Reference Include="log4netPlastic">
- <HintPath>C:/Users/Nicole/Desktop/Recess_Rumble_X/RecessRumbleWebGL/Library/PackageCache/com.unity.collab-proxy@1.6.0/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+ <HintPath>C:/Users/heber/Documents/USAL/Taller de Arte/TADD4/Cuatri2/RecessRumbleWebGL/Library/PackageCache/com.unity.collab-proxy@1.6.0/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Plastic.Antlr3.Runtime">
- <HintPath>C:/Users/Nicole/Desktop/Recess_Rumble_X/RecessRumbleWebGL/Library/PackageCache/com.unity.collab-proxy@1.6.0/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+ <HintPath>C:/Users/heber/Documents/USAL/Taller de Arte/TADD4/Cuatri2/RecessRumbleWebGL/Library/PackageCache/com.unity.collab-proxy@1.6.0/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Plastic.Newtonsoft.Json">
- <HintPath>C:/Users/Nicole/Desktop/Recess_Rumble_X/RecessRumbleWebGL/Library/PackageCache/com.unity.collab-proxy@1.6.0/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+ <HintPath>C:/Users/heber/Documents/USAL/Taller de Arte/TADD4/Cuatri2/RecessRumbleWebGL/Library/PackageCache/com.unity.collab-proxy@1.6.0/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="unityplastic">
- <HintPath>C:/Users/Nicole/Desktop/Recess_Rumble_X/RecessRumbleWebGL/Library/PackageCache/com.unity.collab-proxy@1.6.0/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
+ <HintPath>C:/Users/heber/Documents/USAL/Taller de Arte/TADD4/Cuatri2/RecessRumbleWebGL/Library/PackageCache/com.unity.collab-proxy@1.6.0/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
- <HintPath>C:/Users/Nicole/Desktop/Recess_Rumble_X/RecessRumbleWebGL/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+ <HintPath>C:/Users/heber/Documents/USAL/Taller de Arte/TADD4/Cuatri2/RecessRumbleWebGL/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.29f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -642,52 +647,68 @@
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.TestRunner">
- <HintPath>C:/Users/Nicole/Desktop/Recess_Rumble_X/RecessRumbleWebGL/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+ <HintPath>C:/Users/heber/Documents/USAL/Taller de Arte/TADD4/Cuatri2/RecessRumbleWebGL/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.TestRunner">
- <HintPath>C:/Users/Nicole/Desktop/Recess_Rumble_X/RecessRumbleWebGL/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+ <HintPath>C:/Users/heber/Documents/USAL/Taller de Arte/TADD4/Cuatri2/RecessRumbleWebGL/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline.Editor">
- <HintPath>C:/Users/Nicole/Desktop/Recess_Rumble_X/RecessRumbleWebGL/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ <HintPath>C:/Users/heber/Documents/USAL/Taller de Arte/TADD4/Cuatri2/RecessRumbleWebGL/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VSCode.Editor">
- <HintPath>C:/Users/Nicole/Desktop/Recess_Rumble_X/RecessRumbleWebGL/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ <HintPath>C:/Users/heber/Documents/USAL/Taller de Arte/TADD4/Cuatri2/RecessRumbleWebGL/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>C:/Users/Nicole/Desktop/Recess_Rumble_X/RecessRumbleWebGL/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>C:/Users/heber/Documents/USAL/Taller de Arte/TADD4/Cuatri2/RecessRumbleWebGL/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>C:/Users/Nicole/Desktop/Recess_Rumble_X/RecessRumbleWebGL/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>C:/Users/heber/Documents/USAL/Taller de Arte/TADD4/Cuatri2/RecessRumbleWebGL/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline">
- <HintPath>C:/Users/Nicole/Desktop/Recess_Rumble_X/RecessRumbleWebGL/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+ <HintPath>C:/Users/heber/Documents/USAL/Taller de Arte/TADD4/Cuatri2/RecessRumbleWebGL/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
  </Reference>
  <Reference Include="Unity.CollabProxy.Editor">
- <HintPath>C:/Users/Nicole/Desktop/Recess_Rumble_X/RecessRumbleWebGL/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+ <HintPath>C:/Users/heber/Documents/USAL/Taller de Arte/TADD4/Cuatri2/RecessRumbleWebGL/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Rider.Editor">
- <HintPath>C:/Users/Nicole/Desktop/Recess_Rumble_X/RecessRumbleWebGL/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+ <HintPath>C:/Users/heber/Documents/USAL/Taller de Arte/TADD4/Cuatri2/RecessRumbleWebGL/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.2D.Sprite.Editor">
- <HintPath>C:/Users/Nicole/Desktop/Recess_Rumble_X/RecessRumbleWebGL/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+ <HintPath>C:/Users/heber/Documents/USAL/Taller de Arte/TADD4/Cuatri2/RecessRumbleWebGL/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VisualStudio.Editor">
- <HintPath>C:/Users/Nicole/Desktop/Recess_Rumble_X/RecessRumbleWebGL/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+ <HintPath>C:/Users/heber/Documents/USAL/Taller de Arte/TADD4/Cuatri2/RecessRumbleWebGL/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>C:/Users/Nicole/Desktop/Recess_Rumble_X/RecessRumbleWebGL/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>C:/Users/heber/Documents/USAL/Taller de Arte/TADD4/Cuatri2/RecessRumbleWebGL/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="Unity.PlasticSCM.Editor">
- <HintPath>C:/Users/Nicole/Desktop/Recess_Rumble_X/RecessRumbleWebGL/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
+ <HintPath>C:/Users/heber/Documents/USAL/Taller de Arte/TADD4/Cuatri2/RecessRumbleWebGL/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>C:/Users/Nicole/Desktop/Recess_Rumble_X/RecessRumbleWebGL/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>C:/Users/heber/Documents/USAL/Taller de Arte/TADD4/Cuatri2/RecessRumbleWebGL/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{16EDD3E9-F18E-6F8E-F3D7-99DFECD75586}</Project>
       <Name>Assembly-CSharp</Name>
+    </ProjectReference>
+    <ProjectReference Include="CFXRRuntime.csproj">
+      <Project>{B8B77BE5-3473-57A8-ECF0-A1B37E125BBB}</Project>
+      <Name>CFXRRuntime</Name>
+    </ProjectReference>
+    <ProjectReference Include="CFXREditor.csproj">
+      <Project>{F8178E1B-9D9D-1C32-FB32-B8C3E6FA0C51}</Project>
+      <Name>CFXREditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="CFXRDemo.csproj">
+      <Project>{191156BC-B651-BD4D-633F-9FC18929CC9D}</Project>
+      <Name>CFXRDemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="CFXRDemoEditor.csproj">
+      <Project>{4CAA0498-7053-BCE3-7BF0-3C6C3DC196AF}</Project>
+      <Name>CFXRDemoEditor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

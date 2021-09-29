@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Marie
   m_EditorClassIdentifier: 
   combatStance: 0
-  cinematicIntro: {fileID: 11400000, guid: 816efc708e7653d4dac17eb79ec0247c, type: 2}
+  cinematicIntro: {fileID: 11400000, guid: 41f63cbfe33edaa429a9f4f841a921f2, type: 2}
   cinematicOutro: {fileID: 11400000, guid: 885217323ce39b04f8e0a91e7a4cbb62, type: 2}
   basicMoves:
     idle:
