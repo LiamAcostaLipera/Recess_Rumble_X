@@ -200,7 +200,27 @@ MonoBehaviour:
         showStoryInEditor: 0
       - opening: {fileID: 0}
         ending: {fileID: 0}
-        fightsGroups: []
+        fightsGroups:
+        - maxFights: 4
+          mode: 1
+          name: HISTORIA
+          opponents:
+          - conversationBeforeBattle: {fileID: 0}
+            conversationAfterBattle: {fileID: 7516048182482662173, guid: 62db1434b53e88942a486fe9bb3261c5,
+              type: 3}
+            opponentCharacterIndex: 0
+            possibleStagesIndexes: 00000000
+          - conversationBeforeBattle: {fileID: 0}
+            conversationAfterBattle: {fileID: 7516048182482662173, guid: 262ff57f6f0f86842a2c34005dbdc39c,
+              type: 3}
+            opponentCharacterIndex: 2
+            possibleStagesIndexes: 01000000
+          - conversationBeforeBattle: {fileID: 0}
+            conversationAfterBattle: {fileID: 7516048182482662173, guid: a0a8736d39e5d6b48940531ed56526dc,
+              type: 3}
+            opponentCharacterIndex: 3
+            possibleStagesIndexes: 02000000
+          showOpponentsInEditor: 1
         showStoryInEditor: 0
       - opening: {fileID: 0}
         ending: {fileID: 0}
@@ -226,10 +246,30 @@ MonoBehaviour:
             opponentCharacterIndex: 1
             possibleStagesIndexes: 00000000
           showOpponentsInEditor: 1
-        showStoryInEditor: 1
+        showStoryInEditor: 0
       - opening: {fileID: 0}
         ending: {fileID: 0}
-        fightsGroups: []
+        fightsGroups:
+        - maxFights: 4
+          mode: 1
+          name: HISTORIA
+          opponents:
+          - conversationBeforeBattle: {fileID: 0}
+            conversationAfterBattle: {fileID: 7516048182482662173, guid: 22db045681141374c960bc50eb4a2401,
+              type: 3}
+            opponentCharacterIndex: 0
+            possibleStagesIndexes: 00000000
+          - conversationBeforeBattle: {fileID: 0}
+            conversationAfterBattle: {fileID: 7516048182482662173, guid: 4ba92db08cb9f1544b869ca1848cc371,
+              type: 3}
+            opponentCharacterIndex: 2
+            possibleStagesIndexes: 01000000
+          - conversationBeforeBattle: {fileID: 0}
+            conversationAfterBattle: {fileID: 7516048182482662173, guid: 166fd710e660bdc4ca04f1de0ebf6a2c,
+              type: 3}
+            opponentCharacterIndex: 1
+            possibleStagesIndexes: 02000000
+          showOpponentsInEditor: 1
         showStoryInEditor: 0
   fps: 60
   _gameSpeed:
@@ -865,7 +905,7 @@ MonoBehaviour:
   player1_Inputs:
   - inputType: 0
     inputButtonName: P1KeyboardHorizontal
-    engineRelatedButton: 1
+    engineRelatedButton: 0
     joystickAxisName: P1JoystickHorizontal
     cInputPositiveKeyName: P1Right
     cInputPositiveDefaultKey: D
@@ -1010,7 +1050,7 @@ MonoBehaviour:
   player2_Inputs:
   - inputType: 0
     inputButtonName: P2KeyboardHorizontal
-    engineRelatedButton: 0
+    engineRelatedButton: 1
     joystickAxisName: P2JoystickHorizontal
     cInputPositiveKeyName: P2Right
     cInputPositiveDefaultKey: RightArrow
