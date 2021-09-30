@@ -34072,7 +34072,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 0
       name: idle
-      editorToggle: 1
+      editorToggle: 0
       soundEffectsToggle: 0
     moveForward:
       animMap:
@@ -39634,7 +39634,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 1
       name: moveForward
-      editorToggle: 1
+      editorToggle: 0
       soundEffectsToggle: 0
     moveBack:
       animMap:
@@ -45196,7 +45196,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 2
       name: moveBack
-      editorToggle: 1
+      editorToggle: 0
       soundEffectsToggle: 0
     moveSideways:
       animMap:
@@ -55246,7 +55246,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 3
       name: crouching
-      editorToggle: 1
+      editorToggle: 0
       soundEffectsToggle: 0
     takeOff:
       animMap:
@@ -55327,7 +55327,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 0
       name: 
-      editorToggle: 1
+      editorToggle: 0
       soundEffectsToggle: 0
     jumpStraight:
       animMap:
@@ -58697,7 +58697,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 5
       name: jumpStraight
-      editorToggle: 1
+      editorToggle: 0
       soundEffectsToggle: 0
     jumpBack:
       animMap:
@@ -61409,7 +61409,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 8
       name: fallStraight
-      editorToggle: 1
+      editorToggle: 0
       soundEffectsToggle: 0
     fallBack:
       animMap:
@@ -61491,7 +61491,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 9
       name: fallBack
-      editorToggle: 1
+      editorToggle: 0
       soundEffectsToggle: 0
     fallForward:
       animMap:
@@ -61573,7 +61573,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 10
       name: fallForward
-      editorToggle: 1
+      editorToggle: 0
       soundEffectsToggle: 0
     landing:
       animMap:
@@ -63574,7 +63574,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 11
       name: landing
-      editorToggle: 1
+      editorToggle: 0
       soundEffectsToggle: 0
     blockingCrouchingPose:
       animMap:
@@ -66307,7 +66307,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 12
       name: blockingHighPose
-      editorToggle: 1
+      editorToggle: 0
       soundEffectsToggle: 0
     blockingHighHit:
       animMap:
@@ -67232,7 +67232,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 13
       name: blockingHighHit
-      editorToggle: 1
+      editorToggle: 0
       soundEffectsToggle: 0
     blockingLowHit:
       animMap:
@@ -67335,7 +67335,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 14
       name: blockingLowHit
-      editorToggle: 1
+      editorToggle: 0
       soundEffectsToggle: 0
     blockingAirPose:
       animMap:
@@ -74306,7 +74306,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 0
       name: 
-      editorToggle: 1
+      editorToggle: 0
       soundEffectsToggle: 0
     standingWallBounceKnockdown:
       animMap:
@@ -74387,7 +74387,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 0
       name: 
-      editorToggle: 1
+      editorToggle: 0
       soundEffectsToggle: 0
     airWallBounce:
       animMap:
@@ -77568,8 +77568,8 @@ MonoBehaviour:
               _serializedValue: 0
             z:
               _serializedValue: 0
-        clip: {fileID: 7400000, guid: dfb34f3a2ed019846adac5a210ed96e2, type: 2}
-        customHitBoxDefinition: {fileID: 11400000, guid: 43460ccc66fc7a64886f8476e2219822,
+        clip: {fileID: 7400000, guid: e9af59addf4a5df43a6024f98567f382, type: 2}
+        customHitBoxDefinition: {fileID: 11400000, guid: 4b2ada9f9ac025341b31f7c60798cef4,
           type: 2}
         length:
           _serializedValue: 1431655808
@@ -83130,8 +83130,8 @@ MonoBehaviour:
               _serializedValue: 0
             z:
               _serializedValue: 0
-        clip: {fileID: 7400000, guid: dfb34f3a2ed019846adac5a210ed96e2, type: 2}
-        customHitBoxDefinition: {fileID: 11400000, guid: 43460ccc66fc7a64886f8476e2219822,
+        clip: {fileID: 7400000, guid: e9af59addf4a5df43a6024f98567f382, type: 2}
+        customHitBoxDefinition: {fileID: 11400000, guid: 4b2ada9f9ac025341b31f7c60798cef4,
           type: 2}
         length:
           _serializedValue: 1431655808
@@ -88426,7 +88426,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 23
       name: getHitHigh
-      editorToggle: 1
+      editorToggle: 0
       soundEffectsToggle: 0
     getHitLow:
       animMap:
@@ -90994,7 +90994,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 24
       name: getHitLow
-      editorToggle: 1
+      editorToggle: 0
       soundEffectsToggle: 0
     getHitHighKnockdown:
       animMap:
@@ -92171,7 +92171,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 28
       name: getHitHighKnockdown
-      editorToggle: 1
+      editorToggle: 0
       soundEffectsToggle: 0
     getHitMidKnockdown:
       animMap:
@@ -94175,8 +94175,8 @@ MonoBehaviour:
               _serializedValue: 0
             z:
               _serializedValue: 0
-        clip: {fileID: 7400000, guid: dfb34f3a2ed019846adac5a210ed96e2, type: 2}
-        customHitBoxDefinition: {fileID: 11400000, guid: 43460ccc66fc7a64886f8476e2219822,
+        clip: {fileID: 7400000, guid: e9af59addf4a5df43a6024f98567f382, type: 2}
+        customHitBoxDefinition: {fileID: 11400000, guid: 4b2ada9f9ac025341b31f7c60798cef4,
           type: 2}
         length:
           _serializedValue: 1431655808
@@ -104283,8 +104283,8 @@ MonoBehaviour:
               _serializedValue: 0
             z:
               _serializedValue: 0
-        clip: {fileID: 7400000, guid: dfb34f3a2ed019846adac5a210ed96e2, type: 2}
-        customHitBoxDefinition: {fileID: 11400000, guid: 43460ccc66fc7a64886f8476e2219822,
+        clip: {fileID: 7400000, guid: e9af59addf4a5df43a6024f98567f382, type: 2}
+        customHitBoxDefinition: {fileID: 11400000, guid: 4b2ada9f9ac025341b31f7c60798cef4,
           type: 2}
         length:
           _serializedValue: 1431655808
@@ -108826,7 +108826,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 40
       name: standUp
-      editorToggle: 1
+      editorToggle: 0
       soundEffectsToggle: 0
     standUpFromAirHit:
       animMap:
@@ -108908,7 +108908,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 41
       name: standUpFromAirHit
-      editorToggle: 1
+      editorToggle: 0
       soundEffectsToggle: 0
     standUpFromKnockBack:
       animMap:
@@ -108990,7 +108990,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 42
       name: standUpFromKnockBack
-      editorToggle: 1
+      editorToggle: 0
       soundEffectsToggle: 0
     standUpFromStandingHighHit:
       animMap:
@@ -109071,7 +109071,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 0
       name: 
-      editorToggle: 1
+      editorToggle: 0
       soundEffectsToggle: 0
     standUpFromStandingMidHit:
       animMap:
@@ -109152,7 +109152,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 0
       name: 
-      editorToggle: 1
+      editorToggle: 0
       soundEffectsToggle: 0
     standUpFromCrumple:
       animMap:
@@ -109233,7 +109233,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 0
       name: 
-      editorToggle: 1
+      editorToggle: 0
       soundEffectsToggle: 0
     standUpFromSweep:
       animMap:
@@ -109314,7 +109314,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 0
       name: 
-      editorToggle: 1
+      editorToggle: 0
       soundEffectsToggle: 0
     standUpFromStandingWallBounce:
       animMap:
@@ -109395,7 +109395,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 0
       name: 
-      editorToggle: 1
+      editorToggle: 0
       soundEffectsToggle: 0
     standUpFromAirWallBounce:
       animMap:
@@ -109476,7 +109476,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 0
       name: 
-      editorToggle: 1
+      editorToggle: 0
       soundEffectsToggle: 0
     standUpFromGroundBounce:
       animMap:
@@ -109557,7 +109557,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 0
       name: 
-      editorToggle: 1
+      editorToggle: 0
       soundEffectsToggle: 0
     moveEnabled: 1
     jumpEnabled: 1
@@ -109568,17 +109568,17 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 2476e806e1385e44fa4e8536afa5f711, type: 2}
   - {fileID: 11400000, guid: 206fdbf355ff7ba40be572a5a3c04da6, type: 2}
   - {fileID: 11400000, guid: 0620594d8fbbcae428e31eec9b5d1594, type: 2}
-  - {fileID: 11400000, guid: 1819b2df0f96eed4f8778416eba6fa45, type: 2}
-  - {fileID: 11400000, guid: 1ef8dd9582e96054db44089c54d5eba9, type: 2}
   - {fileID: 11400000, guid: 6566a5cb98f31ae429bba765eef44729, type: 2}
   - {fileID: 11400000, guid: 98c484e25615c264eb0e8747e6d92671, type: 2}
+  - {fileID: 11400000, guid: 46fca648e5ee8d245b899c8d88f1ea65, type: 2}
   - {fileID: 11400000, guid: 3147ab48bdd6bde438d74bdb6a2006d8, type: 2}
-  - {fileID: 11400000, guid: 1243b420a5b955c499bbdc7b001569be, type: 2}
+  - {fileID: 11400000, guid: 1ef8dd9582e96054db44089c54d5eba9, type: 2}
+  - {fileID: 11400000, guid: 1819b2df0f96eed4f8778416eba6fa45, type: 2}
+  - {fileID: 11400000, guid: b4b867b08c15fa540ba7421e02a21aca, type: 2}
   - {fileID: 11400000, guid: 1dd808d352dad3b43a8d7d4e52833b9d, type: 2}
   - {fileID: 11400000, guid: 5b5a6ecaa5ed33247bf89937c0150a58, type: 2}
-  - {fileID: 11400000, guid: b4b867b08c15fa540ba7421e02a21aca, type: 2}
   - {fileID: 11400000, guid: 03be2c350971b86419780fcaa771c1cd, type: 2}
   - {fileID: 11400000, guid: ab4b44b40db2beb438ac968e30c4ff0a, type: 2}
   - {fileID: 11400000, guid: 3e7af183025a7374092f4925ca9be7de, type: 2}
   - {fileID: 11400000, guid: cf7c00f1e0cc1da4ba26d06018639c6f, type: 2}
-  - {fileID: 11400000, guid: 46fca648e5ee8d245b899c8d88f1ea65, type: 2}
+  - {fileID: 11400000, guid: 1243b420a5b955c499bbdc7b001569be, type: 2}
