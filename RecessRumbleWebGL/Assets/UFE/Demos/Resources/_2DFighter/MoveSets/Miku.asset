@@ -63577,7 +63577,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 11
       name: landing
-      editorToggle: 1
+      editorToggle: 0
       soundEffectsToggle: 1
     blockingCrouchingPose:
       animMap:
@@ -85762,8 +85762,8 @@ MonoBehaviour:
               _serializedValue: 0
             z:
               _serializedValue: 0
-        clip: {fileID: 7400000, guid: 8c9d583aaccbc2e46a2b1826da471db0, type: 2}
-        customHitBoxDefinition: {fileID: 11400000, guid: cc7a8d8ae4bad6f4aaf7544bd7bb3272,
+        clip: {fileID: 7400000, guid: 990cabc0a5117d341b03f9b1231cd705, type: 2}
+        customHitBoxDefinition: {fileID: 11400000, guid: c82e6ed482e247e4e95ee30a0d648dc5,
           type: 2}
         length:
           _serializedValue: 1073741824
@@ -85863,7 +85863,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 25
       name: getHitCrouching
-      editorToggle: 0
+      editorToggle: 1
       soundEffectsToggle: 1
     getHitHigh:
       animMap:
