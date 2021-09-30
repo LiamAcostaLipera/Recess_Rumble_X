@@ -34072,7 +34072,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 0
       name: idle
-      editorToggle: 0
+      editorToggle: 1
       soundEffectsToggle: 0
     moveForward:
       animMap:
@@ -39634,7 +39634,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 1
       name: moveForward
-      editorToggle: 0
+      editorToggle: 1
       soundEffectsToggle: 0
     moveBack:
       animMap:
@@ -45196,7 +45196,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 2
       name: moveBack
-      editorToggle: 0
+      editorToggle: 1
       soundEffectsToggle: 0
     moveSideways:
       animMap:
@@ -55246,7 +55246,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 3
       name: crouching
-      editorToggle: 0
+      editorToggle: 1
       soundEffectsToggle: 0
     takeOff:
       animMap:
@@ -55327,7 +55327,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 0
       name: 
-      editorToggle: 0
+      editorToggle: 1
       soundEffectsToggle: 0
     jumpStraight:
       animMap:
@@ -58697,7 +58697,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 5
       name: jumpStraight
-      editorToggle: 0
+      editorToggle: 1
       soundEffectsToggle: 0
     jumpBack:
       animMap:
@@ -61409,7 +61409,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 8
       name: fallStraight
-      editorToggle: 0
+      editorToggle: 1
       soundEffectsToggle: 0
     fallBack:
       animMap:
@@ -61491,7 +61491,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 9
       name: fallBack
-      editorToggle: 0
+      editorToggle: 1
       soundEffectsToggle: 0
     fallForward:
       animMap:
@@ -61573,7 +61573,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 10
       name: fallForward
-      editorToggle: 0
+      editorToggle: 1
       soundEffectsToggle: 0
     landing:
       animMap:
@@ -63574,7 +63574,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 11
       name: landing
-      editorToggle: 0
+      editorToggle: 1
       soundEffectsToggle: 0
     blockingCrouchingPose:
       animMap:
@@ -66307,7 +66307,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 12
       name: blockingHighPose
-      editorToggle: 0
+      editorToggle: 1
       soundEffectsToggle: 0
     blockingHighHit:
       animMap:
@@ -67232,7 +67232,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 13
       name: blockingHighHit
-      editorToggle: 0
+      editorToggle: 1
       soundEffectsToggle: 0
     blockingLowHit:
       animMap:
@@ -67335,7 +67335,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 14
       name: blockingLowHit
-      editorToggle: 0
+      editorToggle: 1
       soundEffectsToggle: 0
     blockingAirPose:
       animMap:
@@ -74306,7 +74306,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 0
       name: 
-      editorToggle: 0
+      editorToggle: 1
       soundEffectsToggle: 0
     standingWallBounceKnockdown:
       animMap:
@@ -74387,7 +74387,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 0
       name: 
-      editorToggle: 0
+      editorToggle: 1
       soundEffectsToggle: 0
     airWallBounce:
       animMap:
@@ -88426,7 +88426,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 23
       name: getHitHigh
-      editorToggle: 0
+      editorToggle: 1
       soundEffectsToggle: 0
     getHitLow:
       animMap:
@@ -90994,7 +90994,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 24
       name: getHitLow
-      editorToggle: 0
+      editorToggle: 1
       soundEffectsToggle: 0
     getHitHighKnockdown:
       animMap:
@@ -92171,7 +92171,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 28
       name: getHitHighKnockdown
-      editorToggle: 0
+      editorToggle: 1
       soundEffectsToggle: 0
     getHitMidKnockdown:
       animMap:
@@ -108749,8 +108749,8 @@ MonoBehaviour:
               _serializedValue: 0
             z:
               _serializedValue: 0
-        clip: {fileID: 7400000, guid: 3a44efb0279c66c41be511e1bc25df1d, type: 2}
-        customHitBoxDefinition: {fileID: 11400000, guid: df3c0bb2bb816004494104c2c0ba8c6f,
+        clip: {fileID: 7400000, guid: 913af118a1c1c0b46b3e4bf59ade052f, type: 2}
+        customHitBoxDefinition: {fileID: 11400000, guid: 2a150489fee8dcb41b0bd7e45d5936a5,
           type: 2}
         length:
           _serializedValue: 1431655808
@@ -108826,13 +108826,13 @@ MonoBehaviour:
         bodyPart: 0
       reference: 40
       name: standUp
-      editorToggle: 0
+      editorToggle: 1
       soundEffectsToggle: 0
     standUpFromAirHit:
       animMap:
       - animationMaps: []
-        clip: {fileID: 7400000, guid: 3a44efb0279c66c41be511e1bc25df1d, type: 2}
-        customHitBoxDefinition: {fileID: 11400000, guid: df3c0bb2bb816004494104c2c0ba8c6f,
+        clip: {fileID: 7400000, guid: 913af118a1c1c0b46b3e4bf59ade052f, type: 2}
+        customHitBoxDefinition: {fileID: 11400000, guid: 2a150489fee8dcb41b0bd7e45d5936a5,
           type: 2}
         length:
           _serializedValue: 1431655808
@@ -108908,13 +108908,13 @@ MonoBehaviour:
         bodyPart: 0
       reference: 41
       name: standUpFromAirHit
-      editorToggle: 0
+      editorToggle: 1
       soundEffectsToggle: 0
     standUpFromKnockBack:
       animMap:
       - animationMaps: []
-        clip: {fileID: 7400000, guid: 3a44efb0279c66c41be511e1bc25df1d, type: 2}
-        customHitBoxDefinition: {fileID: 11400000, guid: df3c0bb2bb816004494104c2c0ba8c6f,
+        clip: {fileID: 7400000, guid: 913af118a1c1c0b46b3e4bf59ade052f, type: 2}
+        customHitBoxDefinition: {fileID: 11400000, guid: 2a150489fee8dcb41b0bd7e45d5936a5,
           type: 2}
         length:
           _serializedValue: 1431655808
@@ -108990,7 +108990,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 42
       name: standUpFromKnockBack
-      editorToggle: 0
+      editorToggle: 1
       soundEffectsToggle: 0
     standUpFromStandingHighHit:
       animMap:
@@ -109071,7 +109071,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 0
       name: 
-      editorToggle: 0
+      editorToggle: 1
       soundEffectsToggle: 0
     standUpFromStandingMidHit:
       animMap:
@@ -109152,7 +109152,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 0
       name: 
-      editorToggle: 0
+      editorToggle: 1
       soundEffectsToggle: 0
     standUpFromCrumple:
       animMap:
@@ -109233,7 +109233,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 0
       name: 
-      editorToggle: 0
+      editorToggle: 1
       soundEffectsToggle: 0
     standUpFromSweep:
       animMap:
@@ -109314,7 +109314,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 0
       name: 
-      editorToggle: 0
+      editorToggle: 1
       soundEffectsToggle: 0
     standUpFromStandingWallBounce:
       animMap:
@@ -109395,7 +109395,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 0
       name: 
-      editorToggle: 0
+      editorToggle: 1
       soundEffectsToggle: 0
     standUpFromAirWallBounce:
       animMap:
@@ -109476,7 +109476,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 0
       name: 
-      editorToggle: 0
+      editorToggle: 1
       soundEffectsToggle: 0
     standUpFromGroundBounce:
       animMap:
@@ -109557,7 +109557,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 0
       name: 
-      editorToggle: 0
+      editorToggle: 1
       soundEffectsToggle: 0
     moveEnabled: 1
     jumpEnabled: 1
