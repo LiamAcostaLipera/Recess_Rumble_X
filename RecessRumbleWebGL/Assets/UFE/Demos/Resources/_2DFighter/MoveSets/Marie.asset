@@ -66231,7 +66231,7 @@ MonoBehaviour:
             z:
               _serializedValue: 0
         clip: {fileID: 7400000, guid: 3b1a79da739edae49a8feae84d563e54, type: 2}
-        customHitBoxDefinition: {fileID: 11400000, guid: f7d94c634fc1783488549f1e6ba59443,
+        customHitBoxDefinition: {fileID: 11400000, guid: 718c0f73106b30a408bbb4af894c4a5d,
           type: 2}
         length:
           _serializedValue: 1431655808
@@ -77645,7 +77645,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 37
       name: fallingFromAirHit
-      editorToggle: 1
+      editorToggle: 0
       soundEffectsToggle: 0
     fallDown:
       animMap:
