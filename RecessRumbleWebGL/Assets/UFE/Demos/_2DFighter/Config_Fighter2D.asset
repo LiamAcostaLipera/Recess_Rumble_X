@@ -196,7 +196,7 @@ MonoBehaviour:
               type: 3}
             opponentCharacterIndex: 1
             possibleStagesIndexes: 00000000
-          showOpponentsInEditor: 1
+          showOpponentsInEditor: 0
         showStoryInEditor: 0
       - opening: {fileID: 0}
         ending: {fileID: 0}
@@ -241,12 +241,14 @@ MonoBehaviour:
               type: 3}
             opponentCharacterIndex: 3
             possibleStagesIndexes: 03000000
-          - conversationBeforeBattle: {fileID: 0}
-            conversationAfterBattle: {fileID: 0}
+          - conversationBeforeBattle: {fileID: 7516048182482662173, guid: 46e8c75a122927e40a8ef6fba077b3f5,
+              type: 3}
+            conversationAfterBattle: {fileID: 7516048182482662173, guid: e7be8dcb3da8a5945a79f905d91b31cd,
+              type: 3}
             opponentCharacterIndex: 1
-            possibleStagesIndexes: 00000000
+            possibleStagesIndexes: 01000000
           showOpponentsInEditor: 1
-        showStoryInEditor: 0
+        showStoryInEditor: 1
       - opening: {fileID: 0}
         ending: {fileID: 0}
         fightsGroups:
