@@ -84,7 +84,7 @@ MonoBehaviour:
     round3: {fileID: 0}
     otherRounds: {fileID: 0}
     finalRound: {fileID: 0}
-    fight: {fileID: 0}
+    fight: {fileID: 8300000, guid: 2157a474287d9de4c97b529292851468, type: 3}
     player1Wins: {fileID: 0}
     player2Wins: {fileID: 0}
     perfect: {fileID: 0}
@@ -92,7 +92,7 @@ MonoBehaviour:
     counterHit: {fileID: 0}
     parry: {fileID: 0}
     timeOver: {fileID: 0}
-    ko: {fileID: 0}
+    ko: {fileID: 8300000, guid: 2157a474287d9de4c97b529292851468, type: 3}
     combos: []
   wonRounds:
     NotFinishedRounds: {fileID: 21300000, guid: a38dc7db859b547f0975e042056a836e,

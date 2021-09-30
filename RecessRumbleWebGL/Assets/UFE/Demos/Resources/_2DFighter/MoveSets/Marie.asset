@@ -77568,11 +77568,11 @@ MonoBehaviour:
               _serializedValue: 0
             z:
               _serializedValue: 0
-        clip: {fileID: 7400000, guid: e9af59addf4a5df43a6024f98567f382, type: 2}
-        customHitBoxDefinition: {fileID: 11400000, guid: 4b2ada9f9ac025341b31f7c60798cef4,
+        clip: {fileID: 7400000, guid: d9a9816d67374b64487c3c79dd58bf05, type: 2}
+        customHitBoxDefinition: {fileID: 11400000, guid: 03fd961755c099348be6bfd580d1210a,
           type: 2}
         length:
-          _serializedValue: 1431655808
+          _serializedValue: 715827904
         bakeSpeed: 0
         hitBoxDefinitionType: 1
       - animationMaps: []
@@ -77645,7 +77645,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 37
       name: fallingFromAirHit
-      editorToggle: 0
+      editorToggle: 1
       soundEffectsToggle: 0
     fallDown:
       animMap:
@@ -83130,11 +83130,11 @@ MonoBehaviour:
               _serializedValue: 0
             z:
               _serializedValue: 0
-        clip: {fileID: 7400000, guid: e9af59addf4a5df43a6024f98567f382, type: 2}
-        customHitBoxDefinition: {fileID: 11400000, guid: 4b2ada9f9ac025341b31f7c60798cef4,
+        clip: {fileID: 7400000, guid: f1fbeba8b48f9f548899115b3e3532dd, type: 2}
+        customHitBoxDefinition: {fileID: 11400000, guid: 2486a1bb704d42741a76a7a3059371e1,
           type: 2}
         length:
-          _serializedValue: 1431655808
+          _serializedValue: 715827904
         bakeSpeed: 0
         hitBoxDefinitionType: 1
       - animationMaps: []
@@ -94175,11 +94175,11 @@ MonoBehaviour:
               _serializedValue: 0
             z:
               _serializedValue: 0
-        clip: {fileID: 7400000, guid: e9af59addf4a5df43a6024f98567f382, type: 2}
-        customHitBoxDefinition: {fileID: 11400000, guid: 4b2ada9f9ac025341b31f7c60798cef4,
+        clip: {fileID: 7400000, guid: d9a9816d67374b64487c3c79dd58bf05, type: 2}
+        customHitBoxDefinition: {fileID: 11400000, guid: 03fd961755c099348be6bfd580d1210a,
           type: 2}
         length:
-          _serializedValue: 1431655808
+          _serializedValue: 715827904
         bakeSpeed: 0
         hitBoxDefinitionType: 1
       - animationMaps: []
@@ -104283,11 +104283,11 @@ MonoBehaviour:
               _serializedValue: 0
             z:
               _serializedValue: 0
-        clip: {fileID: 7400000, guid: e9af59addf4a5df43a6024f98567f382, type: 2}
-        customHitBoxDefinition: {fileID: 11400000, guid: 4b2ada9f9ac025341b31f7c60798cef4,
+        clip: {fileID: 7400000, guid: d9a9816d67374b64487c3c79dd58bf05, type: 2}
+        customHitBoxDefinition: {fileID: 11400000, guid: 03fd961755c099348be6bfd580d1210a,
           type: 2}
         length:
-          _serializedValue: 1431655808
+          _serializedValue: 715827904
         bakeSpeed: 0
         hitBoxDefinitionType: 1
       - animationMaps: []
@@ -109568,11 +109568,11 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 2476e806e1385e44fa4e8536afa5f711, type: 2}
   - {fileID: 11400000, guid: 206fdbf355ff7ba40be572a5a3c04da6, type: 2}
   - {fileID: 11400000, guid: 0620594d8fbbcae428e31eec9b5d1594, type: 2}
-  - {fileID: 11400000, guid: 6566a5cb98f31ae429bba765eef44729, type: 2}
-  - {fileID: 11400000, guid: 98c484e25615c264eb0e8747e6d92671, type: 2}
   - {fileID: 11400000, guid: 46fca648e5ee8d245b899c8d88f1ea65, type: 2}
   - {fileID: 11400000, guid: 3147ab48bdd6bde438d74bdb6a2006d8, type: 2}
   - {fileID: 11400000, guid: 1ef8dd9582e96054db44089c54d5eba9, type: 2}
+  - {fileID: 11400000, guid: 6566a5cb98f31ae429bba765eef44729, type: 2}
+  - {fileID: 11400000, guid: 98c484e25615c264eb0e8747e6d92671, type: 2}
   - {fileID: 11400000, guid: 1819b2df0f96eed4f8778416eba6fa45, type: 2}
   - {fileID: 11400000, guid: b4b867b08c15fa540ba7421e02a21aca, type: 2}
   - {fileID: 11400000, guid: 1dd808d352dad3b43a8d7d4e52833b9d, type: 2}

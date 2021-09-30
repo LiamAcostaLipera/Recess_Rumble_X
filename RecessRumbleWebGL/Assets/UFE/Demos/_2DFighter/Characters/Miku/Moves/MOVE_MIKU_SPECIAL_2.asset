@@ -3856,7 +3856,7 @@ MonoBehaviour:
     fixedZAxis: 0
     projectileCollision: 1
     unblockable: 0
-    mirrorOn2PSide: 0
+    mirrorOn2PSide: 1
     destroyWhenOffCameraBounds: 0
     applyGravity: 0
     limitMultiCasting: 0
