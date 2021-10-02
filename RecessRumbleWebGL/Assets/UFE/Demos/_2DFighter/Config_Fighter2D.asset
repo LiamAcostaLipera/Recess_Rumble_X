@@ -197,7 +197,7 @@ MonoBehaviour:
             opponentCharacterIndex: 1
             possibleStagesIndexes: 00000000
           showOpponentsInEditor: 0
-        showStoryInEditor: 0
+        showStoryInEditor: 1
       - opening: {fileID: 0}
         ending: {fileID: 0}
         fightsGroups:
@@ -205,7 +205,8 @@ MonoBehaviour:
           mode: 1
           name: HISTORIA
           opponents:
-          - conversationBeforeBattle: {fileID: 0}
+          - conversationBeforeBattle: {fileID: 7516048182482662173, guid: f80a59a57dd4b2345bd1a252865e4710,
+              type: 3}
             conversationAfterBattle: {fileID: 7516048182482662173, guid: 62db1434b53e88942a486fe9bb3261c5,
               type: 3}
             opponentCharacterIndex: 0
@@ -215,13 +216,14 @@ MonoBehaviour:
               type: 3}
             opponentCharacterIndex: 2
             possibleStagesIndexes: 01000000
-          - conversationBeforeBattle: {fileID: 0}
+          - conversationBeforeBattle: {fileID: 7516048182482662173, guid: 265c3ddfe8c73e64087c9a6b4ae13850,
+              type: 3}
             conversationAfterBattle: {fileID: 7516048182482662173, guid: a0a8736d39e5d6b48940531ed56526dc,
               type: 3}
             opponentCharacterIndex: 3
             possibleStagesIndexes: 02000000
           showOpponentsInEditor: 1
-        showStoryInEditor: 0
+        showStoryInEditor: 1
       - opening: {fileID: 0}
         ending: {fileID: 0}
         fightsGroups:
@@ -261,7 +263,8 @@ MonoBehaviour:
               type: 3}
             opponentCharacterIndex: 0
             possibleStagesIndexes: 00000000
-          - conversationBeforeBattle: {fileID: 0}
+          - conversationBeforeBattle: {fileID: 7516048182482662173, guid: e465815d403c60e4481a479bf2b2b275,
+              type: 3}
             conversationAfterBattle: {fileID: 7516048182482662173, guid: 4ba92db08cb9f1544b869ca1848cc371,
               type: 3}
             opponentCharacterIndex: 2
@@ -272,7 +275,7 @@ MonoBehaviour:
             opponentCharacterIndex: 1
             possibleStagesIndexes: 02000000
           showOpponentsInEditor: 1
-        showStoryInEditor: 0
+        showStoryInEditor: 1
   fps: 60
   _gameSpeed:
     _serializedValue: 4294967296
@@ -320,8 +323,8 @@ MonoBehaviour:
   deploymentOptions:
     deploymentType: 0
     activeCharacters:
-    - {fileID: 11400000, guid: 49075f7c9de81bf49880ac0ae2087666, type: 2}
     - {fileID: 11400000, guid: 6b761e7adeeaaef45af82e3fdda6d92d, type: 2}
+    - {fileID: 11400000, guid: 75f6f26ca92b59e4c893e99f44df6536, type: 2}
     - {fileID: 0}
     - {fileID: 0}
     - {fileID: 0}
@@ -425,7 +428,7 @@ MonoBehaviour:
     _endGameDelay:
       _serializedValue: 17179869184
     _showMenuDelay:
-      _serializedValue: 15032385536
+      _serializedValue: 10737418240
     _newRoundDelay:
       _serializedValue: 21474836480
     _slowMoTimer:
@@ -908,7 +911,7 @@ MonoBehaviour:
   player1_Inputs:
   - inputType: 0
     inputButtonName: P1KeyboardHorizontal
-    engineRelatedButton: 1
+    engineRelatedButton: 0
     joystickAxisName: P1JoystickHorizontal
     cInputPositiveKeyName: P1Right
     cInputPositiveDefaultKey: D
@@ -1069,7 +1072,7 @@ MonoBehaviour:
     inputViewerIcon6: {fileID: 2800000, guid: 90523496d8897124e989ad256f109d27, type: 3}
   - inputType: 1
     inputButtonName: P2KeyboardVertical
-    engineRelatedButton: 2
+    engineRelatedButton: 3
     joystickAxisName: P2JoystickVertical
     cInputPositiveKeyName: P2Up
     cInputPositiveDefaultKey: UpArrow
@@ -1212,7 +1215,7 @@ MonoBehaviour:
   - stageName: AZOTEA
     stageLoadingMethod: 0
     stagePath: Assets/UFE/Demos/Shared_Assets/Stages/Rooftop/Rooftop.unity
-    screenshot: {fileID: 2800000, guid: 6ff6f79984d8a0d42a69fa7126694acc, type: 3}
+    screenshot: {fileID: 2800000, guid: 82b1f62f0a657b54da446cf880e1df6e, type: 3}
     prefab: {fileID: 100000, guid: 5520d39aec5319c4f951d422938cca6b, type: 3}
     music: {fileID: 8300000, guid: bf3606e593828bb44bd041a73afbab0f, type: 3}
     _groundFriction:
@@ -1722,9 +1725,9 @@ MonoBehaviour:
     synchronizationMessageFrequency: 2
     synchronizationAction: 1
   music: 1
-  musicVolume: 0.39337954
+  musicVolume: 0
   soundfx: 1
-  soundfxVolume: 0.39337954
+  soundfxVolume: 0
   colorStateOne: {r: 1, g: 0, b: 0, a: 1}
   colorIsHit: {r: 1, g: 0, b: 1, a: 1}
   colorBodyCollider: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}

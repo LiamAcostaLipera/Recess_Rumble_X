@@ -55167,24 +55167,24 @@ MonoBehaviour:
               _serializedValue: 0
             z:
               _serializedValue: 0
-        clip: {fileID: 7400000, guid: 83ea7258c80097a4e8e119577aa244da, type: 2}
-        customHitBoxDefinition: {fileID: 11400000, guid: a98e64f2644a00940898c205ad1c9a93,
+        clip: {fileID: 7400000, guid: b297e5039778f4d458d18519b8361feb, type: 2}
+        customHitBoxDefinition: {fileID: 11400000, guid: e207ec0c631ec6b4e833c5600c174f69,
           type: 2}
         length:
-          _serializedValue: 1431655808
+          _serializedValue: 1789569792
         bakeSpeed: 0
         hitBoxDefinitionType: 1
       - animationMaps: []
-        clip: {fileID: 7400000, guid: 2198c33751f804c4ebbe53a5cd4bf1ce, type: 2}
-        customHitBoxDefinition: {fileID: 11400000, guid: dbcbff142229c5e4fb5832fd8303123e,
+        clip: {fileID: 7400000, guid: a5522eaa2a8c7214794204c87d4d6a0b, type: 2}
+        customHitBoxDefinition: {fileID: 11400000, guid: b41e0513a37a5ee4e9d927cb1b8fc053,
           type: 2}
         length:
-          _serializedValue: 715827904
+          _serializedValue: 1073741824
         bakeSpeed: 0
         hitBoxDefinitionType: 1
       - animationMaps: []
-        clip: {fileID: 7400000, guid: d4bcef49dfa80b740b8e1adae4d00d8b, type: 2}
-        customHitBoxDefinition: {fileID: 11400000, guid: 3bafb956574f23d4ba611ab502a2b5bb,
+        clip: {fileID: 7400000, guid: ca4f326acfa16294a819e848334a45dc, type: 2}
+        customHitBoxDefinition: {fileID: 11400000, guid: 2fe330cf7bb506340aa66787d12055bc,
           type: 2}
         length:
           _serializedValue: 357913952
@@ -55246,7 +55246,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 3
       name: crouching
-      editorToggle: 0
+      editorToggle: 1
       soundEffectsToggle: 0
     takeOff:
       animMap:
@@ -64676,7 +64676,7 @@ MonoBehaviour:
             z:
               _serializedValue: 0
         clip: {fileID: 7400000, guid: c5a2b2777e1b77d4ca85ec13262c5063, type: 2}
-        customHitBoxDefinition: {fileID: 11400000, guid: 7fa0dd2600771de44b4d94883096097e,
+        customHitBoxDefinition: {fileID: 11400000, guid: 78d56255173ed2946b465c17fb3e180f,
           type: 2}
         length:
           _serializedValue: 715827904
@@ -66231,8 +66231,7 @@ MonoBehaviour:
             z:
               _serializedValue: 0
         clip: {fileID: 7400000, guid: 3b1a79da739edae49a8feae84d563e54, type: 2}
-        customHitBoxDefinition: {fileID: 11400000, guid: 718c0f73106b30a408bbb4af894c4a5d,
-          type: 2}
+        customHitBoxDefinition: {fileID: 0}
         length:
           _serializedValue: 1431655808
         bakeSpeed: 0
@@ -109565,20 +109564,4 @@ MonoBehaviour:
     blockEnabled: 1
     parryEnabled: 0
   attackMoves:
-  - {fileID: 11400000, guid: 2476e806e1385e44fa4e8536afa5f711, type: 2}
-  - {fileID: 11400000, guid: 206fdbf355ff7ba40be572a5a3c04da6, type: 2}
-  - {fileID: 11400000, guid: 0620594d8fbbcae428e31eec9b5d1594, type: 2}
-  - {fileID: 11400000, guid: 46fca648e5ee8d245b899c8d88f1ea65, type: 2}
-  - {fileID: 11400000, guid: 3147ab48bdd6bde438d74bdb6a2006d8, type: 2}
-  - {fileID: 11400000, guid: 1ef8dd9582e96054db44089c54d5eba9, type: 2}
-  - {fileID: 11400000, guid: 6566a5cb98f31ae429bba765eef44729, type: 2}
-  - {fileID: 11400000, guid: 98c484e25615c264eb0e8747e6d92671, type: 2}
-  - {fileID: 11400000, guid: 1819b2df0f96eed4f8778416eba6fa45, type: 2}
-  - {fileID: 11400000, guid: b4b867b08c15fa540ba7421e02a21aca, type: 2}
-  - {fileID: 11400000, guid: 1dd808d352dad3b43a8d7d4e52833b9d, type: 2}
-  - {fileID: 11400000, guid: 5b5a6ecaa5ed33247bf89937c0150a58, type: 2}
-  - {fileID: 11400000, guid: 03be2c350971b86419780fcaa771c1cd, type: 2}
-  - {fileID: 11400000, guid: ab4b44b40db2beb438ac968e30c4ff0a, type: 2}
-  - {fileID: 11400000, guid: 3e7af183025a7374092f4925ca9be7de, type: 2}
-  - {fileID: 11400000, guid: cf7c00f1e0cc1da4ba26d06018639c6f, type: 2}
-  - {fileID: 11400000, guid: 1243b420a5b955c499bbdc7b001569be, type: 2}
+  - {fileID: 11400000, guid: 37b29dd1e07eb3c47b12b3af7afc14bf, type: 2}
