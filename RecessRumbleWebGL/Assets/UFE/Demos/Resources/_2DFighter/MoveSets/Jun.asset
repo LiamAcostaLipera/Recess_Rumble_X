@@ -66307,7 +66307,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 12
       name: blockingHighPose
-      editorToggle: 0
+      editorToggle: 1
       soundEffectsToggle: 0
     blockingHighHit:
       animMap:
