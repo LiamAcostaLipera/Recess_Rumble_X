@@ -324,7 +324,7 @@ MonoBehaviour:
   deploymentOptions:
     deploymentType: 2
     activeCharacters:
-    - {fileID: 11400000, guid: 6b761e7adeeaaef45af82e3fdda6d92d, type: 2}
+    - {fileID: 11400000, guid: 49075f7c9de81bf49880ac0ae2087666, type: 2}
     - {fileID: 11400000, guid: 49075f7c9de81bf49880ac0ae2087666, type: 2}
     - {fileID: 0}
     - {fileID: 0}
@@ -513,10 +513,10 @@ MonoBehaviour:
     ignoreAppliedForceBlock: 1
     allowMoveCancel: 0
     blockHitEffects:
-      hitParticle: {fileID: 0}
+      hitParticle: {fileID: 112666, guid: 3fd40a270c5473142bd7faab396e2b41, type: 3}
       killTime: 0.5
       hitSound: {fileID: 8300000, guid: de89d708a053cb74d8701568c5ef36c9, type: 3}
-      spawnPoint: 1
+      spawnPoint: 2
       _freezingTime:
         _serializedValue: 0
       _animationSpeed:
@@ -524,14 +524,14 @@ MonoBehaviour:
       autoHitStop: 1
       _hitStop:
         _serializedValue: 0
-      mirrorOn2PSide: 0
+      mirrorOn2PSide: 1
       shakeCharacterOnHit: 1
       shakeCameraOnHit: 0
       _shakeDensity:
         _serializedValue: 3435973888
       _shakeCameraDensity:
         _serializedValue: 3435973888
-      editorToggle: 0
+      editorToggle: 1
     parryType: 0
     _parryTiming:
       _serializedValue: 1288490240
@@ -808,7 +808,7 @@ MonoBehaviour:
         _serializedValue: 4294967296
       _shakeCameraDensity:
         _serializedValue: 2576980480
-      editorToggle: 1
+      editorToggle: 0
     customHit2:
       hitParticle: {fileID: 0}
       killTime: 0
@@ -1726,9 +1726,9 @@ MonoBehaviour:
     synchronizationMessageFrequency: 2
     synchronizationAction: 1
   music: 1
-  musicVolume: 0
+  musicVolume: 0.39337954
   soundfx: 1
-  soundfxVolume: 0
+  soundfxVolume: 0.39337954
   colorStateOne: {r: 1, g: 0, b: 0, a: 1}
   colorIsHit: {r: 1, g: 0, b: 1, a: 1}
   colorBodyCollider: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
