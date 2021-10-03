@@ -109566,7 +109566,6 @@ MonoBehaviour:
   attackMoves:
   - {fileID: 11400000, guid: 37b29dd1e07eb3c47b12b3af7afc14bf, type: 2}
   - {fileID: 11400000, guid: 1dd808d352dad3b43a8d7d4e52833b9d, type: 2}
-  - {fileID: 11400000, guid: 46fca648e5ee8d245b899c8d88f1ea65, type: 2}
   - {fileID: 11400000, guid: 1243b420a5b955c499bbdc7b001569be, type: 2}
   - {fileID: 11400000, guid: 6566a5cb98f31ae429bba765eef44729, type: 2}
   - {fileID: 11400000, guid: cf7c00f1e0cc1da4ba26d06018639c6f, type: 2}
@@ -109574,3 +109573,4 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 3e7af183025a7374092f4925ca9be7de, type: 2}
   - {fileID: 11400000, guid: 3e7af183025a7374092f4925ca9be7de, type: 2}
   - {fileID: 11400000, guid: ab4b44b40db2beb438ac968e30c4ff0a, type: 2}
+  - {fileID: 11400000, guid: 52f3669a8183d7e47bd19004808f5797, type: 2}
