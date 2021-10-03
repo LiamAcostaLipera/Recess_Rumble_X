@@ -3686,7 +3686,7 @@ MonoBehaviour:
           _serializedValue: 0
     hitToggle: 1
     damageOptionsToggle: 0
-    hitStunOptionsToggle: 1
+    hitStunOptionsToggle: 0
     forceOptionsToggle: 0
     opponentForceToggle: 0
     selfForceToggle: 0
