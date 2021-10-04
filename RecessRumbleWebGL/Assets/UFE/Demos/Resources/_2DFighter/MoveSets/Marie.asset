@@ -55246,7 +55246,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 3
       name: crouching
-      editorToggle: 1
+      editorToggle: 0
       soundEffectsToggle: 0
     takeOff:
       animMap:
@@ -109566,9 +109566,9 @@ MonoBehaviour:
   attackMoves:
   - {fileID: 11400000, guid: 37b29dd1e07eb3c47b12b3af7afc14bf, type: 2}
   - {fileID: 11400000, guid: 1dd808d352dad3b43a8d7d4e52833b9d, type: 2}
-  - {fileID: 11400000, guid: 9f3db32de93d61b49b638d7f414d4062, type: 2}
+  - {fileID: 0}
   - {fileID: 11400000, guid: 6566a5cb98f31ae429bba765eef44729, type: 2}
-  - {fileID: 11400000, guid: cf7c00f1e0cc1da4ba26d06018639c6f, type: 2}
+  - {fileID: 11400000, guid: a114c599df8edeb4f8916662185edd05, type: 2}
   - {fileID: 11400000, guid: 1ef8dd9582e96054db44089c54d5eba9, type: 2}
   - {fileID: 11400000, guid: 3e7af183025a7374092f4925ca9be7de, type: 2}
   - {fileID: 11400000, guid: 3e7af183025a7374092f4925ca9be7de, type: 2}
