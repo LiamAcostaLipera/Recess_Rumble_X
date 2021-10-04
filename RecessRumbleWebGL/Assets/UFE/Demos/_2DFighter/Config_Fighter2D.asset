@@ -24,18 +24,18 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   selectedStage:
-    stageName: AZOTEA
+    stageName: ENTRADA
     stageLoadingMethod: 0
-    stagePath: Assets/UFE/Demos/Shared_Assets/Stages/Rooftop/Rooftop.unity
-    screenshot: {fileID: 2800000, guid: 82b1f62f0a657b54da446cf880e1df6e, type: 3}
-    prefab: {fileID: 100000, guid: 5520d39aec5319c4f951d422938cca6b, type: 3}
+    stagePath: 
+    screenshot: {fileID: 2800000, guid: 694510c8ade150e479748853a0b7bbec, type: 3}
+    prefab: {fileID: 100000, guid: c0460ec44602dd44b88067e2595a1ff5, type: 3}
     music: {fileID: 8300000, guid: bf3606e593828bb44bd041a73afbab0f, type: 3}
     _groundFriction:
       _serializedValue: 515396075520
     _leftBoundary:
-      _serializedValue: -64424509440
+      _serializedValue: -70866960384
     _rightBoundary:
-      _serializedValue: 68719476736
+      _serializedValue: 73014444032
     position:
       x:
         _serializedValue: 0
@@ -322,7 +322,7 @@ MonoBehaviour:
     draw: Draw
     defaultSelection: 1
   deploymentOptions:
-    deploymentType: 2
+    deploymentType: 0
     activeCharacters:
     - {fileID: 11400000, guid: 49075f7c9de81bf49880ac0ae2087666, type: 2}
     - {fileID: 11400000, guid: 49075f7c9de81bf49880ac0ae2087666, type: 2}
@@ -928,7 +928,7 @@ MonoBehaviour:
     inputViewerIcon6: {fileID: 2800000, guid: 90523496d8897124e989ad256f109d27, type: 3}
   - inputType: 1
     inputButtonName: P1KeyboardVertical
-    engineRelatedButton: 2
+    engineRelatedButton: 3
     joystickAxisName: P1JoystickVertical
     cInputPositiveKeyName: P1Up
     cInputPositiveDefaultKey: W
@@ -1057,7 +1057,7 @@ MonoBehaviour:
   player2_Inputs:
   - inputType: 0
     inputButtonName: P2KeyboardHorizontal
-    engineRelatedButton: 0
+    engineRelatedButton: 1
     joystickAxisName: P2JoystickHorizontal
     cInputPositiveKeyName: P2Right
     cInputPositiveDefaultKey: RightArrow
@@ -1726,9 +1726,9 @@ MonoBehaviour:
     synchronizationMessageFrequency: 2
     synchronizationAction: 1
   music: 1
-  musicVolume: 0.39337954
+  musicVolume: 1
   soundfx: 1
-  soundfxVolume: 0.39337954
+  soundfxVolume: 1
   colorStateOne: {r: 1, g: 0, b: 0, a: 1}
   colorIsHit: {r: 1, g: 0, b: 1, a: 1}
   colorBodyCollider: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
