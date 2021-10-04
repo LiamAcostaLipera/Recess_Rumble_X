@@ -109565,13 +109565,7 @@ MonoBehaviour:
     parryEnabled: 0
   attackMoves:
   - {fileID: 11400000, guid: 37b29dd1e07eb3c47b12b3af7afc14bf, type: 2}
-  - {fileID: 11400000, guid: 1dd808d352dad3b43a8d7d4e52833b9d, type: 2}
-  - {fileID: 0}
-  - {fileID: 11400000, guid: 6566a5cb98f31ae429bba765eef44729, type: 2}
   - {fileID: 11400000, guid: a114c599df8edeb4f8916662185edd05, type: 2}
-  - {fileID: 11400000, guid: 1ef8dd9582e96054db44089c54d5eba9, type: 2}
-  - {fileID: 11400000, guid: 3e7af183025a7374092f4925ca9be7de, type: 2}
-  - {fileID: 11400000, guid: ab4b44b40db2beb438ac968e30c4ff0a, type: 2}
   - {fileID: 11400000, guid: 52f3669a8183d7e47bd19004808f5797, type: 2}
   - {fileID: 11400000, guid: 7da48f5f761aa554aa0608c645f6cc92, type: 2}
   - {fileID: 11400000, guid: 84f362153da4d7b46967220e0545664c, type: 2}
