@@ -3513,8 +3513,8 @@ MonoBehaviour:
     opponentConditions:
       basicMoveLimitation: 
       possibleMoveStates: []
-      basicMovesToggle: 0
-      statesToggle: 0
+      basicMovesToggle: 1
+      statesToggle: 1
     downHit: 0
     resetPreviousHitStun: 0
     resetCrumples: 0
@@ -3701,12 +3701,12 @@ MonoBehaviour:
     damageOptionsToggle: 1
     hitStunOptionsToggle: 1
     forceOptionsToggle: 0
-    opponentForceToggle: 0
+    opponentForceToggle: 1
     selfForceToggle: 0
-    stageReactionsToggle: 0
-    overrideEventsToggle: 0
-    hitConditionsToggle: 0
-    pullInToggle: 0
+    stageReactionsToggle: 1
+    overrideEventsToggle: 1
+    hitConditionsToggle: 1
+    pullInToggle: 1
     hurtBoxesToggle: 1
     wallBounceToggle: 0
     groundBounceToggle: 0
