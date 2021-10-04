@@ -694,10 +694,10 @@ PlayerSettings:
     m_VersionCode: 1
     m_VersionName: 
   apiCompatibilityLevel: 6
-  cloudProjectId: 
+  cloudProjectId: 71a0a72f-3a30-4199-aeb3-e202c8a6e52c
   framebufferDepthMemorylessMode: 0
-  projectName: 
-  organizationId: 
+  projectName: RecessRumbleWebGL
+  organizationId: taller-iv-2021
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0
