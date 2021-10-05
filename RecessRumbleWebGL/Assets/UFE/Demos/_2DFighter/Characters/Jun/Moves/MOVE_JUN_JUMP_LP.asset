@@ -3315,7 +3315,7 @@ MonoBehaviour:
   wrapMode: 0
   characterPrefab: {fileID: 8012443432642201050, guid: 2e3c7091bee7b0d4295a877bc08481dc,
     type: 3}
-  moveName: Standing Light Kick
+  moveName: MOVE_JUN_JUMP_LP
   description: Standing Light Kick
   fps: 60
   ignoreGravity: 0
@@ -3473,9 +3473,9 @@ MonoBehaviour:
     _gaugeGainOnHit:
       _serializedValue: 51539607552
     _gaugeGainOnBlock:
-      _serializedValue: 0
+      _serializedValue: 21474836480
     _opGaugeGainOnBlock:
-      _serializedValue: 0
+      _serializedValue: 12884901888
     _opGaugeGainOnParry:
       _serializedValue: 0
     _opGaugeGainOnHit:
@@ -3521,7 +3521,7 @@ MonoBehaviour:
     crouchingHit: 1
     airHit: 1
     stunHit: 0
-    allowMultiHit: 1
+    allowMultiHit: 0
     opponentConditions:
       basicMoveLimitation: 
       possibleMoveStates: []
@@ -3587,9 +3587,9 @@ MonoBehaviour:
     overrideHitAnimation: 0
     newHitAnimation: 27
     hitStrength: 0
-    hitStunType: 2
+    hitStunType: 1
     _hitStunOnHit:
-      _serializedValue: 1288490240
+      _serializedValue: 12884901888
     _hitStunOnBlock:
       _serializedValue: 0
     frameAdvantageOnHit: 0
@@ -3655,8 +3655,8 @@ MonoBehaviour:
         _serializedValue: 0
       z:
         _serializedValue: 0
-    cornerPush: 1
-    groundBounce: 1
+    cornerPush: 0
+    groundBounce: 0
     overrideForcesOnGroundBounce: 0
     resetGroundBounceHorizontalPush: 0
     resetGroundBounceVerticalPush: 0
@@ -3781,10 +3781,10 @@ MonoBehaviour:
       type: 0
   blockableArea:
     enabled: 1
-    activeFramesBegin: 0
-    activeFramesEnds: 0
+    activeFramesBegin: 3
+    activeFramesEnds: 19
     bodyPart: 0
-    hitBoxDefinitionIndex: 0
+    hitBoxDefinitionIndex: 3
     shape: 0
     rect:
       serializedVersion: 2

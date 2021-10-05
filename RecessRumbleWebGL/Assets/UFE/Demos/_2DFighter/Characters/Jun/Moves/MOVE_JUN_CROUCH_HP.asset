@@ -3334,8 +3334,8 @@ MonoBehaviour:
   fixedSpeed: 1
   animSpeedKeyFrame: []
   totalFrames: 26
-  startUpFrames: 8
-  activeFrames: 11
+  startUpFrames: 10
+  activeFrames: 9
   recoveryFrames: 7
   applyRootMotion: 0
   lockXMotion: 0
@@ -3461,9 +3461,9 @@ MonoBehaviour:
     _gaugeGainOnHit:
       _serializedValue: 77309411328
     _gaugeGainOnBlock:
-      _serializedValue: 0
+      _serializedValue: 21474836480
     _opGaugeGainOnBlock:
-      _serializedValue: 0
+      _serializedValue: 12884901888
     _opGaugeGainOnParry:
       _serializedValue: 0
     _opGaugeGainOnHit:
@@ -3492,7 +3492,7 @@ MonoBehaviour:
   stanceChanges: []
   cameraMovements: []
   hits:
-  - activeFramesBegin: 8
+  - activeFramesBegin: 10
     activeFramesEnds: 19
     hitConfirmType: 0
     throwMove: {fileID: 0}
@@ -3575,9 +3575,9 @@ MonoBehaviour:
     overrideHitAnimation: 0
     newHitAnimation: 27
     hitStrength: 2
-    hitStunType: 2
+    hitStunType: 1
     _hitStunOnHit:
-      _serializedValue: 1288490240
+      _serializedValue: 12884901888
     _hitStunOnBlock:
       _serializedValue: 0
     frameAdvantageOnHit: 0
@@ -3643,8 +3643,8 @@ MonoBehaviour:
         _serializedValue: 0
       z:
         _serializedValue: 0
-    cornerPush: 1
-    groundBounce: 1
+    cornerPush: 0
+    groundBounce: 0
     overrideForcesOnGroundBounce: 0
     resetGroundBounceHorizontalPush: 0
     resetGroundBounceVerticalPush: 0
@@ -3703,7 +3703,7 @@ MonoBehaviour:
     forceOptionsToggle: 0
     opponentForceToggle: 1
     selfForceToggle: 0
-    stageReactionsToggle: 1
+    stageReactionsToggle: 0
     overrideEventsToggle: 1
     hitConditionsToggle: 1
     pullInToggle: 1
@@ -3769,10 +3769,10 @@ MonoBehaviour:
       type: 0
   blockableArea:
     enabled: 1
-    activeFramesBegin: 0
-    activeFramesEnds: 0
+    activeFramesBegin: 8
+    activeFramesEnds: 21
     bodyPart: 0
-    hitBoxDefinitionIndex: 0
+    hitBoxDefinitionIndex: 4
     shape: 0
     rect:
       serializedVersion: 2
