@@ -325,8 +325,8 @@ MonoBehaviour:
   deploymentOptions:
     deploymentType: 0
     activeCharacters:
-    - {fileID: 11400000, guid: 49075f7c9de81bf49880ac0ae2087666, type: 2}
-    - {fileID: 11400000, guid: 49075f7c9de81bf49880ac0ae2087666, type: 2}
+    - {fileID: 11400000, guid: 55d89405241307344848b26d2f8143f1, type: 2}
+    - {fileID: 11400000, guid: 55d89405241307344848b26d2f8143f1, type: 2}
     - {fileID: 0}
     - {fileID: 0}
     - {fileID: 0}
@@ -913,7 +913,7 @@ MonoBehaviour:
   player1_Inputs:
   - inputType: 0
     inputButtonName: P1KeyboardHorizontal
-    engineRelatedButton: 0
+    engineRelatedButton: 1
     joystickAxisName: P1JoystickHorizontal
     cInputPositiveKeyName: P1Right
     cInputPositiveDefaultKey: D
@@ -929,7 +929,7 @@ MonoBehaviour:
     inputViewerIcon6: {fileID: 2800000, guid: 90523496d8897124e989ad256f109d27, type: 3}
   - inputType: 1
     inputButtonName: P1KeyboardVertical
-    engineRelatedButton: 3
+    engineRelatedButton: 2
     joystickAxisName: P1JoystickVertical
     cInputPositiveKeyName: P1Up
     cInputPositiveDefaultKey: W
@@ -1727,9 +1727,9 @@ MonoBehaviour:
     synchronizationMessageFrequency: 2
     synchronizationAction: 1
   music: 1
-  musicVolume: 1
+  musicVolume: 0
   soundfx: 1
-  soundfxVolume: 1
+  soundfxVolume: 0
   colorStateOne: {r: 1, g: 0, b: 0, a: 1}
   colorIsHit: {r: 1, g: 0, b: 1, a: 1}
   colorBodyCollider: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
