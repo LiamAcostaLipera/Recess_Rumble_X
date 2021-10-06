@@ -24,18 +24,18 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   selectedStage:
-    stageName: ENTRADA
+    stageName: AZOTEA
     stageLoadingMethod: 0
-    stagePath: 
-    screenshot: {fileID: 2800000, guid: 694510c8ade150e479748853a0b7bbec, type: 3}
-    prefab: {fileID: 100000, guid: c0460ec44602dd44b88067e2595a1ff5, type: 3}
+    stagePath: Assets/UFE/Demos/Shared_Assets/Stages/Rooftop/Rooftop.unity
+    screenshot: {fileID: 2800000, guid: 82b1f62f0a657b54da446cf880e1df6e, type: 3}
+    prefab: {fileID: 100000, guid: 5520d39aec5319c4f951d422938cca6b, type: 3}
     music: {fileID: 8300000, guid: bf3606e593828bb44bd041a73afbab0f, type: 3}
     _groundFriction:
       _serializedValue: 515396075520
     _leftBoundary:
-      _serializedValue: -70866960384
+      _serializedValue: -64424509440
     _rightBoundary:
-      _serializedValue: 73014444032
+      _serializedValue: 68719476736
     position:
       x:
         _serializedValue: 0
@@ -197,7 +197,7 @@ MonoBehaviour:
             opponentCharacterIndex: 1
             possibleStagesIndexes: 00000000
           showOpponentsInEditor: 1
-        showStoryInEditor: 1
+        showStoryInEditor: 0
       - opening: {fileID: 0}
         ending: {fileID: 0}
         fightsGroups:
@@ -211,7 +211,8 @@ MonoBehaviour:
               type: 3}
             opponentCharacterIndex: 0
             possibleStagesIndexes: 00000000
-          - conversationBeforeBattle: {fileID: 0}
+          - conversationBeforeBattle: {fileID: 7516048182482662173, guid: df248b4c65d8d8347ba311d2a6ffdd18,
+              type: 3}
             conversationAfterBattle: {fileID: 7516048182482662173, guid: 262ff57f6f0f86842a2c34005dbdc39c,
               type: 3}
             opponentCharacterIndex: 2
@@ -223,7 +224,7 @@ MonoBehaviour:
             opponentCharacterIndex: 3
             possibleStagesIndexes: 02000000
           showOpponentsInEditor: 1
-        showStoryInEditor: 0
+        showStoryInEditor: 1
       - opening: {fileID: 0}
         ending: {fileID: 0}
         fightsGroups:
@@ -255,7 +256,7 @@ MonoBehaviour:
         ending: {fileID: 0}
         fightsGroups:
         - maxFights: 4
-          mode: 1
+          mode: 2
           name: HISTORIA
           opponents:
           - conversationBeforeBattle: {fileID: 7516048182482662173, guid: 42a590d7c5f4352488bc5d3cf5f50648,
@@ -270,11 +271,12 @@ MonoBehaviour:
               type: 3}
             opponentCharacterIndex: 2
             possibleStagesIndexes: 01000000
-          - conversationBeforeBattle: {fileID: 0}
+          - conversationBeforeBattle: {fileID: 7516048182482662173, guid: 3d020bf99c135664fbe4f9297bb8d1ea,
+              type: 3}
             conversationAfterBattle: {fileID: 7516048182482662173, guid: 166fd710e660bdc4ca04f1de0ebf6a2c,
               type: 3}
             opponentCharacterIndex: 1
-            possibleStagesIndexes: 02000000
+            possibleStagesIndexes: 00000000
           showOpponentsInEditor: 1
         showStoryInEditor: 1
   fps: 60
@@ -324,8 +326,8 @@ MonoBehaviour:
   deploymentOptions:
     deploymentType: 0
     activeCharacters:
-    - {fileID: 11400000, guid: 49075f7c9de81bf49880ac0ae2087666, type: 2}
-    - {fileID: 11400000, guid: 49075f7c9de81bf49880ac0ae2087666, type: 2}
+    - {fileID: 11400000, guid: 75f6f26ca92b59e4c893e99f44df6536, type: 2}
+    - {fileID: 11400000, guid: 75f6f26ca92b59e4c893e99f44df6536, type: 2}
     - {fileID: 0}
     - {fileID: 0}
     - {fileID: 0}
@@ -928,7 +930,7 @@ MonoBehaviour:
     inputViewerIcon6: {fileID: 2800000, guid: 90523496d8897124e989ad256f109d27, type: 3}
   - inputType: 1
     inputButtonName: P1KeyboardVertical
-    engineRelatedButton: 3
+    engineRelatedButton: 2
     joystickAxisName: P1JoystickVertical
     cInputPositiveKeyName: P1Up
     cInputPositiveDefaultKey: W
@@ -1057,7 +1059,7 @@ MonoBehaviour:
   player2_Inputs:
   - inputType: 0
     inputButtonName: P2KeyboardHorizontal
-    engineRelatedButton: 1
+    engineRelatedButton: 0
     joystickAxisName: P2JoystickHorizontal
     cInputPositiveKeyName: P2Right
     cInputPositiveDefaultKey: RightArrow
@@ -1726,9 +1728,9 @@ MonoBehaviour:
     synchronizationMessageFrequency: 2
     synchronizationAction: 1
   music: 1
-  musicVolume: 1
+  musicVolume: 0
   soundfx: 1
-  soundfxVolume: 1
+  soundfxVolume: 0
   colorStateOne: {r: 1, g: 0, b: 0, a: 1}
   colorIsHit: {r: 1, g: 0, b: 1, a: 1}
   colorBodyCollider: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}

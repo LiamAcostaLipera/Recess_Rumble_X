@@ -1360,7 +1360,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 11
       name: landing
-      editorToggle: 1
+      editorToggle: 0
       soundEffectsToggle: 1
     blockingCrouchingPose:
       animMap:
@@ -1468,12 +1468,13 @@ MonoBehaviour:
     blockingCrouchingHit:
       animMap:
       - animationMaps: []
-        clip: {fileID: 0}
-        customHitBoxDefinition: {fileID: 0}
+        clip: {fileID: 7400000, guid: bc29fcdf5bd324e4fbe7f6bd09b5a5ed, type: 2}
+        customHitBoxDefinition: {fileID: 11400000, guid: c1f586f9a24c5dd4c994df73cda788d5,
+          type: 2}
         length:
-          _serializedValue: 0
+          _serializedValue: 2863311360
         bakeSpeed: 0
-        hitBoxDefinitionType: 0
+        hitBoxDefinitionType: 1
       - animationMaps: []
         clip: {fileID: 0}
         customHitBoxDefinition: {fileID: 0}
@@ -3313,12 +3314,13 @@ MonoBehaviour:
     getHitCrouching:
       animMap:
       - animationMaps: []
-        clip: {fileID: 0}
-        customHitBoxDefinition: {fileID: 0}
+        clip: {fileID: 7400000, guid: bc29fcdf5bd324e4fbe7f6bd09b5a5ed, type: 2}
+        customHitBoxDefinition: {fileID: 11400000, guid: c1f586f9a24c5dd4c994df73cda788d5,
+          type: 2}
         length:
-          _serializedValue: 0
+          _serializedValue: 2863311360
         bakeSpeed: 0
-        hitBoxDefinitionType: 0
+        hitBoxDefinitionType: 1
       - animationMaps: []
         clip: {fileID: 0}
         customHitBoxDefinition: {fileID: 0}
@@ -3935,7 +3937,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 26
       name: getHitAir
-      editorToggle: 1
+      editorToggle: 0
       soundEffectsToggle: 1
     getHitCrumple:
       animMap:
