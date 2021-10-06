@@ -45,7 +45,7 @@ MonoBehaviour:
   fixedSpeed: 1
   animSpeedKeyFrame: []
   totalFrames: 15
-  startUpFrames: 10
+  startUpFrames: 5
   activeFrames: 4
   recoveryFrames: 6
   applyRootMotion: 0
@@ -158,9 +158,9 @@ MonoBehaviour:
     _gaugeGainOnHit:
       _serializedValue: 51539607552
     _gaugeGainOnBlock:
-      _serializedValue: 0
+      _serializedValue: 21474836480
     _opGaugeGainOnBlock:
-      _serializedValue: 0
+      _serializedValue: 12884901888
     _opGaugeGainOnParry:
       _serializedValue: 0
     _opGaugeGainOnHit:
@@ -189,8 +189,8 @@ MonoBehaviour:
   stanceChanges: []
   cameraMovements: []
   hits:
-  - activeFramesBegin: 10
-    activeFramesEnds: 14
+  - activeFramesBegin: 5
+    activeFramesEnds: 9
     hitConfirmType: 0
     throwMove: {fileID: 0}
     techMove: {fileID: 0}
@@ -274,7 +274,7 @@ MonoBehaviour:
     hitStrength: 0
     hitStunType: 1
     _hitStunOnHit:
-      _serializedValue: 1288490240
+      _serializedValue: 12884901888
     _hitStunOnBlock:
       _serializedValue: 0
     frameAdvantageOnHit: 0
@@ -466,10 +466,10 @@ MonoBehaviour:
       type: 0
   blockableArea:
     enabled: 1
-    activeFramesBegin: 0
-    activeFramesEnds: 0
+    activeFramesBegin: 3
+    activeFramesEnds: 11
     bodyPart: 0
-    hitBoxDefinitionIndex: 0
+    hitBoxDefinitionIndex: 4
     shape: 0
     rect:
       serializedVersion: 2

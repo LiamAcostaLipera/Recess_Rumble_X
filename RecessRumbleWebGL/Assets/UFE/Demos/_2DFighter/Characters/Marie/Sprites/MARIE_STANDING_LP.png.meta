@@ -111,36 +111,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: MARIE_STANDING_LP_0
-      rect:
-        serializedVersion: 2
-        x: 127
-        y: 38
-        width: 885
-        height: 1849
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: acc39a1a5e64450b0800000000000000
-      internalID: -5740885672916861750
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: MARIE_STANDING_LP_1
       rect:
         serializedVersion: 2
         x: 1415
-        y: 42
+        y: 37
         width: 1308
-        height: 1849
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 1854
+      alignment: 9
+      pivot: {x: 0.3969693, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -160,8 +139,8 @@ TextureImporter:
         y: 38
         width: 1247
         height: 1840
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.42516062, y: 0.0002032591}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -181,8 +160,8 @@ TextureImporter:
         y: 38
         width: 1030
         height: 1847
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.51009274, y: 0.0000000020653477}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
