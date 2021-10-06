@@ -148,7 +148,7 @@ MonoBehaviour:
     _gaugeGainOnBlock:
       _serializedValue: 0
     _opGaugeGainOnBlock:
-      _serializedValue: 0
+      _serializedValue: 21474836480
     _opGaugeGainOnParry:
       _serializedValue: 0
     _opGaugeGainOnHit:
@@ -260,9 +260,9 @@ MonoBehaviour:
     overrideHitAnimation: 0
     newHitAnimation: 27
     hitStrength: 4
-    hitStunType: 2
+    hitStunType: 1
     _hitStunOnHit:
-      _serializedValue: 1288490240
+      _serializedValue: 12884901888
     _hitStunOnBlock:
       _serializedValue: 0
     frameAdvantageOnHit: 0
@@ -453,11 +453,11 @@ MonoBehaviour:
       shape: 0
       type: 0
   blockableArea:
-    enabled: 0
+    enabled: 1
     activeFramesBegin: 0
-    activeFramesEnds: 9
+    activeFramesEnds: 7
     bodyPart: 0
-    hitBoxDefinitionIndex: 0
+    hitBoxDefinitionIndex: 4
     shape: 0
     rect:
       serializedVersion: 2

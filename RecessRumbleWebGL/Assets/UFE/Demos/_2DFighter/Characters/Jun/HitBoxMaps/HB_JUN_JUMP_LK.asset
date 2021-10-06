@@ -933,7 +933,7 @@ MonoBehaviour:
     shape: 1
     collisionType: 1
     hitBoxType: 0
-  - name: AreaBlock
+  - name: BlockArea
     activeFrames:
     - active: 0
       position:
