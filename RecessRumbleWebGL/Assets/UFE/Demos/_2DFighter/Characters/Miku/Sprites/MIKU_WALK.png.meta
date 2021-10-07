@@ -66,7 +66,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 90
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -168,12 +168,12 @@ TextureImporter:
     buildTarget: WebGL
     maxTextureSize: 8192
     resizeAlgorithm: 0
-    textureFormat: -1
+    textureFormat: 12
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
-    overridden: 0
+    overridden: 1
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -183,10 +183,10 @@ TextureImporter:
       name: MIKU_WALK_0
       rect:
         serializedVersion: 2
-        x: 213
-        y: 392
-        width: 711
-        height: 1582
+        x: 256
+        y: 271
+        width: 617
+        height: 1464
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -204,10 +204,10 @@ TextureImporter:
       name: MIKU_WALK_1
       rect:
         serializedVersion: 2
-        x: 1294
-        y: 388
-        width: 705
-        height: 1578
+        x: 1165
+        y: 272
+        width: 547
+        height: 1431
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -225,10 +225,10 @@ TextureImporter:
       name: MIKU_WALK_2
       rect:
         serializedVersion: 2
-        x: 2199
-        y: 386
-        width: 839
-        height: 1589
+        x: 2085
+        y: 271
+        width: 555
+        height: 1401
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -246,12 +246,12 @@ TextureImporter:
       name: MIKU_WALK_3
       rect:
         serializedVersion: 2
-        x: 3257
-        y: 400
-        width: 728
-        height: 1610
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 3017
+        y: 272
+        width: 532
+        height: 1471
+      alignment: 9
+      pivot: {x: 0.40281093, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -267,12 +267,12 @@ TextureImporter:
       name: MIKU_WALK_4
       rect:
         serializedVersion: 2
-        x: 4225
-        y: 423
-        width: 784
-        height: 1588
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 3762
+        y: 269
+        width: 597
+        height: 1493
+      alignment: 9
+      pivot: {x: 0.36491498, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -288,12 +288,12 @@ TextureImporter:
       name: MIKU_WALK_5
       rect:
         serializedVersion: 2
-        x: 5221
-        y: 424
-        width: 719
-        height: 1584
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 4556
+        y: 269
+        width: 422
+        height: 1516
+      alignment: 9
+      pivot: {x: 0.4241926, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -309,10 +309,10 @@ TextureImporter:
       name: MIKU_WALK_6
       rect:
         serializedVersion: 2
-        x: 6164
-        y: 388
-        width: 704
-        height: 1577
+        x: 5322
+        y: 267
+        width: 398
+        height: 1484
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
