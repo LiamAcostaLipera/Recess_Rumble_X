@@ -3336,7 +3336,7 @@ MonoBehaviour:
   totalFrames: 26
   startUpFrames: 5
   activeFrames: 14
-  recoveryFrames: 7
+  recoveryFrames: 1
   applyRootMotion: 0
   lockXMotion: 0
   lockYMotion: 0
@@ -3509,7 +3509,7 @@ MonoBehaviour:
     crouchingHit: 1
     airHit: 1
     stunHit: 1
-    allowMultiHit: 1
+    allowMultiHit: 0
     opponentConditions:
       basicMoveLimitation: 
       possibleMoveStates: []
@@ -3574,7 +3574,7 @@ MonoBehaviour:
     instantAirRecovery: 0
     overrideHitAnimation: 0
     newHitAnimation: 27
-    hitStrength: 2
+    hitStrength: 0
     hitStunType: 1
     _hitStunOnHit:
       _serializedValue: 0
@@ -3585,7 +3585,7 @@ MonoBehaviour:
     damageScaling: 0
     damageType: 0
     _damageOnHit:
-      _serializedValue: 429496729600
+      _serializedValue: 17179869184
     _damageOnBlock:
       _serializedValue: 0
     doesntKill: 0
@@ -3707,7 +3707,7 @@ MonoBehaviour:
     overrideEventsToggle: 0
     hitConditionsToggle: 0
     pullInToggle: 0
-    hurtBoxesToggle: 0
+    hurtBoxesToggle: 1
     wallBounceToggle: 0
     groundBounceToggle: 0
     hurtBoxes:
