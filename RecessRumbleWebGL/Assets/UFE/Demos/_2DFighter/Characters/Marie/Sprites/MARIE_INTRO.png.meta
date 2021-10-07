@@ -1,40 +1,7 @@
 fileFormatVersion: 2
 guid: c94438c0ea4979d4aaeb7a0a1778c846
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: 296619010007785894
-    second: MARIE_INTRO_10
-  - first:
-      213: -6273044549973880292
-    second: MARIE_INTRO_11
-  - first:
-      213: -1785916826321537533
-    second: MARIE_INTRO_12
-  - first:
-      213: 2339531635446916987
-    second: MARIE_INTRO_13
-  - first:
-      213: -4793854907331854901
-    second: MARIE_INTRO_14
-  - first:
-      213: 2751446071946530769
-    second: MARIE_INTRO_15
-  - first:
-      213: -4803995563208424066
-    second: MARIE_INTRO_17
-  - first:
-      213: -5891200004166989089
-    second: MARIE_INTRO_18
-  - first:
-      213: -7406907325577351081
-    second: MARIE_INTRO_19
-  - first:
-      213: 507578741106700166
-    second: MARIE_INTRO_20
-  - first:
-      213: 7718605632426802561
-    second: MARIE_INTRO_21
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -78,7 +45,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 81.5
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -117,20 +84,8 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: Windows Store Apps
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
     buildTarget: WebGL
-    maxTextureSize: 8192
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: 12
     textureCompression: 1
@@ -147,12 +102,12 @@ TextureImporter:
       name: MARIE_INTRO_10
       rect:
         serializedVersion: 2
-        x: 52
-        y: 323
-        width: 643
-        height: 1827
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 171
+        y: 342
+        width: 536
+        height: 1506
+      alignment: 9
+      pivot: {x: 0.53, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -168,12 +123,12 @@ TextureImporter:
       name: MARIE_INTRO_11
       rect:
         serializedVersion: 2
-        x: 866
-        y: 324
-        width: 643
-        height: 1814
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 1141
+        y: 342
+        width: 536
+        height: 1506
+      alignment: 9
+      pivot: {x: 0.52, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -189,12 +144,12 @@ TextureImporter:
       name: MARIE_INTRO_12
       rect:
         serializedVersion: 2
-        x: 1767
-        y: 324
-        width: 730
-        height: 1814
+        x: 2075
+        y: 342
+        width: 633
+        height: 1506
       alignment: 9
-      pivot: {x: 0.44, y: 0}
+      pivot: {x: 0.435, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -210,12 +165,12 @@ TextureImporter:
       name: MARIE_INTRO_13
       rect:
         serializedVersion: 2
-        x: 2681
-        y: 324
-        width: 768
-        height: 1817
+        x: 3028
+        y: 342
+        width: 650
+        height: 1509
       alignment: 9
-      pivot: {x: 0.42, y: 0}
+      pivot: {x: 0.44, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -231,12 +186,12 @@ TextureImporter:
       name: MARIE_INTRO_14
       rect:
         serializedVersion: 2
-        x: 3650
-        y: 324
-        width: 954
-        height: 1814
+        x: 3941
+        y: 342
+        width: 955
+        height: 1509
       alignment: 9
-      pivot: {x: 0.336, y: 0}
+      pivot: {x: 0.305, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -249,43 +204,22 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MARIE_INTRO_15
+      name: MARIE_INTRO_16
       rect:
         serializedVersion: 2
-        x: 4709
-        y: 324
-        width: 1051
-        height: 1814
+        x: 4929
+        y: 342
+        width: 955
+        height: 1506
       alignment: 9
-      pivot: {x: 0.305, y: 0}
+      pivot: {x: 0.3, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1df4409ef991f2620800000000000000
-      internalID: 2751446071946530769
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MARIE_INTRO_17
-      rect:
-        serializedVersion: 2
-        x: 5938
-        y: 324
-        width: 1144
-        height: 1989
-      alignment: 9
-      pivot: {x: 0.278, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e75c868ec77c45db0800000000000000
-      internalID: -4803995563208424066
+      spriteID: a954f201a79ed5910800000000000000
+      internalID: 1827873734249104794
       vertices: []
       indices: 
       edges: []
@@ -294,12 +228,12 @@ TextureImporter:
       name: MARIE_INTRO_18
       rect:
         serializedVersion: 2
-        x: 7208
-        y: 326
-        width: 1147
-        height: 1999
+        x: 6048
+        y: 342
+        width: 955
+        height: 1648
       alignment: 9
-      pivot: {x: 0.278, y: 0}
+      pivot: {x: 0.3, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -315,12 +249,12 @@ TextureImporter:
       name: MARIE_INTRO_19
       rect:
         serializedVersion: 2
-        x: 8450
-        y: 307
-        width: 1157
-        height: 2006
+        x: 7354
+        y: 342
+        width: 955
+        height: 1648
       alignment: 9
-      pivot: {x: 0.275, y: 0}
+      pivot: {x: 0.3, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -336,12 +270,12 @@ TextureImporter:
       name: MARIE_INTRO_20
       rect:
         serializedVersion: 2
-        x: 9765
-        y: 323
-        width: 1218
-        height: 1996
+        x: 8629
+        y: 342
+        width: 955
+        height: 1648
       alignment: 9
-      pivot: {x: 0.266, y: 0}
+      pivot: {x: 0.308, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -357,12 +291,12 @@ TextureImporter:
       name: MARIE_INTRO_21
       rect:
         serializedVersion: 2
-        x: 11131
-        y: 324
-        width: 728
-        height: 1814
+        x: 9903
+        y: 342
+        width: 955
+        height: 1648
       alignment: 9
-      pivot: {x: 0.437, y: 0}
+      pivot: {x: 0.3, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -374,10 +308,31 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: MARIE_INTRO_22
+      rect:
+        serializedVersion: 2
+        x: 11202
+        y: 342
+        width: 607
+        height: 1506
+      alignment: 9
+      pivot: {x: 0.48, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d53d6e56355f7ed0800000000000000
+      internalID: -2414117183246486059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: e736c7432fe673245966bc6279c41f19
+    spriteID: 167447bd132487f4ba4f727af0a79ce5
     internalID: 0
     vertices: []
     indices: 
