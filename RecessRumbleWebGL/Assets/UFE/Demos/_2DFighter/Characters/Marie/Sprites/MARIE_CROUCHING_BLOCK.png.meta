@@ -108,27 +108,6 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: MARIE_CROUCHING_BLOCK_0
-      rect:
-        serializedVersion: 2
-        x: 94
-        y: 31
-        width: 1242
-        height: 1145
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0c198f64de30c8310800000000000000
-      internalID: 1408505101092950464
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: MARIE_CROUCHING_BLOCK_1
       rect:
         serializedVersion: 2
@@ -136,8 +115,8 @@ TextureImporter:
         y: 34
         width: 931
         height: 1138
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.48504212, y: -0.000815762}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
