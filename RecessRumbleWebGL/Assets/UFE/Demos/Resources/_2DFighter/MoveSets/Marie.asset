@@ -58681,7 +58681,9 @@ MonoBehaviour:
       lockYMotion: 0
       lockZMotion: 0
       loopDownClip: 0
-      soundEffects: []
+      soundEffects:
+      - {fileID: 8300000, guid: feeefc0b5af3e7a4da996a0e67d969f5, type: 3}
+      - {fileID: 8300000, guid: 4be08fc9eb908ef4e80a5732a099d223, type: 3}
       continuousSound: 0
       particleEffect:
         editorToggle: 0
@@ -58698,7 +58700,7 @@ MonoBehaviour:
       reference: 5
       name: jumpStraight
       editorToggle: 0
-      soundEffectsToggle: 0
+      soundEffectsToggle: 1
     jumpBack:
       animMap:
       - animationMaps: []
@@ -58763,7 +58765,9 @@ MonoBehaviour:
       lockYMotion: 0
       lockZMotion: 0
       loopDownClip: 0
-      soundEffects: []
+      soundEffects:
+      - {fileID: 8300000, guid: feeefc0b5af3e7a4da996a0e67d969f5, type: 3}
+      - {fileID: 8300000, guid: 4be08fc9eb908ef4e80a5732a099d223, type: 3}
       continuousSound: 0
       particleEffect:
         editorToggle: 0
@@ -58780,7 +58784,7 @@ MonoBehaviour:
       reference: 6
       name: jumpBack
       editorToggle: 0
-      soundEffectsToggle: 0
+      soundEffectsToggle: 1
     jumpForward:
       animMap:
       - animationMaps: []
@@ -58845,7 +58849,9 @@ MonoBehaviour:
       lockYMotion: 0
       lockZMotion: 0
       loopDownClip: 0
-      soundEffects: []
+      soundEffects:
+      - {fileID: 8300000, guid: feeefc0b5af3e7a4da996a0e67d969f5, type: 3}
+      - {fileID: 8300000, guid: 4be08fc9eb908ef4e80a5732a099d223, type: 3}
       continuousSound: 0
       particleEffect:
         editorToggle: 0
@@ -58862,7 +58868,7 @@ MonoBehaviour:
       reference: 7
       name: jumpForward
       editorToggle: 0
-      soundEffectsToggle: 0
+      soundEffectsToggle: 1
     fallStraight:
       animMap:
       - animationMaps:
@@ -63570,11 +63576,11 @@ MonoBehaviour:
         lockLocalPosition: 0
         mirrorOn2PSide: 0
         initialRotation: {x: 0, y: 0, z: 0}
-        positionOffSet: {x: 1.3, y: -2.54, z: 0}
+        positionOffSet: {x: 0.75, y: -3.2, z: 0}
         bodyPart: 0
       reference: 11
       name: landing
-      editorToggle: 0
+      editorToggle: 1
       soundEffectsToggle: 0
     blockingCrouchingPose:
       animMap:
@@ -64752,7 +64758,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 15
       name: blockingCrouchingPose
-      editorToggle: 1
+      editorToggle: 0
       soundEffectsToggle: 0
     blockingCrouchingHit:
       animMap:
@@ -109568,13 +109574,13 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 7da48f5f761aa554aa0608c645f6cc92, type: 2}
   - {fileID: 11400000, guid: 84f362153da4d7b46967220e0545664c, type: 2}
   - {fileID: 11400000, guid: 37b29dd1e07eb3c47b12b3af7afc14bf, type: 2}
-  - {fileID: 11400000, guid: 52f3669a8183d7e47bd19004808f5797, type: 2}
-  - {fileID: 11400000, guid: fdc4e0c86477e5f41bfb5f88ce3ec320, type: 2}
-  - {fileID: 11400000, guid: 005c5ad0ced41db459fe3aed5aa2959e, type: 2}
-  - {fileID: 11400000, guid: 0993f3970b2d7a147a75f607f52b2ee9, type: 2}
-  - {fileID: 11400000, guid: 26eb4a130d0c8d943b851963623cdaec, type: 2}
-  - {fileID: 11400000, guid: a9ef56926fece68429be5930a9167ad2, type: 2}
-  - {fileID: 11400000, guid: c64de6b9f3737f74f9baa92c5878146b, type: 2}
-  - {fileID: 11400000, guid: 9f3db32de93d61b49b638d7f414d4062, type: 2}
-  - {fileID: 11400000, guid: 415959e11cc689840b3b21490c98d58b, type: 2}
   - {fileID: 11400000, guid: 7c82572be7558674bbafc6f646e0bcbe, type: 2}
+  - {fileID: 11400000, guid: 415959e11cc689840b3b21490c98d58b, type: 2}
+  - {fileID: 11400000, guid: 9f3db32de93d61b49b638d7f414d4062, type: 2}
+  - {fileID: 11400000, guid: c64de6b9f3737f74f9baa92c5878146b, type: 2}
+  - {fileID: 11400000, guid: a9ef56926fece68429be5930a9167ad2, type: 2}
+  - {fileID: 11400000, guid: 26eb4a130d0c8d943b851963623cdaec, type: 2}
+  - {fileID: 11400000, guid: 0993f3970b2d7a147a75f607f52b2ee9, type: 2}
+  - {fileID: 11400000, guid: 005c5ad0ced41db459fe3aed5aa2959e, type: 2}
+  - {fileID: 11400000, guid: fdc4e0c86477e5f41bfb5f88ce3ec320, type: 2}
+  - {fileID: 11400000, guid: 52f3669a8183d7e47bd19004808f5797, type: 2}

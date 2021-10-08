@@ -180,9 +180,9 @@ MonoBehaviour:
     sounds:
     - {fileID: 8300000, guid: 35f1dd65e43abe84cb8f1fe9d6f8ec52, type: 3}
     soundEffectsToggle: 1
-  - castingFrame: 0
+  - castingFrame: 2
     sounds:
-    - {fileID: 8300000, guid: 6b666d9a67103324d87aa0322db7d58f, type: 3}
+    - {fileID: 8300000, guid: 146c390d03e04184ab31f71b09026102, type: 3}
     - {fileID: 0}
     soundEffectsToggle: 1
   inGameAlert: []
@@ -394,7 +394,7 @@ MonoBehaviour:
           _serializedValue: 0
         z:
           _serializedValue: 0
-    hitToggle: 1
+    hitToggle: 0
     damageOptionsToggle: 1
     hitStunOptionsToggle: 1
     forceOptionsToggle: 0

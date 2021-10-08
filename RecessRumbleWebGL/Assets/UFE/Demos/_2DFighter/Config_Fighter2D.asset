@@ -183,7 +183,7 @@ MonoBehaviour:
             conversationAfterBattle: {fileID: 7516048182482662173, guid: cd151d28eb0534e4fbcaf6e5d9ac85b5,
               type: 3}
             opponentCharacterIndex: 2
-            possibleStagesIndexes: 01000000
+            possibleStagesIndexes: 02000000
           - conversationBeforeBattle: {fileID: 7516048182482662173, guid: 08764329f0af9f84c8673deb55267003,
               type: 3}
             conversationAfterBattle: {fileID: 7516048182482662173, guid: 1a1ffa7d77840104b8dbeae4e62ccb40,
@@ -210,21 +210,21 @@ MonoBehaviour:
             conversationAfterBattle: {fileID: 7516048182482662173, guid: 62db1434b53e88942a486fe9bb3261c5,
               type: 3}
             opponentCharacterIndex: 0
-            possibleStagesIndexes: 00000000
+            possibleStagesIndexes: 01000000
           - conversationBeforeBattle: {fileID: 7516048182482662173, guid: df248b4c65d8d8347ba311d2a6ffdd18,
               type: 3}
             conversationAfterBattle: {fileID: 7516048182482662173, guid: 262ff57f6f0f86842a2c34005dbdc39c,
               type: 3}
             opponentCharacterIndex: 2
-            possibleStagesIndexes: 01000000
+            possibleStagesIndexes: 02000000
           - conversationBeforeBattle: {fileID: 7516048182482662173, guid: 265c3ddfe8c73e64087c9a6b4ae13850,
               type: 3}
             conversationAfterBattle: {fileID: 7516048182482662173, guid: a0a8736d39e5d6b48940531ed56526dc,
               type: 3}
             opponentCharacterIndex: 3
-            possibleStagesIndexes: 02000000
+            possibleStagesIndexes: 03000000
           showOpponentsInEditor: 1
-        showStoryInEditor: 1
+        showStoryInEditor: 0
       - opening: {fileID: 0}
         ending: {fileID: 0}
         fightsGroups:
@@ -237,7 +237,7 @@ MonoBehaviour:
             conversationAfterBattle: {fileID: 7516048182482662173, guid: a032a7287c0bcbe4ea5e52d973db6af4,
               type: 3}
             opponentCharacterIndex: 0
-            possibleStagesIndexes: 02000000
+            possibleStagesIndexes: 01000000
           - conversationBeforeBattle: {fileID: 7516048182482662173, guid: e4cdccf1caa48994080b168a7777b2a1,
               type: 3}
             conversationAfterBattle: {fileID: 7516048182482662173, guid: a3b51dc02d347a34f9f269e50bd44ca0,
@@ -264,13 +264,13 @@ MonoBehaviour:
             conversationAfterBattle: {fileID: 7516048182482662173, guid: 22db045681141374c960bc50eb4a2401,
               type: 3}
             opponentCharacterIndex: 0
-            possibleStagesIndexes: 03000000
+            possibleStagesIndexes: 01000000
           - conversationBeforeBattle: {fileID: 7516048182482662173, guid: e465815d403c60e4481a479bf2b2b275,
               type: 3}
             conversationAfterBattle: {fileID: 7516048182482662173, guid: 4ba92db08cb9f1544b869ca1848cc371,
               type: 3}
             opponentCharacterIndex: 2
-            possibleStagesIndexes: 01000000
+            possibleStagesIndexes: 02000000
           - conversationBeforeBattle: {fileID: 7516048182482662173, guid: 3d020bf99c135664fbe4f9297bb8d1ea,
               type: 3}
             conversationAfterBattle: {fileID: 7516048182482662173, guid: 166fd710e660bdc4ca04f1de0ebf6a2c,
@@ -278,7 +278,7 @@ MonoBehaviour:
             opponentCharacterIndex: 1
             possibleStagesIndexes: 00000000
           showOpponentsInEditor: 1
-        showStoryInEditor: 1
+        showStoryInEditor: 0
   fps: 60
   _gameSpeed:
     _serializedValue: 4294967296
@@ -326,8 +326,8 @@ MonoBehaviour:
   deploymentOptions:
     deploymentType: 0
     activeCharacters:
-    - {fileID: 11400000, guid: 6b761e7adeeaaef45af82e3fdda6d92d, type: 2}
-    - {fileID: 11400000, guid: 6b761e7adeeaaef45af82e3fdda6d92d, type: 2}
+    - {fileID: 11400000, guid: 55d89405241307344848b26d2f8143f1, type: 2}
+    - {fileID: 11400000, guid: 49075f7c9de81bf49880ac0ae2087666, type: 2}
     - {fileID: 0}
     - {fileID: 0}
     - {fileID: 0}
@@ -386,7 +386,7 @@ MonoBehaviour:
     rotateWhileJumping: 0
     rotateOnMoveOnly: 0
     fixRotationWhenStunned: 0
-    fixRotationWhenBlocking: 1
+    fixRotationWhenBlocking: 0
     fixRotationOnHit: 0
     smoothRotation: 1
     _rotationSpeed:
@@ -1075,7 +1075,7 @@ MonoBehaviour:
     inputViewerIcon6: {fileID: 2800000, guid: 90523496d8897124e989ad256f109d27, type: 3}
   - inputType: 1
     inputButtonName: P2KeyboardVertical
-    engineRelatedButton: 2
+    engineRelatedButton: 3
     joystickAxisName: P2JoystickVertical
     cInputPositiveKeyName: P2Up
     cInputPositiveDefaultKey: UpArrow
@@ -1728,9 +1728,9 @@ MonoBehaviour:
     synchronizationMessageFrequency: 2
     synchronizationAction: 1
   music: 1
-  musicVolume: 0.39337954
+  musicVolume: 0.04825143
   soundfx: 1
-  soundfxVolume: 0.39337954
+  soundfxVolume: 0.04825143
   colorStateOne: {r: 1, g: 0, b: 0, a: 1}
   colorIsHit: {r: 1, g: 0, b: 1, a: 1}
   colorBodyCollider: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}

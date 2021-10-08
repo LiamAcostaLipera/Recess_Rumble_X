@@ -185,7 +185,23 @@ MonoBehaviour:
   bodyPartVisibilityChanges: []
   opponentOverride: []
   characterAssist: []
-  soundEffects: []
+  soundEffects:
+  - castingFrame: 6
+    sounds:
+    - {fileID: 8300000, guid: bc3c13dc95bce1f4599029e36da603ac, type: 3}
+    soundEffectsToggle: 0
+  - castingFrame: 15
+    sounds:
+    - {fileID: 8300000, guid: bc3c13dc95bce1f4599029e36da603ac, type: 3}
+    soundEffectsToggle: 0
+  - castingFrame: 22
+    sounds:
+    - {fileID: 8300000, guid: bc3c13dc95bce1f4599029e36da603ac, type: 3}
+    soundEffectsToggle: 0
+  - castingFrame: 4
+    sounds:
+    - {fileID: 8300000, guid: ce9fd86aa7e8826468de77cf658079af, type: 3}
+    soundEffectsToggle: 0
   inGameAlert: []
   stanceChanges: []
   cameraMovements: []
@@ -1239,18 +1255,18 @@ MonoBehaviour:
     resetPreviousHitStun: 0
     hitStunOnHit: 1
     hitStunOnBlock: 0
-    overrideHitEffects: 0
+    overrideHitEffects: 1
     fixRotation: 1
     armorBreaker: 0
     hitEffects:
       hitParticle: {fileID: 0}
       killTime: 0
-      hitSound: {fileID: 0}
+      hitSound: {fileID: 8300000, guid: 7cde714018b52524d91ab6555f26a569, type: 3}
       spawnPoint: 1
       _freezingTime:
         _serializedValue: 0
       _animationSpeed:
-        _serializedValue: 429496729
+        _serializedValue: 429496736
       autoHitStop: 1
       _hitStop:
         _serializedValue: 429496729
@@ -1258,9 +1274,9 @@ MonoBehaviour:
       shakeCharacterOnHit: 1
       shakeCameraOnHit: 1
       _shakeDensity:
-        _serializedValue: 3435973836
+        _serializedValue: 3435973888
       _shakeCameraDensity:
-        _serializedValue: 3435973836
+        _serializedValue: 3435973888
       editorToggle: 0
     groundHit: 1
     airHit: 0
@@ -1305,7 +1321,7 @@ MonoBehaviour:
     moveLinkOnParry: {fileID: 0}
     forceGrounded: 0
     moveLinksToggle: 0
-    damageOptionsToggle: 1
-    hitStunOptionsToggle: 1
+    damageOptionsToggle: 0
+    hitStunOptionsToggle: 0
     preview: 1
     moveName: 
