@@ -3378,7 +3378,7 @@ MonoBehaviour:
     onPressExecution: 1
     buttonSequence: 
     buttonExecution: 
-    editorToggle: 0
+    editorToggle: 1
     buttonSequenceToggle: 0
     buttonExecutionToggle: 0
   previousMoves: []
@@ -3403,7 +3403,7 @@ MonoBehaviour:
       blocking: 0
       stunned: 0
     basicMovesToggle: 0
-    statesToggle: 1
+    statesToggle: 0
   moveClassification:
     attackType: 1
     hitType: 0
@@ -3411,7 +3411,7 @@ MonoBehaviour:
     recoverySpeed: 4
     hitConfirmType: 0
     preferableDistance: 2
-    gaugeUsage: 0
+    gaugeUsage: 2
     anyAttackType: 1
     anyHitType: 1
     anyHitConfirmType: 1
@@ -3705,10 +3705,10 @@ MonoBehaviour:
           _serializedValue: 0
     hitToggle: 1
     damageOptionsToggle: 0
-    hitStunOptionsToggle: 1
+    hitStunOptionsToggle: 0
     forceOptionsToggle: 0
-    opponentForceToggle: 0
-    selfForceToggle: 0
+    opponentForceToggle: 1
+    selfForceToggle: 1
     stageReactionsToggle: 0
     overrideEventsToggle: 0
     hitConditionsToggle: 0
@@ -3864,7 +3864,7 @@ MonoBehaviour:
   stateOverride: []
   armorOptions:
     activeFramesBegin: 0
-    activeFramesEnds: 0
+    activeFramesEnds: 1
     overrideHitEffects: 0
     hitEffects:
       hitParticle: {fileID: 0}

@@ -3343,7 +3343,7 @@ MonoBehaviour:
   lockZMotion: 0
   forceGrounded: 0
   rootMotionNode: 0
-  overrideBlendingIn: 0
+  overrideBlendingIn: 1
   overrideBlendingOut: 0
   _blendingIn:
     _serializedValue: 0
