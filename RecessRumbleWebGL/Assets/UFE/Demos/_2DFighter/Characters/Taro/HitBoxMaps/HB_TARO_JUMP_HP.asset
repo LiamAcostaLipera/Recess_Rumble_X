@@ -31,7 +31,7 @@ MonoBehaviour:
       cubeWidth:
         _serializedValue: 9620726784
       cubeHeight:
-        _serializedValue: 12154757120
+        _serializedValue: 14388140032
       radius:
         _serializedValue: 2147483648
       range: 5
@@ -46,7 +46,7 @@ MonoBehaviour:
       cubeWidth:
         _serializedValue: 9620726784
       cubeHeight:
-        _serializedValue: 12154757120
+        _serializedValue: 14388140032
       radius:
         _serializedValue: 2147483648
       range: 0
@@ -61,7 +61,7 @@ MonoBehaviour:
       cubeWidth:
         _serializedValue: 9620726784
       cubeHeight:
-        _serializedValue: 12154757120
+        _serializedValue: 14388140032
       radius:
         _serializedValue: 2147483648
       range: 0
@@ -76,7 +76,7 @@ MonoBehaviour:
       cubeWidth:
         _serializedValue: 9620726784
       cubeHeight:
-        _serializedValue: 12154757120
+        _serializedValue: 14388140032
       radius:
         _serializedValue: 2147483648
       range: 0
@@ -91,7 +91,7 @@ MonoBehaviour:
       cubeWidth:
         _serializedValue: 9620726784
       cubeHeight:
-        _serializedValue: 12154757120
+        _serializedValue: 14388140032
       radius:
         _serializedValue: 2147483648
       range: 0
