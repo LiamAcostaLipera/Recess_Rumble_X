@@ -137,8 +137,8 @@ MonoBehaviour:
     movementSpeed: 15
   info: {fileID: 11400034}
   timer: {fileID: 11400066}
-  lifeDownSpeed: 500
-  lifeUpSpeed: 800
+  lifeDownSpeed: 10000
+  lifeUpSpeed: 10000
   pauseScreen: {fileID: 11400000, guid: 6241d31f6482b42a88a8e7c8b62e2716, type: 3}
   networkPlayerPointer: {fileID: 0}
   pointerTimer: 4

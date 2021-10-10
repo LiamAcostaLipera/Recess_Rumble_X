@@ -326,8 +326,8 @@ MonoBehaviour:
   deploymentOptions:
     deploymentType: 0
     activeCharacters:
-    - {fileID: 11400000, guid: 55d89405241307344848b26d2f8143f1, type: 2}
-    - {fileID: 11400000, guid: 49075f7c9de81bf49880ac0ae2087666, type: 2}
+    - {fileID: 11400000, guid: 75f6f26ca92b59e4c893e99f44df6536, type: 2}
+    - {fileID: 11400000, guid: 75f6f26ca92b59e4c893e99f44df6536, type: 2}
     - {fileID: 0}
     - {fileID: 0}
     - {fileID: 0}
@@ -345,7 +345,7 @@ MonoBehaviour:
     - {fileID: 0}
     - {fileID: 0}
     - {fileID: 0}
-    AIControlled: 00000000000000010101010101010101010101
+    AIControlled: 00010000000000010101010101010101010101
     selectedTeamMode: 0
     selectedChallengeMode: 0
     skipLoadingScreen: 1
@@ -388,7 +388,7 @@ MonoBehaviour:
     fixRotationWhenStunned: 0
     fixRotationWhenBlocking: 0
     fixRotationOnHit: 0
-    smoothRotation: 1
+    smoothRotation: 0
     _rotationSpeed:
       _serializedValue: 128849018880
     _mirrorBlending:
@@ -489,8 +489,8 @@ MonoBehaviour:
     sound: {fileID: 8300000, guid: 5b3bea24171c6534b81c07a298e51803, type: 3}
   comboOptions:
     comboDisplayMode: 0
-    hitStunDeterioration: 1
-    damageDeterioration: 2
+    hitStunDeterioration: 3
+    damageDeterioration: 3
     airJuggleDeterioration: 1
     _minHitStun: 1
     _minDamage:
@@ -502,7 +502,7 @@ MonoBehaviour:
     neverAirRecover: 1
     airRecoveryType: 2
     resetFallingForceOnHit: 1
-    maxCombo: 99
+    maxCombo: 3
     _knockBackMinForce:
       _serializedValue: 42949672960
     neverCornerPush: 0
@@ -914,7 +914,7 @@ MonoBehaviour:
   player1_Inputs:
   - inputType: 0
     inputButtonName: P1KeyboardHorizontal
-    engineRelatedButton: 0
+    engineRelatedButton: 1
     joystickAxisName: P1JoystickHorizontal
     cInputPositiveKeyName: P1Right
     cInputPositiveDefaultKey: D
@@ -930,7 +930,7 @@ MonoBehaviour:
     inputViewerIcon6: {fileID: 2800000, guid: 90523496d8897124e989ad256f109d27, type: 3}
   - inputType: 1
     inputButtonName: P1KeyboardVertical
-    engineRelatedButton: 3
+    engineRelatedButton: 2
     joystickAxisName: P1JoystickVertical
     cInputPositiveKeyName: P1Up
     cInputPositiveDefaultKey: W
@@ -1075,7 +1075,7 @@ MonoBehaviour:
     inputViewerIcon6: {fileID: 2800000, guid: 90523496d8897124e989ad256f109d27, type: 3}
   - inputType: 1
     inputButtonName: P2KeyboardVertical
-    engineRelatedButton: 3
+    engineRelatedButton: 2
     joystickAxisName: P2JoystickVertical
     cInputPositiveKeyName: P2Up
     cInputPositiveDefaultKey: UpArrow

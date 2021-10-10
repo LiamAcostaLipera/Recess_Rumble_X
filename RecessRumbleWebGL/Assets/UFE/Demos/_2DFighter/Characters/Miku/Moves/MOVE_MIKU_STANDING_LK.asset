@@ -19,7 +19,7 @@ MonoBehaviour:
     customHitBoxDefinition: {fileID: 11400000, guid: a4006202a5f62764c84b3b792606a8d4,
       type: 2}
     length:
-      _serializedValue: 1073741824
+      _serializedValue: 429496768
     bakeSpeed: 0
     hitBoxDefinitionType: 1
   _animationSpeed:
@@ -45,10 +45,10 @@ MonoBehaviour:
   speedKeyFrameToggle: 0
   fixedSpeed: 1
   animSpeedKeyFrame: []
-  totalFrames: 20
-  startUpFrames: 0
-  activeFrames: 14
-  recoveryFrames: 6
+  totalFrames: 7
+  startUpFrames: 2
+  activeFrames: 3
+  recoveryFrames: 2
   applyRootMotion: 0
   lockXMotion: 0
   lockYMotion: 0
@@ -178,8 +178,8 @@ MonoBehaviour:
   stanceChanges: []
   cameraMovements: []
   hits:
-  - activeFramesBegin: 0
-    activeFramesEnds: 14
+  - activeFramesBegin: 2
+    activeFramesEnds: 5
     hitConfirmType: 0
     throwMove: {fileID: 0}
     techMove: {fileID: 0}
@@ -263,15 +263,15 @@ MonoBehaviour:
     hitStrength: 0
     hitStunType: 1
     _hitStunOnHit:
-      _serializedValue: 12884901888
+      _serializedValue: 77309411328
     _hitStunOnBlock:
       _serializedValue: 0
     frameAdvantageOnHit: 0
     frameAdvantageOnBlock: 0
     damageScaling: 0
-    damageType: 0
+    damageType: 1
     _damageOnHit:
-      _serializedValue: 17179869184
+      _serializedValue: 1717986918400
     _damageOnBlock:
       _serializedValue: 0
     doesntKill: 0
@@ -329,8 +329,8 @@ MonoBehaviour:
         _serializedValue: 0
       z:
         _serializedValue: 0
-    cornerPush: 1
-    groundBounce: 1
+    cornerPush: 0
+    groundBounce: 0
     overrideForcesOnGroundBounce: 0
     resetGroundBounceHorizontalPush: 0
     resetGroundBounceVerticalPush: 0
@@ -384,8 +384,8 @@ MonoBehaviour:
         z:
           _serializedValue: 0
     hitToggle: 1
-    damageOptionsToggle: 0
-    hitStunOptionsToggle: 0
+    damageOptionsToggle: 1
+    hitStunOptionsToggle: 1
     forceOptionsToggle: 0
     opponentForceToggle: 0
     selfForceToggle: 0
@@ -456,7 +456,7 @@ MonoBehaviour:
   blockableArea:
     enabled: 1
     activeFramesBegin: 0
-    activeFramesEnds: 17
+    activeFramesEnds: 6
     bodyPart: 0
     hitBoxDefinitionIndex: 4
     shape: 0

@@ -19,7 +19,7 @@ MonoBehaviour:
     customHitBoxDefinition: {fileID: 11400000, guid: c3d3c4998ac3dcd49be90851f984ba65,
       type: 2}
     length:
-      _serializedValue: 2505397504
+      _serializedValue: 1145324672
     bakeSpeed: 0
     hitBoxDefinitionType: 1
   _animationSpeed:
@@ -44,10 +44,10 @@ MonoBehaviour:
   speedKeyFrameToggle: 0
   fixedSpeed: 1
   animSpeedKeyFrame: []
-  totalFrames: 35
-  startUpFrames: 10
-  activeFrames: 19
-  recoveryFrames: 6
+  totalFrames: 16
+  startUpFrames: 6
+  activeFrames: 3
+  recoveryFrames: 7
   applyRootMotion: 0
   lockXMotion: 0
   lockYMotion: 0
@@ -165,8 +165,8 @@ MonoBehaviour:
   stanceChanges: []
   cameraMovements: []
   hits:
-  - activeFramesBegin: 10
-    activeFramesEnds: 29
+  - activeFramesBegin: 6
+    activeFramesEnds: 9
     hitConfirmType: 0
     throwMove: {fileID: 0}
     techMove: {fileID: 0}
@@ -182,7 +182,7 @@ MonoBehaviour:
     crouchingHit: 1
     airHit: 1
     stunHit: 1
-    allowMultiHit: 0
+    allowMultiHit: 1
     opponentConditions:
       basicMoveLimitation: 
       possibleMoveStates: []
@@ -247,18 +247,18 @@ MonoBehaviour:
     instantAirRecovery: 0
     overrideHitAnimation: 0
     newHitAnimation: 27
-    hitStrength: 2
+    hitStrength: 0
     hitStunType: 1
     _hitStunOnHit:
-      _serializedValue: 12884901888
+      _serializedValue: 77309411328
     _hitStunOnBlock:
       _serializedValue: 0
     frameAdvantageOnHit: 0
     frameAdvantageOnBlock: 0
     damageScaling: 0
-    damageType: 0
+    damageType: 1
     _damageOnHit:
-      _serializedValue: 34359738368
+      _serializedValue: 4294967296000
     _damageOnBlock:
       _serializedValue: 0
     doesntKill: 0
@@ -316,8 +316,8 @@ MonoBehaviour:
         _serializedValue: 0
       z:
         _serializedValue: 0
-    cornerPush: 1
-    groundBounce: 1
+    cornerPush: 0
+    groundBounce: 0
     overrideForcesOnGroundBounce: 0
     resetGroundBounceHorizontalPush: 0
     resetGroundBounceVerticalPush: 0
@@ -371,7 +371,7 @@ MonoBehaviour:
         z:
           _serializedValue: 0
     hitToggle: 1
-    damageOptionsToggle: 0
+    damageOptionsToggle: 1
     hitStunOptionsToggle: 0
     forceOptionsToggle: 0
     opponentForceToggle: 0
@@ -442,8 +442,8 @@ MonoBehaviour:
       type: 0
   blockableArea:
     enabled: 1
-    activeFramesBegin: 7
-    activeFramesEnds: 32
+    activeFramesBegin: 4
+    activeFramesEnds: 11
     bodyPart: 0
     hitBoxDefinitionIndex: 4
     shape: 0

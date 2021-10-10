@@ -31,7 +31,7 @@ MonoBehaviour:
   fps: 60
   ignoreGravity: 0
   ignoreFriction: 0
-  cancelMoveWheLanding: 0
+  cancelMoveWheLanding: 1
   forceMirrorLeft: 0
   forceMirrorRight: 0
   invertRotationLeft: 0
@@ -280,9 +280,9 @@ MonoBehaviour:
     frameAdvantageOnHit: 0
     frameAdvantageOnBlock: 0
     damageScaling: 0
-    damageType: 0
+    damageType: 1
     _damageOnHit:
-      _serializedValue: 34359738368
+      _serializedValue: 1073741824000
     _damageOnBlock:
       _serializedValue: 0
     doesntKill: 0
@@ -394,9 +394,9 @@ MonoBehaviour:
           _serializedValue: 0
         z:
           _serializedValue: 0
-    hitToggle: 0
-    damageOptionsToggle: 0
-    hitStunOptionsToggle: 0
+    hitToggle: 1
+    damageOptionsToggle: 1
+    hitStunOptionsToggle: 1
     forceOptionsToggle: 0
     opponentForceToggle: 0
     selfForceToggle: 0
