@@ -126,7 +126,7 @@ MonoBehaviour:
       blocking: 0
       stunned: 0
     basicMovesToggle: 0
-    statesToggle: 1
+    statesToggle: 0
   moveClassification:
     attackType: 0
     hitType: 0
@@ -395,8 +395,8 @@ MonoBehaviour:
         z:
           _serializedValue: 0
     hitToggle: 1
-    damageOptionsToggle: 0
-    hitStunOptionsToggle: 1
+    damageOptionsToggle: 1
+    hitStunOptionsToggle: 0
     forceOptionsToggle: 0
     opponentForceToggle: 0
     selfForceToggle: 0

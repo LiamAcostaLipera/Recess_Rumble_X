@@ -478,7 +478,7 @@ MonoBehaviour:
     shape: 1
     collisionType: 0
     hitBoxType: 1
-  - name: Throw Collider
+  - name: Hit
     activeFrames:
     - active: 1
       position:
@@ -708,7 +708,7 @@ MonoBehaviour:
     shape: 1
     collisionType: 1
     hitBoxType: 1
-  - name: Throw
+  - name: Throw Collider
     activeFrames:
     - active: 1
       position:

@@ -15,6 +15,6 @@ MonoBehaviour:
   clip: {fileID: 7400000, guid: f1fbeba8b48f9f548899115b3e3532dd, type: 2}
   speed:
     _serializedValue: 4294967296
-  preview: {fileID: 0}
+  preview: {fileID: 8012443432642201050, guid: ee02218ee7d0f8f4aa11088b3471f3ac, type: 3}
   totalFrames: 10
   customHitBoxes: []

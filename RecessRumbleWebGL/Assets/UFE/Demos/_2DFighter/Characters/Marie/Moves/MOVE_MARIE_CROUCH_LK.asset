@@ -3313,8 +3313,7 @@ MonoBehaviour:
   _animationSpeed:
     _serializedValue: 4294967296
   wrapMode: 0
-  characterPrefab: {fileID: 8012443432642201050, guid: ee02218ee7d0f8f4aa11088b3471f3ac,
-    type: 3}
+  characterPrefab: {fileID: 0}
   moveName: MOVE_MARIE_CROUCH_LK
   description: Standing Light Kick
   fps: 60
@@ -3577,7 +3576,7 @@ MonoBehaviour:
     hitStrength: 2
     hitStunType: 1
     _hitStunOnHit:
-      _serializedValue: 0
+      _serializedValue: 12884901888
     _hitStunOnBlock:
       _serializedValue: 0
     frameAdvantageOnHit: 0

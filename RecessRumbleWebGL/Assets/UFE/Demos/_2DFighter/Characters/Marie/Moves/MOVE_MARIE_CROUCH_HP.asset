@@ -25,8 +25,7 @@ MonoBehaviour:
   _animationSpeed:
     _serializedValue: 4294967296
   wrapMode: 0
-  characterPrefab: {fileID: 8012443432642201050, guid: ee02218ee7d0f8f4aa11088b3471f3ac,
-    type: 3}
+  characterPrefab: {fileID: 0}
   moveName: MARIE_CROUCH_HP
   description: Standing Light Kick
   fps: 60
@@ -101,9 +100,21 @@ MonoBehaviour:
     statesToggle: 0
   selfConditions:
     basicMoveLimitation: 
-    possibleMoveStates: []
+    possibleMoveStates:
+    - possibleState: 1
+      jumpArc: 0
+      jumpArcBegins: 0
+      jumpArcEnds: 100
+      opponentDistance: 0
+      proximityRangeBegins: 0
+      proximityRangeEnds: 100
+      movingForward: 1
+      movingBack: 1
+      standBy: 1
+      blocking: 0
+      stunned: 0
     basicMovesToggle: 0
-    statesToggle: 0
+    statesToggle: 1
   moveClassification:
     attackType: 0
     hitType: 0
@@ -250,7 +261,7 @@ MonoBehaviour:
     damageScaling: 0
     damageType: 0
     _damageOnHit:
-      _serializedValue: 17179869184
+      _serializedValue: 34359738368
     _damageOnBlock:
       _serializedValue: 0
     doesntKill: 0
@@ -370,9 +381,9 @@ MonoBehaviour:
     selfForceToggle: 0
     stageReactionsToggle: 0
     overrideEventsToggle: 0
-    hitConditionsToggle: 1
+    hitConditionsToggle: 0
     pullInToggle: 0
-    hurtBoxesToggle: 1
+    hurtBoxesToggle: 0
     wallBounceToggle: 0
     groundBounceToggle: 0
     hurtBoxes:
@@ -435,7 +446,7 @@ MonoBehaviour:
   blockableArea:
     enabled: 1
     activeFramesBegin: 0
-    activeFramesEnds: 0
+    activeFramesEnds: 25
     bodyPart: 0
     hitBoxDefinitionIndex: 0
     shape: 0
