@@ -3602,9 +3602,9 @@ MonoBehaviour:
     frameAdvantageOnHit: 0
     frameAdvantageOnBlock: 0
     damageScaling: 0
-    damageType: 0
+    damageType: 1
     _damageOnHit:
-      _serializedValue: 42949672960
+      _serializedValue: 5583457484800
     _damageOnBlock:
       _serializedValue: 0
     doesntKill: 0
@@ -3718,7 +3718,7 @@ MonoBehaviour:
           _serializedValue: 0
     hitToggle: 1
     damageOptionsToggle: 0
-    hitStunOptionsToggle: 1
+    hitStunOptionsToggle: 0
     forceOptionsToggle: 0
     opponentForceToggle: 1
     selfForceToggle: 0

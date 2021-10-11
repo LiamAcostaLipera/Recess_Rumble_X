@@ -3307,7 +3307,7 @@ MonoBehaviour:
     customHitBoxDefinition: {fileID: 11400000, guid: da009598a26a568439e07078782fbc28,
       type: 2}
     length:
-      _serializedValue: 1431655808
+      _serializedValue: 858993472
     bakeSpeed: 0
     hitBoxDefinitionType: 1
   _animationSpeed:
@@ -3333,10 +3333,10 @@ MonoBehaviour:
   speedKeyFrameToggle: 0
   fixedSpeed: 1
   animSpeedKeyFrame: []
-  totalFrames: 20
-  startUpFrames: 5
-  activeFrames: 4
-  recoveryFrames: 11
+  totalFrames: 12
+  startUpFrames: 2
+  activeFrames: 3
+  recoveryFrames: 7
   applyRootMotion: 0
   lockXMotion: 0
   lockYMotion: 0
@@ -3498,8 +3498,8 @@ MonoBehaviour:
   stanceChanges: []
   cameraMovements: []
   hits:
-  - activeFramesBegin: 5
-    activeFramesEnds: 9
+  - activeFramesBegin: 2
+    activeFramesEnds: 5
     hitConfirmType: 0
     throwMove: {fileID: 0}
     techMove: {fileID: 0}
@@ -3583,15 +3583,15 @@ MonoBehaviour:
     hitStrength: 2
     hitStunType: 1
     _hitStunOnHit:
-      _serializedValue: 12884901888
+      _serializedValue: 94489280512
     _hitStunOnBlock:
       _serializedValue: 0
     frameAdvantageOnHit: 0
     frameAdvantageOnBlock: 0
     damageScaling: 0
-    damageType: 0
+    damageType: 1
     _damageOnHit:
-      _serializedValue: 34359738368
+      _serializedValue: 4294967296000
     _damageOnBlock:
       _serializedValue: 0
     doesntKill: 0
@@ -3705,7 +3705,7 @@ MonoBehaviour:
           _serializedValue: 0
     hitToggle: 1
     damageOptionsToggle: 0
-    hitStunOptionsToggle: 1
+    hitStunOptionsToggle: 0
     forceOptionsToggle: 0
     opponentForceToggle: 0
     selfForceToggle: 0
@@ -3775,8 +3775,8 @@ MonoBehaviour:
       type: 0
   blockableArea:
     enabled: 1
-    activeFramesBegin: 2
-    activeFramesEnds: 12
+    activeFramesBegin: 0
+    activeFramesEnds: 7
     bodyPart: 2
     hitBoxDefinitionIndex: 4
     shape: 1

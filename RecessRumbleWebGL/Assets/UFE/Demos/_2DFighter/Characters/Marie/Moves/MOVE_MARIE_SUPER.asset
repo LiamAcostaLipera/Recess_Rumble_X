@@ -611,7 +611,7 @@ MonoBehaviour:
         _serializedValue: 3435973836
       editorToggle: 0
     groundHit: 1
-    airHit: 0
+    airHit: 1
     downHit: 0
     damageType: 0
     _damageOnHit:
@@ -919,7 +919,7 @@ MonoBehaviour:
     spaceBetweenHits: 5
     totalHits: 1
     resetPreviousHitStun: 1
-    hitStunOnHit: 0
+    hitStunOnHit: 3
     hitStunOnBlock: 0
     overrideHitEffects: 0
     fixRotation: 1
@@ -987,7 +987,7 @@ MonoBehaviour:
     moveLinkOnParry: {fileID: 0}
     forceGrounded: 0
     moveLinksToggle: 0
-    damageOptionsToggle: 1
+    damageOptionsToggle: 0
     hitStunOptionsToggle: 0
     preview: 1
     moveName: 

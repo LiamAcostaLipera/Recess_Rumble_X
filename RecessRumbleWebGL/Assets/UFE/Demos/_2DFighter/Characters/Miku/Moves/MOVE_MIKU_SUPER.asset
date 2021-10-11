@@ -3610,7 +3610,7 @@ MonoBehaviour:
       _serializedValue: 4724464128
     impactDuration: 2
     fixedZAxis: 0
-    projectileCollision: 0
+    projectileCollision: 1
     unblockable: 0
     mirrorOn2PSide: 1
     destroyWhenOffCameraBounds: 0

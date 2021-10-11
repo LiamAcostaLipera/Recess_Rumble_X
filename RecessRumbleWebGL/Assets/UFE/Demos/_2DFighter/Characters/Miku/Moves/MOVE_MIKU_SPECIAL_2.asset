@@ -3905,7 +3905,7 @@ MonoBehaviour:
         _serializedValue: 3435973836
       editorToggle: 0
     groundHit: 1
-    airHit: 0
+    airHit: 1
     downHit: 0
     damageType: 1
     _damageOnHit:

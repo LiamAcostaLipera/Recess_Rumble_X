@@ -278,7 +278,7 @@ MonoBehaviour:
             opponentCharacterIndex: 1
             possibleStagesIndexes: 00000000
           showOpponentsInEditor: 1
-        showStoryInEditor: 0
+        showStoryInEditor: 1
   fps: 60
   _gameSpeed:
     _serializedValue: 4294967296
@@ -326,8 +326,8 @@ MonoBehaviour:
   deploymentOptions:
     deploymentType: 0
     activeCharacters:
+    - {fileID: 11400000, guid: 6b761e7adeeaaef45af82e3fdda6d92d, type: 2}
     - {fileID: 11400000, guid: 75f6f26ca92b59e4c893e99f44df6536, type: 2}
-    - {fileID: 11400000, guid: 75f6f26ca92b59e4c893e99f44df6536, type: 2}
     - {fileID: 0}
     - {fileID: 0}
     - {fileID: 0}
@@ -345,7 +345,7 @@ MonoBehaviour:
     - {fileID: 0}
     - {fileID: 0}
     - {fileID: 0}
-    AIControlled: 00010000000000010101010101010101010101
+    AIControlled: 00000000000000010101010101010101010101
     selectedTeamMode: 0
     selectedChallengeMode: 0
     skipLoadingScreen: 1
@@ -914,7 +914,7 @@ MonoBehaviour:
   player1_Inputs:
   - inputType: 0
     inputButtonName: P1KeyboardHorizontal
-    engineRelatedButton: 1
+    engineRelatedButton: 0
     joystickAxisName: P1JoystickHorizontal
     cInputPositiveKeyName: P1Right
     cInputPositiveDefaultKey: D
@@ -930,7 +930,7 @@ MonoBehaviour:
     inputViewerIcon6: {fileID: 2800000, guid: 90523496d8897124e989ad256f109d27, type: 3}
   - inputType: 1
     inputButtonName: P1KeyboardVertical
-    engineRelatedButton: 2
+    engineRelatedButton: 3
     joystickAxisName: P1JoystickVertical
     cInputPositiveKeyName: P1Up
     cInputPositiveDefaultKey: W
@@ -1728,9 +1728,9 @@ MonoBehaviour:
     synchronizationMessageFrequency: 2
     synchronizationAction: 1
   music: 1
-  musicVolume: 0.04825143
+  musicVolume: 0.21349168
   soundfx: 1
-  soundfxVolume: 0.04825143
+  soundfxVolume: 0.21349168
   colorStateOne: {r: 1, g: 0, b: 0, a: 1}
   colorIsHit: {r: 1, g: 0, b: 1, a: 1}
   colorBodyCollider: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}

@@ -31,7 +31,7 @@ MonoBehaviour:
   fps: 60
   ignoreGravity: 0
   ignoreFriction: 0
-  cancelMoveWheLanding: 0
+  cancelMoveWheLanding: 1
   forceMirrorLeft: 0
   forceMirrorRight: 0
   invertRotationLeft: 0

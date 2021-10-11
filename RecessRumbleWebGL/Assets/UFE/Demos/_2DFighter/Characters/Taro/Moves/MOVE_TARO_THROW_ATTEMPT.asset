@@ -174,7 +174,7 @@ MonoBehaviour:
       basicMoveLimitation: 
       possibleMoveStates: []
       basicMovesToggle: 0
-      statesToggle: 1
+      statesToggle: 0
     downHit: 0
     resetPreviousHitStun: 0
     resetCrumples: 0

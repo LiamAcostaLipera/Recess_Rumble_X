@@ -328,8 +328,8 @@ MonoBehaviour:
     mirrorOn2PSide: 1
     destroyWhenOffCameraBounds: 0
     applyGravity: 0
-    limitMultiCasting: 0
-    onScreenLimit: 0
+    limitMultiCasting: 1
+    onScreenLimit: 1
     limitOnlyThis: 0
     forceApplied:
       x:
@@ -567,7 +567,7 @@ MonoBehaviour:
     spaceBetweenHits: 0
     totalHits: 1
     resetPreviousHitStun: 1
-    hitStunOnHit: 0
+    hitStunOnHit: 3
     hitStunOnBlock: 0
     overrideHitEffects: 1
     fixRotation: 1
@@ -591,9 +591,9 @@ MonoBehaviour:
         _serializedValue: 3435973888
       _shakeCameraDensity:
         _serializedValue: 3435973888
-      editorToggle: 1
+      editorToggle: 0
     groundHit: 1
-    airHit: 0
+    airHit: 1
     downHit: 0
     damageType: 0
     _damageOnHit:
@@ -636,6 +636,6 @@ MonoBehaviour:
     forceGrounded: 0
     moveLinksToggle: 0
     damageOptionsToggle: 0
-    hitStunOptionsToggle: 0
+    hitStunOptionsToggle: 1
     preview: 1
     moveName: 

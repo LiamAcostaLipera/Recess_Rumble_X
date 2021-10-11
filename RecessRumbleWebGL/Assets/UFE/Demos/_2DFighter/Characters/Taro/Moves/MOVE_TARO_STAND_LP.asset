@@ -3307,7 +3307,7 @@ MonoBehaviour:
     customHitBoxDefinition: {fileID: 11400000, guid: c89dea429ffe6434f87af5c57561d2fc,
       type: 2}
     length:
-      _serializedValue: 2505397504
+      _serializedValue: 715827904
     bakeSpeed: 0
     hitBoxDefinitionType: 1
   _animationSpeed:
@@ -3333,10 +3333,10 @@ MonoBehaviour:
   speedKeyFrameToggle: 0
   fixedSpeed: 1
   animSpeedKeyFrame: []
-  totalFrames: 35
-  startUpFrames: 5
-  activeFrames: 11
-  recoveryFrames: 19
+  totalFrames: 10
+  startUpFrames: 2
+  activeFrames: 5
+  recoveryFrames: 3
   applyRootMotion: 0
   lockXMotion: 0
   lockYMotion: 0
@@ -3498,8 +3498,8 @@ MonoBehaviour:
   stanceChanges: []
   cameraMovements: []
   hits:
-  - activeFramesBegin: 5
-    activeFramesEnds: 16
+  - activeFramesBegin: 2
+    activeFramesEnds: 7
     hitConfirmType: 0
     throwMove: {fileID: 0}
     techMove: {fileID: 0}
@@ -3583,15 +3583,15 @@ MonoBehaviour:
     hitStrength: 0
     hitStunType: 1
     _hitStunOnHit:
-      _serializedValue: 12884901888
+      _serializedValue: 68719476736
     _hitStunOnBlock:
       _serializedValue: 0
     frameAdvantageOnHit: 0
     frameAdvantageOnBlock: 0
     damageScaling: 0
-    damageType: 0
+    damageType: 1
     _damageOnHit:
-      _serializedValue: 17179869184
+      _serializedValue: 1503238553600
     _damageOnBlock:
       _serializedValue: 0
     doesntKill: 0
@@ -3705,7 +3705,7 @@ MonoBehaviour:
           _serializedValue: 0
     hitToggle: 1
     damageOptionsToggle: 0
-    hitStunOptionsToggle: 1
+    hitStunOptionsToggle: 0
     forceOptionsToggle: 0
     opponentForceToggle: 0
     selfForceToggle: 0
@@ -3737,7 +3737,7 @@ MonoBehaviour:
           _serializedValue: 0
         topRight:
           x:
-            _serializedValue: 10136122368
+            _serializedValue: 0
           y:
             _serializedValue: 0
           z:
@@ -3751,32 +3751,32 @@ MonoBehaviour:
             _serializedValue: 0
         bottomRight:
           x:
-            _serializedValue: 10136122368
+            _serializedValue: 0
           y:
-            _serializedValue: 23536420864
+            _serializedValue: 0
           z:
             _serializedValue: 0
         bottomLeft:
           x:
             _serializedValue: 0
           y:
-            _serializedValue: 23536420864
+            _serializedValue: 0
           z:
             _serializedValue: 0
         width:
-          _serializedValue: 10136122368
+          _serializedValue: 0
         height:
-          _serializedValue: 23536420864
+          _serializedValue: 0
         xMax:
-          _serializedValue: 10136122368
+          _serializedValue: 0
         yMax:
-          _serializedValue: 23536420864
-      shape: 1
+          _serializedValue: 0
+      shape: 0
       type: 0
   blockableArea:
     enabled: 1
-    activeFramesBegin: 2
-    activeFramesEnds: 19
+    activeFramesBegin: 0
+    activeFramesEnds: 9
     bodyPart: 2
     hitBoxDefinitionIndex: 4
     shape: 1

@@ -27,9 +27,9 @@ MonoBehaviour:
   selectionSound: {fileID: 0}
   deathSound: {fileID: 0}
   height: 182
-  age: 12
+  age: 18
   bloodType: Unknown
-  lifePoints: 1000
+  lifePoints: 15500
   maxGaugePoints: 1000
   characterPrefabStorage: 1
   characterPrefab: {fileID: 0}
