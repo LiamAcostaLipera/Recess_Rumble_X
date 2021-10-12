@@ -92,7 +92,8 @@ MonoBehaviour:
       screenMatchMode: 0
       scaleMode: 1
     introScreen: {fileID: 11400002, guid: 13b99c79eef784ed188978d675abe8fc, type: 3}
-    mainMenuScreen: {fileID: 11400002, guid: 547fcf75524de45b9b7a02c722e9475f, type: 3}
+    mainMenuScreen: {fileID: -6089267711487009671, guid: 1f187c576552417468f3ef9d7a85f8c1,
+      type: 3}
     optionsScreen: {fileID: 11400056, guid: 2737f2cf99cd3416b9a9d13df2abbe04, type: 3}
     creditsScreen: {fileID: 11400010, guid: aa93c5bcd99024642a42c5a1f110eeb1, type: 3}
     pauseScreen: {fileID: 11400000, guid: 6241d31f6482b42a88a8e7c8b62e2716, type: 3}
@@ -1728,9 +1729,9 @@ MonoBehaviour:
     synchronizationMessageFrequency: 2
     synchronizationAction: 1
   music: 1
-  musicVolume: 1
+  musicVolume: 0.04825143
   soundfx: 1
-  soundfxVolume: 1
+  soundfxVolume: 0.04825143
   colorStateOne: {r: 1, g: 0, b: 0, a: 1}
   colorIsHit: {r: 1, g: 0, b: 1, a: 1}
   colorBodyCollider: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
