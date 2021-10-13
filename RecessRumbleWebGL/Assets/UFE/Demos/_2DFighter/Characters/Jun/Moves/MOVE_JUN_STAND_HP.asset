@@ -4129,7 +4129,7 @@ MonoBehaviour:
     customHitBoxDefinition: {fileID: 11400000, guid: df1b0d7c844382748a5ac412184d11c2,
       type: 2}
     length:
-      _serializedValue: 2147483648
+      _serializedValue: 1002159040
     bakeSpeed: 0
     hitBoxDefinitionType: 1
   _animationSpeed:
@@ -4137,7 +4137,7 @@ MonoBehaviour:
   wrapMode: 0
   characterPrefab: {fileID: 8012443432642201050, guid: 2e3c7091bee7b0d4295a877bc08481dc,
     type: 3}
-  moveName: Heavy Punch
+  moveName: MOVE_JUN_STAND_HP
   description: Heavy Punch
   fps: 60
   ignoreGravity: 0
@@ -4155,10 +4155,10 @@ MonoBehaviour:
   speedKeyFrameToggle: 0
   fixedSpeed: 1
   animSpeedKeyFrame: []
-  totalFrames: 30
-  startUpFrames: 5
-  activeFrames: 14
-  recoveryFrames: 11
+  totalFrames: 14
+  startUpFrames: 2
+  activeFrames: 5
+  recoveryFrames: 7
   applyRootMotion: 0
   lockXMotion: 0
   lockYMotion: 0
@@ -4318,8 +4318,8 @@ MonoBehaviour:
   stanceChanges: []
   cameraMovements: []
   hits:
-  - activeFramesBegin: 5
-    activeFramesEnds: 19
+  - activeFramesBegin: 2
+    activeFramesEnds: 7
     hitConfirmType: 0
     throwMove: {fileID: 0}
     techMove: {fileID: 0}
@@ -4403,15 +4403,15 @@ MonoBehaviour:
     hitStrength: 2
     hitStunType: 1
     _hitStunOnHit:
-      _serializedValue: 12884901888
+      _serializedValue: 85899345920
     _hitStunOnBlock:
       _serializedValue: 0
     frameAdvantageOnHit: 0
     frameAdvantageOnBlock: 0
     damageScaling: 1
-    damageType: 0
+    damageType: 1
     _damageOnHit:
-      _serializedValue: 34359738368
+      _serializedValue: 4509715660800
     _damageOnBlock:
       _serializedValue: 0
     doesntKill: 0
@@ -4526,7 +4526,7 @@ MonoBehaviour:
     hitToggle: 1
     damageOptionsToggle: 1
     hitStunOptionsToggle: 1
-    forceOptionsToggle: 1
+    forceOptionsToggle: 0
     opponentForceToggle: 1
     selfForceToggle: 1
     stageReactionsToggle: 0
@@ -4557,7 +4557,7 @@ MonoBehaviour:
           _serializedValue: 0
         topRight:
           x:
-            _serializedValue: 10222022656
+            _serializedValue: 0
           y:
             _serializedValue: 0
           z:
@@ -4571,32 +4571,32 @@ MonoBehaviour:
             _serializedValue: 0
         bottomRight:
           x:
-            _serializedValue: 10222022656
+            _serializedValue: 0
           y:
-            _serializedValue: 4166118400
+            _serializedValue: 0
           z:
             _serializedValue: 0
         bottomLeft:
           x:
             _serializedValue: 0
           y:
-            _serializedValue: 4166118400
+            _serializedValue: 0
           z:
             _serializedValue: 0
         width:
-          _serializedValue: 10222022656
+          _serializedValue: 0
         height:
-          _serializedValue: 4166118400
+          _serializedValue: 0
         xMax:
-          _serializedValue: 10222022656
+          _serializedValue: 0
         yMax:
-          _serializedValue: 4166118400
-      shape: 1
+          _serializedValue: 0
+      shape: 0
       type: 0
   blockableArea:
     enabled: 1
-    activeFramesBegin: 3
-    activeFramesEnds: 21
+    activeFramesBegin: 0
+    activeFramesEnds: 9
     bodyPart: 2
     hitBoxDefinitionIndex: 4
     shape: 1
