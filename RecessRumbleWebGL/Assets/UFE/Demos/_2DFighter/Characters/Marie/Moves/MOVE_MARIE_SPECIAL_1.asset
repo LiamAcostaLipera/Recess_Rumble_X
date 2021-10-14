@@ -595,9 +595,9 @@ MonoBehaviour:
     groundHit: 1
     airHit: 1
     downHit: 0
-    damageType: 0
+    damageType: 1
     _damageOnHit:
-      _serializedValue: 34359738368
+      _serializedValue: 3328599654400
     _damageOnBlock:
       _serializedValue: 0
     damageScaling: 0
