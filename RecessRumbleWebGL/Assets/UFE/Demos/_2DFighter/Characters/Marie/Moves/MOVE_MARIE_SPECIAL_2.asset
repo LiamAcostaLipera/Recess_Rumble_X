@@ -288,9 +288,9 @@ MonoBehaviour:
     frameAdvantageOnHit: 0
     frameAdvantageOnBlock: 0
     damageScaling: 0
-    damageType: 0
+    damageType: 1
     _damageOnHit:
-      _serializedValue: 14302240768
+      _serializedValue: 1073741824000
     _damageOnBlock:
       _serializedValue: 0
     doesntKill: 0
@@ -402,7 +402,7 @@ MonoBehaviour:
           _serializedValue: 0
         z:
           _serializedValue: 0
-    hitToggle: 0
+    hitToggle: 1
     damageOptionsToggle: 0
     hitStunOptionsToggle: 0
     forceOptionsToggle: 0
@@ -563,9 +563,9 @@ MonoBehaviour:
     frameAdvantageOnHit: 0
     frameAdvantageOnBlock: 0
     damageScaling: 0
-    damageType: 0
+    damageType: 1
     _damageOnHit:
-      _serializedValue: 14302240768
+      _serializedValue: 1717986918400
     _damageOnBlock:
       _serializedValue: 0
     doesntKill: 0
@@ -677,7 +677,7 @@ MonoBehaviour:
           _serializedValue: 0
         z:
           _serializedValue: 0
-    hitToggle: 0
+    hitToggle: 1
     damageOptionsToggle: 0
     hitStunOptionsToggle: 0
     forceOptionsToggle: 0
@@ -838,9 +838,9 @@ MonoBehaviour:
     frameAdvantageOnHit: 0
     frameAdvantageOnBlock: 0
     damageScaling: 0
-    damageType: 0
+    damageType: 1
     _damageOnHit:
-      _serializedValue: 14302240768
+      _serializedValue: 2576980377600
     _damageOnBlock:
       _serializedValue: 0
     doesntKill: 0
@@ -952,8 +952,8 @@ MonoBehaviour:
           _serializedValue: 0
         z:
           _serializedValue: 0
-    hitToggle: 0
-    damageOptionsToggle: 1
+    hitToggle: 1
+    damageOptionsToggle: 0
     hitStunOptionsToggle: 1
     forceOptionsToggle: 0
     opponentForceToggle: 0
@@ -1025,7 +1025,7 @@ MonoBehaviour:
   blockableArea:
     enabled: 1
     activeFramesBegin: 0
-    activeFramesEnds: 0
+    activeFramesEnds: 39
     bodyPart: 0
     hitBoxDefinitionIndex: 0
     shape: 0

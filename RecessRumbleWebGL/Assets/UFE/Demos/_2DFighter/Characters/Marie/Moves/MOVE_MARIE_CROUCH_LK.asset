@@ -3307,7 +3307,7 @@ MonoBehaviour:
     customHitBoxDefinition: {fileID: 11400000, guid: dd8062934294b3444a0c77b3be67a273,
       type: 2}
     length:
-      _serializedValue: 1431655808
+      _serializedValue: 572662336
     bakeSpeed: 0
     hitBoxDefinitionType: 1
   _animationSpeed:
@@ -3332,10 +3332,10 @@ MonoBehaviour:
   speedKeyFrameToggle: 0
   fixedSpeed: 1
   animSpeedKeyFrame: []
-  totalFrames: 20
-  startUpFrames: 5
-  activeFrames: 14
-  recoveryFrames: 1
+  totalFrames: 8
+  startUpFrames: 2
+  activeFrames: 3
+  recoveryFrames: 3
   applyRootMotion: 0
   lockXMotion: 0
   lockYMotion: 0
@@ -3458,15 +3458,15 @@ MonoBehaviour:
     _gaugeGainOnMiss:
       _serializedValue: 0
     _gaugeGainOnHit:
-      _serializedValue: 0
+      _serializedValue: 51539607552
     _gaugeGainOnBlock:
-      _serializedValue: 0
+      _serializedValue: 21474836480
     _opGaugeGainOnBlock:
-      _serializedValue: 0
+      _serializedValue: 12884901888
     _opGaugeGainOnParry:
       _serializedValue: 0
     _opGaugeGainOnHit:
-      _serializedValue: 0
+      _serializedValue: 21474836480
     DCMove: {fileID: 0}
     DCStance: 0
     editorToggle: 0
@@ -3491,8 +3491,8 @@ MonoBehaviour:
   stanceChanges: []
   cameraMovements: []
   hits:
-  - activeFramesBegin: 5
-    activeFramesEnds: 19
+  - activeFramesBegin: 2
+    activeFramesEnds: 5
     hitConfirmType: 0
     throwMove: {fileID: 0}
     techMove: {fileID: 0}
@@ -3576,15 +3576,15 @@ MonoBehaviour:
     hitStrength: 2
     hitStunType: 1
     _hitStunOnHit:
-      _serializedValue: 12884901888
+      _serializedValue: 68719476736
     _hitStunOnBlock:
       _serializedValue: 0
     frameAdvantageOnHit: 0
     frameAdvantageOnBlock: 0
     damageScaling: 0
-    damageType: 0
+    damageType: 1
     _damageOnHit:
-      _serializedValue: 34359738368
+      _serializedValue: 1073741824000
     _damageOnBlock:
       _serializedValue: 0
     doesntKill: 0
@@ -3698,7 +3698,7 @@ MonoBehaviour:
           _serializedValue: 0
     hitToggle: 1
     damageOptionsToggle: 1
-    hitStunOptionsToggle: 0
+    hitStunOptionsToggle: 1
     forceOptionsToggle: 0
     opponentForceToggle: 0
     selfForceToggle: 0
@@ -3706,7 +3706,7 @@ MonoBehaviour:
     overrideEventsToggle: 0
     hitConditionsToggle: 0
     pullInToggle: 0
-    hurtBoxesToggle: 0
+    hurtBoxesToggle: 1
     wallBounceToggle: 0
     groundBounceToggle: 0
     hurtBoxes:
@@ -3769,9 +3769,9 @@ MonoBehaviour:
   blockableArea:
     enabled: 1
     activeFramesBegin: 0
-    activeFramesEnds: 0
+    activeFramesEnds: 7
     bodyPart: 0
-    hitBoxDefinitionIndex: 0
+    hitBoxDefinitionIndex: 4
     shape: 0
     rect:
       serializedVersion: 2
