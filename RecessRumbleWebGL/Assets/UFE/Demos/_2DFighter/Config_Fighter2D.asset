@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 2
   player1Character: {fileID: 0}
-  player2Character: {fileID: 0}
+  player2Character: {fileID: 11400000, guid: 6b761e7adeeaaef45af82e3fdda6d92d, type: 2}
   player1Team:
   - {fileID: 0}
   - {fileID: 0}
@@ -24,11 +24,11 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   selectedStage:
-    stageName: 5B
+    stageName: 'CAFE '
     stageLoadingMethod: 0
     stagePath: 
-    screenshot: {fileID: 2800000, guid: 7a2abaf5eb3ec8845802e0e2b8e02ea9, type: 3}
-    prefab: {fileID: 100000, guid: 7f4458eca3b0fda48844cd225f15e75e, type: 3}
+    screenshot: {fileID: 2800000, guid: dd7c0aa0614877247a9787cfd1400696, type: 3}
+    prefab: {fileID: 100000, guid: c2d36dd548fde94418ef797470477ee5, type: 3}
     music: {fileID: 8300000, guid: bf3606e593828bb44bd041a73afbab0f, type: 3}
     _groundFriction:
       _serializedValue: 515396075520
@@ -206,26 +206,26 @@ MonoBehaviour:
           mode: 1
           name: HISTORIA
           opponents:
-          - conversationBeforeBattle: {fileID: 7516048182482662173, guid: f80a59a57dd4b2345bd1a252865e4710,
-              type: 3}
-            conversationAfterBattle: {fileID: 7516048182482662173, guid: 62db1434b53e88942a486fe9bb3261c5,
-              type: 3}
-            opponentCharacterIndex: 0
-            possibleStagesIndexes: 01000000
-          - conversationBeforeBattle: {fileID: 7516048182482662173, guid: df248b4c65d8d8347ba311d2a6ffdd18,
-              type: 3}
-            conversationAfterBattle: {fileID: 7516048182482662173, guid: 262ff57f6f0f86842a2c34005dbdc39c,
-              type: 3}
-            opponentCharacterIndex: 2
-            possibleStagesIndexes: 02000000
           - conversationBeforeBattle: {fileID: 7516048182482662173, guid: 265c3ddfe8c73e64087c9a6b4ae13850,
               type: 3}
             conversationAfterBattle: {fileID: 7516048182482662173, guid: a0a8736d39e5d6b48940531ed56526dc,
               type: 3}
             opponentCharacterIndex: 3
             possibleStagesIndexes: 03000000
+          - conversationBeforeBattle: {fileID: 7516048182482662173, guid: df248b4c65d8d8347ba311d2a6ffdd18,
+              type: 3}
+            conversationAfterBattle: {fileID: 7516048182482662173, guid: 262ff57f6f0f86842a2c34005dbdc39c,
+              type: 3}
+            opponentCharacterIndex: 2
+            possibleStagesIndexes: 02000000
+          - conversationBeforeBattle: {fileID: 7516048182482662173, guid: f80a59a57dd4b2345bd1a252865e4710,
+              type: 3}
+            conversationAfterBattle: {fileID: 7516048182482662173, guid: 62db1434b53e88942a486fe9bb3261c5,
+              type: 3}
+            opponentCharacterIndex: 0
+            possibleStagesIndexes: 01000000
           showOpponentsInEditor: 1
-        showStoryInEditor: 0
+        showStoryInEditor: 1
       - opening: {fileID: 0}
         ending: {fileID: 0}
         fightsGroups:
@@ -1060,7 +1060,7 @@ MonoBehaviour:
   player2_Inputs:
   - inputType: 0
     inputButtonName: P2KeyboardHorizontal
-    engineRelatedButton: 1
+    engineRelatedButton: 0
     joystickAxisName: P2JoystickHorizontal
     cInputPositiveKeyName: P2Right
     cInputPositiveDefaultKey: RightArrow
@@ -1729,9 +1729,9 @@ MonoBehaviour:
     synchronizationMessageFrequency: 2
     synchronizationAction: 1
   music: 1
-  musicVolume: 0
+  musicVolume: 1
   soundfx: 1
-  soundfxVolume: 0
+  soundfxVolume: 1
   colorStateOne: {r: 1, g: 0, b: 0, a: 1}
   colorIsHit: {r: 1, g: 0, b: 1, a: 1}
   colorBodyCollider: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
