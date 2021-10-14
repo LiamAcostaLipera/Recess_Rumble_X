@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 2
   player1Character: {fileID: 0}
-  player2Character: {fileID: 11400000, guid: 75f6f26ca92b59e4c893e99f44df6536, type: 2}
+  player2Character: {fileID: 0}
   player1Team:
   - {fileID: 0}
   - {fileID: 0}
@@ -1060,7 +1060,7 @@ MonoBehaviour:
   player2_Inputs:
   - inputType: 0
     inputButtonName: P2KeyboardHorizontal
-    engineRelatedButton: 0
+    engineRelatedButton: 1
     joystickAxisName: P2JoystickHorizontal
     cInputPositiveKeyName: P2Right
     cInputPositiveDefaultKey: RightArrow
@@ -1729,9 +1729,9 @@ MonoBehaviour:
     synchronizationMessageFrequency: 2
     synchronizationAction: 1
   music: 1
-  musicVolume: 1
+  musicVolume: 0
   soundfx: 1
-  soundfxVolume: 1
+  soundfxVolume: 0
   colorStateOne: {r: 1, g: 0, b: 0, a: 1}
   colorIsHit: {r: 1, g: 0, b: 1, a: 1}
   colorBodyCollider: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
