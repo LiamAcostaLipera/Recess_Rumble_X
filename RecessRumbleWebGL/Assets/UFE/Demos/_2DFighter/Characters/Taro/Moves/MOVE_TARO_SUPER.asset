@@ -3304,10 +3304,10 @@ MonoBehaviour:
         z:
           _serializedValue: 0
     clip: {fileID: 7400000, guid: 6d365feaa3c5a574a9c1be3f4f1e55e2, type: 2}
-    customHitBoxDefinition: {fileID: 11400000, guid: d65e0e3fa96793945bf93e295cd838ab,
+    customHitBoxDefinition: {fileID: 11400000, guid: 704cc8057a760e64c811557b3006ea8a,
       type: 2}
     length:
-      _serializedValue: 3221225472
+      _serializedValue: 3579139328
     bakeSpeed: 0
     hitBoxDefinitionType: 1
   _animationSpeed:
@@ -3720,7 +3720,7 @@ MonoBehaviour:
           _serializedValue: 0
         z:
           _serializedValue: 0
-    hitToggle: 0
+    hitToggle: 1
     damageOptionsToggle: 0
     hitStunOptionsToggle: 0
     forceOptionsToggle: 0
@@ -3995,7 +3995,7 @@ MonoBehaviour:
           _serializedValue: 0
         z:
           _serializedValue: 0
-    hitToggle: 0
+    hitToggle: 1
     damageOptionsToggle: 0
     hitStunOptionsToggle: 0
     forceOptionsToggle: 0
