@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 2
   player1Character: {fileID: 0}
-  player2Character: {fileID: 11400000, guid: 6b761e7adeeaaef45af82e3fdda6d92d, type: 2}
+  player2Character: {fileID: 0}
   player1Team:
   - {fileID: 0}
   - {fileID: 0}
@@ -24,12 +24,12 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   selectedStage:
-    stageName: 'CAFE '
+    stageName: 5B
     stageLoadingMethod: 0
     stagePath: 
-    screenshot: {fileID: 2800000, guid: dd7c0aa0614877247a9787cfd1400696, type: 3}
-    prefab: {fileID: 100000, guid: c2d36dd548fde94418ef797470477ee5, type: 3}
-    music: {fileID: 8300000, guid: bf3606e593828bb44bd041a73afbab0f, type: 3}
+    screenshot: {fileID: 2800000, guid: 7a2abaf5eb3ec8845802e0e2b8e02ea9, type: 3}
+    prefab: {fileID: 100000, guid: 7f4458eca3b0fda48844cd225f15e75e, type: 3}
+    music: {fileID: 8300000, guid: b2309f9cbef86204bbb8f1b7f97655d8, type: 3}
     _groundFriction:
       _serializedValue: 515396075520
     _leftBoundary:
@@ -91,7 +91,7 @@ MonoBehaviour:
       scaleFactor: 1
       screenMatchMode: 0
       scaleMode: 1
-    introScreen: {fileID: 11400002, guid: 13b99c79eef784ed188978d675abe8fc, type: 3}
+    introScreen: {fileID: 11400002, guid: 70fb6f5004bbf493190d7b2f011adfdf, type: 3}
     mainMenuScreen: {fileID: -6089267711487009671, guid: 1f187c576552417468f3ef9d7a85f8c1,
       type: 3}
     optionsScreen: {fileID: 11400056, guid: 2737f2cf99cd3416b9a9d13df2abbe04, type: 3}
@@ -170,7 +170,7 @@ MonoBehaviour:
     selectableCharactersInStoryMode: 00000000010000000200000003000000
     selectableCharactersInVersusMode: 00000000010000000200000003000000
     characterStories:
-      _keys: 00000000010000000200000003000000
+      _keys: 000000000100000002000000030000000400000005000000060000000700000008000000
       _values:
       - opening: {fileID: 0}
         ending: {fileID: 0}
@@ -183,7 +183,7 @@ MonoBehaviour:
               type: 3}
             conversationAfterBattle: {fileID: 7516048182482662173, guid: cd151d28eb0534e4fbcaf6e5d9ac85b5,
               type: 3}
-            opponentCharacterIndex: 2
+            opponentCharacterIndex: 4
             possibleStagesIndexes: 02000000
           - conversationBeforeBattle: {fileID: 7516048182482662173, guid: 08764329f0af9f84c8673deb55267003,
               type: 3}
@@ -195,10 +195,10 @@ MonoBehaviour:
               type: 3}
             conversationAfterBattle: {fileID: 7516048182482662173, guid: 932a31e079708e34eb6a874fdef33b8d,
               type: 3}
-            opponentCharacterIndex: 1
+            opponentCharacterIndex: 8
             possibleStagesIndexes: 00000000
-          showOpponentsInEditor: 0
-        showStoryInEditor: 1
+          showOpponentsInEditor: 1
+        showStoryInEditor: 0
       - opening: {fileID: 0}
         ending: {fileID: 0}
         fightsGroups:
@@ -210,7 +210,7 @@ MonoBehaviour:
               type: 3}
             conversationAfterBattle: {fileID: 7516048182482662173, guid: a0a8736d39e5d6b48940531ed56526dc,
               type: 3}
-            opponentCharacterIndex: 3
+            opponentCharacterIndex: 5
             possibleStagesIndexes: 03000000
           - conversationBeforeBattle: {fileID: 7516048182482662173, guid: df248b4c65d8d8347ba311d2a6ffdd18,
               type: 3}
@@ -222,10 +222,10 @@ MonoBehaviour:
               type: 3}
             conversationAfterBattle: {fileID: 7516048182482662173, guid: 62db1434b53e88942a486fe9bb3261c5,
               type: 3}
-            opponentCharacterIndex: 0
+            opponentCharacterIndex: 7
             possibleStagesIndexes: 01000000
           showOpponentsInEditor: 1
-        showStoryInEditor: 1
+        showStoryInEditor: 0
       - opening: {fileID: 0}
         ending: {fileID: 0}
         fightsGroups:
@@ -237,7 +237,7 @@ MonoBehaviour:
               type: 3}
             conversationAfterBattle: {fileID: 7516048182482662173, guid: a032a7287c0bcbe4ea5e52d973db6af4,
               type: 3}
-            opponentCharacterIndex: 0
+            opponentCharacterIndex: 6
             possibleStagesIndexes: 01000000
           - conversationBeforeBattle: {fileID: 7516048182482662173, guid: e4cdccf1caa48994080b168a7777b2a1,
               type: 3}
@@ -249,10 +249,10 @@ MonoBehaviour:
               type: 3}
             conversationAfterBattle: {fileID: 7516048182482662173, guid: e7be8dcb3da8a5945a79f905d91b31cd,
               type: 3}
-            opponentCharacterIndex: 1
+            opponentCharacterIndex: 8
             possibleStagesIndexes: 00000000
-          showOpponentsInEditor: 1
-        showStoryInEditor: 1
+          showOpponentsInEditor: 0
+        showStoryInEditor: 0
       - opening: {fileID: 0}
         ending: {fileID: 0}
         fightsGroups:
@@ -264,7 +264,7 @@ MonoBehaviour:
               type: 3}
             conversationAfterBattle: {fileID: 7516048182482662173, guid: 22db045681141374c960bc50eb4a2401,
               type: 3}
-            opponentCharacterIndex: 0
+            opponentCharacterIndex: 6
             possibleStagesIndexes: 01000000
           - conversationBeforeBattle: {fileID: 7516048182482662173, guid: e465815d403c60e4481a479bf2b2b275,
               type: 3}
@@ -276,10 +276,30 @@ MonoBehaviour:
               type: 3}
             conversationAfterBattle: {fileID: 7516048182482662173, guid: 166fd710e660bdc4ca04f1de0ebf6a2c,
               type: 3}
-            opponentCharacterIndex: 1
+            opponentCharacterIndex: 8
             possibleStagesIndexes: 00000000
           showOpponentsInEditor: 1
-        showStoryInEditor: 1
+        showStoryInEditor: 0
+      - opening: {fileID: 0}
+        ending: {fileID: 0}
+        fightsGroups: []
+        showStoryInEditor: 0
+      - opening: {fileID: 0}
+        ending: {fileID: 0}
+        fightsGroups: []
+        showStoryInEditor: 0
+      - opening: {fileID: 0}
+        ending: {fileID: 0}
+        fightsGroups: []
+        showStoryInEditor: 0
+      - opening: {fileID: 0}
+        ending: {fileID: 0}
+        fightsGroups: []
+        showStoryInEditor: 0
+      - opening: {fileID: 0}
+        ending: {fileID: 0}
+        fightsGroups: []
+        showStoryInEditor: 0
   fps: 60
   _gameSpeed:
     _serializedValue: 4294967296
@@ -915,7 +935,7 @@ MonoBehaviour:
   player1_Inputs:
   - inputType: 0
     inputButtonName: P1KeyboardHorizontal
-    engineRelatedButton: 0
+    engineRelatedButton: 1
     joystickAxisName: P1JoystickHorizontal
     cInputPositiveKeyName: P1Right
     cInputPositiveDefaultKey: D
@@ -1060,7 +1080,7 @@ MonoBehaviour:
   player2_Inputs:
   - inputType: 0
     inputButtonName: P2KeyboardHorizontal
-    engineRelatedButton: 0
+    engineRelatedButton: 1
     joystickAxisName: P2JoystickHorizontal
     cInputPositiveKeyName: P2Right
     cInputPositiveDefaultKey: RightArrow
@@ -1221,7 +1241,7 @@ MonoBehaviour:
     stagePath: Assets/UFE/Demos/Shared_Assets/Stages/Rooftop/Rooftop.unity
     screenshot: {fileID: 2800000, guid: 82b1f62f0a657b54da446cf880e1df6e, type: 3}
     prefab: {fileID: 100000, guid: 5520d39aec5319c4f951d422938cca6b, type: 3}
-    music: {fileID: 8300000, guid: bf3606e593828bb44bd041a73afbab0f, type: 3}
+    music: {fileID: 8300000, guid: d5e75ed7535fcb445a86030fda8601a1, type: 3}
     _groundFriction:
       _serializedValue: 515396075520
     _leftBoundary:
@@ -1240,7 +1260,7 @@ MonoBehaviour:
     stagePath: 
     screenshot: {fileID: 2800000, guid: 694510c8ade150e479748853a0b7bbec, type: 3}
     prefab: {fileID: 100000, guid: c0460ec44602dd44b88067e2595a1ff5, type: 3}
-    music: {fileID: 8300000, guid: bf3606e593828bb44bd041a73afbab0f, type: 3}
+    music: {fileID: 8300000, guid: ff696db1aeb715f49be2695aa44ef37d, type: 3}
     _groundFriction:
       _serializedValue: 515396075520
     _leftBoundary:
@@ -1259,7 +1279,7 @@ MonoBehaviour:
     stagePath: 
     screenshot: {fileID: 2800000, guid: 7a2abaf5eb3ec8845802e0e2b8e02ea9, type: 3}
     prefab: {fileID: 100000, guid: 7f4458eca3b0fda48844cd225f15e75e, type: 3}
-    music: {fileID: 8300000, guid: bf3606e593828bb44bd041a73afbab0f, type: 3}
+    music: {fileID: 8300000, guid: b2309f9cbef86204bbb8f1b7f97655d8, type: 3}
     _groundFriction:
       _serializedValue: 515396075520
     _leftBoundary:
@@ -1278,7 +1298,7 @@ MonoBehaviour:
     stagePath: 
     screenshot: {fileID: 2800000, guid: dd7c0aa0614877247a9787cfd1400696, type: 3}
     prefab: {fileID: 100000, guid: c2d36dd548fde94418ef797470477ee5, type: 3}
-    music: {fileID: 8300000, guid: bf3606e593828bb44bd041a73afbab0f, type: 3}
+    music: {fileID: 8300000, guid: 5acb7f152e0ac8841a8d942a31affc76, type: 3}
     _groundFriction:
       _serializedValue: 515396075520
     _leftBoundary:
@@ -1297,6 +1317,11 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 55d89405241307344848b26d2f8143f1, type: 2}
   - {fileID: 11400000, guid: 75f6f26ca92b59e4c893e99f44df6536, type: 2}
   - {fileID: 11400000, guid: 6b761e7adeeaaef45af82e3fdda6d92d, type: 2}
+  - {fileID: 11400000, guid: 5aea0ab9d98024842a9ec855baa71ae2, type: 2}
+  - {fileID: 11400000, guid: bc1544a3d00c0e344b235b9613de3a75, type: 2}
+  - {fileID: 11400000, guid: e513f9bf5b9b80647a577d167ad910f6, type: 2}
+  - {fileID: 11400000, guid: 6a1e94fd03eba874db4cd18238828b07, type: 2}
+  - {fileID: 11400000, guid: 52888b242ce989f4fa21778ce06e3628, type: 2}
   teamModes:
   - modeName: Tag Battle (DBZF\Marvel) - 2D 3v3 Tag Team
     teams:
@@ -1729,9 +1754,9 @@ MonoBehaviour:
     synchronizationMessageFrequency: 2
     synchronizationAction: 1
   music: 1
-  musicVolume: 1
+  musicVolume: 0.018275844
   soundfx: 1
-  soundfxVolume: 1
+  soundfxVolume: 0.018275844
   colorStateOne: {r: 1, g: 0, b: 0, a: 1}
   colorIsHit: {r: 1, g: 0, b: 1, a: 1}
   colorBodyCollider: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
