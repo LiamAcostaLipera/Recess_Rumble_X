@@ -170,7 +170,7 @@ MonoBehaviour:
     soundEffectsToggle: 1
   - castingFrame: 5
     sounds:
-    - {fileID: 8300000, guid: fec57052fa5a7ed4db7cba3b21cda397, type: 3}
+    - {fileID: 8300000, guid: d5d52ebda5478ce4eaecbb0483618ae7, type: 3}
     - {fileID: 0}
     soundEffectsToggle: 1
   inGameAlert: []
