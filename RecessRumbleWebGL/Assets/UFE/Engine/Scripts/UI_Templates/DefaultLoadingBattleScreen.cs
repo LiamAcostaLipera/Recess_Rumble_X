@@ -40,11 +40,15 @@ public class DefaultLoadingBattleScreen : LoadingBattleScreen{
 					UFE.config.player1Character.profilePictureBig,
 					new Rect(0f, 0f, UFE.config.player1Character.profilePictureBig.width, UFE.config.player1Character.profilePictureBig.height),
 					new Vector2(0.5f * UFE.config.player1Character.profilePictureBig.width, 0.5f * UFE.config.player1Character.profilePictureBig.height)
+					
 				);
+				
 			}
 
 			if (this.namePlayer1 != null){
 				this.namePlayer1.text = UFE.config.player1Character.characterName;
+				//Debug.Log("Personaje1 Elegido= " + this.namePlayer1.text); //Personaje1 Elegido
+
 			}
 		}
 
@@ -54,11 +58,14 @@ public class DefaultLoadingBattleScreen : LoadingBattleScreen{
 					UFE.config.player2Character.profilePictureBig,
 					new Rect(0f, 0f, UFE.config.player2Character.profilePictureBig.width, UFE.config.player2Character.profilePictureBig.height),
 					new Vector2(0.5f * UFE.config.player2Character.profilePictureBig.width, 0.5f * UFE.config.player2Character.profilePictureBig.height)
+				
 				);
+				
 			}
 
 			if (this.namePlayer2 != null){
 				this.namePlayer2.text = UFE.config.player2Character.characterName;
+				//Debug.Log("Personaje2 Elegido= " + this.namePlayer2.text); ///Personaje2 Elegido
 			}
 		}
 

@@ -2167,8 +2167,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -87.6, y: 53.1}
-  m_SizeDelta: {x: 35, y: 35}
+  m_AnchoredPosition: {x: -111, y: 24.3}
+  m_SizeDelta: {x: 49.506638, y: 49.506638}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6185930486945445514
 CanvasRenderer:
@@ -2644,7 +2644,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2477236427639711256
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2766,7 +2766,7 @@ MonoBehaviour:
   m_CaretBlinkRate: 0.85
   m_CaretWidth: 1
   m_ReadOnly: 0
-  m_ShouldActivateOnSelect: 1
+  m_ShouldActivateOnSelect: 0
 --- !u!1 &3748519987087845619
 GameObject:
   m_ObjectHideFlags: 0
@@ -2962,8 +2962,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 17.8, y: 53.1}
-  m_SizeDelta: {x: 35, y: 35}
+  m_AnchoredPosition: {x: 38.08001, y: 24.299974}
+  m_SizeDelta: {x: 49.506638, y: 49.506638}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5985587283343019943
 CanvasRenderer:
@@ -5626,8 +5626,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -52.5, y: 53.1}
-  m_SizeDelta: {x: 35, y: 35}
+  m_AnchoredPosition: {x: -61.359993, y: 24.299974}
+  m_SizeDelta: {x: 49.506638, y: 49.506638}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &240723471633181074
 CanvasRenderer:
@@ -6177,6 +6177,17 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 8283803445704351547}
         m_MethodName: Send
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 6388065382236389527}
+        m_MethodName: OpenPanel
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7310,8 +7321,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -17.3, y: 53.1}
-  m_SizeDelta: {x: 35, y: 35}
+  m_AnchoredPosition: {x: -11.569991, y: 24.299974}
+  m_SizeDelta: {x: 49.506638, y: 49.506638}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2384312339098526856
 CanvasRenderer:
@@ -8213,8 +8224,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 53, y: 53.1}
-  m_SizeDelta: {x: 35, y: 35}
+  m_AnchoredPosition: {x: 87.87001, y: 24.299974}
+  m_SizeDelta: {x: 49.506638, y: 49.506638}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8935061499589632951
 CanvasRenderer:

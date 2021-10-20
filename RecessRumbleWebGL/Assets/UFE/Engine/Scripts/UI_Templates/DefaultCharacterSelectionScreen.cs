@@ -3,6 +3,7 @@ using UnityEngine.UI;
 using System.Collections.Generic;
 using FPLibrary;
 using UFE3D;
+using UnityEngine.Analytics;
 
 public class DefaultCharacterSelectionScreen : CharacterSelectionScreen {
 	#region public enum definitions
@@ -174,6 +175,7 @@ public class DefaultCharacterSelectionScreen : CharacterSelectionScreen {
 				if (player == 1){
 					if (this.namePlayer1 != null){
 						this.namePlayer1.text = character.characterName;
+						
 					}
 
 					if (this.displayMode == DisplayMode.CharacterPortrait){
@@ -199,7 +201,8 @@ public class DefaultCharacterSelectionScreen : CharacterSelectionScreen {
                         
                         if (characterInfo.characterPrefabStorage == StorageMode.Prefab) {
                             this.gameObjectPlayer1 = GameObject.Instantiate(characterInfo.characterPrefab);
-                        } else {
+						
+						} else {
                             this.gameObjectPlayer1 = GameObject.Instantiate(Resources.Load<GameObject>(characterInfo.prefabResourcePath));
                         }
 						//this.gameObjectPlayer1 = GameObject.Instantiate(characterInfo.characterPrefab);
@@ -243,6 +246,7 @@ public class DefaultCharacterSelectionScreen : CharacterSelectionScreen {
 				}else if (player == 2){
 					if (this.namePlayer2 != null){
 						this.namePlayer2.text = character.characterName;
+						
 					}
 
 					if (this.displayMode == DisplayMode.CharacterPortrait){
@@ -258,14 +262,15 @@ public class DefaultCharacterSelectionScreen : CharacterSelectionScreen {
 						if (this.gameObjectPlayer2 != null){
 							GameObject.Destroy(this.gameObjectPlayer2);
 						}
-						
+						// STORY MODE ACA
 						if (UFE.gameMode != GameMode.StoryMode){
 							AnimationClip clip = 
 								characterInfo.selectionAnimation != null ?
 								characterInfo.selectionAnimation : 
 								characterInfo.moves[0].basicMoves.idle.animMap[0].clip;
-                            
-                            if (characterInfo.characterPrefabStorage == StorageMode.Prefab) {
+							
+
+							if (characterInfo.characterPrefabStorage == StorageMode.Prefab) {
                                 this.gameObjectPlayer2 = GameObject.Instantiate(characterInfo.characterPrefab);
                             } else {
                                 this.gameObjectPlayer2 = GameObject.Instantiate(Resources.Load<GameObject>(characterInfo.prefabResourcePath));
@@ -274,6 +279,8 @@ public class DefaultCharacterSelectionScreen : CharacterSelectionScreen {
 							this.gameObjectPlayer2.transform.position = this.positionPlayer2;
 							this.gameObjectPlayer2.transform.localRotation = Quaternion.Euler(0f, -90f, 0f);
 							this.gameObjectPlayer2.transform.SetParent(this.transform, true);
+
+							
 
 							HitBoxesScript hitBoxes = this.gameObjectPlayer2.GetComponent<HitBoxesScript>();
 							if (hitBoxes != null){
@@ -371,6 +378,17 @@ public class DefaultCharacterSelectionScreen : CharacterSelectionScreen {
 
 	public override void OnCharacterSelectionAllowed (int characterIndex, int player){
 		base.OnCharacterSelectionAllowed (characterIndex, player);
+		if (UFE.gameMode == GameMode.StoryMode)
+        {
+			//Debug.Log("Personaje1 Elegido= " + this.namePlayer1.text); //Personaje1 Elegido
+			Analytics.CustomEvent("protagonista", new Dictionary<string, object>{
+				{"Personaje 1 Elegido Arcade: ", this.namePlayer1.text}
+			});
+
+		}
+			
+			
+
 		this.UpdateHud();
 	}
 
@@ -522,6 +540,7 @@ public class DefaultCharacterSelectionScreen : CharacterSelectionScreen {
 				this.hudBothPlayers.SetBool(
 					"IsSelected", 
 					UFE.config.player1Character != null && UFE.config.player2Character != null
+				
 				);
 			}
 		}
