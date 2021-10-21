@@ -47,7 +47,7 @@ public class DefaultLoadingBattleScreen : LoadingBattleScreen{
 
 			if (this.namePlayer1 != null){
 				this.namePlayer1.text = UFE.config.player1Character.characterName;
-				//Debug.Log("Personaje1 Elegido= " + this.namePlayer1.text); //Personaje1 Elegido
+				Debug.Log("Personaje1 Elegido= " + this.namePlayer1.text); //Personaje1 Elegido
 
 			}
 		}
@@ -65,23 +65,24 @@ public class DefaultLoadingBattleScreen : LoadingBattleScreen{
 
 			if (this.namePlayer2 != null){
 				this.namePlayer2.text = UFE.config.player2Character.characterName;
-				//Debug.Log("Personaje2 Elegido= " + this.namePlayer2.text); ///Personaje2 Elegido
+				Debug.Log("Personaje2 Elegido= " + this.namePlayer2.text); ///Personaje2 Elegido
 			}
 		}
 
 		if (UFE.config.selectedStage != null){
 			if (this.screenshotStage != null){
-				this.screenshotStage.sprite = Sprite.Create(
-					UFE.config.selectedStage.screenshot,
-					new Rect(0f, 0f, UFE.config.selectedStage.screenshot.width, UFE.config.selectedStage.screenshot.height),
-					new Vector2(0.5f * UFE.config.selectedStage.screenshot.width, 0.5f * UFE.config.selectedStage.screenshot.height)
-				);
+                this.screenshotStage.sprite = Sprite.Create(
+                    UFE.config.selectedStage.screenshot,
+                    new Rect(0f, 0f, UFE.config.selectedStage.screenshot.width, UFE.config.selectedStage.screenshot.height),
+                    new Vector2(0.5f * UFE.config.selectedStage.screenshot.width, 0.5f * UFE.config.selectedStage.screenshot.height)
+				);              
 
-				Animator anim = this.screenshotStage.GetComponent<Animator>();
+                Animator anim = this.screenshotStage.GetComponent<Animator>();
 				if (anim != null){
 					anim.enabled = UFE.gameMode != GameMode.StoryMode;
 				}
-			}
+               
+            }
 
 			/*if (this.nameStage != null){
 				this.nameStage.text = UFE.config.selectedStage.stageName;

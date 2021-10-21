@@ -128,7 +128,8 @@ public class DefaultStageSelectionScreen : StageSelectionScreen{
 				this.nameStage.text = stage.stageName;
 			}
 		}
-	}
+
+    }
 	#endregion
 
 	#region protected instance methods: methods required by the Special Navigation System (GUI)

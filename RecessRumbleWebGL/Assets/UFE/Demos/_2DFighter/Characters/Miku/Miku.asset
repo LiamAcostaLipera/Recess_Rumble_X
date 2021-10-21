@@ -33,7 +33,7 @@ MonoBehaviour:
   maxGaugePoints: 1000
   characterPrefabStorage: 1
   characterPrefab: {fileID: 0}
-  prefabResourcePath: _2DFighter\Characters\Jun
+  prefabResourcePath: _2DFighter\Characters\Miku
   alternativeCostumes: []
   initialPosition:
     x:

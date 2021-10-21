@@ -378,18 +378,30 @@ public class DefaultCharacterSelectionScreen : CharacterSelectionScreen {
 
 	public override void OnCharacterSelectionAllowed (int characterIndex, int player){
 		base.OnCharacterSelectionAllowed (characterIndex, player);
-		if (UFE.gameMode == GameMode.StoryMode)
+
+
+        /*if (UFE.gameMode == GameMode.StoryMode)
         {
-			//Debug.Log("Personaje1 Elegido= " + this.namePlayer1.text); //Personaje1 Elegido
-			Analytics.CustomEvent("protagonista", new Dictionary<string, object>{
-				{"Personaje 1 Elegido Arcade: ", this.namePlayer1.text}
-			});
+          Analytics.CustomEvent("Level_start", new Dictionary<string, object>{
+          {"Protagonista ", this.namePlayer1.text},
+          {"Enemigo ", this.namePlayer2.text},
+          {"Modo ", GameMode.StoryMode},
 
-		}
-			
-			
+          });
+            Debug.Log("Protagonista " + this.namePlayer1.text); 
+            Debug.Log("Enemigo " + this.namePlayer2.text);
+            Debug.Log("modo " + GameMode.StoryMode);
+        }*/
 
-		this.UpdateHud();
+        /*Analytics.CustomEvent("Level_start", new Dictionary<string, object>{
+            {"Protagonista ", this.namePlayer1.text}
+        });*/
+
+
+
+
+
+        this.UpdateHud();
 	}
 
 	public override void OnHide(){
