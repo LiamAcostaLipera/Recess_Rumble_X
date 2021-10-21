@@ -1,9 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Analytics;
 
 public class PruebaLlamado : MonoBehaviour
 {
+    public GameObject tagEscenario;
     int CantidadEscenarios;
 
     // Start is called before the first frame update
@@ -15,8 +17,12 @@ public class PruebaLlamado : MonoBehaviour
         {
             if (CantidadEscenarios < 1)
             {
-                CantidadEscenarios++;                   // Por cada objeto que haya, suma 1 a la variable
-                Debug.Log("escenario " + gameObject.tag);
+                CantidadEscenarios++;
+
+                Analytics.CustomEvent("Level_start", new Dictionary<string, object>{
+            {"escenario ", GameMode.TrainingRoom}
+             });
+                //Debug.Log("escenario " + gameObject.tag);
             }
         }
 

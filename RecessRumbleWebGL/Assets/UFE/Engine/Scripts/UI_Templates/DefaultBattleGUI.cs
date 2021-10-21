@@ -128,7 +128,7 @@ public class DefaultBattleGUI : BattleGUI{
 			}
 
 			
-			// Animate life points when it goes down (P1)
+			// Animate life points when it goes down (P1)                    ----------------------------------------------------------------------------> PUNTOS DE VIDA?
 			if (this.player1.targetLife > UFE.GetPlayer1ControlsScript().currentLifePoints){
 				this.player1.targetLife -= this.lifeDownSpeed * deltaTime;
                 if (this.player1.targetLife < UFE.GetPlayer1ControlsScript().currentLifePoints)
@@ -606,7 +606,7 @@ public class DefaultBattleGUI : BattleGUI{
 			this.player2GUI.alert.text.text = string.Empty;
 		}
 
-        if (UFE.gameMode == GameMode.ChallengeMode) {
+        if (UFE.gameMode == GameMode.ChallengeMode) {                                                               
             this.OnNewAlert(UFE.config.selectedLanguage.challengeBegins, null);
 
         } else if (roundNumber < UFE.config.roundOptions.totalRounds) {
@@ -770,7 +770,7 @@ public class DefaultBattleGUI : BattleGUI{
 	protected override void OnInput (InputReferences[] inputReferences, int player){
 		base.OnInput (inputReferences, player);
 
-		// Fires whenever a player presses a button
+		// Fires whenever a player presses a button              -------------------------------------------------------------------------->GAMEMODES 
 		if(
 			this.isRunning
 			&& inputReferences != null
@@ -780,7 +780,8 @@ public class DefaultBattleGUI : BattleGUI{
             ||  (UFE.gameMode == GameMode.NetworkGame && UFE.config.debugOptions.displayInputsNetwork)
             ||  (UFE.gameMode == GameMode.StoryMode && UFE.config.debugOptions.displayInputsStoryMode)
             ||  (UFE.gameMode == GameMode.ChallengeMode && UFE.config.debugOptions.displayInputsChallengeMode))
-		)
+		)         
+
         {
             List<Sprite> activeIconList = new List<Sprite>();
 			foreach(InputReferences inputRef in inputReferences){

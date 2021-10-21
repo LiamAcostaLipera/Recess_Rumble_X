@@ -1,6 +1,8 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
+using System.Collections.Generic;
+using UnityEngine.Analytics;
 
 public class DefaultLoadingBattleScreen : LoadingBattleScreen{
 	#region public instance properties
@@ -47,7 +49,13 @@ public class DefaultLoadingBattleScreen : LoadingBattleScreen{
 
 			if (this.namePlayer1 != null){
 				this.namePlayer1.text = UFE.config.player1Character.characterName;
-				Debug.Log("Personaje1 Elegido= " + this.namePlayer1.text); //Personaje1 Elegido
+                                                                                                        //-------------------------------------------------->PLAYER1
+                Analytics.CustomEvent("Level_start", new Dictionary<string, object>{   
+            {"protagonista ", this.namePlayer1.text}
+
+            });
+
+                //Debug.Log("Personaje1 Elegido= " + this.namePlayer1.text); //Personaje1 Elegido
 
 			}
 		}
@@ -65,7 +73,13 @@ public class DefaultLoadingBattleScreen : LoadingBattleScreen{
 
 			if (this.namePlayer2 != null){
 				this.namePlayer2.text = UFE.config.player2Character.characterName;
-				Debug.Log("Personaje2 Elegido= " + this.namePlayer2.text); ///Personaje2 Elegido
+
+            Analytics.CustomEvent("Level_start", new Dictionary<string, object>{     //-------------------------------------------------->PLAYER2
+            {"enemigo ", this.namePlayer2.text}
+
+            });
+
+                //Debug.Log("Personaje2 Elegido= " + this.namePlayer2.text); ///Personaje2 Elegido
 			}
 		}
 
@@ -82,12 +96,12 @@ public class DefaultLoadingBattleScreen : LoadingBattleScreen{
 					anim.enabled = UFE.gameMode != GameMode.StoryMode;
 				}
                
-            }
+            }         
 
-			/*if (this.nameStage != null){
+            /*if (this.nameStage != null){
 				this.nameStage.text = UFE.config.selectedStage.stageName;
 			}*/
-		}
+        }
 
         UFE.DelayLocalAction(UFE.PreloadBattle, this.delayBeforePreload);
         UFE.DelayLocalAction(this.StartBattle, UFE.config._preloadingTime);

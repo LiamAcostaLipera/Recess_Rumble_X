@@ -12,9 +12,10 @@ GameObject:
   - component: {fileID: 22200000}
   - component: {fileID: 11400000}
   - component: {fileID: 7516048182482662173}
+  - component: {fileID: -7689306435517404485}
   m_Layer: 5
   m_Name: TARO_STORY_MARIE_ANTES
-  m_TagString: Untagged
+  m_TagString: Story_TARO_1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -113,6 +114,19 @@ MonoBehaviour:
   delayBeforePlayingMusic: 0.1
   delayBeforeGoingToNextScreen: 9999
   minDelayBeforeSkipping: 0.1
+--- !u!114 &-7689306435517404485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e28464d36596eb84bb852542e6477062, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tagStage: {fileID: 0}
 --- !u!1 &346447631070330994
 GameObject:
   m_ObjectHideFlags: 0
