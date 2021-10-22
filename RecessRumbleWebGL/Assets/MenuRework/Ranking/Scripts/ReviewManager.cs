@@ -33,12 +33,12 @@ public class ReviewManager : MonoBehaviour
 
     public void Send()
     {
-        if(stars != -1)
+       if(stars != -1)
         {
-            Analytics.CustomEvent("puntuacion", new Dictionary<string, object>{
-                {"Comment", inputField.text + "stars: " + stars},
-            });
-            Debug.Log("Analytics Custom Event Sent! Comment: " + inputField.text + " / " + stars + " stars.");
+           Analytics.CustomEvent("calificacion", new Dictionary<string, object>{
+             {"nota", stars}
+          });
+            Debug.Log( stars);
         }
         else
         {

@@ -518,7 +518,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: PLAY AGAIN
+  m_Text: REPETIR
 --- !u!1 &100010
 GameObject:
   m_ObjectHideFlags: 0

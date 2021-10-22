@@ -470,7 +470,7 @@ GameObject:
   - component: {fileID: 3435569941106334169}
   - component: {fileID: 6237293947722653016}
   m_Layer: 5
-  m_Name: Button (1)
+  m_Name: 
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -664,7 +664,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: PLAY AGAIN
+  m_Text: REPETIR
 --- !u!1 &5940519135806681463
 GameObject:
   m_ObjectHideFlags: 0
