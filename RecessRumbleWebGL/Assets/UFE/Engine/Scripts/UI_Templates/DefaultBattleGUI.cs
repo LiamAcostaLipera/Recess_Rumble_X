@@ -1,8 +1,10 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using UFE3D;
+using UnityEngine.Analytics;
 
 public class DefaultBattleGUI : BattleGUI{
 	#region public class definitions
@@ -511,10 +513,36 @@ public class DefaultBattleGUI : BattleGUI{
 		base.OnGameEnd (winner, loser);
 
         if (this.info != null) this.info.text = string.Empty;
-        //if (this.player1GUI.name != null)	this.player1GUI.name.text = string.Empty;
-        //if (this.player2GUI.name != null)	this.player2GUI.name.text = string.Empty;
-        //if (this.timer != null)				this.timer.text = string.Empty;
-    }
+		//if (this.player1GUI.name != null)	this.player1GUI.name.text = string.Empty;
+		//if (this.player2GUI.name != null)	this.player2GUI.name.text = string.Empty;
+		//if (this.timer != null)				this.timer.text = string.Empty;
+
+		if (this.player1GUI != null)
+		{
+			this.player1GUI.name.text = UFE.config.player1Character.characterName;
+			//-------------------------------------------------->PLAYER1
+			//Analytics.CustomEvent("level_complete", new Dictionary<string, object>{
+			//{"protagonista ", this.namePlayer1.text}
+
+			//});
+
+			Debug.Log("Personaje1 Elegido= " + this.player1GUI.name.text); //Personaje1 Elegido
+
+		}
+
+		if (this.player2GUI != null)
+		{
+			this.player2GUI.name.text = UFE.config.player2Character.characterName;
+			//-------------------------------------------------->PLAYER1
+			//Analytics.CustomEvent("level_complete", new Dictionary<string, object>{
+			//{"protagonista ", this.namePlayer1.text}
+
+			//});
+
+			Debug.Log("Personaje2 Elegido = " + this.player2GUI.name.text); //Personaje1 Elegido
+
+		}
+	}
 
 
 	protected override void OnGamePaused (bool isPaused){
@@ -751,6 +779,7 @@ public class DefaultBattleGUI : BattleGUI{
             this.OnNewAlert(this.SetStringValues(UFE.config.selectedLanguage.challengeEnds, winner), null);
             UFE.PlayMusic(UFE.config.roundOptions.victoryMusic);
         }
+
 	}
 
 	protected override void OnTimer (FPLibrary.Fix64 time){
