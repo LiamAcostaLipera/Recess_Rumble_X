@@ -61,11 +61,11 @@ public class DefaultBattleGUI : BattleGUI{
 	public float lifeUpSpeed = 900f;
     public UFEScreen pauseScreen;
     public Sprite networkPlayerPointer;
-    public float pointerTimer = 4f;
-	#endregion
+    public float pointerTimer = 4f;  
+    #endregion
 
-	#region protected instance properties
-	protected bool showInputs = true;
+    #region protected instance properties
+    protected bool showInputs = true;
 	protected bool hiding = false;
 
 	protected float player1AlertTimer = 0f;
@@ -465,7 +465,7 @@ public class DefaultBattleGUI : BattleGUI{
 
 		// Set the max and min values for the Life Bars
 		if (this.player1GUI != null && this.player1GUI.lifeBar != null){
-			this.player1GUI.lifeBar.fillAmount = this.player1.targetLife / this.player1.totalLife;
+			this.player1GUI.lifeBar.fillAmount = this.player1.targetLife / this.player1.totalLife; //---------------------------------------------------> BARRA DE VIDA
 		}
 		
 		if (this.player2GUI != null && this.player2GUI.lifeBar != null){
@@ -519,28 +519,14 @@ public class DefaultBattleGUI : BattleGUI{
 
 		if (this.player1GUI != null)
 		{
-			this.player1GUI.name.text = UFE.config.player1Character.characterName;
-			//-------------------------------------------------->PLAYER1
-			//Analytics.CustomEvent("level_complete", new Dictionary<string, object>{
-			//{"protagonista ", this.namePlayer1.text}
-
-			//});
-
-			Debug.Log("Personaje1 Elegido= " + this.player1GUI.name.text); //Personaje1 Elegido
+			this.player1GUI.name.text = UFE.config.player1Character.characterName;			
 
 		}
 
 		if (this.player2GUI != null)
 		{
-			this.player2GUI.name.text = UFE.config.player2Character.characterName;
-			//-------------------------------------------------->PLAYER1
-			//Analytics.CustomEvent("level_complete", new Dictionary<string, object>{
-			//{"protagonista ", this.namePlayer1.text}
-
-			//});
-
-			Debug.Log("Personaje2 Elegido = " + this.player2GUI.name.text); //Personaje1 Elegido
-
+			this.player2GUI.name.text = UFE.config.player2Character.characterName;		
+            
 		}
 	}
 
@@ -755,8 +741,27 @@ public class DefaultBattleGUI : BattleGUI{
 			// Check if it was the last round
 			if (winner.roundsWon > Mathf.Ceil(UFE.config.roundOptions.totalRounds/2)){
 				if (winnerPlayer == 1) {
-					UFE.PlaySound(this.announcer.player1Wins);
-				}else{
+					UFE.PlaySound(this.announcer.player1Wins); //---------------------------------------------------------------------------------->EVENTO ANALYTICS LEVEL_COMPLETE
+                    if (UFE.gameMode == GameMode.StoryMode)
+                    {
+                        Analytics.CustomEvent("Level_complete", new Dictionary<string, object>{
+                            {"protagonista ", this.player1GUI.name.text},
+                            {"vida " , this.player1.targetLife},
+                            {"enemigo ", this.player2GUI.name.text},
+                            {"vida_enemigo " , this.player2.targetLife},
+                            {"tiempo " , this.timer.text},
+                        });
+                        
+                        //Debug.Log("Personaje1 Elegido= " + this.player1GUI.name.text);
+                        //Debug.Log("vida= " + this.player1.targetLife);                       
+                        //Debug.Log("Personaje2 Elegido = " + this.player2GUI.name.text);
+                        //Debug.Log("vida enemigo= " + this.player2.targetLife);
+
+                        //Debug.Log("tiempo= " + this.timer.text);                      
+                    }
+                        
+                }
+                else{
 					UFE.PlaySound(this.announcer.player2Wins);
 				}
 			}

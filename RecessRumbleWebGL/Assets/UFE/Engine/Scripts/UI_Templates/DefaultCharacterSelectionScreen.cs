@@ -400,8 +400,12 @@ public class DefaultCharacterSelectionScreen : CharacterSelectionScreen {
 
         if (UFE.gameMode == GameMode.VersusMode)
         {
-            Debug.Log("modo " + GameMode.VersusMode);
+            Analytics.CustomEvent("Level_start", new Dictionary<string, object>{
+            {"modo ", GameMode.VersusMode}
+        });
+            //Debug.Log("modo " + GameMode.VersusMode);
         }
+
 
         if (UFE.gameMode == GameMode.StoryMode)
         {

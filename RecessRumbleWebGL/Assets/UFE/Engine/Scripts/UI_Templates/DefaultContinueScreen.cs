@@ -1,5 +1,7 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections.Generic;
+using UFE3D;
 
 public class DefaultContinueScreen : StoryModeContinueScreen{
 	#region public instance properties
@@ -29,7 +31,10 @@ public class DefaultContinueScreen : StoryModeContinueScreen{
 			this.selectSound,
 			this.cancelSound
 		);
-	}
+
+        
+    }
+  
 
 	public override void OnShow (){
 		base.OnShow ();
@@ -43,5 +48,7 @@ public class DefaultContinueScreen : StoryModeContinueScreen{
 			UFE.DelayLocalAction(delegate(){UFE.PlaySound(this.countdownSound);}, this.delayBeforePlayingMusic);
 		}
 	}
+
+   
 	#endregion
 }
