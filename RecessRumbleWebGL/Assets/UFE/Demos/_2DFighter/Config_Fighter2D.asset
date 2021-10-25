@@ -24,18 +24,18 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   selectedStage:
-    stageName: 
+    stageName: 5B
     stageLoadingMethod: 0
     stagePath: 
-    screenshot: {fileID: 0}
-    prefab: {fileID: 0}
-    music: {fileID: 0}
+    screenshot: {fileID: 2800000, guid: 7a2abaf5eb3ec8845802e0e2b8e02ea9, type: 3}
+    prefab: {fileID: 100000, guid: 7f4458eca3b0fda48844cd225f15e75e, type: 3}
+    music: {fileID: 8300000, guid: b2309f9cbef86204bbb8f1b7f97655d8, type: 3}
     _groundFriction:
-      _serializedValue: 429496729600
+      _serializedValue: 515396075520
     _leftBoundary:
-      _serializedValue: -163208757248
+      _serializedValue: -68719476736
     _rightBoundary:
-      _serializedValue: 163208757248
+      _serializedValue: 73014444032
     position:
       x:
         _serializedValue: 0
@@ -935,7 +935,7 @@ MonoBehaviour:
   player1_Inputs:
   - inputType: 0
     inputButtonName: P1KeyboardHorizontal
-    engineRelatedButton: 1
+    engineRelatedButton: 0
     joystickAxisName: P1JoystickHorizontal
     cInputPositiveKeyName: P1Right
     cInputPositiveDefaultKey: D
@@ -1080,7 +1080,7 @@ MonoBehaviour:
   player2_Inputs:
   - inputType: 0
     inputButtonName: P2KeyboardHorizontal
-    engineRelatedButton: 0
+    engineRelatedButton: 1
     joystickAxisName: P2JoystickHorizontal
     cInputPositiveKeyName: P2Right
     cInputPositiveDefaultKey: RightArrow
@@ -1558,7 +1558,7 @@ MonoBehaviour:
       buttonSequence: 0
       aiWeightList: 0
     p2DebugInfo:
-      toggle: 0
+      toggle: 1
       currentMove: 1
       position: 1
       lifePoints: 1
@@ -1754,9 +1754,9 @@ MonoBehaviour:
     synchronizationMessageFrequency: 2
     synchronizationAction: 1
   music: 1
-  musicVolume: 1
+  musicVolume: 0.15708563
   soundfx: 1
-  soundfxVolume: 1
+  soundfxVolume: 0.122506015
   colorStateOne: {r: 1, g: 0, b: 0, a: 1}
   colorIsHit: {r: 1, g: 0, b: 1, a: 1}
   colorBodyCollider: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}

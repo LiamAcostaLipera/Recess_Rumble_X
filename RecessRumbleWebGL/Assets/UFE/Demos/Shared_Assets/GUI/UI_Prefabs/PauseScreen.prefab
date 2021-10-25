@@ -66,9 +66,9 @@ MonoBehaviour:
   wrapInput: 1
   onLoadSound: {fileID: 0}
   music: {fileID: 0}
-  selectSound: {fileID: 8300000, guid: 51afa2d593bb4db438247ff64dadf46d, type: 3}
-  cancelSound: {fileID: 8300000, guid: 56e58ebfb3f5f9544ac76b36ba5e7140, type: 3}
-  moveCursorSound: {fileID: 8300000, guid: e33073cf85d1edf4d992c2f5c6a33c90, type: 3}
+  selectSound: {fileID: 8300000, guid: 1b92c5dac488cbb47aa1629e573c1c69, type: 3}
+  cancelSound: {fileID: 8300000, guid: 1b92c5dac488cbb47aa1629e573c1c69, type: 3}
+  moveCursorSound: {fileID: 8300000, guid: c2e17792a92edb94a8322cf55cd1f919, type: 3}
   cancelButton: {fileID: 11400082}
   stopPreviousSoundEffectsOnLoad: 0
   delayBeforePlayingMusic: 0.1
@@ -277,7 +277,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.06, y: 0.42}
   m_AnchorMax: {x: 0.94, y: 0.92}
-  m_AnchoredPosition: {x: -108.3, y: 0}
+  m_AnchoredPosition: {x: -10.7, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &11400010
@@ -392,7 +392,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &22400008
 RectTransform:
   m_ObjectHideFlags: 0
@@ -410,7 +410,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0.23, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -126, y: -70}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &22200006
@@ -467,7 +467,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &22400010
 RectTransform:
   m_ObjectHideFlags: 0
@@ -781,7 +781,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.93725497, b: 0.45098042, a: 1}
+  m_Color: {r: 1, g: 0.9333334, b: 0.45098042, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -800,7 +800,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Volumen
+  m_Text: Efectos
 --- !u!1 &100020
 GameObject:
   m_ObjectHideFlags: 0
@@ -930,17 +930,6 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 11400056}
         m_MethodName: SetSoundFXVolume
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 11400034}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Slider, UnityEngine.UI
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 1
-      - m_Target: {fileID: 11400056}
-        m_MethodName: SetMusicVolume
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 11400034}
@@ -1202,8 +1191,8 @@ RectTransform:
   m_Father: {fileID: 22400032}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -1234,8 +1223,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 643d22a7f3b99e84c9a26cdf7fc572aa, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1313,7 +1302,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -1344,8 +1333,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 168e079c69c613048ba2a34075006ef3, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1457,8 +1446,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 168e079c69c613048ba2a34075006ef3, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1586,14 +1575,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 1, g: 0.93725497, b: 0.45098042, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: ed3f416ed51359647a8072b069f8e286, type: 3}
+    m_Font: {fileID: 12800000, guid: c861d57f1ab170d43aa7290abee08742, type: 3}
     m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 1
@@ -1605,7 +1594,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "M\xDASICA"
+  m_Text: "M\xFAsica"
 --- !u!1 &100042
 GameObject:
   m_ObjectHideFlags: 0
@@ -1715,7 +1704,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0.23, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -132, y: -70}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &22200034
@@ -1868,7 +1857,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 100046}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
@@ -1907,7 +1896,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &22400048
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1944,7 +1933,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 100048}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
@@ -2002,7 +1991,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.22500001, y: 0.158462}
   m_AnchorMax: {x: 0.48800004, y: 0.25100002}
-  m_AnchoredPosition: {x: -4.5, y: 0}
+  m_AnchoredPosition: {x: -4.5000305, y: 0}
   m_SizeDelta: {x: -11, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &22200042
@@ -2234,9 +2223,9 @@ MonoBehaviour:
   hasFadeIn: 1
   hasFadeOut: 1
   wrapInput: 1
-  selectSound: {fileID: 8300000, guid: 51afa2d593bb4db438247ff64dadf46d, type: 3}
-  cancelSound: {fileID: 8300000, guid: 56e58ebfb3f5f9544ac76b36ba5e7140, type: 3}
-  moveCursorSound: {fileID: 8300000, guid: e33073cf85d1edf4d992c2f5c6a33c90, type: 3}
+  selectSound: {fileID: 8300000, guid: 1b92c5dac488cbb47aa1629e573c1c69, type: 3}
+  cancelSound: {fileID: 8300000, guid: 1b92c5dac488cbb47aa1629e573c1c69, type: 3}
+  moveCursorSound: {fileID: 8300000, guid: c2e17792a92edb94a8322cf55cd1f919, type: 3}
   onLoadSound: {fileID: 0}
   music: {fileID: 0}
   musicToggle: {fileID: 11400050}
@@ -4511,9 +4500,9 @@ MonoBehaviour:
   wrapInput: 1
   onLoadSound: {fileID: 0}
   music: {fileID: 0}
-  selectSound: {fileID: 8300000, guid: 51afa2d593bb4db438247ff64dadf46d, type: 3}
-  cancelSound: {fileID: 8300000, guid: 56e58ebfb3f5f9544ac76b36ba5e7140, type: 3}
-  moveCursorSound: {fileID: 8300000, guid: e33073cf85d1edf4d992c2f5c6a33c90, type: 3}
+  selectSound: {fileID: 8300000, guid: 1b92c5dac488cbb47aa1629e573c1c69, type: 3}
+  cancelSound: {fileID: 8300000, guid: 1b92c5dac488cbb47aa1629e573c1c69, type: 3}
+  moveCursorSound: {fileID: 8300000, guid: c2e17792a92edb94a8322cf55cd1f919, type: 3}
   cancelButton: {fileID: 11400102}
   stopPreviousSoundEffectsOnLoad: 0
   delayBeforePlayingMusic: 0.1
@@ -4661,9 +4650,9 @@ MonoBehaviour:
   wrapInput: 1
   onLoadSound: {fileID: 0}
   music: {fileID: 0}
-  selectSound: {fileID: 8300000, guid: 51afa2d593bb4db438247ff64dadf46d, type: 3}
-  cancelSound: {fileID: 8300000, guid: 56e58ebfb3f5f9544ac76b36ba5e7140, type: 3}
-  moveCursorSound: {fileID: 8300000, guid: e33073cf85d1edf4d992c2f5c6a33c90, type: 3}
+  selectSound: {fileID: 8300000, guid: 1b92c5dac488cbb47aa1629e573c1c69, type: 3}
+  cancelSound: {fileID: 8300000, guid: 1b92c5dac488cbb47aa1629e573c1c69, type: 3}
+  moveCursorSound: {fileID: 8300000, guid: c2e17792a92edb94a8322cf55cd1f919, type: 3}
   cancelButton: {fileID: 11400134}
   stopPreviousSoundEffectsOnLoad: 0
   delayBeforePlayingMusic: 0.1
@@ -4996,7 +4985,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.22500001, y: 0.158462}
   m_AnchorMax: {x: 0.48800004, y: 0.25100002}
-  m_AnchoredPosition: {x: -4.5, y: 0}
+  m_AnchoredPosition: {x: -4.5000305, y: 0}
   m_SizeDelta: {x: -11, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &22200108
@@ -6014,11 +6003,11 @@ MonoBehaviour:
   hasFadeIn: 1
   hasFadeOut: 1
   wrapInput: 1
-  onLoadSound: {fileID: 0}
+  onLoadSound: {fileID: 8300000, guid: c2e17792a92edb94a8322cf55cd1f919, type: 3}
   music: {fileID: 0}
-  selectSound: {fileID: 8300000, guid: 51afa2d593bb4db438247ff64dadf46d, type: 3}
-  cancelSound: {fileID: 8300000, guid: 56e58ebfb3f5f9544ac76b36ba5e7140, type: 3}
-  moveCursorSound: {fileID: 8300000, guid: e33073cf85d1edf4d992c2f5c6a33c90, type: 3}
+  selectSound: {fileID: 8300000, guid: 1b92c5dac488cbb47aa1629e573c1c69, type: 3}
+  cancelSound: {fileID: 8300000, guid: 1b92c5dac488cbb47aa1629e573c1c69, type: 3}
+  moveCursorSound: {fileID: 8300000, guid: c2e17792a92edb94a8322cf55cd1f919, type: 3}
   cancelButton: {fileID: 11400154}
   stopPreviousSoundEffectsOnLoad: 0
   delayBeforePlayingMusic: 0.1
