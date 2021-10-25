@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: -2234587794457554062}
   m_Layer: 5
   m_Name: TARO_STORY_JUN_ANTES
-  m_TagString: Story_TARO_3
+  m_TagString: 3
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

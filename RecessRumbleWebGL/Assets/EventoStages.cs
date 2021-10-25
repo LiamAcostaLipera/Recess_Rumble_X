@@ -10,7 +10,7 @@ public class EventoStages : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Analytics.CustomEvent("Level_start", new Dictionary<string, object>{
+        Analytics.CustomEvent("level_start", new Dictionary<string, object>{
             {"level_index ", gameObject.tag}
         });
 

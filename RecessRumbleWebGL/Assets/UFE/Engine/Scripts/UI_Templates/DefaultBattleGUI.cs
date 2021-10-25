@@ -737,19 +737,64 @@ public class DefaultBattleGUI : BattleGUI{
 			}
 		}
 
-		if (this.announcer != null && !this.muteAnnouncer){
+        if (UFE.gameMode == GameMode.StoryMode) //---------------------------------------------------------------------------------->EVENTO ANALYTICS FIN_RONDA STORYMODE
+        {
+            Analytics.CustomEvent("fin_ronda", new Dictionary<string, object>{
+                {"protagonista", this.player1GUI.name.text},
+                {"vida" , this.player1.targetLife},
+                {"enemigo", this.player2GUI.name.text},
+                {"vida_enemigo" , this.player2.targetLife},
+                {"tiempo" , this.timer.text},
+                {"modo", GameMode.StoryMode}
+            });
+
+            /*Debug.Log("Protagonista " + this.player1GUI.name.text);
+            Debug.Log("vida " + this.player1.targetLife);
+            Debug.Log("enemigo " + this.player2GUI.name.text);
+            Debug.Log("vida enemigo " + this.player2.targetLife);
+
+            Debug.Log("tiempo= " + this.timer.text);
+            Debug.Log("modo " + GameMode.StoryMode);*/
+        }
+
+        if (UFE.gameMode == GameMode.VersusMode)  //---------------------------------------------------------------------------------->EVENTO ANALYTICS FIN_RONDA VERSUSMODE
+        {
+            Analytics.CustomEvent("fin_ronda", new Dictionary<string, object>{
+                {"protagonista", this.player1GUI.name.text},
+                {"vida" , this.player1.targetLife},
+                {"enemigo", this.player2GUI.name.text},
+                {"vida_enemigo" , this.player2.targetLife},
+                {"tiempo" , this.timer.text},
+                {"modo", GameMode.VersusMode},
+                //{"level_index ", 0},
+            });
+
+            /*Debug.Log("Protagonista " + this.player1GUI.name.text);
+            Debug.Log("vida " + this.player1.targetLife);
+            Debug.Log("enemigo " + this.player2GUI.name.text);
+            Debug.Log("vida enemigo " + this.player2.targetLife);
+
+            Debug.Log("tiempo= " + this.timer.text);
+            Debug.Log("modo " + GameMode.VersusMode);*/
+
+            //Debug.Log("level_index " + 0);
+        }
+
+
+        if (this.announcer != null && !this.muteAnnouncer){
 			// Check if it was the last round
 			if (winner.roundsWon > Mathf.Ceil(UFE.config.roundOptions.totalRounds/2)){
 				if (winnerPlayer == 1) {
 					UFE.PlaySound(this.announcer.player1Wins); //---------------------------------------------------------------------------------->EVENTO ANALYTICS LEVEL_COMPLETE
                     if (UFE.gameMode == GameMode.StoryMode)
                     {
-                        Analytics.CustomEvent("Level_complete", new Dictionary<string, object>{
+                        Analytics.CustomEvent("level_complete", new Dictionary<string, object>{
                             {"protagonista ", this.player1GUI.name.text},
                             {"vida " , this.player1.targetLife},
                             {"enemigo ", this.player2GUI.name.text},
                             {"vida_enemigo " , this.player2.targetLife},
                             {"tiempo " , this.timer.text},
+                            {"modo ", GameMode.StoryMode}
                         });
                         
                         //Debug.Log("Personaje1 Elegido= " + this.player1GUI.name.text);
@@ -759,11 +804,56 @@ public class DefaultBattleGUI : BattleGUI{
 
                         //Debug.Log("tiempo= " + this.timer.text);                      
                     }
+
+                    if (UFE.gameMode == GameMode.VersusMode)
+                    {
+                        Analytics.CustomEvent("level_complete", new Dictionary<string, object>{
+                            {"protagonista ", this.player1GUI.name.text},
+                            {"vida " , this.player1.targetLife},
+                            {"enemigo ", this.player2GUI.name.text},
+                            {"vida_enemigo " , this.player2.targetLife},
+                            {"tiempo " , this.timer.text},
+                            {"modo ", GameMode.VersusMode},
+                            {"level_index ", 0},
+                        });
+
+                        /*Debug.Log("Personaje1 Elegido= " + this.player1GUI.name.text);
+                        Debug.Log("vida= " + this.player1.targetLife);                       
+                        Debug.Log("Personaje2 Elegido = " + this.player2GUI.name.text);
+                        Debug.Log("vida enemigo= " + this.player2.targetLife);
+
+                        Debug.Log("tiempo= " + this.timer.text);
+                        Debug.Log("modo " + GameMode.VersusMode);*/
+
                         
+                    }
+
+
                 }
                 else{
 					UFE.PlaySound(this.announcer.player2Wins);
-				}
+
+                    if (UFE.gameMode == GameMode.VersusMode)
+                    {
+                        Analytics.CustomEvent("level_complete", new Dictionary<string, object>{
+                            {"protagonista ", this.player1GUI.name.text},
+                            {"vida " , this.player1.targetLife},
+                            {"enemigo ", this.player2GUI.name.text},
+                            {"vida_enemigo " , this.player2.targetLife},
+                            {"tiempo " , this.timer.text},
+                            {"modo ", GameMode.VersusMode},
+                            {"level_index ", 0},
+                        });
+
+                        /*Debug.Log("Personaje1 Elegido= " + this.player1GUI.name.text);
+                        Debug.Log("vida= " + this.player1.targetLife);
+                        Debug.Log("Personaje2 Elegido = " + this.player2GUI.name.text);
+                        Debug.Log("vida enemigo= " + this.player2.targetLife);
+
+                        Debug.Log("tiempo= " + this.timer.text);
+                        Debug.Log("modo " + GameMode.VersusMode);*/
+                    }
+                }
 			}
 
 			// Finally, check if we should play any AudioClip

@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: -5019365258323499062}
   m_Layer: 5
   m_Name: MIKU_STORY_JUN_DESPUES
-  m_TagString: Story_MIKU_1
+  m_TagString: 1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -124,6 +124,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bfcab62612d89de46954c8ac4d915f19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tagStage: {fileID: 0}
 --- !u!1 &671257044082158980
 GameObject:
   m_ObjectHideFlags: 0

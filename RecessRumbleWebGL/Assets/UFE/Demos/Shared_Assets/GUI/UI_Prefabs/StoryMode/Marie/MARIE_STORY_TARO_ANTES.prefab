@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 7273575715036540063}
   m_Layer: 5
   m_Name: MARIE_STORY_TARO_ANTES
-  m_TagString: Story_MARIE_3
+  m_TagString: 3
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

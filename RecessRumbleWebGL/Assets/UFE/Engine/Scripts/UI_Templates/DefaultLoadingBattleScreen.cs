@@ -50,7 +50,7 @@ public class DefaultLoadingBattleScreen : LoadingBattleScreen{
 			if (this.namePlayer1 != null){
 				this.namePlayer1.text = UFE.config.player1Character.characterName;
                                                                                                         //-------------------------------------------------->PLAYER1
-                Analytics.CustomEvent("Level_start", new Dictionary<string, object>{   
+                Analytics.CustomEvent("level_start", new Dictionary<string, object>{   
             {"protagonista ", this.namePlayer1.text}
 
             });
@@ -74,7 +74,7 @@ public class DefaultLoadingBattleScreen : LoadingBattleScreen{
 			if (this.namePlayer2 != null){
 				this.namePlayer2.text = UFE.config.player2Character.characterName;
 
-            Analytics.CustomEvent("Level_start", new Dictionary<string, object>{     //-------------------------------------------------->PLAYER2
+            Analytics.CustomEvent("level_start", new Dictionary<string, object>{     //-------------------------------------------------->PLAYER2
             {"enemigo ", this.namePlayer2.text}
 
             });

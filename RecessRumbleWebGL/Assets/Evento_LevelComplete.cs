@@ -10,7 +10,7 @@ public class Evento_LevelComplete : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Analytics.CustomEvent("Level_complete", new Dictionary<string, object>{
+        Analytics.CustomEvent("level_complete", new Dictionary<string, object>{
             {"level_index ", gameObject.tag}
         });
         //Debug.Log("Stage " + gameObject.tag);

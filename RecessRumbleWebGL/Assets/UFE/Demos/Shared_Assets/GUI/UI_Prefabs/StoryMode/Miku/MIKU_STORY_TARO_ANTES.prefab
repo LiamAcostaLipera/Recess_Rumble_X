@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 8948257141244263869}
   m_Layer: 5
   m_Name: MIKU_STORY_TARO_ANTES
-  m_TagString: Story_MIKU_3
+  m_TagString: 3
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

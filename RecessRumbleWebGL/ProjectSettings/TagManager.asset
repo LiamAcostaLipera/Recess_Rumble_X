@@ -21,6 +21,9 @@ TagManager:
   - Story_TARO_1
   - Story_TARO_2
   - Story_TARO_3
+  - 1
+  - 2
+  - 3
   layers:
   - Default
   - TransparentFX
