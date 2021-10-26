@@ -43,8 +43,8 @@ public class DefaultPauseScreen : PauseScreen{
 			if (i != index){
 				this.HideScreen(this.screens[i]);
 			}else{
-				this.ShowScreen(this.screens[i]);
-			}
+				this.ShowScreen(this.screens[i]);             
+            }
 		}
 
 		this.currentScreen = index;

@@ -26,6 +26,14 @@ public class PruebaLlamado : MonoBehaviour
             }
         }
 
+        Analytics.CustomEvent("escenario", new Dictionary<string, object>{
+        {"cual", gameObject.tag},
+        {"donde", UFE.gameMode},
+        });
+
+        //Debug.Log("cual " + gameObject.tag);
+        //Debug.Log("donde " + UFE.gameMode);
+
     }
 
     // Update is called once per frame

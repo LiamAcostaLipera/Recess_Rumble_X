@@ -4596,6 +4596,7 @@ GameObject:
   - component: {fileID: 22200098}
   - component: {fileID: 11400106}
   - component: {fileID: 22500004}
+  - component: {fileID: 4494151831855592994}
   m_Layer: 5
   m_Name: ControlsScreen
   m_TagString: Untagged
@@ -4668,6 +4669,18 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
+--- !u!114 &4494151831855592994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100106}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c2ebfb7771efaf4d8af0387b43531d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &100108
 GameObject:
   m_ObjectHideFlags: 0
