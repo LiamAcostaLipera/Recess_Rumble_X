@@ -58,6 +58,7 @@
      <Compile Include="Assets\EventoStages.cs" />
      <Compile Include="Assets\Evento_LevelComplete.cs" />
      <Compile Include="Assets\Evento_VerControles.cs" />
+     <Compile Include="Assets\Evento_verControlesMenu.cs" />
      <Compile Include="Assets\Example.cs" />
      <Compile Include="Assets\JMO Assets\Cartoon FX (legacy)\Demo\Assets\CFX_AutoStopLoopedEffect.cs" />
      <Compile Include="Assets\JMO Assets\Cartoon FX (legacy)\Demo\Assets\CFX_Demo.cs" />

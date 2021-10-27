@@ -14,6 +14,9 @@ public class EventoStages : MonoBehaviour
             {"level_index ", gameObject.tag}
         });
 
+        Analytics.CustomEvent("fin_ronda", new Dictionary<string, object>{
+            {"level_index ", gameObject.tag}
+        });
         //Debug.Log("Stage " + gameObject.tag);
 
     }

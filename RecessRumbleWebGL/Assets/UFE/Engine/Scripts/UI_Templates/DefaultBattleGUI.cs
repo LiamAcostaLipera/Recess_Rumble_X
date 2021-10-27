@@ -61,7 +61,7 @@ public class DefaultBattleGUI : BattleGUI{
 	public float lifeUpSpeed = 900f;
     public UFEScreen pauseScreen;
     public Sprite networkPlayerPointer;
-    public float pointerTimer = 4f;  
+    public float pointerTimer = 4f;
     #endregion
 
     #region protected instance properties
@@ -755,6 +755,7 @@ public class DefaultBattleGUI : BattleGUI{
 
             Debug.Log("tiempo= " + this.timer.text);
             Debug.Log("modo " + GameMode.StoryMode);*/
+            //Debug.Log("rondas " + UFE.config.currentRound);          
         }
 
         if (UFE.gameMode == GameMode.VersusMode)  //---------------------------------------------------------------------------------->EVENTO ANALYTICS FIN_RONDA VERSUSMODE
