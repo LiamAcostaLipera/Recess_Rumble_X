@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 22200000}
   - component: {fileID: 11400072}
   - component: {fileID: 22500002}
+  - component: {fileID: 3603718181068777289}
   m_Layer: 5
   m_Name: SpecialMovesScreen
   m_TagString: Untagged
@@ -84,6 +85,18 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
+--- !u!114 &3603718181068777289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1f419558fb8dbe4c9cf1bd193afee12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &100002
 GameObject:
   m_ObjectHideFlags: 0
@@ -4681,6 +4694,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c2ebfb7771efaf4d8af0387b43531d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  namePlayer1: {fileID: 0}
+  namePlayer2: {fileID: 0}
 --- !u!1 &100108
 GameObject:
   m_ObjectHideFlags: 0
