@@ -3,20 +3,20 @@ guid: 8aff5e6c287bb014f8b9caa07cf946e6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5023089285362190071
-    second: MARIE_STAND_HP_0
+      213: -3367511599498072209
+    second: MARIE_STANDING_HP_0
   - first:
-      213: -5610149007581740638
-    second: MARIE_STAND_HP_1
+      213: 1100824535034936593
+    second: MARIE_STANDING_HP_1
   - first:
-      213: 637963823827458771
-    second: MARIE_STAND_HP_2
+      213: 2562338613256714804
+    second: MARIE_STANDING_HP_2
   - first:
-      213: -1803406124965208757
-    second: MARIE_STAND_HP_3
+      213: 394201915947661952
+    second: MARIE_STANDING_HP_3
   - first:
-      213: 2203622664984090595
-    second: MARIE_STAND_HP_4
+      213: -7097368674397736490
+    second: MARIE_STANDING_HP_4
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,18 +99,6 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: Windows Store Apps
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
     buildTarget: WebGL
     maxTextureSize: 4096
     resizeAlgorithm: 0
@@ -126,13 +114,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: MARIE_STAND_HP_0
+      name: MARIE_STANDING_HP_0
       rect:
         serializedVersion: 2
-        x: 245
-        y: 132
-        width: 763
-        height: 1824
+        x: 243
+        y: 130
+        width: 767
+        height: 1827
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,92 +128,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9097aee88e66a4ab0800000000000000
-      internalID: -5023089285362190071
+      spriteID: f6fe8e6ca023441d0800000000000000
+      internalID: -3367511599498072209
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MARIE_STAND_HP_1
+      name: MARIE_STANDING_HP_1
       rect:
         serializedVersion: 2
-        x: 1343
-        y: 156
-        width: 1330
-        height: 1755
+        x: 1341
+        y: 154
+        width: 1334
+        height: 1759
       alignment: 9
-      pivot: {x: 0.445, y: 0}
+      pivot: {x: 0.4595443, y: 0.00045117957}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2a18412933fb422b0800000000000000
-      internalID: -5610149007581740638
+      spriteID: 11dbaca051ae64f00800000000000000
+      internalID: 1100824535034936593
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MARIE_STAND_HP_2
+      name: MARIE_STANDING_HP_2
       rect:
         serializedVersion: 2
-        x: 2883
-        y: 155
-        width: 1480
-        height: 1856
+        x: 2881
+        y: 153
+        width: 1483
+        height: 1860
       alignment: 9
-      pivot: {x: 0.25, y: 0}
+      pivot: {x: 0.2623114, y: 0.0005498168}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3da19cab7b08ad800800000000000000
-      internalID: 637963823827458771
+      spriteID: 43afe6594614f8320800000000000000
+      internalID: 2562338613256714804
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MARIE_STAND_HP_3
+      name: MARIE_STANDING_HP_3
       rect:
         serializedVersion: 2
-        x: 4649
-        y: 168
-        width: 1480
-        height: 1914
+        x: 4640
+        y: 164
+        width: 1482
+        height: 1917
       alignment: 9
-      pivot: {x: 0.25, y: 0}
+      pivot: {x: 0.2577713, y: 0.00009196664}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b4d5fa72fa309f6e0800000000000000
-      internalID: -1803406124965208757
+      spriteID: 08ab6d1dd8c787500800000000000000
+      internalID: 394201915947661952
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MARIE_STAND_HP_4
+      name: MARIE_STANDING_HP_4
       rect:
         serializedVersion: 2
-        x: 6463
-        y: 131
-        width: 966
-        height: 1755
-      alignment: 9
-      pivot: {x: 0.617, y: 0}
+        x: 6460
+        y: 129
+        width: 970
+        height: 1758
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3e750657327d49e10800000000000000
-      internalID: 2203622664984090595
+      spriteID: 6d1b98a4bc4118d90800000000000000
+      internalID: -7097368674397736490
       vertices: []
       indices: 
       edges: []
@@ -233,7 +221,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 2a95a01c697de3e47b67bce6f825d131
+    spriteID: 8d4fb8638fa76b947a8cac0aa81bd0fc
     internalID: 0
     vertices: []
     indices: 
