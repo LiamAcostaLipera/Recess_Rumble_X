@@ -3534,7 +3534,7 @@ MonoBehaviour:
       basicMovesToggle: 1
       statesToggle: 0
     downHit: 0
-    resetPreviousHitStun: 0
+    resetPreviousHitStun: 1
     resetCrumples: 0
     customStunValues: 0
     overrideHitEffects: 0
@@ -3716,8 +3716,8 @@ MonoBehaviour:
         z:
           _serializedValue: 0
     hitToggle: 1
-    damageOptionsToggle: 1
-    hitStunOptionsToggle: 0
+    damageOptionsToggle: 0
+    hitStunOptionsToggle: 1
     forceOptionsToggle: 0
     opponentForceToggle: 0
     selfForceToggle: 0

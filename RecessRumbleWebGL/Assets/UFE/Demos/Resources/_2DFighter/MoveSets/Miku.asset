@@ -85863,7 +85863,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 25
       name: getHitCrouching
-      editorToggle: 1
+      editorToggle: 0
       soundEffectsToggle: 1
     getHitHigh:
       animMap:

@@ -105,9 +105,9 @@ MonoBehaviour:
       jumpArc: 0
       jumpArcBegins: 0
       jumpArcEnds: 100
-      opponentDistance: 0
+      opponentDistance: 2
       proximityRangeBegins: 0
-      proximityRangeEnds: 100
+      proximityRangeEnds: 50
       movingForward: 1
       movingBack: 1
       standBy: 1
@@ -116,13 +116,13 @@ MonoBehaviour:
     basicMovesToggle: 0
     statesToggle: 1
   moveClassification:
-    attackType: 0
+    attackType: 1
     hitType: 0
-    startupSpeed: 0
-    recoverySpeed: 0
+    startupSpeed: 4
+    recoverySpeed: 4
     hitConfirmType: 0
-    preferableDistance: 0
-    gaugeUsage: 0
+    preferableDistance: 2
+    gaugeUsage: 2
     anyAttackType: 1
     anyHitType: 1
     anyHitConfirmType: 1
@@ -275,8 +275,8 @@ MonoBehaviour:
       _serializedValue: 0
     doesntKill: 0
     hitType: 1
-    resetPreviousHorizontalPush: 0
-    resetPreviousVerticalPush: 0
+    resetPreviousHorizontalPush: 1
+    resetPreviousVerticalPush: 1
     resetPreviousSidewaysPush: 0
     resetJumpForce: 0
     applyDifferentAirForce: 0
@@ -385,8 +385,8 @@ MonoBehaviour:
     hitToggle: 1
     damageOptionsToggle: 1
     hitStunOptionsToggle: 1
-    forceOptionsToggle: 0
-    opponentForceToggle: 0
+    forceOptionsToggle: 1
+    opponentForceToggle: 1
     selfForceToggle: 0
     stageReactionsToggle: 0
     overrideEventsToggle: 0

@@ -280,9 +280,9 @@ MonoBehaviour:
     overrideHitAnimation: 0
     newHitAnimation: 27
     hitStrength: 0
-    hitStunType: 2
+    hitStunType: 1
     _hitStunOnHit:
-      _serializedValue: 1288490240
+      _serializedValue: 8589934592
     _hitStunOnBlock:
       _serializedValue: 0
     frameAdvantageOnHit: 0
@@ -404,7 +404,7 @@ MonoBehaviour:
           _serializedValue: 0
     hitToggle: 1
     damageOptionsToggle: 0
-    hitStunOptionsToggle: 0
+    hitStunOptionsToggle: 1
     forceOptionsToggle: 0
     opponentForceToggle: 0
     selfForceToggle: 0
@@ -496,7 +496,7 @@ MonoBehaviour:
       basicMovesToggle: 0
       statesToggle: 0
     downHit: 0
-    resetPreviousHitStun: 0
+    resetPreviousHitStun: 1
     resetCrumples: 0
     customStunValues: 0
     overrideHitEffects: 0
@@ -555,9 +555,9 @@ MonoBehaviour:
     overrideHitAnimation: 0
     newHitAnimation: 27
     hitStrength: 0
-    hitStunType: 2
+    hitStunType: 1
     _hitStunOnHit:
-      _serializedValue: 1288490240
+      _serializedValue: 8589934592
     _hitStunOnBlock:
       _serializedValue: 0
     frameAdvantageOnHit: 0
@@ -679,7 +679,7 @@ MonoBehaviour:
           _serializedValue: 0
     hitToggle: 1
     damageOptionsToggle: 0
-    hitStunOptionsToggle: 0
+    hitStunOptionsToggle: 1
     forceOptionsToggle: 0
     opponentForceToggle: 0
     selfForceToggle: 0
@@ -771,7 +771,7 @@ MonoBehaviour:
       basicMovesToggle: 0
       statesToggle: 0
     downHit: 0
-    resetPreviousHitStun: 0
+    resetPreviousHitStun: 1
     resetCrumples: 0
     customStunValues: 0
     overrideHitEffects: 0
@@ -830,9 +830,9 @@ MonoBehaviour:
     overrideHitAnimation: 0
     newHitAnimation: 27
     hitStrength: 0
-    hitStunType: 2
+    hitStunType: 1
     _hitStunOnHit:
-      _serializedValue: 1288490240
+      _serializedValue: 8589934592
     _hitStunOnBlock:
       _serializedValue: 0
     frameAdvantageOnHit: 0

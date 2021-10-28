@@ -105,15 +105,15 @@ MonoBehaviour:
       jumpArc: 0
       jumpArcBegins: 0
       jumpArcEnds: 100
-      opponentDistance: 0
+      opponentDistance: 2
       proximityRangeBegins: 0
-      proximityRangeEnds: 100
+      proximityRangeEnds: 50
       movingForward: 1
       movingBack: 1
       standBy: 1
       blocking: 0
       stunned: 0
-    basicMovesToggle: 1
+    basicMovesToggle: 0
     statesToggle: 1
   moveClassification:
     attackType: 0
@@ -201,7 +201,7 @@ MonoBehaviour:
       basicMovesToggle: 0
       statesToggle: 0
     downHit: 0
-    resetPreviousHitStun: 0
+    resetPreviousHitStun: 1
     resetCrumples: 0
     customStunValues: 0
     overrideHitEffects: 0
@@ -275,8 +275,8 @@ MonoBehaviour:
       _serializedValue: 0
     doesntKill: 0
     hitType: 1
-    resetPreviousHorizontalPush: 0
-    resetPreviousVerticalPush: 0
+    resetPreviousHorizontalPush: 1
+    resetPreviousVerticalPush: 1
     resetPreviousSidewaysPush: 0
     resetJumpForce: 0
     applyDifferentAirForce: 0
@@ -382,10 +382,10 @@ MonoBehaviour:
           _serializedValue: 0
         z:
           _serializedValue: 0
-    hitToggle: 0
+    hitToggle: 1
     damageOptionsToggle: 0
-    hitStunOptionsToggle: 0
-    forceOptionsToggle: 0
+    hitStunOptionsToggle: 1
+    forceOptionsToggle: 1
     opponentForceToggle: 1
     selfForceToggle: 1
     stageReactionsToggle: 0

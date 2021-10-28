@@ -168,7 +168,7 @@ MonoBehaviour:
         showOpponentsInEditor: 0
       showStoryInEditor: 1
     selectableCharactersInStoryMode: 00000000010000000200000003000000
-    selectableCharactersInVersusMode: 00000000010000000200000003000000
+    selectableCharactersInVersusMode: 00000000010000000300000002000000
     characterStories:
       _keys: 000000000100000002000000030000000400000005000000060000000700000008000000
       _values:
@@ -348,7 +348,7 @@ MonoBehaviour:
     deploymentType: 0
     activeCharacters:
     - {fileID: 11400000, guid: 49075f7c9de81bf49880ac0ae2087666, type: 2}
-    - {fileID: 11400000, guid: 75f6f26ca92b59e4c893e99f44df6536, type: 2}
+    - {fileID: 11400000, guid: 6b761e7adeeaaef45af82e3fdda6d92d, type: 2}
     - {fileID: 0}
     - {fileID: 0}
     - {fileID: 0}
@@ -366,7 +366,7 @@ MonoBehaviour:
     - {fileID: 0}
     - {fileID: 0}
     - {fileID: 0}
-    AIControlled: 00000000000000010101010101010101010101
+    AIControlled: 01010000000000010101010101010101010101
     selectedTeamMode: 0
     selectedChallengeMode: 0
     skipLoadingScreen: 1
@@ -406,7 +406,7 @@ MonoBehaviour:
     autoMirror: 1
     rotateWhileJumping: 0
     rotateOnMoveOnly: 0
-    fixRotationWhenStunned: 0
+    fixRotationWhenStunned: 1
     fixRotationWhenBlocking: 0
     fixRotationOnHit: 0
     smoothRotation: 0
@@ -510,10 +510,10 @@ MonoBehaviour:
     sound: {fileID: 8300000, guid: 5b3bea24171c6534b81c07a298e51803, type: 3}
   comboOptions:
     comboDisplayMode: 0
-    hitStunDeterioration: 3
+    hitStunDeterioration: 5
     damageDeterioration: 3
     airJuggleDeterioration: 1
-    _minHitStun: 1
+    _minHitStun: 4
     _minDamage:
       _serializedValue: 21474836480
     _minPushForce:
@@ -596,7 +596,7 @@ MonoBehaviour:
         _serializedValue: 1288490240
       hideHitBoxesOnFrame: 10
       hideHitBoxes: 0
-      editorToggle: 1
+      editorToggle: 0
       hasQuickStand: 0
       _predefinedPushForce:
         x:
@@ -683,9 +683,9 @@ MonoBehaviour:
         _serializedValue: 0
     crumple:
       _knockedOutTime:
-        _serializedValue: 4294967296
+        _serializedValue: 0
       _standUpTime:
-        _serializedValue: 4294967296
+        _serializedValue: 0
       hideHitBoxesOnFrame: 10
       hideHitBoxes: 1
       editorToggle: 1
@@ -935,7 +935,7 @@ MonoBehaviour:
   player1_Inputs:
   - inputType: 0
     inputButtonName: P1KeyboardHorizontal
-    engineRelatedButton: 0
+    engineRelatedButton: 1
     joystickAxisName: P1JoystickHorizontal
     cInputPositiveKeyName: P1Right
     cInputPositiveDefaultKey: D
@@ -1080,7 +1080,7 @@ MonoBehaviour:
   player2_Inputs:
   - inputType: 0
     inputButtonName: P2KeyboardHorizontal
-    engineRelatedButton: 1
+    engineRelatedButton: 0
     joystickAxisName: P2JoystickHorizontal
     cInputPositiveKeyName: P2Right
     cInputPositiveDefaultKey: RightArrow
@@ -1525,7 +1525,7 @@ MonoBehaviour:
     emulateNetwork: 0
     trainingModeDebugger: 1
     preloadedObjects: 0
-    inputsToggle: 0
+    inputsToggle: 1
     networkToggle: 0
     recordToggle: 0
     hitboxColorsToggle: 0
@@ -1586,37 +1586,45 @@ MonoBehaviour:
   aiOptions:
     engine: 0
     attackWhenEnemyIsDown: 0
-    moveWhenEnemyIsDown: 1
+    moveWhenEnemyIsDown: 0
     inputFrequency: 0.2
     behaviourToggle: 1
     distanceBehaviour:
-    - characterDistance: 2
+    - characterDistance: 6
       proximityRangeBegins: 0
-      proximityRangeEnds: 30
-      movingForwardProbability: 0.1
+      proximityRangeEnds: 16
+      movingForwardProbability: 0.148
+      movingBackProbability: 0.5
+      jumpingProbability: 0
+      crouchProbability: 0.789
+      attackProbability: 1
+    - characterDistance: 6
+      proximityRangeBegins: 17
+      proximityRangeEnds: 25
+      movingForwardProbability: 1
       movingBackProbability: 0.3
-      jumpingProbability: 1
+      jumpingProbability: 0.0176
       crouchProbability: 0.5
-      attackProbability: 0.602
+      attackProbability: 0.6083
     - characterDistance: 3
-      proximityRangeBegins: 31
-      proximityRangeEnds: 70
+      proximityRangeBegins: 26
+      proximityRangeEnds: 50
       movingForwardProbability: 0.6
       movingBackProbability: 0.3
       jumpingProbability: 0.5
       crouchProbability: 0.5
       attackProbability: 0.1
-    - characterDistance: 4
-      proximityRangeBegins: 71
-      proximityRangeEnds: 100
-      movingForwardProbability: 0.9
+    - characterDistance: 6
+      proximityRangeBegins: 51
+      proximityRangeEnds: 83
+      movingForwardProbability: 1
       movingBackProbability: 0
-      jumpingProbability: 0.6
-      crouchProbability: 0.5
-      attackProbability: 0
+      jumpingProbability: 0.542
+      crouchProbability: 0.03
+      attackProbability: 0.096
     multiCoreSupport: 1
     persistentBehavior: 0
-    difficultyToggle: 0
+    difficultyToggle: 1
     difficultySettings:
     - difficultyLevel: 0
       overrideTimeBetweenDecisions: 1
@@ -1690,19 +1698,19 @@ MonoBehaviour:
       overrideComboEfficiency: 1
       comboEfficiency: 1
       startupBehavior: 4
-    selectedDifficultyLevel: 0
+    selectedDifficultyLevel: 2
     selectedDifficulty:
-      difficultyLevel: 0
-      overrideTimeBetweenDecisions: 1
-      timeBetweenDecisions: 0.4
-      overrideTimeBetweenActions: 1
-      timeBetweenActions: 0.1
-      overrideAggressiveness: 1
-      aggressiveness: 0.1
+      difficultyLevel: 2
+      overrideTimeBetweenDecisions: 0
+      timeBetweenDecisions: 0
+      overrideTimeBetweenActions: 0
+      timeBetweenActions: 0.05
+      overrideAggressiveness: 0
+      aggressiveness: 0.4
       overrideRuleCompliance: 0
       ruleCompliance: 0.9
-      overrideComboEfficiency: 1
-      comboEfficiency: 0.1
+      overrideComboEfficiency: 0
+      comboEfficiency: 1
       startupBehavior: 3
   networkOptions:
     forceAnimationControl: 1

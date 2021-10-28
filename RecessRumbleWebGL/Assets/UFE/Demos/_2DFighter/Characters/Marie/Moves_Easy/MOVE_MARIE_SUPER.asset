@@ -452,7 +452,7 @@ MonoBehaviour:
         z:
           _serializedValue: 0
       _radius:
-        _serializedValue: 9405978624
+        _serializedValue: 10179072000
       _rect:
         _x:
           _serializedValue: 0
@@ -553,7 +553,7 @@ MonoBehaviour:
       followXBounds: 0
       followYBounds: 0
       _radius:
-        _serializedValue: 2147483648
+        _serializedValue: 12455405568
       _offSet:
         x:
           _serializedValue: -2233382912
@@ -584,7 +584,7 @@ MonoBehaviour:
           _serializedValue: 0
     spaceBetweenHits: 5
     totalHits: 1
-    resetPreviousHitStun: 1
+    resetPreviousHitStun: 0
     hitStunOnHit: 0
     hitStunOnBlock: 0
     overrideHitEffects: 0
@@ -621,8 +621,8 @@ MonoBehaviour:
     damageScaling: 0
     obeyDirectionalHit: 1
     hitEffectsOnHit: 1
-    resetPreviousHorizontalPush: 0
-    resetPreviousVerticalPush: 0
+    resetPreviousHorizontalPush: 1
+    resetPreviousVerticalPush: 1
     applyDifferentAirForce: 0
     applyDifferentBlockForce: 0
     _pushForce:
@@ -654,8 +654,8 @@ MonoBehaviour:
     forceGrounded: 0
     moveLinksToggle: 0
     damageOptionsToggle: 1
-    hitStunOptionsToggle: 0
-    preview: 1
+    hitStunOptionsToggle: 1
+    preview: 0
     moveName: 
   - castingFrame: 18
     projectilePrefab: {fileID: 100004, guid: cfd5349e380dd3a4db346f2765be4bf6, type: 3}
@@ -887,7 +887,7 @@ MonoBehaviour:
       followXBounds: 0
       followYBounds: 0
       _radius:
-        _serializedValue: 2147483648
+        _serializedValue: 11209864192
       _offSet:
         x:
           _serializedValue: -2233382912
@@ -918,8 +918,8 @@ MonoBehaviour:
           _serializedValue: 0
     spaceBetweenHits: 5
     totalHits: 1
-    resetPreviousHitStun: 1
-    hitStunOnHit: 3
+    resetPreviousHitStun: 0
+    hitStunOnHit: 0
     hitStunOnBlock: 0
     overrideHitEffects: 0
     fixRotation: 1
@@ -955,8 +955,8 @@ MonoBehaviour:
     damageScaling: 0
     obeyDirectionalHit: 1
     hitEffectsOnHit: 1
-    resetPreviousHorizontalPush: 0
-    resetPreviousVerticalPush: 0
+    resetPreviousHorizontalPush: 1
+    resetPreviousVerticalPush: 1
     applyDifferentAirForce: 0
     applyDifferentBlockForce: 0
     _pushForce:
@@ -989,7 +989,7 @@ MonoBehaviour:
     moveLinksToggle: 0
     damageOptionsToggle: 1
     hitStunOptionsToggle: 1
-    preview: 1
+    preview: 0
     moveName: 
   - castingFrame: 23
     projectilePrefab: {fileID: 100004, guid: cfd5349e380dd3a4db346f2765be4bf6, type: 3}
@@ -1221,7 +1221,7 @@ MonoBehaviour:
       followXBounds: 0
       followYBounds: 0
       _radius:
-        _serializedValue: 2147483648
+        _serializedValue: 10909216768
       _offSet:
         x:
           _serializedValue: -2233382912
@@ -1252,8 +1252,8 @@ MonoBehaviour:
           _serializedValue: 0
     spaceBetweenHits: 5
     totalHits: 1
-    resetPreviousHitStun: 1
-    hitStunOnHit: 3
+    resetPreviousHitStun: 0
+    hitStunOnHit: 0
     hitStunOnBlock: 0
     overrideHitEffects: 1
     fixRotation: 1

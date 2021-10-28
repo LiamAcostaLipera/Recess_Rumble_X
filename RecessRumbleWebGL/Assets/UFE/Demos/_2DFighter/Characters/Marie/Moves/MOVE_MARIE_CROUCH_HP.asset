@@ -192,7 +192,7 @@ MonoBehaviour:
       basicMovesToggle: 1
       statesToggle: 1
     downHit: 0
-    resetPreviousHitStun: 0
+    resetPreviousHitStun: 1
     resetCrumples: 0
     customStunValues: 0
     overrideHitEffects: 0
@@ -266,8 +266,8 @@ MonoBehaviour:
       _serializedValue: 0
     doesntKill: 0
     hitType: 1
-    resetPreviousHorizontalPush: 0
-    resetPreviousVerticalPush: 0
+    resetPreviousHorizontalPush: 1
+    resetPreviousVerticalPush: 1
     resetPreviousSidewaysPush: 0
     resetJumpForce: 0
     applyDifferentAirForce: 0
@@ -376,8 +376,8 @@ MonoBehaviour:
     hitToggle: 1
     damageOptionsToggle: 1
     hitStunOptionsToggle: 1
-    forceOptionsToggle: 0
-    opponentForceToggle: 0
+    forceOptionsToggle: 1
+    opponentForceToggle: 1
     selfForceToggle: 0
     stageReactionsToggle: 0
     overrideEventsToggle: 0

@@ -3408,7 +3408,7 @@ MonoBehaviour:
     attackType: 1
     hitType: 0
     startupSpeed: 4
-    recoverySpeed: 4
+    recoverySpeed: 3
     hitConfirmType: 0
     preferableDistance: 2
     gaugeUsage: 2
@@ -3525,7 +3525,7 @@ MonoBehaviour:
       basicMovesToggle: 0
       statesToggle: 0
     downHit: 0
-    resetPreviousHitStun: 0
+    resetPreviousHitStun: 1
     resetCrumples: 0
     customStunValues: 0
     overrideHitEffects: 0
@@ -3609,16 +3609,16 @@ MonoBehaviour:
     applyDifferentSelfBlockForce: 0
     _pushForce:
       x:
-        _serializedValue: 0
+        _serializedValue: 42949672960
       y:
-        _serializedValue: 171798691840
+        _serializedValue: 0
       z:
         _serializedValue: 0
     _pushForceAir:
       x:
         _serializedValue: 0
       y:
-        _serializedValue: 42949672960
+        _serializedValue: 0
       z:
         _serializedValue: 0
     _pushForceBlock:

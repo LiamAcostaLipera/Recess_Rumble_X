@@ -39,7 +39,7 @@ MonoBehaviour:
   autoCorrectRotation: 0
   frameWindowRotation: 0
   cooldown: 0
-  cooldownFrames: 0
+  cooldownFrames: 30
   disableHeadLook: 1
   speedKeyFrameToggle: 0
   fixedSpeed: 1
@@ -100,17 +100,29 @@ MonoBehaviour:
     statesToggle: 0
   selfConditions:
     basicMoveLimitation: 
-    possibleMoveStates: []
+    possibleMoveStates:
+    - possibleState: 0
+      jumpArc: 0
+      jumpArcBegins: 0
+      jumpArcEnds: 100
+      opponentDistance: 2
+      proximityRangeBegins: 0
+      proximityRangeEnds: 50
+      movingForward: 1
+      movingBack: 1
+      standBy: 1
+      blocking: 0
+      stunned: 0
     basicMovesToggle: 0
-    statesToggle: 0
+    statesToggle: 1
   moveClassification:
-    attackType: 0
+    attackType: 1
     hitType: 0
-    startupSpeed: 0
-    recoverySpeed: 0
+    startupSpeed: 3
+    recoverySpeed: 3
     hitConfirmType: 0
-    preferableDistance: 0
-    gaugeUsage: 0
+    preferableDistance: 2
+    gaugeUsage: 2
     anyAttackType: 1
     anyHitType: 1
     anyHitConfirmType: 1
@@ -189,7 +201,7 @@ MonoBehaviour:
       basicMovesToggle: 0
       statesToggle: 0
     downHit: 0
-    resetPreviousHitStun: 0
+    resetPreviousHitStun: 1
     resetCrumples: 0
     customStunValues: 0
     overrideHitEffects: 0
@@ -263,8 +275,8 @@ MonoBehaviour:
       _serializedValue: 0
     doesntKill: 0
     hitType: 0
-    resetPreviousHorizontalPush: 0
-    resetPreviousVerticalPush: 0
+    resetPreviousHorizontalPush: 1
+    resetPreviousVerticalPush: 1
     resetPreviousSidewaysPush: 0
     resetJumpForce: 0
     applyDifferentAirForce: 0
@@ -372,9 +384,9 @@ MonoBehaviour:
           _serializedValue: 0
     hitToggle: 1
     damageOptionsToggle: 1
-    hitStunOptionsToggle: 0
+    hitStunOptionsToggle: 1
     forceOptionsToggle: 0
-    opponentForceToggle: 0
+    opponentForceToggle: 1
     selfForceToggle: 0
     stageReactionsToggle: 0
     overrideEventsToggle: 0

@@ -535,12 +535,12 @@ MonoBehaviour:
       followXBounds: 0
       followYBounds: 0
       _radius:
-        _serializedValue: 2147483648
+        _serializedValue: 12025908224
       _offSet:
         x:
-          _serializedValue: 0
+          _serializedValue: -2534030592
         y:
-          _serializedValue: 0
+          _serializedValue: 1546188288
         z:
           _serializedValue: 0
       cuboidMin:
@@ -567,7 +567,7 @@ MonoBehaviour:
     spaceBetweenHits: 0
     totalHits: 1
     resetPreviousHitStun: 1
-    hitStunOnHit: 3
+    hitStunOnHit: 1
     hitStunOnBlock: 0
     overrideHitEffects: 1
     fixRotation: 1

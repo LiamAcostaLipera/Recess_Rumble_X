@@ -3405,12 +3405,12 @@ MonoBehaviour:
     basicMovesToggle: 0
     statesToggle: 1
   moveClassification:
-    attackType: 1
+    attackType: 6
     hitType: 0
     startupSpeed: 4
     recoverySpeed: 4
     hitConfirmType: 0
-    preferableDistance: 2
+    preferableDistance: 0
     gaugeUsage: 5
     anyAttackType: 1
     anyHitType: 1
@@ -3853,8 +3853,8 @@ MonoBehaviour:
           _serializedValue: 0
     spaceBetweenHits: 3
     totalHits: 8
-    resetPreviousHitStun: 0
-    hitStunOnHit: 3
+    resetPreviousHitStun: 1
+    hitStunOnHit: 1
     hitStunOnBlock: 0
     overrideHitEffects: 0
     fixRotation: 1
@@ -3923,6 +3923,6 @@ MonoBehaviour:
     forceGrounded: 0
     moveLinksToggle: 0
     damageOptionsToggle: 0
-    hitStunOptionsToggle: 0
+    hitStunOptionsToggle: 1
     preview: 1
     moveName: 

@@ -3528,7 +3528,7 @@ MonoBehaviour:
       basicMovesToggle: 1
       statesToggle: 1
     downHit: 0
-    resetPreviousHitStun: 0
+    resetPreviousHitStun: 1
     resetCrumples: 0
     customStunValues: 0
     overrideHitEffects: 0
@@ -3713,7 +3713,7 @@ MonoBehaviour:
     damageOptionsToggle: 1
     hitStunOptionsToggle: 1
     forceOptionsToggle: 1
-    opponentForceToggle: 0
+    opponentForceToggle: 1
     selfForceToggle: 0
     stageReactionsToggle: 0
     overrideEventsToggle: 0
