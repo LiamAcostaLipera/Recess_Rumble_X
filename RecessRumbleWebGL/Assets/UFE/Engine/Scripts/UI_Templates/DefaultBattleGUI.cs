@@ -836,14 +836,18 @@ public class DefaultBattleGUI : BattleGUI{
 					if (UFE.gameMode == GameMode.StoryMode)
 					{
 						Analytics.CustomEvent("game_over", new Dictionary<string, object>{
+							{"protagonista", this.player1GUI.name.text},
+							{"enemigo", this.player2GUI.name.text},
 							{"vida" , this.player1.targetLife},
 							{"vida_enemigo" , this.player2.targetLife},
 							{"tiempo" , this.timer.text},
 						});
+						//Debug.Log("Personaje1 Elegido= " + this.player1GUI.name.text);
+						//Debug.Log("Personaje2 Elegido = " + this.player2GUI.name.text);
 						//Debug.Log("tiempo= " + this.timer.text);
 						//Debug.Log("vida= " + this.player1.targetLife);
 						//Debug.Log("vida enemigo= " + this.player2.targetLife);
-					
+
 					}
 				
 				if (UFE.gameMode == GameMode.VersusMode)
