@@ -17,8 +17,8 @@ public class EventoStages : MonoBehaviour
         Analytics.CustomEvent("fin_ronda", new Dictionary<string, object>{
             {"level_index ", gameObject.tag}
         });
-        //Debug.Log("Stage " + gameObject.tag);
-
+        //Debug.Log("Stage " + gameObject.tag);      
+       
     }
 
     // Update is called once per frame

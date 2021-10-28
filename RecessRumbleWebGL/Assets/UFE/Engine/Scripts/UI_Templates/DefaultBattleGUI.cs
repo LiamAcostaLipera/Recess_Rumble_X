@@ -833,7 +833,7 @@ public class DefaultBattleGUI : BattleGUI{
                 }
                 else{
 					UFE.PlaySound(this.announcer.player2Wins);
-					if (UFE.gameMode == GameMode.StoryMode)
+					if (UFE.gameMode == GameMode.StoryMode)  //------------------------------------------------------------------> EVENTO ANALYTICS GAME_OVER
 					{
 						Analytics.CustomEvent("game_over", new Dictionary<string, object>{
 							{"protagonista", this.player1GUI.name.text},
@@ -852,7 +852,7 @@ public class DefaultBattleGUI : BattleGUI{
 
 					}
 				
-				if (UFE.gameMode == GameMode.VersusMode)
+				if (UFE.gameMode == GameMode.VersusMode) //--------------------------------------------------------------------->EVENTO ANALYTICS LEVEL_COMPLETE PARA VERSUSMODE
                     {
                         Analytics.CustomEvent("level_complete", new Dictionary<string, object>{
                             {"protagonista ", this.player1GUI.name.text},
