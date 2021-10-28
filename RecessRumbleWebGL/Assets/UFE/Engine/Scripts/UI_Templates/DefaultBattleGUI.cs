@@ -841,12 +841,14 @@ public class DefaultBattleGUI : BattleGUI{
 							{"vida" , this.player1.targetLife},
 							{"vida_enemigo" , this.player2.targetLife},
 							{"tiempo" , this.timer.text},
+							{"rondas", + UFE.config.currentRound},
 						});
 						//Debug.Log("Personaje1 Elegido= " + this.player1GUI.name.text);
 						//Debug.Log("Personaje2 Elegido = " + this.player2GUI.name.text);
 						//Debug.Log("tiempo= " + this.timer.text);
 						//Debug.Log("vida= " + this.player1.targetLife);
 						//Debug.Log("vida enemigo= " + this.player2.targetLife);
+						//Debug.Log("rondas " + UFE.config.currentRound);
 
 					}
 				
