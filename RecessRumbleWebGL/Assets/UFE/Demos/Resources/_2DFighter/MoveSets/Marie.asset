@@ -85769,7 +85769,7 @@ MonoBehaviour:
         customHitBoxDefinition: {fileID: 11400000, guid: a8abf38232942a74880556711138c1f0,
           type: 2}
         length:
-          _serializedValue: 1789569792
+          _serializedValue: 715827904
         bakeSpeed: 0
         hitBoxDefinitionType: 1
       - animationMaps: []
@@ -88338,7 +88338,7 @@ MonoBehaviour:
         customHitBoxDefinition: {fileID: 11400000, guid: 5227be4047771bc47b13d79761d54c01,
           type: 2}
         length:
-          _serializedValue: 1073741824
+          _serializedValue: 715827904
         bakeSpeed: 0
         hitBoxDefinitionType: 1
       - animationMaps: []
@@ -88432,7 +88432,7 @@ MonoBehaviour:
         bodyPart: 0
       reference: 23
       name: getHitHigh
-      editorToggle: 0
+      editorToggle: 1
       soundEffectsToggle: 0
     getHitLow:
       animMap:
