@@ -833,8 +833,20 @@ public class DefaultBattleGUI : BattleGUI{
                 }
                 else{
 					UFE.PlaySound(this.announcer.player2Wins);
-
-                    if (UFE.gameMode == GameMode.VersusMode)
+					if (UFE.gameMode == GameMode.StoryMode)
+					{
+						Analytics.CustomEvent("game_over", new Dictionary<string, object>{
+							{"vida" , this.player1.targetLife},
+							{"vida_enemigo" , this.player2.targetLife},
+							{"tiempo" , this.timer.text},
+						});
+						//Debug.Log("tiempo= " + this.timer.text);
+						//Debug.Log("vida= " + this.player1.targetLife);
+						//Debug.Log("vida enemigo= " + this.player2.targetLife);
+					
+					}
+				
+				if (UFE.gameMode == GameMode.VersusMode)
                     {
                         Analytics.CustomEvent("level_complete", new Dictionary<string, object>{
                             {"protagonista ", this.player1GUI.name.text},
