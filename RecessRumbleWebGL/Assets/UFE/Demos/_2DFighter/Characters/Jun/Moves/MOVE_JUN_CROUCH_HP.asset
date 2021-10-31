@@ -3411,7 +3411,7 @@ MonoBehaviour:
     recoverySpeed: 4
     hitConfirmType: 0
     preferableDistance: 2
-    gaugeUsage: 0
+    gaugeUsage: 2
     anyAttackType: 1
     anyHitType: 1
     anyHitConfirmType: 1
@@ -3600,7 +3600,7 @@ MonoBehaviour:
     applyDifferentSelfBlockForce: 0
     _pushForce:
       x:
-        _serializedValue: 0
+        _serializedValue: 64424509440
       y:
         _serializedValue: 0
       z:
@@ -3858,7 +3858,7 @@ MonoBehaviour:
   stateOverride: []
   armorOptions:
     activeFramesBegin: 0
-    activeFramesEnds: 0
+    activeFramesEnds: 1
     overrideHitEffects: 0
     hitEffects:
       hitParticle: {fileID: 0}

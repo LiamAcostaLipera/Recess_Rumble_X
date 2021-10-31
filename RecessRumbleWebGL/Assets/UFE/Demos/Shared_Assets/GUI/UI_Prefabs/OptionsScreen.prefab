@@ -60,7 +60,7 @@ MonoBehaviour:
   cancelSound: {fileID: 8300000, guid: 1b92c5dac488cbb47aa1629e573c1c69, type: 3}
   moveCursorSound: {fileID: 8300000, guid: c2e17792a92edb94a8322cf55cd1f919, type: 3}
   onLoadSound: {fileID: 0}
-  music: {fileID: 0}
+  music: {fileID: 8300000, guid: dffbccc03e5b50643bd30fbd48823535, type: 3}
   musicToggle: {fileID: 11497622}
   musicSlider: {fileID: 11400036}
   soundToggle: {fileID: 11405088}
@@ -172,7 +172,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &22400006
 RectTransform:
   m_ObjectHideFlags: 0
@@ -396,7 +396,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &22400012
 RectTransform:
   m_ObjectHideFlags: 0
@@ -761,7 +761,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &22400020
 RectTransform:
   m_ObjectHideFlags: 0
@@ -950,7 +950,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 0.9, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -1059,8 +1059,8 @@ RectTransform:
   m_Father: {fileID: 22400026}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMin: {x: 0.9, y: 0}
+  m_AnchorMax: {x: 0.9, y: 1}
   m_AnchoredPosition: {x: 0, y: 0.9799957}
   m_SizeDelta: {x: 55.2, y: 18.039995}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -2849,7 +2849,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 1
-  m_IsOn: 1
+  m_IsOn: 0
 --- !u!222 &22214110
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3365,7 +3365,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 1
-  m_IsOn: 1
+  m_IsOn: 0
 --- !u!222 &22239544
 CanvasRenderer:
   m_ObjectHideFlags: 0

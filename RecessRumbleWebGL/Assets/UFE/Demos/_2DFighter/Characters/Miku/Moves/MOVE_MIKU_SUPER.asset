@@ -3854,7 +3854,7 @@ MonoBehaviour:
     spaceBetweenHits: 3
     totalHits: 8
     resetPreviousHitStun: 1
-    hitStunOnHit: 1
+    hitStunOnHit: 10
     hitStunOnBlock: 0
     overrideHitEffects: 0
     fixRotation: 1

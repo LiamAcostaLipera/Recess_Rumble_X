@@ -24,18 +24,18 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   selectedStage:
-    stageName: 5B
+    stageName: AZOTEA
     stageLoadingMethod: 0
-    stagePath: 
-    screenshot: {fileID: 2800000, guid: 7a2abaf5eb3ec8845802e0e2b8e02ea9, type: 3}
-    prefab: {fileID: 100000, guid: 7f4458eca3b0fda48844cd225f15e75e, type: 3}
-    music: {fileID: 8300000, guid: b2309f9cbef86204bbb8f1b7f97655d8, type: 3}
+    stagePath: Assets/UFE/Demos/Shared_Assets/Stages/Rooftop/Rooftop.unity
+    screenshot: {fileID: 2800000, guid: 82b1f62f0a657b54da446cf880e1df6e, type: 3}
+    prefab: {fileID: 100000, guid: 5520d39aec5319c4f951d422938cca6b, type: 3}
+    music: {fileID: 8300000, guid: d5e75ed7535fcb445a86030fda8601a1, type: 3}
     _groundFriction:
       _serializedValue: 515396075520
     _leftBoundary:
-      _serializedValue: -68719476736
+      _serializedValue: -64424509440
     _rightBoundary:
-      _serializedValue: 73014444032
+      _serializedValue: 68719476736
     position:
       x:
         _serializedValue: 0
@@ -225,7 +225,7 @@ MonoBehaviour:
             opponentCharacterIndex: 7
             possibleStagesIndexes: 01000000
           showOpponentsInEditor: 1
-        showStoryInEditor: 0
+        showStoryInEditor: 1
       - opening: {fileID: 0}
         ending: {fileID: 0}
         fightsGroups:
@@ -313,7 +313,7 @@ MonoBehaviour:
   warmAllShaders: 0
   _gravity:
     _serializedValue: 1803886208
-  detect3D_Hits: 0
+  detect3D_Hits: 1
   lockZAxis: 1
   runInBackground: 1
   useFixedUpdateInputs: 1
@@ -347,7 +347,7 @@ MonoBehaviour:
   deploymentOptions:
     deploymentType: 0
     activeCharacters:
-    - {fileID: 11400000, guid: 49075f7c9de81bf49880ac0ae2087666, type: 2}
+    - {fileID: 11400000, guid: 75f6f26ca92b59e4c893e99f44df6536, type: 2}
     - {fileID: 11400000, guid: 6b761e7adeeaaef45af82e3fdda6d92d, type: 2}
     - {fileID: 0}
     - {fileID: 0}
@@ -366,7 +366,7 @@ MonoBehaviour:
     - {fileID: 0}
     - {fileID: 0}
     - {fileID: 0}
-    AIControlled: 01010000000000010101010101010101010101
+    AIControlled: 00000000000000010101010101010101010101
     selectedTeamMode: 0
     selectedChallengeMode: 0
     skipLoadingScreen: 1
@@ -407,8 +407,8 @@ MonoBehaviour:
     rotateWhileJumping: 0
     rotateOnMoveOnly: 0
     fixRotationWhenStunned: 1
-    fixRotationWhenBlocking: 0
-    fixRotationOnHit: 0
+    fixRotationWhenBlocking: 1
+    fixRotationOnHit: 1
     smoothRotation: 0
     _rotationSpeed:
       _serializedValue: 128849018880
@@ -511,9 +511,9 @@ MonoBehaviour:
   comboOptions:
     comboDisplayMode: 0
     hitStunDeterioration: 5
-    damageDeterioration: 3
+    damageDeterioration: 5
     airJuggleDeterioration: 1
-    _minHitStun: 4
+    _minHitStun: 2
     _minDamage:
       _serializedValue: 21474836480
     _minPushForce:
@@ -523,7 +523,7 @@ MonoBehaviour:
     neverAirRecover: 1
     airRecoveryType: 2
     resetFallingForceOnHit: 1
-    maxCombo: 3
+    maxCombo: 1
     _knockBackMinForce:
       _serializedValue: 42949672960
     neverCornerPush: 0
@@ -935,7 +935,7 @@ MonoBehaviour:
   player1_Inputs:
   - inputType: 0
     inputButtonName: P1KeyboardHorizontal
-    engineRelatedButton: 1
+    engineRelatedButton: 0
     joystickAxisName: P1JoystickHorizontal
     cInputPositiveKeyName: P1Right
     cInputPositiveDefaultKey: D
@@ -951,7 +951,7 @@ MonoBehaviour:
     inputViewerIcon6: {fileID: 2800000, guid: 90523496d8897124e989ad256f109d27, type: 3}
   - inputType: 1
     inputButtonName: P1KeyboardVertical
-    engineRelatedButton: 2
+    engineRelatedButton: 3
     joystickAxisName: P1JoystickVertical
     cInputPositiveKeyName: P1Up
     cInputPositiveDefaultKey: W
@@ -1593,16 +1593,16 @@ MonoBehaviour:
     - characterDistance: 6
       proximityRangeBegins: 0
       proximityRangeEnds: 16
-      movingForwardProbability: 0.148
-      movingBackProbability: 0.5
-      jumpingProbability: 0
-      crouchProbability: 0.789
-      attackProbability: 1
+      movingForwardProbability: 0
+      movingBackProbability: 0.654
+      jumpingProbability: 0.413
+      crouchProbability: 0.248
+      attackProbability: 0.366
     - characterDistance: 6
       proximityRangeBegins: 17
       proximityRangeEnds: 25
-      movingForwardProbability: 1
-      movingBackProbability: 0.3
+      movingForwardProbability: 0.31
+      movingBackProbability: 0.54
       jumpingProbability: 0.0176
       crouchProbability: 0.5
       attackProbability: 0.6083
@@ -1698,20 +1698,20 @@ MonoBehaviour:
       overrideComboEfficiency: 1
       comboEfficiency: 1
       startupBehavior: 4
-    selectedDifficultyLevel: 2
+    selectedDifficultyLevel: 3
     selectedDifficulty:
-      difficultyLevel: 2
-      overrideTimeBetweenDecisions: 0
-      timeBetweenDecisions: 0
-      overrideTimeBetweenActions: 0
+      difficultyLevel: 3
+      overrideTimeBetweenDecisions: 1
+      timeBetweenDecisions: 0.1
+      overrideTimeBetweenActions: 1
       timeBetweenActions: 0.05
-      overrideAggressiveness: 0
-      aggressiveness: 0.4
+      overrideAggressiveness: 1
+      aggressiveness: 0.6
       overrideRuleCompliance: 0
       ruleCompliance: 0.9
-      overrideComboEfficiency: 0
+      overrideComboEfficiency: 1
       comboEfficiency: 1
-      startupBehavior: 3
+      startupBehavior: 4
   networkOptions:
     forceAnimationControl: 1
     disableRootMotion: 0
@@ -1762,9 +1762,9 @@ MonoBehaviour:
     synchronizationMessageFrequency: 2
     synchronizationAction: 1
   music: 1
-  musicVolume: 0.15708563
+  musicVolume: 0.1080979
   soundfx: 1
-  soundfxVolume: 0.122506015
+  soundfxVolume: 0.099999964
   colorStateOne: {r: 1, g: 0, b: 0, a: 1}
   colorIsHit: {r: 1, g: 0, b: 1, a: 1}
   colorBodyCollider: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}

@@ -3606,7 +3606,7 @@ MonoBehaviour:
     applyDifferentSelfBlockForce: 0
     _pushForce:
       x:
-        _serializedValue: 0
+        _serializedValue: 64424509440
       y:
         _serializedValue: 0
       z:
@@ -3708,7 +3708,7 @@ MonoBehaviour:
     hitStunOptionsToggle: 1
     forceOptionsToggle: 1
     opponentForceToggle: 1
-    selfForceToggle: 1
+    selfForceToggle: 0
     stageReactionsToggle: 0
     overrideEventsToggle: 0
     hitConditionsToggle: 0

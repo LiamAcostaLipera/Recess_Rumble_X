@@ -567,7 +567,7 @@ MonoBehaviour:
     spaceBetweenHits: 0
     totalHits: 1
     resetPreviousHitStun: 1
-    hitStunOnHit: 1
+    hitStunOnHit: 10
     hitStunOnBlock: 0
     overrideHitEffects: 1
     fixRotation: 1
@@ -603,8 +603,8 @@ MonoBehaviour:
     damageScaling: 0
     obeyDirectionalHit: 1
     hitEffectsOnHit: 1
-    resetPreviousHorizontalPush: 0
-    resetPreviousVerticalPush: 0
+    resetPreviousHorizontalPush: 1
+    resetPreviousVerticalPush: 1
     applyDifferentAirForce: 0
     applyDifferentBlockForce: 0
     _pushForce:

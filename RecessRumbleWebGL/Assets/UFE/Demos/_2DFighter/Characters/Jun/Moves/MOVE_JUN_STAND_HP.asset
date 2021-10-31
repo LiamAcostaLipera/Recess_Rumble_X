@@ -4237,37 +4237,7 @@ MonoBehaviour:
     anyAttackType: 1
     anyHitType: 1
     anyHitConfirmType: 1
-  frameLinks:
-  - linkType: 0
-    allowBuffer: 1
-    onStrike: 1
-    onBlock: 1
-    onParry: 1
-    activeFramesBegins: 21
-    activeFramesEnds: 30
-    counterMoveType: 0
-    counterMoveFilter: {fileID: 0}
-    disableHitImpact: 1
-    anyHitStrength: 1
-    hitStrength: 0
-    anyStrokeHitBox: 1
-    hitBoxType: 0
-    anyHitType: 1
-    hitType: 0
-    ignoreInputs: 0
-    ignorePlayerConditions: 0
-    ignoreGauge: 0
-    nextMoveStartupFrame: 1
-    linkableMoves:
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    linkableMovesToggle: 0
-    hitConfirmToggle: 0
-    counterMoveToggle: 0
+  frameLinks: []
   gauges:
   - castingFrame: 0
     targetGauge: 0
@@ -4335,7 +4305,7 @@ MonoBehaviour:
     crouchingHit: 1
     airHit: 1
     stunHit: 1
-    allowMultiHit: 1
+    allowMultiHit: 0
     opponentConditions:
       basicMoveLimitation: 
       possibleMoveStates: []
@@ -4408,7 +4378,7 @@ MonoBehaviour:
       _serializedValue: 0
     frameAdvantageOnHit: 0
     frameAdvantageOnBlock: 0
-    damageScaling: 1
+    damageScaling: 0
     damageType: 1
     _damageOnHit:
       _serializedValue: 4509715660800
@@ -4426,7 +4396,7 @@ MonoBehaviour:
     applyDifferentSelfBlockForce: 0
     _pushForce:
       x:
-        _serializedValue: 0
+        _serializedValue: 64424509440
       y:
         _serializedValue: 0
       z:

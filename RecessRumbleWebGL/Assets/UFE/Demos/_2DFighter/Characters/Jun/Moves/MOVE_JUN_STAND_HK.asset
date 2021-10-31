@@ -3422,7 +3422,7 @@ MonoBehaviour:
     onBlock: 1
     onParry: 1
     activeFramesBegins: 10
-    activeFramesEnds: 17
+    activeFramesEnds: 16
     counterMoveType: 0
     counterMoveFilter: {fileID: 0}
     disableHitImpact: 1
@@ -3500,7 +3500,7 @@ MonoBehaviour:
     techable: 1
     resetHitAnimations: 1
     forceStand: 0
-    fixRotation: 0
+    fixRotation: 1
     armorBreaker: 0
     continuousHit: 0
     unblockable: 0
@@ -3600,7 +3600,7 @@ MonoBehaviour:
     applyDifferentSelfBlockForce: 0
     _pushForce:
       x:
-        _serializedValue: 0
+        _serializedValue: 64424509440
       y:
         _serializedValue: 0
       z:

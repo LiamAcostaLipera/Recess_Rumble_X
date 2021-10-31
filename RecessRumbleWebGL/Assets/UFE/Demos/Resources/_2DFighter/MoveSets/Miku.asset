@@ -88419,7 +88419,9 @@ MonoBehaviour:
       soundEffects:
       - {fileID: 8300000, guid: 3c02d46541fce6d47a31142bcbb7a85e, type: 3}
       - {fileID: 8300000, guid: 00d0ca0e2e8d67a4996e79079c0f74bb, type: 3}
+      - {fileID: 0}
       - {fileID: 8300000, guid: cf856f965b4585548a7b045a306412d8, type: 3}
+      - {fileID: 0}
       continuousSound: 0
       particleEffect:
         editorToggle: 0
@@ -88435,8 +88437,8 @@ MonoBehaviour:
         bodyPart: 0
       reference: 23
       name: getHitHigh
-      editorToggle: 0
-      soundEffectsToggle: 0
+      editorToggle: 1
+      soundEffectsToggle: 1
     getHitLow:
       animMap:
       - animationMaps:
