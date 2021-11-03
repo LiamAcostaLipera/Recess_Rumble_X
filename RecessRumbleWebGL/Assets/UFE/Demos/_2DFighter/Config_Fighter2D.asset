@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Config_Fighter2D
   m_EditorClassIdentifier: 
   version: 2
-  player1Character: {fileID: 0}
-  player2Character: {fileID: 0}
+  player1Character: {fileID: 11400000, guid: 49075f7c9de81bf49880ac0ae2087666, type: 2}
+  player2Character: {fileID: 11400000, guid: 6b761e7adeeaaef45af82e3fdda6d92d, type: 2}
   player1Team:
   - {fileID: 0}
   - {fileID: 0}
@@ -24,18 +24,18 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   selectedStage:
-    stageName: AZOTEA
+    stageName: 
     stageLoadingMethod: 0
-    stagePath: Assets/UFE/Demos/Shared_Assets/Stages/Rooftop/Rooftop.unity
-    screenshot: {fileID: 2800000, guid: 82b1f62f0a657b54da446cf880e1df6e, type: 3}
-    prefab: {fileID: 100000, guid: 5520d39aec5319c4f951d422938cca6b, type: 3}
-    music: {fileID: 8300000, guid: d5e75ed7535fcb445a86030fda8601a1, type: 3}
+    stagePath: 
+    screenshot: {fileID: 0}
+    prefab: {fileID: 0}
+    music: {fileID: 0}
     _groundFriction:
-      _serializedValue: 515396075520
+      _serializedValue: 429496729600
     _leftBoundary:
-      _serializedValue: -64424509440
+      _serializedValue: -163208757248
     _rightBoundary:
-      _serializedValue: 68719476736
+      _serializedValue: 163208757248
     position:
       x:
         _serializedValue: 0
@@ -225,7 +225,7 @@ MonoBehaviour:
             opponentCharacterIndex: 7
             possibleStagesIndexes: 01000000
           showOpponentsInEditor: 1
-        showStoryInEditor: 1
+        showStoryInEditor: 0
       - opening: {fileID: 0}
         ending: {fileID: 0}
         fightsGroups:
@@ -935,7 +935,7 @@ MonoBehaviour:
   player1_Inputs:
   - inputType: 0
     inputButtonName: P1KeyboardHorizontal
-    engineRelatedButton: 0
+    engineRelatedButton: 1
     joystickAxisName: P1JoystickHorizontal
     cInputPositiveKeyName: P1Right
     cInputPositiveDefaultKey: D
@@ -951,7 +951,7 @@ MonoBehaviour:
     inputViewerIcon6: {fileID: 2800000, guid: 90523496d8897124e989ad256f109d27, type: 3}
   - inputType: 1
     inputButtonName: P1KeyboardVertical
-    engineRelatedButton: 3
+    engineRelatedButton: 2
     joystickAxisName: P1JoystickVertical
     cInputPositiveKeyName: P1Up
     cInputPositiveDefaultKey: W
@@ -1080,7 +1080,7 @@ MonoBehaviour:
   player2_Inputs:
   - inputType: 0
     inputButtonName: P2KeyboardHorizontal
-    engineRelatedButton: 0
+    engineRelatedButton: 1
     joystickAxisName: P2JoystickHorizontal
     cInputPositiveKeyName: P2Right
     cInputPositiveDefaultKey: RightArrow
@@ -1239,7 +1239,7 @@ MonoBehaviour:
   - stageName: AZOTEA
     stageLoadingMethod: 0
     stagePath: Assets/UFE/Demos/Shared_Assets/Stages/Rooftop/Rooftop.unity
-    screenshot: {fileID: 2800000, guid: 82b1f62f0a657b54da446cf880e1df6e, type: 3}
+    screenshot: {fileID: 2800000, guid: 702f64d620f51f74aae51966110fa66f, type: 3}
     prefab: {fileID: 100000, guid: 5520d39aec5319c4f951d422938cca6b, type: 3}
     music: {fileID: 8300000, guid: d5e75ed7535fcb445a86030fda8601a1, type: 3}
     _groundFriction:
@@ -1762,9 +1762,9 @@ MonoBehaviour:
     synchronizationMessageFrequency: 2
     synchronizationAction: 1
   music: 1
-  musicVolume: 0.1080979
+  musicVolume: 0
   soundfx: 1
-  soundfxVolume: 0.099999964
+  soundfxVolume: 0
   colorStateOne: {r: 1, g: 0, b: 0, a: 1}
   colorIsHit: {r: 1, g: 0, b: 1, a: 1}
   colorBodyCollider: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
