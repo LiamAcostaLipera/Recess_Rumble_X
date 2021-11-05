@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 22200000}
   - component: {fileID: 11400000}
   - component: {fileID: 11400002}
+  - component: {fileID: 3124551782161236213}
   m_Layer: 5
   m_Name: VersusModeScreen
   m_TagString: Untagged
@@ -105,6 +106,18 @@ MonoBehaviour:
   moveCursorSound: {fileID: 8300000, guid: c2e17792a92edb94a8322cf55cd1f919, type: 3}
   stopPreviousSoundEffectsOnLoad: 0
   delayBeforePlayingMusic: 0.1
+--- !u!114 &3124551782161236213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bf0f44d3083c3c438af84ec09ffa387, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &100002
 GameObject:
   m_ObjectHideFlags: 0
@@ -1135,6 +1148,17 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 3124551782161236213}
+        m_MethodName: FirstCheckPVCPU
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 11400002}
         m_MethodName: SelectPlayerVersusCpu
         m_Mode: 1
@@ -2002,6 +2026,17 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 3124551782161236213}
+        m_MethodName: FirstCheckCPUVCPU
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 11400002}
         m_MethodName: SelectCpuVersusCpu
         m_Mode: 1
@@ -2211,6 +2246,17 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 3124551782161236213}
+        m_MethodName: FirstCheckPVP
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 11400002}
         m_MethodName: SelectPlayerVersusPlayer
         m_Mode: 1
