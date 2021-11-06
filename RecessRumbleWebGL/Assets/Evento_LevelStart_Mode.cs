@@ -10,6 +10,10 @@ public class Evento_LevelStart_Mode : MonoBehaviour
     public static bool Check1PVCPU = false;
     public static bool Check1CPUVCPU = false;
     public static bool Check2 = false;
+
+
+    public static bool TerminoLaPeleaVersus = false;
+    public  GameObject PanelOp;
     
 
     void Update()
@@ -68,7 +72,10 @@ public class Evento_LevelStart_Mode : MonoBehaviour
         Check2 = true;
     }
 
-
+    public void abrirCalificacionesVersus()
+    {
+        TerminoLaPeleaVersus = true;
+    }
 
 
 

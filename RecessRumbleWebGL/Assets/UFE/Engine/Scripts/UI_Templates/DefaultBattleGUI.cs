@@ -57,6 +57,8 @@ public class DefaultBattleGUI : BattleGUI{
 	public AlertGUI mainAlert = new AlertGUI();
 	public Text info;
 	public Text timer;
+	public float sumaTimer;
+	public float totalTimer;
 	public float lifeDownSpeed = 500f;
 	public float lifeUpSpeed = 900f;
     public UFEScreen pauseScreen;
@@ -748,13 +750,12 @@ public class DefaultBattleGUI : BattleGUI{
                 {"modo", GameMode.StoryMode}
             });
 
-            /*Debug.Log("Protagonista " + this.player1GUI.name.text);
+			/*Debug.Log("Protagonista " + this.player1GUI.name.text);
             Debug.Log("vida " + this.player1.targetLife);
             Debug.Log("enemigo " + this.player2GUI.name.text);
-            Debug.Log("vida enemigo " + this.player2.targetLife);
+            Debug.Log("vida enemigo " + this.player2.targetLife);*/
 
-            Debug.Log("tiempo= " + this.timer.text);
-            Debug.Log("modo " + GameMode.StoryMode);*/
+			
             //Debug.Log("rondas " + UFE.config.currentRound);          
         }
 
@@ -769,8 +770,11 @@ public class DefaultBattleGUI : BattleGUI{
                 {"modo", GameMode.VersusMode},
                 //{"level_index ", 0},
             });
-
-            /*Debug.Log("Protagonista " + this.player1GUI.name.text);
+			
+			
+			//Debug.Log("tiempo acumulado: " + this.timer.text +"Total " + totalTimer);
+			
+			/*Debug.Log("Protagonista " + this.player1GUI.name.text);
             Debug.Log("vida " + this.player1.targetLife);
             Debug.Log("enemigo " + this.player2GUI.name.text);
             Debug.Log("vida enemigo " + this.player2.targetLife);
@@ -778,8 +782,8 @@ public class DefaultBattleGUI : BattleGUI{
             Debug.Log("tiempo= " + this.timer.text);
             Debug.Log("modo " + GameMode.VersusMode);*/
 
-            //Debug.Log("level_index " + 0);
-        }
+			Debug.Log("level_index : " + 0);
+		}
 
 
         if (this.announcer != null && !this.muteAnnouncer){
@@ -818,16 +822,18 @@ public class DefaultBattleGUI : BattleGUI{
                             {"level_index ", 0},
                         });
 
-                        /*Debug.Log("Personaje1 Elegido= " + this.player1GUI.name.text);
+						/*Debug.Log("Personaje1 Elegido= " + this.player1GUI.name.text);
                         Debug.Log("vida= " + this.player1.targetLife);                       
                         Debug.Log("Personaje2 Elegido = " + this.player2GUI.name.text);
                         Debug.Log("vida enemigo= " + this.player2.targetLife);
 
                         Debug.Log("tiempo= " + this.timer.text);
                         Debug.Log("modo " + GameMode.VersusMode);*/
+						
 
-                        
-                    }
+
+
+					}
 
 
                 }
@@ -864,14 +870,16 @@ public class DefaultBattleGUI : BattleGUI{
                             {"level_index ", 0},
                         });
 
-                        /*Debug.Log("Personaje1 Elegido= " + this.player1GUI.name.text);
+						/*Debug.Log("Personaje1 Elegido= " + this.player1GUI.name.text);
                         Debug.Log("vida= " + this.player1.targetLife);
                         Debug.Log("Personaje2 Elegido = " + this.player2GUI.name.text);
                         Debug.Log("vida enemigo= " + this.player2.targetLife);
 
                         Debug.Log("tiempo= " + this.timer.text);
                         Debug.Log("modo " + GameMode.VersusMode);*/
-                    }
+						Debug.Log("fin de ronda uwu "+ totalTimer);
+						
+					}
                 }
 			}
 
@@ -904,6 +912,7 @@ public class DefaultBattleGUI : BattleGUI{
 	protected override void OnTimeOver(){
 		base.OnTimeOver();
 		this.OnNewAlert(this.SetStringValues(UFE.config.selectedLanguage.timeOver, null), null);
+		
 
 		if (this.announcer != null && !this.muteAnnouncer){
 			UFE.PlaySound(this.announcer.timeOver);

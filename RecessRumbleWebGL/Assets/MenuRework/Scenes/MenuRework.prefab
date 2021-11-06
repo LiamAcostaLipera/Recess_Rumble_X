@@ -2376,6 +2376,7 @@ GameObject:
   - component: {fileID: 4405602741136331636}
   - component: {fileID: -6089267711487009671}
   - component: {fileID: 1085173742859301848}
+  - component: {fileID: 7863318362844549397}
   m_Layer: 5
   m_Name: MenuRework
   m_TagString: Untagged
@@ -2448,6 +2449,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Url: https://docs.google.com/forms/d/e/1FAIpQLScTscgzdGQ_bZ2zCa5I_WAAh8R0Npxx2iCZfxn7VpqWgPsqAQ/viewform
+--- !u!114 &7863318362844549397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4405602741136331632}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bf0f44d3083c3c438af84ec09ffa387, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4405602741203630649
 GameObject:
   m_ObjectHideFlags: 0
@@ -4030,7 +4043,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3000e6c6dda9b4248a8c3b03966dae3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Panel: {fileID: 0}
 --- !u!1 &7114238980141643200
 GameObject:
   m_ObjectHideFlags: 0
