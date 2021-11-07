@@ -11,6 +11,7 @@ public class Evento_LevelStart_Mode : MonoBehaviour
     public static bool Check1CPUVCPU = false;
     public static bool Check2 = false;
 
+    public int contadorIndex = 0;
 
     public static bool TerminoLaPeleaVersus = false;
     public  GameObject PanelOp;
@@ -77,7 +78,10 @@ public class Evento_LevelStart_Mode : MonoBehaviour
         TerminoLaPeleaVersus = true;
     }
 
+    public void ContarIndex()
+    {
 
+    }
 
 
 

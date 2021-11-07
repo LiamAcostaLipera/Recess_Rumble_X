@@ -8,6 +8,7 @@ using UnityEngine.Analytics;
 
 public class DefaultBattleGUI : BattleGUI{
 	#region public class definitions
+	public static int levelindexs;
 	[Serializable]
 	public class PlayerGUI{
 		public Text name;
@@ -759,21 +760,23 @@ public class DefaultBattleGUI : BattleGUI{
             //Debug.Log("rondas " + UFE.config.currentRound);          
         }
 
-        if (UFE.gameMode == GameMode.VersusMode)  //---------------------------------------------------------------------------------->EVENTO ANALYTICS FIN_RONDA VERSUSMODE
+        if (UFE.gameMode == GameMode.VersusMode )  //---------------------------------------------------------------------------------->EVENTO ANALYTICS FIN_RONDA VERSUSMODE
         {
-            Analytics.CustomEvent("fin_ronda", new Dictionary<string, object>{
+
+			Analytics.CustomEvent("fin_ronda", new Dictionary<string, object>{
                 {"protagonista", this.player1GUI.name.text},
                 {"vida" , this.player1.targetLife},
                 {"enemigo", this.player2GUI.name.text},
                 {"vida_enemigo" , this.player2.targetLife},
                 {"tiempo" , this.timer.text},
                 {"modo", GameMode.VersusMode},
-                //{"level_index ", 0},
+                {"level_index ", 0},
             });
-			
-			
+
+
+
 			//Debug.Log("tiempo acumulado: " + this.timer.text +"Total " + totalTimer);
-			
+
 			/*Debug.Log("Protagonista " + this.player1GUI.name.text);
             Debug.Log("vida " + this.player1.targetLife);
             Debug.Log("enemigo " + this.player2GUI.name.text);
@@ -782,7 +785,7 @@ public class DefaultBattleGUI : BattleGUI{
             Debug.Log("tiempo= " + this.timer.text);
             Debug.Log("modo " + GameMode.VersusMode);*/
 
-			Debug.Log("level_index : " + 0);
+			//Debug.Log("level_index : " + 0);
 		}
 
 
@@ -790,10 +793,17 @@ public class DefaultBattleGUI : BattleGUI{
 			// Check if it was the last round
 			if (winner.roundsWon > Mathf.Ceil(UFE.config.roundOptions.totalRounds/2)){
 				if (winnerPlayer == 1) {
+
+					
+					
+
 					UFE.PlaySound(this.announcer.player1Wins); //---------------------------------------------------------------------------------->EVENTO ANALYTICS LEVEL_COMPLETE
-                    if (UFE.gameMode == GameMode.StoryMode)
-                    {
-                        Analytics.CustomEvent("level_complete", new Dictionary<string, object>{
+					if (UFE.gameMode == GameMode.StoryMode)
+					{
+					
+						
+
+						Analytics.CustomEvent("level_complete", new Dictionary<string, object>{
                             {"protagonista ", this.player1GUI.name.text},
                             {"vida " , this.player1.targetLife},
                             {"enemigo ", this.player2GUI.name.text},
@@ -801,14 +811,19 @@ public class DefaultBattleGUI : BattleGUI{
                             {"tiempo " , this.timer.text},
                             {"modo ", GameMode.StoryMode}
                         });
-                        
-                        //Debug.Log("Personaje1 Elegido= " + this.player1GUI.name.text);
-                        //Debug.Log("vida= " + this.player1.targetLife);                       
-                        //Debug.Log("Personaje2 Elegido = " + this.player2GUI.name.text);
-                        //Debug.Log("vida enemigo= " + this.player2.targetLife);
 
-                        //Debug.Log("tiempo= " + this.timer.text);                      
-                    }
+
+						Debug.Log("tiempo= " + this.timer.text);
+
+
+
+						//Debug.Log("Personaje1 Elegido= " + this.player1GUI.name.text);
+						//Debug.Log("vida= " + this.player1.targetLife);                       
+						//Debug.Log("Personaje2 Elegido = " + this.player2GUI.name.text);
+						//Debug.Log("vida enemigo= " + this.player2.targetLife);
+
+						//Debug.Log("tiempo= " + this.timer.text);                      
+					}
 
                     if (UFE.gameMode == GameMode.VersusMode)
                     {
@@ -822,6 +837,7 @@ public class DefaultBattleGUI : BattleGUI{
                             {"level_index ", 0},
                         });
 
+						
 						/*Debug.Log("Personaje1 Elegido= " + this.player1GUI.name.text);
                         Debug.Log("vida= " + this.player1.targetLife);                       
                         Debug.Log("Personaje2 Elegido = " + this.player2GUI.name.text);
@@ -829,7 +845,7 @@ public class DefaultBattleGUI : BattleGUI{
 
                         Debug.Log("tiempo= " + this.timer.text);
                         Debug.Log("modo " + GameMode.VersusMode);*/
-						
+
 
 
 
@@ -841,6 +857,8 @@ public class DefaultBattleGUI : BattleGUI{
 					UFE.PlaySound(this.announcer.player2Wins);
 					if (UFE.gameMode == GameMode.StoryMode)  //------------------------------------------------------------------> EVENTO ANALYTICS GAME_OVER
 					{
+						levelindexs = levelindexs + 1;
+
 						Analytics.CustomEvent("game_over", new Dictionary<string, object>{
 							{"protagonista", this.player1GUI.name.text},
 							{"enemigo", this.player2GUI.name.text},
@@ -849,12 +867,41 @@ public class DefaultBattleGUI : BattleGUI{
 							{"tiempo" , this.timer.text},
 							{"rondas", + UFE.config.currentRound},
 						});
-						//Debug.Log("Personaje1 Elegido= " + this.player1GUI.name.text);
-						//Debug.Log("Personaje2 Elegido = " + this.player2GUI.name.text);
-						//Debug.Log("tiempo= " + this.timer.text);
-						//Debug.Log("vida= " + this.player1.targetLife);
-						//Debug.Log("vida enemigo= " + this.player2.targetLife);
-						//Debug.Log("rondas " + UFE.config.currentRound);
+
+
+						if (levelindexs == 1)
+						{
+							Analytics.CustomEvent("game_over", new Dictionary<string, object>{
+							{"level_index ", 1},
+
+							});
+							//Debug.Log("deberia ser 1" + levelindexs);
+						}
+
+
+						if (levelindexs == 2)
+						{
+							Analytics.CustomEvent("game_over", new Dictionary<string, object>{
+							{"level_index ", 2},
+							});
+
+							//Debug.Log("deberia ser 2" + levelindexs);
+						}
+						if (levelindexs == 3)
+						{
+							Analytics.CustomEvent("game_over", new Dictionary<string, object>{
+							{"level_index ", 3},
+
+							});
+
+							//Debug.Log("deberia ser 3" + levelindexs);
+							levelindexs = 0;
+						}
+
+
+
+
+			
 
 					}
 				
@@ -877,10 +924,22 @@ public class DefaultBattleGUI : BattleGUI{
 
                         Debug.Log("tiempo= " + this.timer.text);
                         Debug.Log("modo " + GameMode.VersusMode);*/
-						Debug.Log("fin de ronda uwu "+ totalTimer);
+
+						if (UFE.gameMode == GameMode.VersusMode)     //------------------Comprueba ademas que sea p1vsp2
+
+						{
+							Analytics.CustomEvent("game_over", new Dictionary<string, object>{
+							{"modo", "VersusMode"} });
+						}
+												
+
+
+						   //funciona cuando muere el p1
+
 						
+
 					}
-                }
+				}
 			}
 
 			// Finally, check if we should play any AudioClip
@@ -950,6 +1009,9 @@ public class DefaultBattleGUI : BattleGUI{
 
             AddViewerInput(activeIconList, player);
 		}
+
+		
+
 	}
 	#endregion
 	/*
@@ -960,4 +1022,8 @@ public class DefaultBattleGUI : BattleGUI{
 		}
 	}
 	*/
+	public void resetLevelindex()
+	{
+		levelindexs = 0;
+	}
 }

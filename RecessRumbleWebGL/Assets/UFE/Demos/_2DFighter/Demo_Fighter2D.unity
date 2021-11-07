@@ -193,7 +193,7 @@ GameObject:
   - component: {fileID: 468839699}
   m_Layer: 0
   m_Name: Events
-  m_TagString: Untagged
+  m_TagString: Events
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -210,8 +210,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6bf0f44d3083c3c438af84ec09ffa387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Check1: 0
-  Check2: 0
+  contadorIndex: 0
+  PanelOp: {fileID: 0}
 --- !u!4 &468839700
 Transform:
   m_ObjectHideFlags: 0

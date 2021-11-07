@@ -24,6 +24,7 @@ TagManager:
   - 1
   - 2
   - 3
+  - Events
   layers:
   - Default
   - TransparentFX

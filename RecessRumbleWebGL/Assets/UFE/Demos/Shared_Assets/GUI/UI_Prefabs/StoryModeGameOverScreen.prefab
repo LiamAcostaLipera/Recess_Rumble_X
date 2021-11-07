@@ -330,8 +330,19 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 5275823326916620381}
-        m_MethodName: GoToStoryModeScreen
+      - m_Target: {fileID: 3772941506947994983}
+        m_MethodName: gameOverStory
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
+      - m_Target: {fileID: 6710361097639717894}
+        m_MethodName: resetLevelindex
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -364,6 +375,8 @@ GameObject:
   - component: {fileID: 5275823326916620381}
   - component: {fileID: 6691445940866543725}
   - component: {fileID: 8561289037879201198}
+  - component: {fileID: 3772941506947994983}
+  - component: {fileID: 6710361097639717894}
   m_Layer: 0
   m_Name: Loader
   m_TagString: Untagged
@@ -457,6 +470,96 @@ MonoBehaviour:
   moveCursorSound: {fileID: 0}
   stopPreviousSoundEffectsOnLoad: 0
   delayBeforePlayingMusic: 0.1
+--- !u!114 &3772941506947994983
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2861393841584202492}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47e928825b0863f48a39e63092448256, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6710361097639717894
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2861393841584202492}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfd0a45b7015c4dd29a0c9cd78ec7d64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvasPreview: 1
+  firstSelectableGameObject: {fileID: 0}
+  hasFadeIn: 1
+  hasFadeOut: 1
+  wrapInput: 1
+  inputTexturePlaceHolder: {fileID: 0}
+  inputViewerBuffer: 12
+  muteAnnouncer: 0
+  announcer:
+    announcerName: 
+    round1: {fileID: 0}
+    round2: {fileID: 0}
+    round3: {fileID: 0}
+    otherRounds: {fileID: 0}
+    finalRound: {fileID: 0}
+    fight: {fileID: 0}
+    player1Wins: {fileID: 0}
+    player2Wins: {fileID: 0}
+    perfect: {fileID: 0}
+    firstHit: {fileID: 0}
+    counterHit: {fileID: 0}
+    parry: {fileID: 0}
+    timeOver: {fileID: 0}
+    ko: {fileID: 0}
+    combos: []
+  wonRounds:
+    NotFinishedRounds: {fileID: 0}
+    WonRounds: {fileID: 0}
+    LostRounds: {fileID: 0}
+    VisibleImages: 0
+  player1GUI:
+    name: {fileID: 0}
+    portrait: {fileID: 0}
+    lifeBar: {fileID: 0}
+    gauges: []
+    wonRoundsImages: []
+    alert:
+      text: {fileID: 0}
+      initialPosition: {x: 0, y: 0, z: 0}
+      finalPosition: {x: 0, y: 0, z: 0}
+      movementSpeed: 15
+  player2GUI:
+    name: {fileID: 0}
+    portrait: {fileID: 0}
+    lifeBar: {fileID: 0}
+    gauges: []
+    wonRoundsImages: []
+    alert:
+      text: {fileID: 0}
+      initialPosition: {x: 0, y: 0, z: 0}
+      finalPosition: {x: 0, y: 0, z: 0}
+      movementSpeed: 15
+  mainAlert:
+    text: {fileID: 0}
+    initialPosition: {x: 0, y: 0, z: 0}
+    finalPosition: {x: 0, y: 0, z: 0}
+    movementSpeed: 15
+  info: {fileID: 0}
+  timer: {fileID: 0}
+  sumaTimer: 0
+  totalTimer: 0
+  lifeDownSpeed: 500
+  lifeUpSpeed: 900
+  pauseScreen: {fileID: 0}
+  networkPlayerPointer: {fileID: 0}
+  pointerTimer: 4
 --- !u!1 &4689553875287001730
 GameObject:
   m_ObjectHideFlags: 0
@@ -576,6 +679,17 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 3772941506947994983}
+        m_MethodName: gameOverStory
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
       - m_Target: {fileID: 5275823326916620381}
         m_MethodName: GoToStoryModeScreen
         m_Mode: 1
@@ -586,7 +700,18 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 1
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &4762694177219530069
 GameObject:
   m_ObjectHideFlags: 0
