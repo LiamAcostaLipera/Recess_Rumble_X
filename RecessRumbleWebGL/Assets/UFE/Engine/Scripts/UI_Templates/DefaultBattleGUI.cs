@@ -786,6 +786,9 @@ public class DefaultBattleGUI : BattleGUI{
             Debug.Log("modo " + GameMode.VersusMode);*/
 
 			//Debug.Log("level_index : " + 0);
+
+			totalTimer = totalTimer + sumaTimer;
+
 		}
 
 
@@ -837,7 +840,7 @@ public class DefaultBattleGUI : BattleGUI{
                             {"level_index ", 0},
                         });
 
-						
+
 						/*Debug.Log("Personaje1 Elegido= " + this.player1GUI.name.text);
                         Debug.Log("vida= " + this.player1.targetLife);                       
                         Debug.Log("Personaje2 Elegido = " + this.player2GUI.name.text);
@@ -846,7 +849,9 @@ public class DefaultBattleGUI : BattleGUI{
                         Debug.Log("tiempo= " + this.timer.text);
                         Debug.Log("modo " + GameMode.VersusMode);*/
 
-
+						Analytics.CustomEvent("level_complete", new Dictionary<string, object>{
+							{"tiempo", totalTimer}
+						});
 
 
 					}
@@ -966,6 +971,7 @@ public class DefaultBattleGUI : BattleGUI{
 	protected override void OnTimer (FPLibrary.Fix64 time){
 		base.OnTimer (time);
 		if (this.timer != null) this.timer.text = Mathf.Round((float)time).ToString().Replace("Infinity", "∞");
+		sumaTimer = Mathf.Round((float)time);
 	}
 
 	protected override void OnTimeOver(){
