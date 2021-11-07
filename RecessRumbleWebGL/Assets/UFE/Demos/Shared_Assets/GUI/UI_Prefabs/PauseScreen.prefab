@@ -97,6 +97,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1f419558fb8dbe4c9cf1bd193afee12, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  namePlayer1: {fileID: 0}
 --- !u!1 &100002
 GameObject:
   m_ObjectHideFlags: 0
@@ -1770,7 +1771,7 @@ GameObject:
   - component: {fileID: 22200040}
   - component: {fileID: 11400018}
   m_Layer: 5
-  m_Name: Toggle_Music
+  m_Name: Toggle_Music_Pausa
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1854,7 +1855,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 1
-  m_IsOn: 1
+  m_IsOn: 0
 --- !u!222 &22200040
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2004,7 +2005,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.22500001, y: 0.158462}
   m_AnchorMax: {x: 0.48800004, y: 0.25100002}
-  m_AnchoredPosition: {x: -4.5000305, y: 0}
+  m_AnchoredPosition: {x: -4.500046, y: 0}
   m_SizeDelta: {x: -11, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &22200042
@@ -2241,7 +2242,8 @@ MonoBehaviour:
   moveCursorSound: {fileID: 8300000, guid: c2e17792a92edb94a8322cf55cd1f919, type: 3}
   onLoadSound: {fileID: 0}
   music: {fileID: 0}
-  musicToggle: {fileID: 11400050}
+  musicToggle: {fileID: 0}
+  musicTogglePausa: {fileID: 11400050}
   musicSlider: {fileID: 11400036}
   soundToggle: {fileID: 11400010}
   soundSlider: {fileID: 11400034}
@@ -5013,7 +5015,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.22500001, y: 0.158462}
   m_AnchorMax: {x: 0.48800004, y: 0.25100002}
-  m_AnchoredPosition: {x: -4.5000305, y: 0}
+  m_AnchoredPosition: {x: -4.500046, y: 0}
   m_SizeDelta: {x: -11, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &22200108

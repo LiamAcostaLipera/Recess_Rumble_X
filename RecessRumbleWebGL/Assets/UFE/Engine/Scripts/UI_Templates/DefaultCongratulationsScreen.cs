@@ -21,7 +21,7 @@ public class DefaultCongratulationsScreen : StoryModeScreen{
 			UFE.DelayLocalAction(delegate(){UFE.PlaySound(this.sound);}, this.delayBeforePlayingMusic);
 		}
 
-		UFE.DelaySynchronizedAction(this.GoToNextScreen, this.delayBeforeLoadingNextScreen);
+		// PRUEBA UFE.DelaySynchronizedAction(this.GoToNextScreen, this.delayBeforeLoadingNextScreen);
 	}
 	#endregion
 }

@@ -2,6 +2,7 @@
 using UnityEngine.UI;
 using System;
 using System.Collections.Generic;
+using UnityEngine.Analytics;
 
 public class DefaultOptionsScreen : OptionsScreen{
 	#region public instance properties
@@ -11,6 +12,7 @@ public class DefaultOptionsScreen : OptionsScreen{
 	public AudioClip onLoadSound;
 	public AudioClip music;
 	public Toggle musicToggle;
+	public Toggle musicTogglePausa;
 	public Slider musicSlider;
 	public Toggle soundToggle;
 	public Slider soundSlider;
@@ -63,6 +65,7 @@ public class DefaultOptionsScreen : OptionsScreen{
 		
 		if (this.music != null){
 			UFE.DelayLocalAction(delegate(){UFE.PlayMusic(this.music);}, this.delayBeforePlayingMusic);
+			this.SetMusic(this.musicToggle.isOn);
 		}
 		
 		if (this.stopPreviousSoundEffectsOnLoad){
@@ -249,17 +252,39 @@ public class DefaultOptionsScreen : OptionsScreen{
 	public override void ToggleMusic(){
 		if (this.visible){
 			if (this.musicToggle != null){
+				if(!this.musicToggle.isOn){
+					print("aca salta el evento mute desde el menu");	    
+      			//debug.log("mute en menu") INICIO DE ANALYTICS MUTE MENU;
+         	  	Analytics.CustomEvent("mute", new Dictionary<string, object>{
+           		 {"donde ", "menu"}	
+					});
+				//	FIN ANALYTICS MUTE EN MENU
+				}
+				
 				this.SetMusic(this.musicToggle.isOn);
+				
 			}else{
+				if(!this.musicTogglePausa.isOn){
+					print("aca salta el evento mute desde el menu de pausa");
+					//debug.log("mute en menu") INICIO DE ANALYTICS MUTE MENU PAUSA;
+         	  		Analytics.CustomEvent("mute", new Dictionary<string, object>{
+           			{"donde ", "menu"}	
+					});
+				//	FIN ANALYTICS MUTE MENU PAUSA
+				}
 				base.ToggleMusic();
 			}
+
 		}
 	}
+
+
 	
 	public override void ToggleSoundFX(){
 		if (this.visible){
 			if (this.soundToggle != null){
 				this.SetSoundFX(this.soundToggle.isOn);
+
 			}else{
 				base.ToggleSoundFX();
 			}
