@@ -4129,7 +4129,7 @@ MonoBehaviour:
     customHitBoxDefinition: {fileID: 11400000, guid: f7d94c634fc1783488549f1e6ba59443,
       type: 2}
     length:
-      _serializedValue: 1431655808
+      _serializedValue: 357913952
     bakeSpeed: 0
     hitBoxDefinitionType: 1
   _animationSpeed:
@@ -4222,10 +4222,10 @@ MonoBehaviour:
       movingForward: 1
       movingBack: 1
       standBy: 1
-      blocking: 0
+      blocking: 1
       stunned: 0
     basicMovesToggle: 0
-    statesToggle: 0
+    statesToggle: 1
   moveClassification:
     attackType: 1
     hitType: 0
@@ -4284,9 +4284,9 @@ MonoBehaviour:
   cameraMovements: []
   hits: []
   blockableArea:
-    enabled: 1
+    enabled: 0
     activeFramesBegin: 0
-    activeFramesEnds: 19
+    activeFramesEnds: 4
     bodyPart: 2
     hitBoxDefinitionIndex: 0
     shape: 1

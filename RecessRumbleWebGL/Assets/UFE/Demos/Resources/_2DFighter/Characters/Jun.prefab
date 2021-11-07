@@ -52,15 +52,15 @@ MonoBehaviour:
     enabled: 1
     activeFramesBegin: 0
     activeFramesEnds: 0
-    bodyPart: 0
+    bodyPart: 2
     hitBoxDefinitionIndex: 0
-    shape: 0
+    shape: 1
     rect:
       serializedVersion: 2
-      x: 0
-      y: 0
-      width: 4
-      height: 4
+      x: -5.67
+      y: 0.09
+      width: 6.97
+      height: 6.18
     _rect:
       _x:
         _serializedValue: 0
@@ -102,8 +102,8 @@ MonoBehaviour:
         _serializedValue: 0
       yMax:
         _serializedValue: 0
-    followXBounds: 0
-    followYBounds: 0
+    followXBounds: 1
+    followYBounds: 1
     _radius:
       _serializedValue: 2147483648
     _offSet:

@@ -7,6 +7,7 @@ using UnityEngine;
 public class ReviewManager : MonoBehaviour
 {
     private int stars;
+
     public InputField inputField;
 
     // Start is called before the first frame update
@@ -45,4 +46,77 @@ public class ReviewManager : MonoBehaviour
             Debug.LogWarning("WARNING: You are trying to send a review without stars. This is unconcievable.");
         }
     }
+
+
+
+    public void ReviewTaro()
+    {
+        if (stars != -1)
+        {
+            Analytics.CustomEvent("calificar_historia", new Dictionary<string, object>{
+            {"protagonista", "TARO"},
+            {"puntuacion", stars}
+            });
+
+                //Debug.Log("taro"+stars);
+            }
+        else
+        {
+            Debug.LogWarning("WARNING: You are trying to send a review without stars. This is unconcievable.");
+        }
+    }
+
+
+
+    public void ReviewMiku ()
+    {
+        if (stars != -1)
+        {
+            Analytics.CustomEvent("calificar_historia", new Dictionary<string, object>{
+            {"protagonista", "MIKU"},
+            {"puntuacion", stars}
+            });
+
+            //Debug.Log("taro"+stars);
+        }
+        else
+        {
+            Debug.LogWarning("WARNING: You are trying to send a review without stars. This is unconcievable.");
+        }
+    }
+
+    public void ReviewJun()
+    {
+        if (stars != -1)
+        {
+            Analytics.CustomEvent("calificar_historia", new Dictionary<string, object>{
+            {"protagonista", "JUN"},
+            {"puntuacion", stars}
+            });
+
+            //Debug.Log("taro"+stars);
+        }
+        else
+        {
+            Debug.LogWarning("WARNING: You are trying to send a review without stars. This is unconcievable.");
+        }
+    }
+
+    public void ReviewMarie()
+    {
+        if (stars != -1)
+        {
+            Analytics.CustomEvent("calificar_historia", new Dictionary<string, object>{
+            {"protagonista", "MARIE"},
+            {"puntuacion", stars}
+            });
+
+            //Debug.Log("taro"+stars);
+        }
+        else
+        {
+            Debug.LogWarning("WARNING: You are trying to send a review without stars. This is unconcievable.");
+        }
+    }
+
 }
