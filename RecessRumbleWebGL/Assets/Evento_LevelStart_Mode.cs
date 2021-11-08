@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Analytics;
+using UnityEngine.UI;
 
 public class Evento_LevelStart_Mode : MonoBehaviour
 {
@@ -15,7 +16,10 @@ public class Evento_LevelStart_Mode : MonoBehaviour
 
     public static bool TerminoLaPeleaVersus = false;
     public  GameObject PanelOp;
-    
+
+    public  bool activadobotoncontrol = false;
+    public static bool AbrirMenu = false;
+    public GameObject Panel;
 
     void Update()
     {
@@ -51,6 +55,30 @@ public class Evento_LevelStart_Mode : MonoBehaviour
             Check2 = false;
         }
 
+
+        if(TerminoLaPeleaVersus == true && AbrirMenu == true) {
+
+
+            Panel.SetActive(true);
+            Animator animator = Panel.GetComponent<Animator>();
+            if (animator != null)
+            {
+                bool isOpen = animator.GetBool("open");
+                animator.SetBool("open", !isOpen);
+            }
+
+
+            Debug.Log("Holis");
+            
+
+            TerminoLaPeleaVersus = false;
+            AbrirMenu = false;
+
+        }
+
+
+       
+
     }
 
     public void FirstCheckPVP()
@@ -76,15 +104,36 @@ public class Evento_LevelStart_Mode : MonoBehaviour
     public void abrirCalificacionesVersus()
     {
         TerminoLaPeleaVersus = true;
+        AbrirMenu = false;
     }
 
-    public void ContarIndex()
+    public void AbrirMenuPrincipal()
     {
-
+        AbrirMenu = true;
     }
 
 
+    
 
 
+    public void ver_controles_menu()
+    {
+        if (activadobotoncontrol == false)
+        {
+            Analytics.CustomEvent("ver_controles_menu", new Dictionary<string, object>{
+        {"donde", "menu"}
+
+        });
+
+            activadobotoncontrol = true;
+        }
+        else
+            activadobotoncontrol = false;
+
+
+
+
+    }
+ 
 
 }

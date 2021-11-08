@@ -3329,7 +3329,7 @@ MonoBehaviour:
   frameWindowRotation: 0
   cooldown: 0
   cooldownFrames: 30
-  disableHeadLook: 1
+  disableHeadLook: 0
   speedKeyFrameToggle: 0
   fixedSpeed: 1
   animSpeedKeyFrame: []
