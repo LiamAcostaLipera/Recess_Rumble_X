@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 11400000}
   - component: {fileID: 7516048182482662173}
   - component: {fileID: -3105116540037966961}
+  - component: {fileID: 6332642177631849139}
   m_Layer: 5
   m_Name: MARIE_STORY_TARO_DESPUES
   m_TagString: 3
@@ -126,6 +127,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tagStage: {fileID: 0}
+--- !u!114 &6332642177631849139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bf0f44d3083c3c438af84ec09ffa387, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  contadorIndex: 0
+  PanelOp: {fileID: 0}
+  activadobotoncontrol: 0
+  Panel: {fileID: 0}
 --- !u!1 &535183191857523069
 GameObject:
   m_ObjectHideFlags: 0
@@ -984,6 +1001,17 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 6332642177631849139}
+        m_MethodName: abrirCalificacionesVersus
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
         m_CallState: 2
       - m_Target: {fileID: 7516048182482662173}
         m_MethodName: GoToNextScreen

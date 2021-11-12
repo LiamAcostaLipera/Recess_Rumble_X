@@ -877,7 +877,7 @@ public class DefaultBattleGUI : BattleGUI{
 						if (levelindexs == 1)
 						{
 							Analytics.CustomEvent("game_over", new Dictionary<string, object>{
-							{"level_index ", 1},
+							{"level_index", 1},
 
 							});
 							//Debug.Log("deberia ser 1" + levelindexs);
@@ -887,7 +887,7 @@ public class DefaultBattleGUI : BattleGUI{
 						if (levelindexs == 2)
 						{
 							Analytics.CustomEvent("game_over", new Dictionary<string, object>{
-							{"level_index ", 2},
+							{"level_index", 2},
 							});
 
 							//Debug.Log("deberia ser 2" + levelindexs);
@@ -895,7 +895,7 @@ public class DefaultBattleGUI : BattleGUI{
 						if (levelindexs == 3)
 						{
 							Analytics.CustomEvent("game_over", new Dictionary<string, object>{
-							{"level_index ", 3},
+							{"level_index", 3},
 
 							});
 

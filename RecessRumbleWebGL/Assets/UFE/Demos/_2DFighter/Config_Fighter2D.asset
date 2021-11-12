@@ -24,18 +24,18 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   selectedStage:
-    stageName: AZOTEA
+    stageName: ENTRADA
     stageLoadingMethod: 0
-    stagePath: Assets/UFE/Demos/Shared_Assets/Stages/Rooftop/Rooftop.unity
-    screenshot: {fileID: 2800000, guid: 702f64d620f51f74aae51966110fa66f, type: 3}
-    prefab: {fileID: 100000, guid: 5520d39aec5319c4f951d422938cca6b, type: 3}
-    music: {fileID: 8300000, guid: d5e75ed7535fcb445a86030fda8601a1, type: 3}
+    stagePath: 
+    screenshot: {fileID: 2800000, guid: 694510c8ade150e479748853a0b7bbec, type: 3}
+    prefab: {fileID: 100000, guid: c0460ec44602dd44b88067e2595a1ff5, type: 3}
+    music: {fileID: 8300000, guid: ff696db1aeb715f49be2695aa44ef37d, type: 3}
     _groundFriction:
       _serializedValue: 515396075520
     _leftBoundary:
-      _serializedValue: -64424509440
+      _serializedValue: -70866960384
     _rightBoundary:
-      _serializedValue: 68719476736
+      _serializedValue: 73014444032
     position:
       x:
         _serializedValue: 0
@@ -1080,7 +1080,7 @@ MonoBehaviour:
   player2_Inputs:
   - inputType: 0
     inputButtonName: P2KeyboardHorizontal
-    engineRelatedButton: 1
+    engineRelatedButton: 0
     joystickAxisName: P2JoystickHorizontal
     cInputPositiveKeyName: P2Right
     cInputPositiveDefaultKey: RightArrow
@@ -1761,7 +1761,7 @@ MonoBehaviour:
     enableNetworkSyncTest: 0
     synchronizationMessageFrequency: 2
     synchronizationAction: 1
-  music: 1
+  music: 0
   musicVolume: 0.14982823
   soundfx: 1
   soundfxVolume: 0.099999964
