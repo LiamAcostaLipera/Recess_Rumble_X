@@ -770,7 +770,7 @@ public class DefaultBattleGUI : BattleGUI{
                 {"vida_enemigo" , this.player2.targetLife},
                 {"tiempo" , this.timer.text},
                 {"modo", GameMode.VersusMode},
-                {"level_index ", 0},
+                {"level_index", 0},
             });
 
 
@@ -807,12 +807,12 @@ public class DefaultBattleGUI : BattleGUI{
 						
 
 						Analytics.CustomEvent("level_complete", new Dictionary<string, object>{
-                            {"protagonista ", this.player1GUI.name.text},
-                            {"vida " , this.player1.targetLife},
-                            {"enemigo ", this.player2GUI.name.text},
-                            {"vida_enemigo " , this.player2.targetLife},
-                            {"tiempo " , this.timer.text},
-                            {"modo ", GameMode.StoryMode}
+                            {"protagonista", this.player1GUI.name.text},
+                            {"vida" , this.player1.targetLife},
+                            {"enemigo", this.player2GUI.name.text},
+                            {"vida_enemigo" , this.player2.targetLife},
+                            {"tiempo" , this.timer.text},
+                            {"modo", GameMode.StoryMode}
                         });
 
 
@@ -831,13 +831,13 @@ public class DefaultBattleGUI : BattleGUI{
                     if (UFE.gameMode == GameMode.VersusMode)
                     {
                         Analytics.CustomEvent("level_complete", new Dictionary<string, object>{
-                            {"protagonista ", this.player1GUI.name.text},
-                            {"vida " , this.player1.targetLife},
-                            {"enemigo ", this.player2GUI.name.text},
-                            {"vida_enemigo " , this.player2.targetLife},
-                            {"tiempo " , this.timer.text},
-                            {"modo ", GameMode.VersusMode},
-                            {"level_index ", 0},
+                            {"protagonista", this.player1GUI.name.text},
+                            {"vida" , this.player1.targetLife},
+                            {"enemigo", this.player2GUI.name.text},
+                            {"vida_enemigo" , this.player2.targetLife},
+                            {"tiempo" , this.timer.text},
+                            {"modo", GameMode.VersusMode},
+                            {"level_index", 0},
                         });
 
 
@@ -913,13 +913,13 @@ public class DefaultBattleGUI : BattleGUI{
 				if (UFE.gameMode == GameMode.VersusMode) //--------------------------------------------------------------------->EVENTO ANALYTICS LEVEL_COMPLETE PARA VERSUSMODE
                     {
                         Analytics.CustomEvent("level_complete", new Dictionary<string, object>{
-                            {"protagonista ", this.player1GUI.name.text},
-                            {"vida " , this.player1.targetLife},
-                            {"enemigo ", this.player2GUI.name.text},
-                            {"vida_enemigo " , this.player2.targetLife},
-                            {"tiempo " , this.timer.text},
-                            {"modo ", GameMode.VersusMode},
-                            {"level_index ", 0},
+                            {"protagonista", this.player1GUI.name.text},
+                            {"vida" , this.player1.targetLife},
+                            {"enemigo", this.player2GUI.name.text},
+                            {"vida_enemigo" , this.player2.targetLife},
+                            {"tiempo" , this.timer.text},
+                            {"modo", GameMode.VersusMode},
+                            {"level_index", 0},
                         });
 
 						/*Debug.Log("Personaje1 Elegido= " + this.player1GUI.name.text);

@@ -256,7 +256,7 @@ public class DefaultOptionsScreen : OptionsScreen{
 					print("aca salta el evento mute desde el menu");	    
       			//debug.log("mute en menu") INICIO DE ANALYTICS MUTE MENU;
          	  	Analytics.CustomEvent("mute", new Dictionary<string, object>{
-           		 {"donde ", "menu"}	
+           		 {"donde", "menu"}	
 					});
 				//	FIN ANALYTICS MUTE EN MENU
 				}
@@ -268,7 +268,7 @@ public class DefaultOptionsScreen : OptionsScreen{
 					print("aca salta el evento mute desde el menu de pausa");
 					//debug.log("mute en menu") INICIO DE ANALYTICS MUTE MENU PAUSA;
          	  		Analytics.CustomEvent("mute", new Dictionary<string, object>{
-           			{"donde ", "pausa"}	
+           			{"donde", "pausa"}	
 					});
 				//	FIN ANALYTICS MUTE MENU PAUSA
 				}

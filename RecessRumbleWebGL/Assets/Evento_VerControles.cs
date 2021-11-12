@@ -13,7 +13,7 @@ public class Evento_VerControles : MonoBehaviour
     void Start()
     {
         Analytics.CustomEvent("ver_controles", new Dictionary<string, object>{     
-        {"protagonista ",  UFE.config.player1Character.characterName}
+        {"protagonista",  UFE.config.player1Character.characterName}
 
         });
         //Debug.Log("hola " + UFE.config.player1Character.characterName);

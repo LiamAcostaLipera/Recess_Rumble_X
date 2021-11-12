@@ -16,12 +16,12 @@ public class Evento_mute : MonoBehaviour
     {
         //debug.log("mute en menu");
             Analytics.CustomEvent("mute", new Dictionary<string, object>{
-            {"donde ", "menu"}
+            {"donde", "menu"}
         });
         
         //debug.log("mute en pausa");
             Analytics.CustomEvent("mute", new Dictionary<string, object>{
-            {"donde ", "pausa"}
+            {"donde", "pausa"}
         });
     }
 }

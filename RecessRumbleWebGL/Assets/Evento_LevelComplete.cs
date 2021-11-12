@@ -11,7 +11,7 @@ public class Evento_LevelComplete : MonoBehaviour
     void Start()
     {
         Analytics.CustomEvent("level_complete", new Dictionary<string, object>{
-            {"level_index ", gameObject.tag}
+            {"level_index", gameObject.tag}
         });
         //Debug.Log("Stage " + gameObject.tag);
     }

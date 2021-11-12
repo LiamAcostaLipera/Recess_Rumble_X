@@ -385,7 +385,7 @@ public class DefaultCharacterSelectionScreen : CharacterSelectionScreen {
         if (UFE.gameMode == GameMode.StoryMode)
         {
             Analytics.CustomEvent("level_start", new Dictionary<string, object>{
-            {"modo ", GameMode.StoryMode}
+            {"modo", GameMode.StoryMode}
         });
             //Debug.Log("modo " + GameMode.StoryMode);
         }
@@ -393,8 +393,8 @@ public class DefaultCharacterSelectionScreen : CharacterSelectionScreen {
         if (UFE.gameMode == GameMode.TrainingRoom) 
         {
             Analytics.CustomEvent("level_start", new Dictionary<string, object>{
-            {"modo ", GameMode.TrainingRoom},
-            {"level_index ", 0},
+            {"modo", GameMode.TrainingRoom},
+            {"level_index", 0},
         });
             //Debug.Log("modo " + GameMode.TrainingRoom);
         }
@@ -402,8 +402,8 @@ public class DefaultCharacterSelectionScreen : CharacterSelectionScreen {
         if (UFE.gameMode == GameMode.VersusMode)
         {
             Analytics.CustomEvent("level_start", new Dictionary<string, object>{
-            {"modo ", GameMode.VersusMode},
-            {"level_index ", 0},
+            {"modo", GameMode.VersusMode},
+            {"level_index", 0},
         });
             //Debug.Log("modo " + GameMode.VersusMode);
         }
@@ -412,7 +412,7 @@ public class DefaultCharacterSelectionScreen : CharacterSelectionScreen {
         if (UFE.gameMode == GameMode.StoryMode)
         {
           Analytics.CustomEvent("level_start", new Dictionary<string, object>{
-          {"protagonista_arcade ", this.namePlayer1.text},          
+          {"protagonista_arcade", this.namePlayer1.text},          
 
           });
           //Debug.Log("Protagonista_Arcade " + this.namePlayer1.text); 

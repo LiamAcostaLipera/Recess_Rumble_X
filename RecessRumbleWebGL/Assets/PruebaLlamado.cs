@@ -20,7 +20,7 @@ public class PruebaLlamado : MonoBehaviour
                 CantidadEscenarios++;
 
                 Analytics.CustomEvent("level_start", new Dictionary<string, object>{
-            {"escenario ", gameObject.tag}
+            {"escenario", gameObject.tag}
              });
                 //Debug.Log("escenario " + gameObject.tag);
             }
