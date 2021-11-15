@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 22200000}
   - component: {fileID: 11400000}
   - component: {fileID: 7516048182482662173}
-  - component: {fileID: 6845137973713774791}
   m_Layer: 5
   m_Name: JUN_STORY_MARIE_DESPUES
   m_TagString: 2
@@ -115,19 +114,6 @@ MonoBehaviour:
   delayBeforePlayingMusic: 0.1
   delayBeforeGoingToNextScreen: 9999
   minDelayBeforeSkipping: 0.1
---- !u!114 &6845137973713774791
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 100000}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bfcab62612d89de46954c8ac4d915f19, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tagStage: {fileID: 0}
 --- !u!1 &314986432126608325
 GameObject:
   m_ObjectHideFlags: 0

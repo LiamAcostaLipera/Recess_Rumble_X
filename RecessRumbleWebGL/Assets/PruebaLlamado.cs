@@ -11,9 +11,8 @@ public class PruebaLlamado : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Object[] cantidad = GameObject.FindGameObjectsWithTag(gameObject.tag);
+      /*  Object[] cantidad = GameObject.FindGameObjectsWithTag(gameObject.tag);
 
-        foreach (GameObject Escenario in cantidad)
         {
             if (CantidadEscenarios < 1)
             {
@@ -24,21 +23,12 @@ public class PruebaLlamado : MonoBehaviour
              });
                 //Debug.Log("escenario " + gameObject.tag);
             }
-        }
+        } */
 
         Analytics.CustomEvent("escenario", new Dictionary<string, object>{
         {"cual", gameObject.tag},
         {"donde", UFE.gameMode},
         });
-
-        //Debug.Log("cual " + gameObject.tag);
-        //Debug.Log("donde " + UFE.gameMode);
-
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

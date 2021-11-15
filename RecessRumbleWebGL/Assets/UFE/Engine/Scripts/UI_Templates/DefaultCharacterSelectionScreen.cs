@@ -380,9 +380,9 @@ public class DefaultCharacterSelectionScreen : CharacterSelectionScreen {
 		base.OnCharacterSelectionAllowed (characterIndex, player);
 
 
-        //EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
+        //anterior analytics de modo de juegos EEEEEEEEEEEEEEEEEEEEEEEEEEE
 
-        if (UFE.gameMode == GameMode.StoryMode)
+        /*if (UFE.gameMode == GameMode.StoryMode)
         {
             Analytics.CustomEvent("level_start", new Dictionary<string, object>{
             {"modo", GameMode.StoryMode}

@@ -16,8 +16,6 @@ public class Evento_VerControles : MonoBehaviour
         {"protagonista",  UFE.config.player1Character.characterName}
 
         });
-        //Debug.Log("hola " + UFE.config.player1Character.characterName);
-        //Debug.Log("hola " + UFE.config.player2Character.characterName);
     }
 
     // Update is called once per frame

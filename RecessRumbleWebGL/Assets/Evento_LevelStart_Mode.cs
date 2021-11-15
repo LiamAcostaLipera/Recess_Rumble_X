@@ -1,32 +1,68 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.Analytics;
+﻿using UnityEngine;
 using UnityEngine.UI;
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using UFE3D;
+using UnityEngine.Analytics;
 
 public class Evento_LevelStart_Mode : MonoBehaviour
 {
+    
+    
+    public int contadorIndex = 0;
 
+ 
+
+
+    //*************abrir calificaciones post-versus*******************
+    public static bool TerminoLaPeleaVersus = false;
+    public  GameObject PanelOp;
+    public GameObject Panel;
+
+    //*************ver_controles_menu Variables globales*******************
+    public static bool AbrirMenu = false;
+    public bool activadobotoncontrol = false;
+
+    //*************LevelStart Variables globales*******************
+    //LevelIndex
+    public GameObject tagStage;
+    private int levelindex1_valor;
+
+
+
+
+
+    //Modos
+    public static string ContenedorModo;
     public static bool Check1PVP = false;
     public static bool Check1PVCPU = false;
     public static bool Check1CPUVCPU = false;
     public static bool Check2 = false;
 
-    public int contadorIndex = 0;
 
-    public static bool TerminoLaPeleaVersus = false;
-    public  GameObject PanelOp;
+    //Escenario
+    public GameObject tagEscenario;
 
-    public  bool activadobotoncontrol = false;
-    public static bool AbrirMenu = false;
-    public GameObject Panel;
+
+
+
+
+
 
     void Update()
     {
+
+        
+
+    
+
+
         if (Check1PVP && Check2 == true){
+            string PvsP = "PvsP";
             //Debug.Log("Modo PvsP ");
             Analytics.CustomEvent("level_start", new Dictionary<string, object>{
-        {"modo", "PvsP"}
+        {"modo", PvsP}
 
         });
 
@@ -36,9 +72,10 @@ public class Evento_LevelStart_Mode : MonoBehaviour
 
         if (Check1PVCPU && Check2 == true)
         {
+            string PvsCPU = "PvsCPU";
             //Debug.Log("Modo PvsCPU ");
             Analytics.CustomEvent("level_start", new Dictionary<string, object>{
-        {"modo", "PvsCPU"}
+        {"modo", PvsCPU}
 
         });
             Check1PVCPU = false;
@@ -47,16 +84,16 @@ public class Evento_LevelStart_Mode : MonoBehaviour
 
         if (Check1CPUVCPU && Check2 == true)
         {
+            string CPUvsCPU = "CPUvsCPU";
            // Debug.Log("Modo CPUvCPU ");
             Analytics.CustomEvent("level_start", new Dictionary<string, object>{
-        {"modo", "CPUvsCPU"}  });
+        {"modo", CPUvsCPU}  });
             
             Check1CPUVCPU = false;
             Check2 = false;
         }
 
-
-        if(TerminoLaPeleaVersus == true && AbrirMenu == true) {
+        if(TerminoLaPeleaVersus == true && AbrirMenu == true) { 
 
 
             Panel.SetActive(true);
@@ -67,18 +104,11 @@ public class Evento_LevelStart_Mode : MonoBehaviour
                 animator.SetBool("open", !isOpen);
             }
 
-
-            Debug.Log("Holis");
+            //Debug.Log("Holis");
             
-
             TerminoLaPeleaVersus = false;
             AbrirMenu = false;
-
-        }
-
-
-       
-
+        } //abrir calificaciones post versus
     }
 
     public void FirstCheckPVP()
@@ -113,15 +143,13 @@ public class Evento_LevelStart_Mode : MonoBehaviour
     }
 
 
-    
-
-
     public void ver_controles_menu()
     {
         if (activadobotoncontrol == false)
         {
+            string menu = "menu";
             Analytics.CustomEvent("ver_controles_menu", new Dictionary<string, object>{
-        {"donde", "menu"}
+        {"donde", menu}
 
         });
 
@@ -134,6 +162,30 @@ public class Evento_LevelStart_Mode : MonoBehaviour
 
 
     }
+ 
+
+    public void CambiarValorLevelIndex()
+    {
+        levelindex1_valor= levelindex1_valor;
+    }
+
+  public void PingParaEnviarAnalytic()
+    {
+        Debug.Log("Analytic Enviadox");
+        //ESTE EVENTO TIENE QUE ENVIARSE EN LA PELEA EL PRIMER SEGUNDO
+
+
+        //Level index
+        Debug.Log("LevelIndex= " + levelindex1_valor);
+        Debug.Log("Personaje1= " + UFE.config.player1Character.characterName); //personnaje elegido p1
+        Debug.Log("Personaje2= " + UFE.config.player2Character.characterName); //personnaje elegido p2
+                                                              //Modo   contenedorModo
+
+    }
+
+
+
+
  
 
 }

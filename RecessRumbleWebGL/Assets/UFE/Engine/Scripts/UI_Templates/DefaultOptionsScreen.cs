@@ -253,10 +253,10 @@ public class DefaultOptionsScreen : OptionsScreen{
 		if (this.visible){
 			if (this.musicToggle != null){
 				if(!this.musicToggle.isOn){
-					print("aca salta el evento mute desde el menu");	    
-      			//debug.log("mute en menu") INICIO DE ANALYTICS MUTE MENU;
-         	  	Analytics.CustomEvent("mute", new Dictionary<string, object>{
-           		 {"donde", "menu"}	
+					string menu = "menu";
+					//debug.log("mute en menu") INICIO DE ANALYTICS MUTE MENU;
+					Analytics.CustomEvent("mute", new Dictionary<string, object>{
+           		 {"donde",menu}	
 					});
 				//	FIN ANALYTICS MUTE EN MENU
 				}
@@ -265,10 +265,10 @@ public class DefaultOptionsScreen : OptionsScreen{
 				
 			}else{
 				if(!this.musicTogglePausa.isOn){
-					print("aca salta el evento mute desde el menu de pausa");
+					string pausa = "pausa";
 					//debug.log("mute en menu") INICIO DE ANALYTICS MUTE MENU PAUSA;
          	  		Analytics.CustomEvent("mute", new Dictionary<string, object>{
-           			{"donde", "pausa"}	
+           			{"donde", pausa}	
 					});
 				//	FIN ANALYTICS MUTE MENU PAUSA
 				}
