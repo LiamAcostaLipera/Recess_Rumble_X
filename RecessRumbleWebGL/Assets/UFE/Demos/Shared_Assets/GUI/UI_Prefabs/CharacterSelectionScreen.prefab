@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 22400000}
   - component: {fileID: 22200000}
   - component: {fileID: 11400026}
+  - component: {fileID: 1042013186668192523}
   m_Layer: 5
   m_Name: CharacterSelectionScreen
   m_TagString: Untagged
@@ -100,6 +101,85 @@ MonoBehaviour:
   noCharacterSprite: {fileID: 21300000, guid: 49a6f61837fd54bf9956a2cb6aff27fa, type: 3}
   defaultCharacterPlayer1: 0
   defaultCharacterPlayer2: 999
+--- !u!114 &1042013186668192523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfd0a45b7015c4dd29a0c9cd78ec7d64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvasPreview: 1
+  firstSelectableGameObject: {fileID: 0}
+  hasFadeIn: 1
+  hasFadeOut: 1
+  wrapInput: 1
+  inputTexturePlaceHolder: {fileID: 0}
+  inputViewerBuffer: 12
+  tagEscenario: {fileID: 0}
+  modo: 
+  muteAnnouncer: 0
+  announcer:
+    announcerName: 
+    round1: {fileID: 0}
+    round2: {fileID: 0}
+    round3: {fileID: 0}
+    otherRounds: {fileID: 0}
+    finalRound: {fileID: 0}
+    fight: {fileID: 0}
+    player1Wins: {fileID: 0}
+    player2Wins: {fileID: 0}
+    perfect: {fileID: 0}
+    firstHit: {fileID: 0}
+    counterHit: {fileID: 0}
+    parry: {fileID: 0}
+    timeOver: {fileID: 0}
+    ko: {fileID: 0}
+    combos: []
+  wonRounds:
+    NotFinishedRounds: {fileID: 0}
+    WonRounds: {fileID: 0}
+    LostRounds: {fileID: 0}
+    VisibleImages: 0
+  player1GUI:
+    name: {fileID: 0}
+    portrait: {fileID: 0}
+    lifeBar: {fileID: 0}
+    gauges: []
+    wonRoundsImages: []
+    alert:
+      text: {fileID: 0}
+      initialPosition: {x: 0, y: 0, z: 0}
+      finalPosition: {x: 0, y: 0, z: 0}
+      movementSpeed: 15
+  player2GUI:
+    name: {fileID: 0}
+    portrait: {fileID: 0}
+    lifeBar: {fileID: 0}
+    gauges: []
+    wonRoundsImages: []
+    alert:
+      text: {fileID: 0}
+      initialPosition: {x: 0, y: 0, z: 0}
+      finalPosition: {x: 0, y: 0, z: 0}
+      movementSpeed: 15
+  mainAlert:
+    text: {fileID: 0}
+    initialPosition: {x: 0, y: 0, z: 0}
+    finalPosition: {x: 0, y: 0, z: 0}
+    movementSpeed: 15
+  info: {fileID: 0}
+  timer: {fileID: 0}
+  totalTimer: 0
+  lifeDownSpeed: 500
+  lifeUpSpeed: 900
+  pauseScreen: {fileID: 0}
+  networkPlayerPointer: {fileID: 0}
+  pointerTimer: 4
 --- !u!1 &100002
 GameObject:
   m_ObjectHideFlags: 0
@@ -255,8 +335,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: 
+      - m_Target: {fileID: 1042013186668192523}
+        m_MethodName: resetLevelindex
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -266,6 +346,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 1
+      - m_Target: {fileID: 0}
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &100006
 GameObject:
   m_ObjectHideFlags: 0
@@ -384,8 +475,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: 
+      - m_Target: {fileID: 1042013186668192523}
+        m_MethodName: resetLevelindex
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -395,6 +486,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 1
+      - m_Target: {fileID: 0}
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &100008
 GameObject:
   m_ObjectHideFlags: 0
@@ -1152,8 +1254,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: 
+      - m_Target: {fileID: 1042013186668192523}
+        m_MethodName: resetLevelindex
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1163,6 +1265,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 1
+      - m_Target: {fileID: 0}
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &100024
 GameObject:
   m_ObjectHideFlags: 0
@@ -2927,8 +3040,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: 
+      - m_Target: {fileID: 1042013186668192523}
+        m_MethodName: resetLevelindex
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2938,6 +3051,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 1
+      - m_Target: {fileID: 0}
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &2485707597027251316
 GameObject:
   m_ObjectHideFlags: 0

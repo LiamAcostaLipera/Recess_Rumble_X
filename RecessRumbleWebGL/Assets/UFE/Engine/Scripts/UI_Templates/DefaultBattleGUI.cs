@@ -9,6 +9,8 @@ using UnityEngine.Analytics;
 public class DefaultBattleGUI : BattleGUI{
 	//variables analytic
 	public GameObject tagEscenario;
+	public string modo;
+
 
 
 
@@ -378,92 +380,60 @@ public class DefaultBattleGUI : BattleGUI{
 		base.OnGameBegin(cPlayer1, cPlayer2, stage);
 
 		Debug.Log("Juego iniciado");
+
+
+		//EVENTO LEVEL START__________________________________________***********************************************************************************
+
+
+		int quenivel =0;
 		
-		
-	/*
-		//EVENTO LEVEL START__________________________________________
+		if (UFE.gameMode == GameMode.StoryMode) {modo = "StoryMode";}
+		if (UFE.gameMode == GameMode.TrainingRoom) { modo = "TrainingRoom"; }
+		if (UFE.gameMode == GameMode.VersusMode) { modo = "VersusMode"; }
+
 		if (UFE.gameMode == GameMode.StoryMode)
 		{
+			Analytics.CustomEvent("level_start", new Dictionary<string, object>{
+				{"level_index", levelindexs},
+				{"protagonista", UFE.config.player1Character.characterName},
+				{"enemigo", UFE.config.player2Character.characterName},
+				{"modo", modo}
+		});
 
-			if (escena5b )
-			{
-				string escenario1 = "5B";
-				Analytics.CustomEvent("level_start", new Dictionary<string, object>{
-				{"level_index", levelindexs},
-				{"protagonista", this.player1GUI.name.text},
-				{"enemigo", this.player2GUI.name.text},
-				{"modo", GameMode.StoryMode},
-				{"escenario", escenario1},
-			}); Debug.Log("5BStorymode"); }
-			if (GameObject.FindGameObjectsWithTag("Azotea"))
-			{
-				string escenario2 = "Azotea";
-				Analytics.CustomEvent("level_start", new Dictionary<string, object>{
-				{"level_index", levelindexs},
-				{"protagonista", this.player1GUI.name.text},
-				{"enemigo", this.player2GUI.name.text},
-				{"modo", GameMode.StoryMode},
-				{"escenario", escenario2},
-			}); Debug.Log("AzoteaStorymode"); }
-			if (GameObject.FindGameObjectsWithTag("Entrada"))
-			{
-				string escenario3 = "Entrada";
-				Analytics.CustomEvent("level_start", new Dictionary<string, object>{
-				{"level_index", levelindexs},
-				{"protagonista", this.player1GUI.name.text},
-				{"enemigo", this.player2GUI.name.text},
-				{"modo", GameMode.StoryMode},
-				{"escenario", escenario3},
-			}); Debug.Log("EntradaStoryMode"); }
-			if (GameObject.FindGameObjectsWithTag("Cafe"))
-			{
-				string escenario4 = "Cafe";
 
-			}); Debug.Log("CafeStoryMode"); }
+			//Debug.Log("level_start: level_index=" + levelindexs + " protagonista=" + UFE.config.player1Character.characterName + " enemigo=" + UFE.config.player2Character.characterName + " modo=" + modo);
 		}
 
-			
+			if (UFE.gameMode == GameMode.VersusMode)
+		{
+
+			int levelvalorindexs = 0;
+			Analytics.CustomEvent("level_start", new Dictionary<string, object>{
+				{"level_index", levelvalorindexs},
+				{"protagonista", UFE.config.player1Character.characterName},
+				{"enemigo", UFE.config.player2Character.characterName},
+				{"modo", modo}
+		});
+			//Debug.Log("level_start: level_index=" + levelvalorindexs + " protagonista=" + UFE.config.player1Character.characterName + " enemigo=" + UFE.config.player2Character.characterName + " modo=" + modo);
+		}
+
 		if (UFE.gameMode == GameMode.TrainingRoom)
 		{
 			int levelvalorindexs = 0;
 			Analytics.CustomEvent("level_start", new Dictionary<string, object>{
-				{"level_index",levelvalorindexs},
-				{"protagonista", this.player1GUI.name.text},			
-				{"enemigo", this.player2GUI.name.text},
-				{"modo", GameMode.TrainingRoom},
-
+				{"level_index", levelvalorindexs},
+				{"protagonista", UFE.config.player1Character.characterName},
+				{"enemigo", UFE.config.player2Character.characterName},
+				{"modo", modo}
 			});
 		}
+			//Debug.Log("level_start: level_index=" + levelvalorindexs + " protagonista=" + UFE.config.player1Character.characterName + " enemigo=" + UFE.config.player2Character.characterName + " modo=" + modo); }
 
-		*/
+		/* QueNivel(this.player1GUI.name.text, this.player2GUI.name.text)+ */
+		
+		
+		
 
-
-		int quenivel=0;
-		string modo;		
-		if (UFE.gameMode == GameMode.StoryMode)
-		{
-			mode = "StoryMode"; 
-			
-		}
-		if (UFE.gameMode == GameMode.TrainingRoom)
-			mode = "TrainingRoom"; 			
-		}
-
-		if (UFE.gameMode == GameMode.VersusMode)
-			mode = "VersusMode"; 		
-			// variable global con el modo correcto
-		}
-
-		Debug.log("level_start: level_index="+QueNivel(this.player1GUI.name.text, this.player2GUI.name.text)+" protagonista="+this.player1GUI.name.text+" enemigo="+this.player2GUI.name.text+" modo="+modo);
-		/*
-		Analytics.CustomEvent("level_start", new Dictionary<string, object>{
-				{"level_index", QueNivel(this.player1GUI.name.text, this.player2GUI.name.text)},
-				{"protagonista", this.player1GUI.name.text},
-				{"enemigo", this.player2GUI.name.text},
-				{"modo", modo}
-		}); 
-		*/
-	
 
 
 		if (this.wonRounds.NotFinishedRounds == null){
@@ -864,8 +834,9 @@ public class DefaultBattleGUI : BattleGUI{
 
         if (UFE.gameMode == GameMode.VersusMode )  //---------------------------------------------------------------------------------->EVENTO ANALYTICS FIN_RONDA VERSUSMODE
         {
+			int levelindex0 = 0;
 			Analytics.CustomEvent("fin_ronda", new Dictionary<string, object>{
-				{"level_index", levelindexs},
+				{"level_index", levelindex0},
 				{"protagonista", this.player1GUI.name.text},
                 {"vida" , this.player1.targetLife},
                 {"enemigo", this.player2GUI.name.text},
@@ -887,7 +858,7 @@ public class DefaultBattleGUI : BattleGUI{
             Debug.Log("tiempo= " + this.timer.text);
             Debug.Log("modo " + GameMode.VersusMode);*/
 
-			//Debug.Log("level_index : " + 0);
+			Debug.Log("level_index : " + levelindex0);
 
 			totalTimer = totalTimer + sumaTimer;
 
@@ -1101,8 +1072,11 @@ public class DefaultBattleGUI : BattleGUI{
 		}
 	}
 	*/
-	
-	public int QueNivel(protagonista, enemuigo) {
+
+
+	/*
+
+	public int QueNivel(protagonista,enemigo) {
 		int quenivel=0;
 		switch(protagonista) { 
 			case "JUN":
@@ -1114,11 +1088,11 @@ public class DefaultBattleGUI : BattleGUI{
 					case "MIKU":	
 						quenivel = 1;
 					break;
-					
+
 					case "MARIE":	
 						quenivel = 2;
 					break;
-					
+
 					case "TARO":	
 						quenivel = 3;
 					break;
@@ -1134,17 +1108,17 @@ public class DefaultBattleGUI : BattleGUI{
 					case "MIKU":	
 						quenivel = 0;
 					break;
-					
+
 					case "MARIE":	
 						quenivel = 2;
 					break;
-					
+
 					case "TARO":	
 						quenivel = 3;
 					break;
 				}		
 				break;
-			
+
 			case "MARIE":	
 				switch(enemigo) { 
 					case "JUN":
@@ -1154,18 +1128,18 @@ public class DefaultBattleGUI : BattleGUI{
 					case "MIKU":	
 						quenivel = 2;
 					break;
-					
+
 					case "MARIE":	
 						quenivel = 0;
 					break;
-					
+
 					case "TARO":	
 						quenivel = 3;
 					break;
 				}
-			
+
 			break;
-			
+
 			case "TARO":	
 				switch(enemigo) { 
 					case "JUN":
@@ -1175,11 +1149,11 @@ public class DefaultBattleGUI : BattleGUI{
 					case "MIKU":	
 						quenivel = 2;
 					break;
-					
+
 					case "MARIE":	
 						quenivel = 1;
 					break;
-					
+
 					case "TARO":	
 						quenivel = 0;
 					break;
@@ -1187,10 +1161,10 @@ public class DefaultBattleGUI : BattleGUI{
 			break;
 		}		
 		return quenivel;
- 	}
-	
-	public void resetLevelindex()
-	{
-		levelindexs = 0;
 	}
+	*/
+	public void resetLevelindex()
+{
+	levelindexs = 1;
+}
 }
