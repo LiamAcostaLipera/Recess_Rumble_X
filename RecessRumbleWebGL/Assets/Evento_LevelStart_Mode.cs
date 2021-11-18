@@ -39,6 +39,9 @@ public class Evento_LevelStart_Mode : MonoBehaviour
     public static bool Check1PVCPU = false;
     public static bool Check1CPUVCPU = false;
     public static bool Check2 = false;
+	public static bool Check1Story = false;
+	public static bool Check1Training = false;
+	public string MODO;
 
 
     //Escenario
@@ -53,46 +56,52 @@ public class Evento_LevelStart_Mode : MonoBehaviour
     void Update()
     {
 
-        
-
     
-
-
-        if (Check1PVP && Check2 == true){
-            string PvsP = "PvsP";
-            //Debug.Log("Modo PvsP ");
-            Analytics.CustomEvent("level_start", new Dictionary<string, object>{
-        {"modo", PvsP}
-
-        });
-
+        if (Check1PVP){
+            MODO = "PvsP";
+            Debug.Log(MODO);
             Check1PVP = false;
-            Check2 = false;
-        }
-
-        if (Check1PVCPU && Check2 == true)
-        {
-            string PvsCPU = "PvsCPU";
-            //Debug.Log("Modo PvsCPU ");
-            Analytics.CustomEvent("level_start", new Dictionary<string, object>{
-        {"modo", PvsCPU}
-
-        });
-            Check1PVCPU = false;
-            Check2 = false;
-        }
-
-        if (Check1CPUVCPU && Check2 == true)
-        {
-            string CPUvsCPU = "CPUvsCPU";
-           // Debug.Log("Modo CPUvCPU ");
-            Analytics.CustomEvent("level_start", new Dictionary<string, object>{
-        {"modo", CPUvsCPU}  });
             
-            Check1CPUVCPU = false;
-            Check2 = false;
         }
 
+        if (Check1PVCPU)
+        {
+            MODO = "PvsCPU";
+            Debug.Log(MODO);
+            Check1PVCPU = false;
+            
+        }
+
+        if (Check1CPUVCPU)
+        {
+            MODO = "CPUvsCPU";
+			Debug.Log(MODO);
+            Check1CPUVCPU = false;
+            
+        }
+		
+		if (Check1Story ){
+            MODO = "StoryMode";
+            Debug.Log(MODO);
+            Check1Story = false;
+            
+        }
+		
+		if (Check1Training ){
+            MODO = "TrainingRoom";
+            Debug.Log(MODO);
+            Check1Training = false;
+           
+        }
+		
+		if(Check2){
+			Analytics.CustomEvent("mode_selected", new Dictionary<string, object>{
+			{"modo", MODO}  });
+			Debug.Log(MODO);
+			Check2 = false;
+		}
+
+		
         if(TerminoLaPeleaVersus == true && AbrirMenu == true) { 
 
 
@@ -125,12 +134,23 @@ public class Evento_LevelStart_Mode : MonoBehaviour
     {
         Check1CPUVCPU = true;
     }
-
+	
+	public void FirstCheckStory()
+    {
+        Check1Story = true;
+    }
+	
+	public void FirstCheckTraining()
+    {
+        Check1Training = true;
+    }
+	
     public void SecondCheck()
     {
         Check2 = true;
     }
 
+	
     public void abrirCalificacionesVersus()
     {
         TerminoLaPeleaVersus = true;

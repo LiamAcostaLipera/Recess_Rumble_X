@@ -2,6 +2,7 @@
 using UnityEngine.UI;
 using System.Collections.Generic;
 using FPLibrary;
+using UnityEngine.Analytics;
 
 public class DefaultStageSelectionScreen : StageSelectionScreen{
 	#region public instance properties
@@ -19,6 +20,12 @@ public class DefaultStageSelectionScreen : StageSelectionScreen{
 	#endregion
 
 	#region public instance methods
+	public void StageName(){
+	Debug.Log(nameStage.text);
+	string escenarioActual = nameStage.text;
+	Analytics.CustomEvent("stage_selected", new Dictionary<string, object>{
+			{"escenario", escenarioActual}  });
+	}
 	public virtual void NextStage(){
 		if (this.moveCursorSound != null) UFE.PlaySound(this.moveCursorSound);
 		this.SetHoverIndex((this.stageHoverIndex + 1) % UFE.config.stages.Length);
@@ -160,3 +167,4 @@ public class DefaultStageSelectionScreen : StageSelectionScreen{
 	}
 	#endregion
 }
+

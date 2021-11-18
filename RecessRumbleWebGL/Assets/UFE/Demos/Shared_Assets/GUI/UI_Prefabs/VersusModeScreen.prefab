@@ -118,6 +118,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6bf0f44d3083c3c438af84ec09ffa387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  contadorIndex: 0
+  PanelOp: {fileID: 0}
+  Panel: {fileID: 0}
+  activadobotoncontrol: 0
+  tagStage: {fileID: 0}
+  tagEscenario: {fileID: 0}
 --- !u!1 &100002
 GameObject:
   m_ObjectHideFlags: 0
@@ -1170,6 +1176,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 3124551782161236213}
+        m_MethodName: SecondCheck
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &2482531982110060387
 GameObject:
   m_ObjectHideFlags: 0
@@ -2048,6 +2065,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 3124551782161236213}
+        m_MethodName: SecondCheck
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &8310308065438753567
 GameObject:
   m_ObjectHideFlags: 0
@@ -2259,6 +2287,17 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 11400002}
         m_MethodName: SelectPlayerVersusPlayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 3124551782161236213}
+        m_MethodName: SecondCheck
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
