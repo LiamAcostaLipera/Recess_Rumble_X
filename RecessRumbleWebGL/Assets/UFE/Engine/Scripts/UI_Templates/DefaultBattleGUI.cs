@@ -845,7 +845,6 @@ public class DefaultBattleGUI : BattleGUI{
 					levelindexs = levelindexs + 1;
 
 
-
 					UFE.PlaySound(this.announcer.player1Wins); //---------------------------------------------------------------------------------->EVENTO ANALYTICS LEVEL_COMPLETE
 					if (UFE.gameMode == GameMode.StoryMode)
 					{
@@ -857,37 +856,29 @@ public class DefaultBattleGUI : BattleGUI{
 						{
 							levelindexs = 1;
 						}
-						//Debug.Log("Personaje1 Elegido= " + this.player1GUI.name.text);
-						//Debug.Log("vida= " + this.player1.targetLife);                       
-						//Debug.Log("Personaje2 Elegido = " + this.player2GUI.name.text);
-						//Debug.Log("vida enemigo= " + this.player2.targetLife);
-
-						//Debug.Log("tiempo= " + this.timer.text);                      
+						
+						
 					}
 
                     if (UFE.gameMode == GameMode.VersusMode)
                     {
 						int levelversuslocal = 0;
 
-						Analytics.CustomEvent("level_complete", new Dictionary<string, object>{
+						Analytics.CustomEvent("level_complete", new Dictionary<string, object>{ 
 							{"level_index", levelversuslocal},
 							{"protagonista", this.player1GUI.name.text},
                             {"vida" , this.player1.targetLife},
                             {"enemigo", this.player2GUI.name.text},
                             {"vida_enemigo" , this.player2.targetLife},
-                            {"tiempo" , this.timer.text},
+                            {"tiempo" , totalTimer},
                             {"modo", GameMode.VersusMode},
                             
                         });
 
 
-						/*Debug.Log("Personaje1 Elegido= " + this.player1GUI.name.text);
-                        Debug.Log("vida= " + this.player1.targetLife);                       
-                        Debug.Log("Personaje2 Elegido = " + this.player2GUI.name.text);
-                        Debug.Log("vida enemigo= " + this.player2.targetLife);
-
-                        Debug.Log("tiempo= " + this.timer.text);
-                        Debug.Log("modo " + GameMode.VersusMode);*/
+						
+						Debug.Log("tiempoacumulado= " + totalTimer);
+                     
 
 					}
 

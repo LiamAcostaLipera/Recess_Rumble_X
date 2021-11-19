@@ -97,7 +97,7 @@ public class Evento_LevelStart_Mode : MonoBehaviour
 		if(Check2){
 			Analytics.CustomEvent("mode_selected", new Dictionary<string, object>{
 			{"modo", MODO}  });
-			Debug.Log(MODO);
+			//Debug.Log(MODO);
 			Check2 = false;
 		}
 
@@ -113,7 +113,7 @@ public class Evento_LevelStart_Mode : MonoBehaviour
                 animator.SetBool("open", !isOpen);
             }
 
-            //Debug.Log("Holis");
+           
             
             TerminoLaPeleaVersus = false;
             AbrirMenu = false;

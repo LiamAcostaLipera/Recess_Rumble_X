@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿/*
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Analytics;
@@ -23,7 +24,7 @@ public class PruebaLlamado : MonoBehaviour
              });
                 //Debug.Log("escenario " + gameObject.tag);
             }
-        } */
+        } 
 
         Analytics.CustomEvent("escenario", new Dictionary<string, object>{
         {"cual", gameObject.tag},
@@ -31,4 +32,4 @@ public class PruebaLlamado : MonoBehaviour
         });
     }
 
-}
+} */
