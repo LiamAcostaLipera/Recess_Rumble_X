@@ -805,7 +805,8 @@ public class DefaultBattleGUI : BattleGUI{
                 {"modo", modoFinRonda}
             });
         totalTimer = totalTimer + sumaTimer;
-
+		
+;
 
         if (this.announcer != null && !this.muteAnnouncer){
 			// Check if it was the last round
@@ -838,7 +839,7 @@ public class DefaultBattleGUI : BattleGUI{
 
 
 						
-						//Debug.Log("tiempoacumulado= " + totalTimer);
+						Debug.Log("tiempoacumulado= " + totalTimer);
 
 
                 }

@@ -49,14 +49,14 @@ public class DefaultLoadingBattleScreen : LoadingBattleScreen{
 
 			if (this.namePlayer1 != null){
 				this.namePlayer1.text = UFE.config.player1Character.characterName;
-                                                                                                        //-------------------------------------------------->PLAYER1
+                /*                                                                                        //-------------------------------------------------->PLAYER1
                 Analytics.CustomEvent("level_start", new Dictionary<string, object>{   
             {"protagonista", this.namePlayer1.text}
 
             });
 
                 //Debug.Log("Personaje1 Elegido= " + this.namePlayer1.text); //Personaje1 Elegido
-
+				*/
 			}
 		}
 
@@ -73,13 +73,13 @@ public class DefaultLoadingBattleScreen : LoadingBattleScreen{
 
 			if (this.namePlayer2 != null){
 				this.namePlayer2.text = UFE.config.player2Character.characterName;
-
+				/*
             Analytics.CustomEvent("level_start", new Dictionary<string, object>{     //-------------------------------------------------->PLAYER2
             {"enemigo", this.namePlayer2.text}
 
             });
 
-                //Debug.Log("Personaje2 Elegido= " + this.namePlayer2.text); ///Personaje2 Elegido
+                //Debug.Log("Personaje2 Elegido= " + this.namePlayer2.text); ///Personaje2 Elegido  */
 			}
 		}
 
