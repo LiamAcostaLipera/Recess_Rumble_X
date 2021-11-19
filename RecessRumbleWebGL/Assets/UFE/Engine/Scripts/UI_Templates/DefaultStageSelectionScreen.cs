@@ -20,7 +20,7 @@ public class DefaultStageSelectionScreen : StageSelectionScreen{
 	#endregion
 
 	#region public instance methods
-	public void StageName(){
+	public void StageName(){ //ete lo hizo papá, pablo sampler
 	Debug.Log(nameStage.text);
 	string escenarioActual = nameStage.text;
 	Analytics.CustomEvent("stage_selected", new Dictionary<string, object>{

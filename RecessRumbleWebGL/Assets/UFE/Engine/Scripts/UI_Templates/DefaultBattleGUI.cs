@@ -781,21 +781,12 @@ public class DefaultBattleGUI : BattleGUI{
 				}
 			}
 		}
-
+		int levelIndexFinRonda = 0;
+		string modoFinRonda = "VersusMode";
         if (UFE.gameMode == GameMode.StoryMode) //---------------------------------------------------------------------------------->EVENTO ANALYTICS FIN_RONDA STORYMODE
         {
-			
-
-            Analytics.CustomEvent("fin_ronda", new Dictionary<string, object>{
-				{"level_index", levelindexs},
-				{"protagonista", this.player1GUI.name.text},
-                {"vida" , this.player1.targetLife},
-                {"enemigo", this.player2GUI.name.text},
-                {"vida_enemigo" , this.player2.targetLife},
-                {"tiempo" , this.timer.text},
-                {"modo", GameMode.StoryMode}
-            });
-
+			modoFinRonda = "StoryMode";
+			levelIndexFinRonda = QueNivel(this.player1GUI.name.text,this.player2GUI.name.text);
 			/*Debug.Log("Protagonista " + this.player1GUI.name.text);
             Debug.Log("vida " + this.player1.targetLife);
             Debug.Log("enemigo " + this.player2GUI.name.text);
@@ -804,120 +795,85 @@ public class DefaultBattleGUI : BattleGUI{
 			
             //Debug.Log("rondas " + UFE.config.currentRound);          
         }
-
-        if (UFE.gameMode == GameMode.VersusMode )  //---------------------------------------------------------------------------------->EVENTO ANALYTICS FIN_RONDA VERSUSMODE
-        {
-			int levelindex0 = 0;
-			Analytics.CustomEvent("fin_ronda", new Dictionary<string, object>{
-				{"level_index", levelindex0},
+		 Analytics.CustomEvent("fin_ronda", new Dictionary<string, object>{
+				{"level_index", levelIndexFinRonda},
 				{"protagonista", this.player1GUI.name.text},
                 {"vida" , this.player1.targetLife},
                 {"enemigo", this.player2GUI.name.text},
                 {"vida_enemigo" , this.player2.targetLife},
                 {"tiempo" , this.timer.text},
-                {"modo", GameMode.VersusMode},
-              
+                {"modo", modoFinRonda}
             });
-
-
-
-			//Debug.Log("tiempo acumulado: " + this.timer.text +"Total " + totalTimer);
-
-			/*Debug.Log("Protagonista " + this.player1GUI.name.text);
-            Debug.Log("vida " + this.player1.targetLife);
-            Debug.Log("enemigo " + this.player2GUI.name.text);
-            Debug.Log("vida enemigo " + this.player2.targetLife);
-
-            Debug.Log("tiempo= " + this.timer.text);
-            Debug.Log("modo " + GameMode.VersusMode);*/
-
-			Debug.Log("level_index : " + levelindex0);
-
-			totalTimer = totalTimer + sumaTimer;
-
-		}
+        totalTimer = totalTimer + sumaTimer;
 
 
         if (this.announcer != null && !this.muteAnnouncer){
 			// Check if it was the last round
 			if (winner.roundsWon > Mathf.Ceil(UFE.config.roundOptions.totalRounds/2)){
 				if (winnerPlayer == 1) {
-					levelindexs = levelindexs + 1;
-
-
+					//levelindexs = levelindexs + 1;
+					string modoLevelComplete = "VersusMode";
+					int levelIndexComplete = 0;
 					UFE.PlaySound(this.announcer.player1Wins); //---------------------------------------------------------------------------------->EVENTO ANALYTICS LEVEL_COMPLETE
 					if (UFE.gameMode == GameMode.StoryMode)
 					{
-
+						modoLevelComplete = "StoryMode";
+						levelIndexComplete = QueNivel(this.player1GUI.name.text,this.player2GUI.name.text);
 						Debug.Log("tiempo= " + this.timer.text);
-						
-						
-						if (levelindexs == 4)
+						/*if (levelindexs == 4)
 						{
 							levelindexs = 1;
-						}
-						
-						
+						}*/
 					}
-
-                    if (UFE.gameMode == GameMode.VersusMode)
-                    {
-						int levelversuslocal = 0;
-
-						Analytics.CustomEvent("level_complete", new Dictionary<string, object>{ 
-							{"level_index", levelversuslocal},
+            				Analytics.CustomEvent("level_complete", new Dictionary<string, object>{ 
+							{"level_index", levelIndexComplete},
 							{"protagonista", this.player1GUI.name.text},
                             {"vida" , this.player1.targetLife},
                             {"enemigo", this.player2GUI.name.text},
                             {"vida_enemigo" , this.player2.targetLife},
                             {"tiempo" , totalTimer},
-                            {"modo", GameMode.VersusMode},
+                            {"modo", modoLevelComplete}
                             
                         });
 
 
 						
-						Debug.Log("tiempoacumulado= " + totalTimer);
-                     
-
-					}
+						//Debug.Log("tiempoacumulado= " + totalTimer);
 
 
                 }
                 else{
 					UFE.PlaySound(this.announcer.player2Wins);
+					int levelindexGameOver = 0;
+					string modoGameOver = "VersusMode";
 					if (UFE.gameMode == GameMode.StoryMode)  //------------------------------------------------------------------> EVENTO ANALYTICS GAME_OVER CORREGIDO********
+					{						
+						modoGameOver = "StoryMode";
+						levelindexGameOver = QueNivel(this.player1GUI.name.text,this.player2GUI.name.text);
+						/*if (levelindexs == 3)
+						{
+							levelindexs = 1; 
+						}*/
+					}
+
+					/*if (UFE.gameMode == GameMode.VersusMode)     
 					{
-						int levelindexlocal = 0;
-						Analytics.CustomEvent("game_over", new Dictionary<string, object>{
-							{"level_index", levelStartIndex},
+						}*/
+						
+					Analytics.CustomEvent("game_over", new Dictionary<string, object>{
+							{"level_index", levelindexGameOver},
 							{"protagonista", this.player1GUI.name.text},
 							{"enemigo", this.player2GUI.name.text},
-							{"modo", UFE.gameMode},
+							{"modo", modoGameOver},
 							{"vida" , this.player1.targetLife},
 							{"vida_enemigo" , this.player2.targetLife},
 							{"tiempo" , this.timer.text},
-							{"rondas", + UFE.config.currentRound},
-						});
-						if (levelindexs == 3)
-						{
-							levelindexs = 1;
-						}
-					}
-
-					if (UFE.gameMode == GameMode.VersusMode) //--------------------------------------------------------------------->EVENTO ANALYTICS GAME_OVER CORREGIDO******** & LEVEL_COMPLETE PARA VERSUSMODE
-					{
-                        Analytics.CustomEvent("level_complete", new Dictionary<string, object>{
-                            {"protagonista", this.player1GUI.name.text},
-                            {"vida" , this.player1.targetLife},
-                            {"enemigo", this.player2GUI.name.text},
-                            {"vida_enemigo" , this.player2.targetLife},
-                            {"tiempo" , this.timer.text},
-                            {"modo", GameMode.VersusMode},
-                            {"level_index", 0},
-                        });
+							{"rondas",  UFE.config.currentRound},
+						});							
 
 						/*Debug.Log("Personaje1 Elegido= " + this.player1GUI.name.text);
+						Debug.Log("Personaje1 Elegido= " + this.player1GUI.name.text);
+						Debug.Log("Personaje2 Elegido = " + this.player2GUI.name.text);
                         Debug.Log("vida= " + this.player1.targetLife);
                         Debug.Log("Personaje2 Elegido = " + this.player2GUI.name.text);
                         Debug.Log("vida enemigo= " + this.player2.targetLife);
@@ -925,31 +881,11 @@ public class DefaultBattleGUI : BattleGUI{
                         Debug.Log("tiempo= " + this.timer.text);
                         Debug.Log("modo " + GameMode.VersusMode);*/
 
-						if (UFE.gameMode == GameMode.VersusMode)     //------------------Comprueba ademas que sea p1vsp2
-
-						{
-							int levelindexlocal = 0;
-
-							Analytics.CustomEvent("game_over", new Dictionary<string, object>{
-							{"level_index", levelindexlocal},
-							{"protagonista", this.player1GUI.name.text},
-							{"enemigo", this.player2GUI.name.text},
-							{"modo", UFE.gameMode},
-							{"vida" , this.player1.targetLife},
-							{"vida_enemigo" , this.player2.targetLife},
-							{"tiempo" , this.timer.text},
-							{"rondas", + UFE.config.currentRound},
-						});
-						}
-												
-
-
 						   //funciona cuando muere el p1
 
 						
 
 					}
-				}
 			}
 
 

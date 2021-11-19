@@ -48,16 +48,14 @@ public class ReviewManager : MonoBehaviour
     }
 
 
-
+	
     public void ReviewTaro()
     {
         if (stars != -1)
         {
             string TARO = "TARO";
-            Analytics.CustomEvent("calificar_historia", new Dictionary<string, object>{
-            {"protagonista", TARO},
-            {"puntuacion", stars}
-            });
+            reviews(TARO,stars);
+
 
             }
         else
@@ -73,10 +71,8 @@ public class ReviewManager : MonoBehaviour
         if (stars != -1)
         {
             string MIKU = "MIKU";
-            Analytics.CustomEvent("calificar_historia", new Dictionary<string, object>{
-            {"protagonista", MIKU},
-            {"puntuacion", stars}
-            });
+            reviews(MIKU,stars);
+
         }
         else
         {
@@ -89,10 +85,7 @@ public class ReviewManager : MonoBehaviour
         if (stars != -1)
         {
             string JUN = "JUN";
-            Analytics.CustomEvent("calificar_historia", new Dictionary<string, object>{
-            {"protagonista", JUN},
-            {"puntuacion", stars}
-            });
+            reviews(JUN,stars);
 
             //Debug.Log("taro"+stars);
         }
@@ -107,10 +100,7 @@ public class ReviewManager : MonoBehaviour
         if (stars != -1)
         {
             string MARIE = "MARIE";
-            Analytics.CustomEvent("calificar_historia", new Dictionary<string, object>{
-            {"protagonista", MARIE},
-            {"puntuacion", stars}
-            });
+            reviews(MARIE,stars);
 
             //Debug.Log("taro"+stars);
         }
@@ -120,4 +110,11 @@ public class ReviewManager : MonoBehaviour
         }
     }
 
+	public void reviews(string protagonista, int cantidadStars){
+		//Debug.Log(protagonista+stars);
+		Analytics.CustomEvent("calificar_historia", new Dictionary<string, object>{
+            {"protagonista", protagonista},
+            {"puntuacion", cantidadStars}
+            });
+	}
 }

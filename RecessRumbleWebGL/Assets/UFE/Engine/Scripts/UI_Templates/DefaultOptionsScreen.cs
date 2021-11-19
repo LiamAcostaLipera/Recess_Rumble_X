@@ -251,30 +251,30 @@ public class DefaultOptionsScreen : OptionsScreen{
 	
 	public override void ToggleMusic(){
 		if (this.visible){
+			string locacionMuteo = "";
 			if (this.musicToggle != null){
 				if(!this.musicToggle.isOn){
-					string menu = "menu";
+					locacionMuteo = "menu";
 					//debug.log("mute en menu") INICIO DE ANALYTICS MUTE MENU;
-					Analytics.CustomEvent("mute", new Dictionary<string, object>{
-           		 {"donde",menu}	
-					});
 				//	FIN ANALYTICS MUTE EN MENU
 				}
 				
 				this.SetMusic(this.musicToggle.isOn);
 				
-			}else{
+			}
+			else{
 				if(!this.musicTogglePausa.isOn){
-					string pausa = "pausa";
+					locacionMuteo = "pausa";
 					//debug.log("mute en menu") INICIO DE ANALYTICS MUTE MENU PAUSA;
-         	  		Analytics.CustomEvent("mute", new Dictionary<string, object>{
-           			{"donde", pausa}	
-					});
+         	  			
+					}
 				//	FIN ANALYTICS MUTE MENU PAUSA
 				}
 				base.ToggleMusic();
-			}
-
+			Analytics.CustomEvent("mute", new Dictionary<string, object>{
+           			{"donde", locacionMuteo}
+			});
+			
 		}
 	}
 
