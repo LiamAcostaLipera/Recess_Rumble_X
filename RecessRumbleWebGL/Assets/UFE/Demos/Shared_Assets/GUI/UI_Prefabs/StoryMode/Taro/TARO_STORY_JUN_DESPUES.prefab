@@ -138,6 +138,7 @@ MonoBehaviour:
   Panel: {fileID: 0}
   activadobotoncontrol: 0
   tagStage: {fileID: 0}
+  MODO: 
   tagEscenario: {fileID: 0}
 --- !u!1 &346447631070330994
 GameObject:
@@ -204,7 +205,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 1899999d814c06942bf28da6fa808493, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1d5429d913aef7f47b64a0f1c23ac94b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -303,7 +304,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a91670c7b7f9c624d8f9f43fd5cae452, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b1a826f8dd37eb14cb03165e6caabe2b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -862,7 +863,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 1401faf1b9d22354c8de598a458e522c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9db30f4c61f670f4d941730eb73f006c, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -961,7 +962,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 37975750c53f9bc42b09af0241de2b4b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fb11e781edda11a4994996c445803e56, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2125,7 +2126,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: c33bffe1259c7434c971c9e2f82ca485, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1a4102441c8d0f14ea854b849b11066c, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3328,7 +3329,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: ab077107308a7684e9f08536e106bfb2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: bdb3a8b81ab1983428d232308ae4b19b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3644,6 +3645,7 @@ MonoBehaviour:
   Panel: {fileID: 0}
   activadobotoncontrol: 0
   tagStage: {fileID: 0}
+  MODO: 
   tagEscenario: {fileID: 0}
 --- !u!1 &6749305901569038979
 GameObject:
@@ -4084,7 +4086,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 395b5dbbfa86e2a41bf412489a692a5b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: eb4905e2c36dff24ca175e8529a3e23d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4747,7 +4749,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b409cc0a70aab6f4287c32d2e7c97a85, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8fad7663d8bcefe48b6fb832b2c118f5, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4846,7 +4848,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 31cf23cc415e41046bfe9783c8a87d94, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 70896550c11a7ca4ab6967dd77e9ddb2, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
