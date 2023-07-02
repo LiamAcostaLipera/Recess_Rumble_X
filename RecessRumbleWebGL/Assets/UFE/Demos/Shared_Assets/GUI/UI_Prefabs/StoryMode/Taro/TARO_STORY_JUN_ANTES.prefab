@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 22200000}
   - component: {fileID: 11400000}
   - component: {fileID: 7516048182482662173}
+  - component: {fileID: -2234587794457554062}
   m_Layer: 5
   m_Name: TARO_STORY_JUN_ANTES
   m_TagString: 3
@@ -113,6 +114,19 @@ MonoBehaviour:
   delayBeforePlayingMusic: 0.1
   delayBeforeGoingToNextScreen: 9999
   minDelayBeforeSkipping: 0.1
+--- !u!114 &-2234587794457554062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e28464d36596eb84bb852542e6477062, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tagStage: {fileID: 0}
 --- !u!1 &564920438873717628
 GameObject:
   m_ObjectHideFlags: 0
@@ -256,7 +270,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3aeaf831ec51c39408798fdf02f0ab97, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ad1aa5b8e42a5c242856247fd878e781, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1228,7 +1242,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6af86000447a4444cb476069e704d89c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3686e329a7ddf4b4e96cba7ec6f32805, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1722,7 +1736,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 80484bb6385417049a2ed129cfd5bbd8, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e12c121c01897334ba4ddec835907a5e, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1986,7 +2000,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 8112a821851ad6041b4d3166bde32244, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 055281fd0a8f5df44a80432d9ad50d44, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2085,7 +2099,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: bbfc67f74d3c35843be2104b9e204423, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ea35569b2ccd1f04bbc88da2cf1636e4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
