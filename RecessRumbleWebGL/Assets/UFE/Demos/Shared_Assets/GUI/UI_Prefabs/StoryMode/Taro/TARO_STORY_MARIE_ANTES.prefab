@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 22200000}
   - component: {fileID: 11400000}
   - component: {fileID: 7516048182482662173}
+  - component: {fileID: -7689306435517404485}
   m_Layer: 5
   m_Name: TARO_STORY_MARIE_ANTES
   m_TagString: 1
@@ -113,6 +114,19 @@ MonoBehaviour:
   delayBeforePlayingMusic: 0.1
   delayBeforeGoingToNextScreen: 9999
   minDelayBeforeSkipping: 0.1
+--- !u!114 &-7689306435517404485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e28464d36596eb84bb852542e6477062, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tagStage: {fileID: 0}
 --- !u!1 &346447631070330994
 GameObject:
   m_ObjectHideFlags: 0
@@ -178,7 +192,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 82ae0e71e8d665f4e8a92658c234c3a3, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b27085d5c109a4c48b7ad3c179bb7951, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -277,7 +291,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 679077ffcb3bf8d47bd2ae128a17842f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: dc8952ee563297844a87f1d06a492505, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -376,7 +390,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 703931bc91ce7604390a274756e420ad, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0108c93adca423d48a52ee20fbd164c1, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1524,7 +1538,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 065670d6b5b98f146980900b1e8f6887, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c4c592c2ace7d1d4f9b1ce4fe63674e2, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1623,7 +1637,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 07dc1b90ba96ab64b8fde86177b27da7, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0189a9523b0b407439476c5b79d7adf9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1887,7 +1901,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 1c7cdcba72789884098016bcb16be37a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d8f9574346a3816409842b0da6fe6167, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
