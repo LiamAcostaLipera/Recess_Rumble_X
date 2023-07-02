@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Config_Fighter2D
   m_EditorClassIdentifier: 
   version: 2
-  player1Character: {fileID: 11400000, guid: 55d89405241307344848b26d2f8143f1, type: 2}
-  player2Character: {fileID: 11400000, guid: bc1544a3d00c0e344b235b9613de3a75, type: 2}
+  player1Character: {fileID: 0}
+  player2Character: {fileID: 0}
   player1Team:
   - {fileID: 0}
   - {fileID: 0}
@@ -1761,10 +1761,10 @@ MonoBehaviour:
     enableNetworkSyncTest: 0
     synchronizationMessageFrequency: 2
     synchronizationAction: 1
-  music: 1
-  musicVolume: 1
+  music: 0
+  musicVolume: 0.14982823
   soundfx: 1
-  soundfxVolume: 1
+  soundfxVolume: 0.099999964
   colorStateOne: {r: 1, g: 0, b: 0, a: 1}
   colorIsHit: {r: 1, g: 0, b: 1, a: 1}
   colorBodyCollider: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}

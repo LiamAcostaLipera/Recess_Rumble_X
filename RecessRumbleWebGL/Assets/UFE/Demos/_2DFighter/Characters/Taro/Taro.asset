@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Taro
   m_EditorClassIdentifier: 
   gameplayType: 0
-  profilePictureSmall: {fileID: 2800000, guid: 94d3030828282114d89b4070bce2d813, type: 3}
+  profilePictureSmall: {fileID: 2800000, guid: 700b23efefcb4ac4ea44e2eee5dd2491, type: 3}
   profilePictureBig: {fileID: 2800000, guid: ad65c59a006364642a5637240999a605, type: 3}
   characterName: TARO
   gender: 1
