@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Config_Fighter2D
   m_EditorClassIdentifier: 
   version: 2
-  player1Character: {fileID: 0}
-  player2Character: {fileID: 0}
+  player1Character: {fileID: 11400000, guid: 55d89405241307344848b26d2f8143f1, type: 2}
+  player2Character: {fileID: 11400000, guid: bc1544a3d00c0e344b235b9613de3a75, type: 2}
   player1Team:
   - {fileID: 0}
   - {fileID: 0}

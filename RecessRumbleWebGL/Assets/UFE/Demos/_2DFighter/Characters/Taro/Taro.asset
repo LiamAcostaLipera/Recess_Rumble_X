@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Taro
   m_EditorClassIdentifier: 
   gameplayType: 0
-  profilePictureSmall: {fileID: 2800000, guid: ac95eef6fad273b449d736c16dae8bca, type: 3}
-  profilePictureBig: {fileID: 2800000, guid: 82b1832d134ff5c4181d8ae05d028f0d, type: 3}
+  profilePictureSmall: {fileID: 2800000, guid: 94d3030828282114d89b4070bce2d813, type: 3}
+  profilePictureBig: {fileID: 2800000, guid: ad65c59a006364642a5637240999a605, type: 3}
   characterName: TARO
   gender: 1
   characterDescription: 'Project: Fighter 3D
