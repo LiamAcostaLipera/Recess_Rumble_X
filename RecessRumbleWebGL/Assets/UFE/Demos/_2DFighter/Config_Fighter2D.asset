@@ -24,12 +24,12 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   selectedStage:
-    stageName: 'CAFE '
+    stageName: 5B
     stageLoadingMethod: 0
     stagePath: 
-    screenshot: {fileID: 2800000, guid: dd7c0aa0614877247a9787cfd1400696, type: 3}
-    prefab: {fileID: 100000, guid: c2d36dd548fde94418ef797470477ee5, type: 3}
-    music: {fileID: 8300000, guid: 5acb7f152e0ac8841a8d942a31affc76, type: 3}
+    screenshot: {fileID: 2800000, guid: 7a2abaf5eb3ec8845802e0e2b8e02ea9, type: 3}
+    prefab: {fileID: 100000, guid: 7f4458eca3b0fda48844cd225f15e75e, type: 3}
+    music: {fileID: 8300000, guid: b2309f9cbef86204bbb8f1b7f97655d8, type: 3}
     _groundFriction:
       _serializedValue: 515396075520
     _leftBoundary:
@@ -179,21 +179,21 @@ MonoBehaviour:
           mode: 2
           name: Historia
           opponents:
-          - conversationBeforeBattle: {fileID: 7516048182482662173, guid: 2c0d2bf5b2a77c74d948d158f3340ea6,
+          - conversationBeforeBattle: {fileID: 7516048182482662173, guid: 42a590d7c5f4352488bc5d3cf5f50648,
               type: 3}
-            conversationAfterBattle: {fileID: 7516048182482662173, guid: cd151d28eb0534e4fbcaf6e5d9ac85b5,
+            conversationAfterBattle: {fileID: 7516048182482662173, guid: 22db045681141374c960bc50eb4a2401,
               type: 3}
-            opponentCharacterIndex: 4
+            opponentCharacterIndex: 6
+            possibleStagesIndexes: 01000000
+          - conversationBeforeBattle: {fileID: 7516048182482662173, guid: e465815d403c60e4481a479bf2b2b275,
+              type: 3}
+            conversationAfterBattle: {fileID: 7516048182482662173, guid: 4ba92db08cb9f1544b869ca1848cc371,
+              type: 3}
+            opponentCharacterIndex: 2
             possibleStagesIndexes: 02000000
-          - conversationBeforeBattle: {fileID: 7516048182482662173, guid: 08764329f0af9f84c8673deb55267003,
+          - conversationBeforeBattle: {fileID: 7516048182482662173, guid: 3d020bf99c135664fbe4f9297bb8d1ea,
               type: 3}
-            conversationAfterBattle: {fileID: 7516048182482662173, guid: 1a1ffa7d77840104b8dbeae4e62ccb40,
-              type: 3}
-            opponentCharacterIndex: 3
-            possibleStagesIndexes: 03000000
-          - conversationBeforeBattle: {fileID: 7516048182482662173, guid: b2140c53fc4c6e7488a0a533c1099954,
-              type: 3}
-            conversationAfterBattle: {fileID: 7516048182482662173, guid: 932a31e079708e34eb6a874fdef33b8d,
+            conversationAfterBattle: {fileID: 7516048182482662173, guid: 166fd710e660bdc4ca04f1de0ebf6a2c,
               type: 3}
             opponentCharacterIndex: 8
             possibleStagesIndexes: 00000000
@@ -225,7 +225,7 @@ MonoBehaviour:
             opponentCharacterIndex: 7
             possibleStagesIndexes: 01000000
           showOpponentsInEditor: 1
-        showStoryInEditor: 1
+        showStoryInEditor: 0
       - opening: {fileID: 0}
         ending: {fileID: 0}
         fightsGroups:
@@ -243,7 +243,7 @@ MonoBehaviour:
               type: 3}
             conversationAfterBattle: {fileID: 7516048182482662173, guid: a3b51dc02d347a34f9f269e50bd44ca0,
               type: 3}
-            opponentCharacterIndex: 3
+            opponentCharacterIndex: 0
             possibleStagesIndexes: 03000000
           - conversationBeforeBattle: {fileID: 7516048182482662173, guid: 46e8c75a122927e40a8ef6fba077b3f5,
               type: 3}
@@ -260,26 +260,26 @@ MonoBehaviour:
           mode: 2
           name: HISTORIA
           opponents:
-          - conversationBeforeBattle: {fileID: 7516048182482662173, guid: 42a590d7c5f4352488bc5d3cf5f50648,
+          - conversationBeforeBattle: {fileID: 7516048182482662173, guid: 2c0d2bf5b2a77c74d948d158f3340ea6,
               type: 3}
-            conversationAfterBattle: {fileID: 7516048182482662173, guid: 22db045681141374c960bc50eb4a2401,
+            conversationAfterBattle: {fileID: 7516048182482662173, guid: cd151d28eb0534e4fbcaf6e5d9ac85b5,
               type: 3}
-            opponentCharacterIndex: 6
-            possibleStagesIndexes: 01000000
-          - conversationBeforeBattle: {fileID: 7516048182482662173, guid: e465815d403c60e4481a479bf2b2b275,
-              type: 3}
-            conversationAfterBattle: {fileID: 7516048182482662173, guid: 4ba92db08cb9f1544b869ca1848cc371,
-              type: 3}
-            opponentCharacterIndex: 2
+            opponentCharacterIndex: 4
             possibleStagesIndexes: 02000000
-          - conversationBeforeBattle: {fileID: 7516048182482662173, guid: 3d020bf99c135664fbe4f9297bb8d1ea,
+          - conversationBeforeBattle: {fileID: 7516048182482662173, guid: 08764329f0af9f84c8673deb55267003,
               type: 3}
-            conversationAfterBattle: {fileID: 7516048182482662173, guid: 166fd710e660bdc4ca04f1de0ebf6a2c,
+            conversationAfterBattle: {fileID: 7516048182482662173, guid: 1a1ffa7d77840104b8dbeae4e62ccb40,
+              type: 3}
+            opponentCharacterIndex: 0
+            possibleStagesIndexes: 03000000
+          - conversationBeforeBattle: {fileID: 7516048182482662173, guid: b2140c53fc4c6e7488a0a533c1099954,
+              type: 3}
+            conversationAfterBattle: {fileID: 7516048182482662173, guid: 932a31e079708e34eb6a874fdef33b8d,
               type: 3}
             opponentCharacterIndex: 8
             possibleStagesIndexes: 00000000
           showOpponentsInEditor: 1
-        showStoryInEditor: 1
+        showStoryInEditor: 0
       - opening: {fileID: 0}
         ending: {fileID: 0}
         fightsGroups: []
@@ -935,7 +935,7 @@ MonoBehaviour:
   player1_Inputs:
   - inputType: 0
     inputButtonName: P1KeyboardHorizontal
-    engineRelatedButton: 0
+    engineRelatedButton: 1
     joystickAxisName: P1JoystickHorizontal
     cInputPositiveKeyName: P1Right
     cInputPositiveDefaultKey: D
@@ -1096,7 +1096,7 @@ MonoBehaviour:
     inputViewerIcon6: {fileID: 2800000, guid: 90523496d8897124e989ad256f109d27, type: 3}
   - inputType: 1
     inputButtonName: P2KeyboardVertical
-    engineRelatedButton: 2
+    engineRelatedButton: 3
     joystickAxisName: P2JoystickVertical
     cInputPositiveKeyName: P2Up
     cInputPositiveDefaultKey: UpArrow
@@ -1313,10 +1313,10 @@ MonoBehaviour:
       z:
         _serializedValue: 0
   characters:
-  - {fileID: 11400000, guid: 49075f7c9de81bf49880ac0ae2087666, type: 2}
+  - {fileID: 11400000, guid: 6b761e7adeeaaef45af82e3fdda6d92d, type: 2}
   - {fileID: 11400000, guid: 55d89405241307344848b26d2f8143f1, type: 2}
   - {fileID: 11400000, guid: 75f6f26ca92b59e4c893e99f44df6536, type: 2}
-  - {fileID: 11400000, guid: 6b761e7adeeaaef45af82e3fdda6d92d, type: 2}
+  - {fileID: 11400000, guid: 49075f7c9de81bf49880ac0ae2087666, type: 2}
   - {fileID: 11400000, guid: 5aea0ab9d98024842a9ec855baa71ae2, type: 2}
   - {fileID: 11400000, guid: bc1544a3d00c0e344b235b9613de3a75, type: 2}
   - {fileID: 11400000, guid: e513f9bf5b9b80647a577d167ad910f6, type: 2}
@@ -1761,10 +1761,10 @@ MonoBehaviour:
     enableNetworkSyncTest: 0
     synchronizationMessageFrequency: 2
     synchronizationAction: 1
-  music: 0
-  musicVolume: 0.14982823
+  music: 1
+  musicVolume: 0
   soundfx: 1
-  soundfxVolume: 0.099999964
+  soundfxVolume: 0
   colorStateOne: {r: 1, g: 0, b: 0, a: 1}
   colorIsHit: {r: 1, g: 0, b: 1, a: 1}
   colorBodyCollider: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}

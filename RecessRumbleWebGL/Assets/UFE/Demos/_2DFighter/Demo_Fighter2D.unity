@@ -212,6 +212,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   contadorIndex: 0
   PanelOp: {fileID: 0}
+  Panel: {fileID: 0}
+  activadobotoncontrol: 0
+  tagStage: {fileID: 0}
+  MODO: 
+  tagEscenario: {fileID: 0}
 --- !u!4 &468839700
 Transform:
   m_ObjectHideFlags: 0
