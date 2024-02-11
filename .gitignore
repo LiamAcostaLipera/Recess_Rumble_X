@@ -2,13 +2,13 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
 #
-RecessRumbleWebGL/[Ll]ibrary/
-RecessRumbleWebGL/[Tt]emp/
-RecessRumbleWebGL/[Oo]bj/
-RecessRumbleWebGL/[Bb]uild/
-RecessRumbleWebGL/[Bb]uilds/
-RecessRumbleWebGL/[Ll]ogs/
-RecessRumbleWebGL/[Mm]emoryCaptures/
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Mm]emoryCaptures/
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
