@@ -25,6 +25,10 @@ TagManager:
   - 2
   - 3
   - Events
+  - Banos
+  - Distrito
+  - Dojo
+  - Arcade
   layers:
   - Default
   - TransparentFX

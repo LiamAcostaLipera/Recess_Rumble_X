@@ -99,12 +99,24 @@ TextureImporter:
     buildTarget: WebGL
     maxTextureSize: 4096
     resizeAlgorithm: 0
-    textureFormat: 12
+    textureFormat: 29
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -114,8 +126,8 @@ TextureImporter:
       name: MIKU_BLOCK_2
       rect:
         serializedVersion: 2
-        x: 2263
-        y: 378
+        x: 2159
+        y: 166
         width: 858
         height: 1579
       alignment: 7
@@ -135,8 +147,8 @@ TextureImporter:
       name: MIKU_BLOCK_3
       rect:
         serializedVersion: 2
-        x: 3305
-        y: 376
+        x: 3200
+        y: 166
         width: 734
         height: 1566
       alignment: 9

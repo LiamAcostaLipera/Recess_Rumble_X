@@ -99,12 +99,24 @@ TextureImporter:
     buildTarget: WebGL
     maxTextureSize: 4096
     resizeAlgorithm: 0
-    textureFormat: 12
+    textureFormat: 29
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -114,8 +126,8 @@ TextureImporter:
       name: MIKU_STANDING_LK_1
       rect:
         serializedVersion: 2
-        x: 1483
-        y: 192
+        x: 2580
+        y: 167
         width: 759
         height: 1581
       alignment: 9
@@ -135,8 +147,8 @@ TextureImporter:
       name: MIKU_STANDING_LK_2
       rect:
         serializedVersion: 2
-        x: 2604
-        y: 186
+        x: 3702
+        y: 159
         width: 1074
         height: 1567
       alignment: 9
@@ -156,8 +168,8 @@ TextureImporter:
       name: MIKU_STANDING_LK_5
       rect:
         serializedVersion: 2
-        x: 3963
-        y: 192
+        x: 5060
+        y: 166
         width: 759
         height: 1581
       alignment: 9

@@ -123,12 +123,24 @@ TextureImporter:
     buildTarget: WebGL
     maxTextureSize: 4096
     resizeAlgorithm: 0
-    textureFormat: 12
+    textureFormat: 29
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -138,8 +150,8 @@ TextureImporter:
       name: MIKU_SPECIAL_2_HEART_DEATH_2
       rect:
         serializedVersion: 2
-        x: 3353
-        y: 200
+        x: 4656
+        y: 98
         width: 311
         height: 199
       alignment: 9
@@ -159,8 +171,8 @@ TextureImporter:
       name: MIKU_SPECIAL_2_HEART_DEATH_3
       rect:
         serializedVersion: 2
-        x: 3932
-        y: 206
+        x: 5242
+        y: 102
         width: 344
         height: 215
       alignment: 9
@@ -180,8 +192,8 @@ TextureImporter:
       name: MIKU_SPECIAL_2_HEART_DEATH_1
       rect:
         serializedVersion: 2
-        x: 2824
-        y: 195
+        x: 4137
+        y: 93
         width: 248
         height: 197
       alignment: 9
@@ -201,12 +213,12 @@ TextureImporter:
       name: MIKU_SPECIAL_2_HEART_DEATH_4
       rect:
         serializedVersion: 2
-        x: 4465
-        y: 207
+        x: 5774
+        y: 105
         width: 359
         height: 225
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

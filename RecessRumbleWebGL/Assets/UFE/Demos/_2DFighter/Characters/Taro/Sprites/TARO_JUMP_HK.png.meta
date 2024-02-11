@@ -60,7 +60,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 90
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -102,7 +102,7 @@ TextureImporter:
     buildTarget: WebGL
     maxTextureSize: 4096
     resizeAlgorithm: 0
-    textureFormat: 12
+    textureFormat: 29
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -177,8 +177,8 @@ TextureImporter:
       name: TARO_JUMP_HK_0
       rect:
         serializedVersion: 2
-        x: 168
-        y: 76
+        x: 670
+        y: 26
         width: 702
         height: 2016
       alignment: 9
@@ -198,8 +198,8 @@ TextureImporter:
       name: TARO_JUMP_HK_1
       rect:
         serializedVersion: 2
-        x: 1196
-        y: 161
+        x: 1698
+        y: 109
         width: 915
         height: 1931
       alignment: 9
@@ -219,8 +219,8 @@ TextureImporter:
       name: TARO_JUMP_HK_2
       rect:
         serializedVersion: 2
-        x: 2383
-        y: 604
+        x: 2887
+        y: 551
         width: 1813
         height: 1257
       alignment: 9
@@ -240,8 +240,8 @@ TextureImporter:
       name: TARO_JUMP_HK_3
       rect:
         serializedVersion: 2
-        x: 4458
-        y: 392
+        x: 4961
+        y: 339
         width: 1453
         height: 1469
       alignment: 9
@@ -261,8 +261,8 @@ TextureImporter:
       name: TARO_JUMP_HK_4
       rect:
         serializedVersion: 2
-        x: 6282
-        y: 128
+        x: 6785
+        y: 75
         width: 701
         height: 1948
       alignment: 9

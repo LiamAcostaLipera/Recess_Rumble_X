@@ -99,7 +99,7 @@ TextureImporter:
     buildTarget: WebGL
     maxTextureSize: 4096
     resizeAlgorithm: 0
-    textureFormat: 12
+    textureFormat: 29
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -126,8 +126,8 @@ TextureImporter:
       name: MARIE_CROUCH_LP_0
       rect:
         serializedVersion: 2
-        x: 136
-        y: 386
+        x: 1483
+        y: 357
         width: 955
         height: 1134
       alignment: 7
@@ -147,8 +147,8 @@ TextureImporter:
       name: MARIE_CROUCH_LP_1
       rect:
         serializedVersion: 2
-        x: 1373
-        y: 386
+        x: 2719
+        y: 358
         width: 929
         height: 1132
       alignment: 7
@@ -168,8 +168,8 @@ TextureImporter:
       name: MARIE_CROUCH_LP_2
       rect:
         serializedVersion: 2
-        x: 2611
-        y: 401
+        x: 3959
+        y: 372
         width: 1319
         height: 1166
       alignment: 7
@@ -189,8 +189,8 @@ TextureImporter:
       name: MARIE_CROUCH_LP_3
       rect:
         serializedVersion: 2
-        x: 4084
-        y: 401
+        x: 5431
+        y: 373
         width: 1076
         height: 1211
       alignment: 7

@@ -99,12 +99,24 @@ TextureImporter:
     buildTarget: WebGL
     maxTextureSize: 4096
     resizeAlgorithm: 0
-    textureFormat: 12
+    textureFormat: 29
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -114,8 +126,8 @@ TextureImporter:
       name: MIKU_CROUCH_HK_0
       rect:
         serializedVersion: 2
-        x: 123
-        y: 349
+        x: 1344
+        y: 123
         width: 949
         height: 1544
       alignment: 7
@@ -135,8 +147,8 @@ TextureImporter:
       name: MIKU_CROUCH_HK_1
       rect:
         serializedVersion: 2
-        x: 1308
-        y: 373
+        x: 2528
+        y: 147
         width: 1406
         height: 1517
       alignment: 9
@@ -156,8 +168,8 @@ TextureImporter:
       name: MIKU_CROUCH_HK_2
       rect:
         serializedVersion: 2
-        x: 2909
-        y: 374
+        x: 4130
+        y: 148
         width: 1408
         height: 1520
       alignment: 9
@@ -177,8 +189,8 @@ TextureImporter:
       name: MIKU_CROUCH_HK_3
       rect:
         serializedVersion: 2
-        x: 4570
-        y: 354
+        x: 5791
+        y: 129
         width: 942
         height: 1536
       alignment: 7

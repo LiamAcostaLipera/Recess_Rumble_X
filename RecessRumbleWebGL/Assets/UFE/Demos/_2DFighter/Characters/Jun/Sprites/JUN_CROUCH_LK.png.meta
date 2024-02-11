@@ -60,7 +60,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 70
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -102,12 +102,24 @@ TextureImporter:
     buildTarget: WebGL
     maxTextureSize: 4096
     resizeAlgorithm: 0
-    textureFormat: 12
+    textureFormat: 29
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -117,10 +129,10 @@ TextureImporter:
       name: JUN_CROUCH_LK_0
       rect:
         serializedVersion: 2
-        x: 212
-        y: 103
-        width: 738
-        height: 1089
+        x: 144
+        y: 51
+        width: 507
+        height: 753
       alignment: 9
       pivot: {x: 0.29465744, y: 0.0008589339}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -138,10 +150,10 @@ TextureImporter:
       name: JUN_CROUCH_LK_1
       rect:
         serializedVersion: 2
-        x: 1184
-        y: 97
-        width: 1357
-        height: 1054
+        x: 803
+        y: 51
+        width: 936
+        height: 752
       alignment: 9
       pivot: {x: 0.1812642, y: 0.000000050669602}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -159,10 +171,10 @@ TextureImporter:
       name: JUN_CROUCH_LK_2
       rect:
         serializedVersion: 2
-        x: 2683
-        y: 99
-        width: 1277
-        height: 1053
+        x: 1832
+        y: 51
+        width: 879
+        height: 749
       alignment: 9
       pivot: {x: 0.20630762, y: -0.0015900151}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -180,10 +192,10 @@ TextureImporter:
       name: JUN_CROUCH_LK_3
       rect:
         serializedVersion: 2
-        x: 4127
-        y: 99
-        width: 760
-        height: 1071
+        x: 2814
+        y: 51
+        width: 523
+        height: 749
       alignment: 9
       pivot: {x: 0.29071173, y: 0.001563342}
       border: {x: 0, y: 0, z: 0, w: 0}

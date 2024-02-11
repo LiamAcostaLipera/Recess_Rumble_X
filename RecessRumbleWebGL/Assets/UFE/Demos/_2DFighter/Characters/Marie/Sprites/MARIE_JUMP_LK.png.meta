@@ -96,7 +96,7 @@ TextureImporter:
     buildTarget: WebGL
     maxTextureSize: 4096
     resizeAlgorithm: 0
-    textureFormat: 12
+    textureFormat: 29
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -123,8 +123,8 @@ TextureImporter:
       name: MARIE_JUMP_LK_2
       rect:
         serializedVersion: 2
-        x: 2724
-        y: 648
+        x: 694
+        y: 522
         width: 1059
         height: 1225
       alignment: 7
@@ -144,8 +144,8 @@ TextureImporter:
       name: MARIE_JUMP_LK_3
       rect:
         serializedVersion: 2
-        x: 3998
-        y: 504
+        x: 1969
+        y: 376
         width: 1397
         height: 1335
       alignment: 9
@@ -165,8 +165,8 @@ TextureImporter:
       name: MARIE_JUMP_LK_5
       rect:
         serializedVersion: 2
-        x: 7075
-        y: 507
+        x: 5043
+        y: 381
         width: 1377
         height: 1333
       alignment: 9

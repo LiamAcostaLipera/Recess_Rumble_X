@@ -87,12 +87,24 @@ TextureImporter:
     buildTarget: WebGL
     maxTextureSize: 4096
     resizeAlgorithm: 0
-    textureFormat: 12
+    textureFormat: 29
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -102,8 +114,8 @@ TextureImporter:
       name: MIKU_SPECIAL_1_0
       rect:
         serializedVersion: 2
-        x: 510
-        y: 4519
+        x: 1269
+        y: 5482
         width: 1029
         height: 1455
       alignment: 7
@@ -123,8 +135,8 @@ TextureImporter:
       name: MIKU_SPECIAL_1_1
       rect:
         serializedVersion: 2
-        x: 1934
-        y: 4453
+        x: 2691
+        y: 5415
         width: 946
         height: 1496
       alignment: 7
@@ -144,8 +156,8 @@ TextureImporter:
       name: MIKU_SPECIAL_1_2
       rect:
         serializedVersion: 2
-        x: 3448
-        y: 3951
+        x: 4207
+        y: 4915
         width: 845
         height: 2098
       alignment: 7
@@ -165,8 +177,8 @@ TextureImporter:
       name: MIKU_SPECIAL_1_3
       rect:
         serializedVersion: 2
-        x: 5068
-        y: 3988
+        x: 5825
+        y: 4949
         width: 766
         height: 2117
       alignment: 7
@@ -186,8 +198,8 @@ TextureImporter:
       name: MIKU_SPECIAL_1_4
       rect:
         serializedVersion: 2
-        x: 278
-        y: 1735
+        x: 1030
+        y: 2696
         width: 1088
         height: 2153
       alignment: 7
@@ -207,8 +219,8 @@ TextureImporter:
       name: MIKU_SPECIAL_1_5
       rect:
         serializedVersion: 2
-        x: 2179
-        y: 1428
+        x: 2939
+        y: 2390
         width: 1125
         height: 2285
       alignment: 7
@@ -228,8 +240,8 @@ TextureImporter:
       name: MIKU_SPECIAL_1_7
       rect:
         serializedVersion: 2
-        x: 5547
-        y: 1284
+        x: 6307
+        y: 2245
         width: 669
         height: 2139
       alignment: 7
@@ -249,8 +261,8 @@ TextureImporter:
       name: MIKU_SPECIAL_1_6
       rect:
         serializedVersion: 2
-        x: 4040
-        y: 1282
+        x: 4832
+        y: 2247
         width: 955
         height: 2211
       alignment: 7
@@ -270,8 +282,8 @@ TextureImporter:
       name: MIKU_SPECIAL_1_8
       rect:
         serializedVersion: 2
-        x: 285
-        y: 147
+        x: 1038
+        y: 1109
         width: 926
         height: 1041
       alignment: 7

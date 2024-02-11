@@ -63,7 +63,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 60
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -105,12 +105,24 @@ TextureImporter:
     buildTarget: WebGL
     maxTextureSize: 4096
     resizeAlgorithm: 0
-    textureFormat: 12
+    textureFormat: 29
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -120,10 +132,10 @@ TextureImporter:
       name: JUN_LK_0
       rect:
         serializedVersion: 2
-        x: 122
-        y: 198
-        width: 750
-        height: 1664
+        x: 78
+        y: 103
+        width: 477
+        height: 1063
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,10 +153,10 @@ TextureImporter:
       name: JUN_LK_1
       rect:
         serializedVersion: 2
-        x: 1112
-        y: 200
-        width: 597
-        height: 1607
+        x: 708
+        y: 106
+        width: 381
+        height: 1026
       alignment: 9
       pivot: {x: 0.28329697, y: -0.000000028485605}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -162,10 +174,10 @@ TextureImporter:
       name: JUN_LK_2
       rect:
         serializedVersion: 2
-        x: 1841
-        y: 191
-        width: 1278
-        height: 1586
+        x: 1171
+        y: 103
+        width: 813
+        height: 1010
       alignment: 9
       pivot: {x: 0.24855807, y: 0.0013156135}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -183,12 +195,12 @@ TextureImporter:
       name: JUN_LK_3
       rect:
         serializedVersion: 2
-        x: 3235
-        y: 191
-        width: 1280
-        height: 1572
+        x: 2061
+        y: 101
+        width: 815
+        height: 1001
       alignment: 9
-      pivot: {x: 0.20330581, y: 0.0013273302}
+      pivot: {x: 0.23415004, y: 0.0013273546}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -204,10 +216,10 @@ TextureImporter:
       name: JUN_LK_4
       rect:
         serializedVersion: 2
-        x: 4666
-        y: 194
-        width: 629
-        height: 1615
+        x: 2972
+        y: 103
+        width: 400
+        height: 1028
       alignment: 9
       pivot: {x: 0.3739396, y: -0.000000018896333}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -225,10 +237,10 @@ TextureImporter:
       name: JUN_LK_5
       rect:
         serializedVersion: 2
-        x: 5549
-        y: 188
-        width: 702
-        height: 1695
+        x: 3535
+        y: 99
+        width: 446
+        height: 1080
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

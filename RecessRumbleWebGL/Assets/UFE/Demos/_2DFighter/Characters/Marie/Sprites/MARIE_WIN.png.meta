@@ -123,7 +123,7 @@ TextureImporter:
     buildTarget: WebGL
     maxTextureSize: 4096
     resizeAlgorithm: 0
-    textureFormat: 12
+    textureFormat: 29
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -150,8 +150,8 @@ TextureImporter:
       name: MARIE_WIN_0
       rect:
         serializedVersion: 2
-        x: 97
-        y: 1941
+        x: 92
+        y: 2120
         width: 909
         height: 1701
       alignment: 9
@@ -171,8 +171,8 @@ TextureImporter:
       name: MARIE_WIN_2
       rect:
         serializedVersion: 2
-        x: 1056
-        y: 1939
+        x: 1045
+        y: 2119
         width: 921
         height: 1703
       alignment: 9
@@ -192,8 +192,8 @@ TextureImporter:
       name: MARIE_WIN_4
       rect:
         serializedVersion: 2
-        x: 2066
-        y: 1938
+        x: 2049
+        y: 2119
         width: 897
         height: 1704
       alignment: 9
@@ -213,8 +213,8 @@ TextureImporter:
       name: MARIE_WIN_5
       rect:
         serializedVersion: 2
-        x: 3000
-        y: 1939
+        x: 2974
+        y: 2119
         width: 876
         height: 1703
       alignment: 9
@@ -234,8 +234,8 @@ TextureImporter:
       name: MARIE_WIN_7
       rect:
         serializedVersion: 2
-        x: 9
-        y: 72
+        x: 5
+        y: 264
         width: 777
         height: 1703
       alignment: 9
@@ -255,8 +255,8 @@ TextureImporter:
       name: MARIE_WIN_8
       rect:
         serializedVersion: 2
-        x: 844
-        y: 72
+        x: 834
+        y: 265
         width: 791
         height: 1703
       alignment: 9
@@ -276,8 +276,8 @@ TextureImporter:
       name: MARIE_WIN_9
       rect:
         serializedVersion: 2
-        x: 1675
-        y: 72
+        x: 1659
+        y: 265
         width: 791
         height: 1703
       alignment: 9
@@ -297,8 +297,8 @@ TextureImporter:
       name: MARIE_WIN_10
       rect:
         serializedVersion: 2
-        x: 2497
-        y: 73
+        x: 2476
+        y: 264
         width: 791
         height: 1703
       alignment: 9
@@ -318,8 +318,8 @@ TextureImporter:
       name: MARIE_WIN_11
       rect:
         serializedVersion: 2
-        x: 3314
-        y: 71
+        x: 3288
+        y: 263
         width: 791
         height: 1703
       alignment: 9
@@ -339,8 +339,8 @@ TextureImporter:
       name: MARIE_WIN_1
       rect:
         serializedVersion: 2
-        x: 983
-        y: 2945
+        x: 1038
+        y: 3869
         width: 23
         height: 30
       alignment: 7
@@ -360,8 +360,8 @@ TextureImporter:
       name: MARIE_WIN_3
       rect:
         serializedVersion: 2
-        x: 1945
-        y: 2955
+        x: 1887
+        y: 3977
         width: 32
         height: 22
       alignment: 7
@@ -381,8 +381,8 @@ TextureImporter:
       name: MARIE_WIN_6
       rect:
         serializedVersion: 2
-        x: 893
-        y: 2906
+        x: 902
+        y: 3860
         width: 89
         height: 49
       alignment: 7

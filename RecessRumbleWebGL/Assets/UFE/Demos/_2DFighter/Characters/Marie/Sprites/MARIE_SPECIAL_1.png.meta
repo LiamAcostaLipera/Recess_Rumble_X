@@ -66,7 +66,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 70
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -108,7 +108,7 @@ TextureImporter:
     buildTarget: WebGL
     maxTextureSize: 4096
     resizeAlgorithm: 0
-    textureFormat: 12
+    textureFormat: 29
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -135,10 +135,10 @@ TextureImporter:
       name: MARIE_SPECIAL_1_0
       rect:
         serializedVersion: 2
-        x: 120
-        y: 63
-        width: 805
-        height: 1864
+        x: 89
+        y: 289
+        width: 599
+        height: 1385
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -156,10 +156,10 @@ TextureImporter:
       name: MARIE_SPECIAL_1_1
       rect:
         serializedVersion: 2
-        x: 1204
-        y: 63
-        width: 792
-        height: 1976
+        x: 894
+        y: 287
+        width: 589
+        height: 1468
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -177,10 +177,10 @@ TextureImporter:
       name: MARIE_SPECIAL_1_2
       rect:
         serializedVersion: 2
-        x: 2131
-        y: 63
-        width: 956
-        height: 1861
+        x: 1589
+        y: 289
+        width: 708
+        height: 1383
       alignment: 9
       pivot: {x: 0.56305265, y: -0.000000030747156}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -198,10 +198,10 @@ TextureImporter:
       name: MARIE_SPECIAL_1_3
       rect:
         serializedVersion: 2
-        x: 3331
-        y: 66
-        width: 1191
-        height: 1515
+        x: 2481
+        y: 289
+        width: 888
+        height: 1127
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -219,10 +219,10 @@ TextureImporter:
       name: MARIE_SPECIAL_1_5
       rect:
         serializedVersion: 2
-        x: 6554
-        y: 63
-        width: 1222
-        height: 1555
+        x: 4882
+        y: 287
+        width: 907
+        height: 1157
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -240,10 +240,10 @@ TextureImporter:
       name: MARIE_SPECIAL_1_6
       rect:
         serializedVersion: 2
-        x: 8039
-        y: 66
-        width: 1287
-        height: 1769
+        x: 5988
+        y: 288
+        width: 958
+        height: 1318
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -261,10 +261,10 @@ TextureImporter:
       name: MARIE_SPECIAL_1_7
       rect:
         serializedVersion: 2
-        x: 9538
-        y: 63
-        width: 1120
-        height: 1716
+        x: 7102
+        y: 288
+        width: 836
+        height: 1277
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

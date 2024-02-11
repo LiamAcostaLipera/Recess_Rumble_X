@@ -159,7 +159,7 @@ TextureImporter:
     buildTarget: WebGL
     maxTextureSize: 4096
     resizeAlgorithm: 0
-    textureFormat: 12
+    textureFormat: 29
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -174,8 +174,8 @@ TextureImporter:
       name: MIKU_JUMP_LP_0
       rect:
         serializedVersion: 2
-        x: 222
-        y: 296
+        x: 1319
+        y: 269
         width: 1152
         height: 1554
       alignment: 7
@@ -195,8 +195,8 @@ TextureImporter:
       name: MIKU_JUMP_LP_1
       rect:
         serializedVersion: 2
-        x: 1747
-        y: 242
+        x: 2843
+        y: 217
         width: 1022
         height: 1560
       alignment: 7
@@ -216,8 +216,8 @@ TextureImporter:
       name: MIKU_JUMP_LP_2
       rect:
         serializedVersion: 2
-        x: 3214
-        y: 217
+        x: 4311
+        y: 191
         width: 1053
         height: 1316
       alignment: 9
@@ -237,8 +237,8 @@ TextureImporter:
       name: MIKU_JUMP_LP_3
       rect:
         serializedVersion: 2
-        x: 4763
-        y: 201
+        x: 5860
+        y: 176
         width: 886
         height: 1337
       alignment: 9

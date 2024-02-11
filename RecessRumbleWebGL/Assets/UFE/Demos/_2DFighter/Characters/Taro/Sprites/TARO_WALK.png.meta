@@ -63,7 +63,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 95
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -105,7 +105,7 @@ TextureImporter:
     buildTarget: WebGL
     maxTextureSize: 4096
     resizeAlgorithm: 0
-    textureFormat: 12
+    textureFormat: 29
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -132,10 +132,10 @@ TextureImporter:
       name: TARO_WALK_0
       rect:
         serializedVersion: 2
-        x: 164
-        y: 283
-        width: 1131
-        height: 2009
+        x: 159
+        y: 1103
+        width: 1137
+        height: 2012
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,10 +153,10 @@ TextureImporter:
       name: TARO_WALK_1
       rect:
         serializedVersion: 2
-        x: 1575
-        y: 295
-        width: 1262
-        height: 1959
+        x: 1568
+        y: 1115
+        width: 1267
+        height: 1962
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -174,10 +174,10 @@ TextureImporter:
       name: TARO_WALK_2
       rect:
         serializedVersion: 2
-        x: 3105
-        y: 320
-        width: 1201
-        height: 2079
+        x: 3101
+        y: 1141
+        width: 1204
+        height: 2080
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -195,10 +195,10 @@ TextureImporter:
       name: TARO_WALK_3
       rect:
         serializedVersion: 2
-        x: 4633
-        y: 347
-        width: 935
-        height: 2072
+        x: 4624
+        y: 1167
+        width: 944
+        height: 2074
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -216,10 +216,10 @@ TextureImporter:
       name: TARO_WALK_4
       rect:
         serializedVersion: 2
-        x: 5987
-        y: 322
-        width: 855
-        height: 2069
+        x: 5974
+        y: 1144
+        width: 875
+        height: 2072
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -237,10 +237,10 @@ TextureImporter:
       name: TARO_WALK_5
       rect:
         serializedVersion: 2
-        x: 7238
-        y: 295
-        width: 803
-        height: 2077
+        x: 7231
+        y: 1118
+        width: 817
+        height: 2082
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

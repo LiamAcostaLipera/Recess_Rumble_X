@@ -123,12 +123,24 @@ TextureImporter:
     buildTarget: WebGL
     maxTextureSize: 4096
     resizeAlgorithm: 0
-    textureFormat: 12
+    textureFormat: 29
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -138,8 +150,8 @@ TextureImporter:
       name: MIKU_SPECIAL_2_HEART_0
       rect:
         serializedVersion: 2
-        x: 248
-        y: 683
+        x: 1558
+        y: 581
         width: 414
         height: 269
       alignment: 9
@@ -159,8 +171,8 @@ TextureImporter:
       name: MIKU_SPECIAL_2_HEART_1
       rect:
         serializedVersion: 2
-        x: 903
-        y: 683
+        x: 2213
+        y: 581
         width: 371
         height: 269
       alignment: 9
@@ -180,8 +192,8 @@ TextureImporter:
       name: MIKU_SPECIAL_2_HEART_2
       rect:
         serializedVersion: 2
-        x: 1463
-        y: 683
+        x: 2771
+        y: 581
         width: 438
         height: 269
       alignment: 9
@@ -201,8 +213,8 @@ TextureImporter:
       name: MIKU_SPECIAL_2_HEART_3
       rect:
         serializedVersion: 2
-        x: 2106
-        y: 683
+        x: 3416
+        y: 581
         width: 415
         height: 269
       alignment: 9
@@ -222,8 +234,8 @@ TextureImporter:
       name: MIKU_SPECIAL_2_HEART_4
       rect:
         serializedVersion: 2
-        x: 2746
-        y: 683
+        x: 4055
+        y: 581
         width: 369
         height: 269
       alignment: 9
@@ -243,8 +255,8 @@ TextureImporter:
       name: MIKU_SPECIAL_2_HEART_5
       rect:
         serializedVersion: 2
-        x: 3213
-        y: 683
+        x: 4521
+        y: 581
         width: 438
         height: 269
       alignment: 9
@@ -264,8 +276,8 @@ TextureImporter:
       name: MIKU_SPECIAL_2_HEART_6
       rect:
         serializedVersion: 2
-        x: 3770
-        y: 683
+        x: 5079
+        y: 581
         width: 416
         height: 269
       alignment: 9
@@ -285,8 +297,8 @@ TextureImporter:
       name: MIKU_SPECIAL_2_HEART_7
       rect:
         serializedVersion: 2
-        x: 4339
-        y: 683
+        x: 5648
+        y: 581
         width: 371
         height: 269
       alignment: 9
@@ -306,8 +318,8 @@ TextureImporter:
       name: MIKU_SPECIAL_2_HEART_8
       rect:
         serializedVersion: 2
-        x: 4807
-        y: 683
+        x: 6114
+        y: 581
         width: 439
         height: 269
       alignment: 9
@@ -327,8 +339,8 @@ TextureImporter:
       name: MIKU_SPECIAL_2_HEART_9
       rect:
         serializedVersion: 2
-        x: 196
-        y: 152
+        x: 1504
+        y: 50
         width: 415
         height: 269
       alignment: 9
@@ -348,8 +360,8 @@ TextureImporter:
       name: MIKU_SPECIAL_2_HEART_10
       rect:
         serializedVersion: 2
-        x: 916
-        y: 152
+        x: 2226
+        y: 50
         width: 372
         height: 269
       alignment: 9
@@ -369,8 +381,8 @@ TextureImporter:
       name: MIKU_SPECIAL_2_HEART_11
       rect:
         serializedVersion: 2
-        x: 1490
-        y: 152
+        x: 2801
+        y: 50
         width: 438
         height: 269
       alignment: 9

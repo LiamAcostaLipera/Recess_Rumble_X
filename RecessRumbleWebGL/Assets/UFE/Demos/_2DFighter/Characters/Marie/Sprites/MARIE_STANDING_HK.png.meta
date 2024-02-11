@@ -99,7 +99,7 @@ TextureImporter:
     buildTarget: WebGL
     maxTextureSize: 4096
     resizeAlgorithm: 0
-    textureFormat: 12
+    textureFormat: 29
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -126,8 +126,8 @@ TextureImporter:
       name: MARIE_STANDING_HK_0
       rect:
         serializedVersion: 2
-        x: 28
-        y: 144
+        x: 24
+        y: 126
         width: 731
         height: 1708
       alignment: 9
@@ -147,8 +147,8 @@ TextureImporter:
       name: MARIE_STANDING_HK_1
       rect:
         serializedVersion: 2
-        x: 849
-        y: 145
+        x: 838
+        y: 129
         width: 717
         height: 1700
       alignment: 9
@@ -168,8 +168,8 @@ TextureImporter:
       name: MARIE_STANDING_HK_2
       rect:
         serializedVersion: 2
-        x: 1680
-        y: 149
+        x: 1659
+        y: 202
         width: 811
         height: 1682
       alignment: 9
@@ -189,8 +189,8 @@ TextureImporter:
       name: MARIE_STANDING_HK_3
       rect:
         serializedVersion: 2
-        x: 2573
-        y: 140
+        x: 2539
+        y: 123
         width: 1522
         height: 1717
       alignment: 9

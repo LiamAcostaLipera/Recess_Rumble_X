@@ -4,7 +4,9 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UFE3D;
-using UnityEngine.Analytics;
+using Unity.Services.Core;
+using Unity.Services.Analytics;
+
 
 public class Evento_LevelStart_Mode : MonoBehaviour
 {
@@ -29,8 +31,9 @@ public class Evento_LevelStart_Mode : MonoBehaviour
     public GameObject tagStage;
     private int levelindex1_valor;
 
-
-
+    //cartel extras
+    //public static bool MostrarCartelExtra = false;
+    //public GameObject ObjetivoCartel;
 
 
     //Modos
@@ -50,7 +53,11 @@ public class Evento_LevelStart_Mode : MonoBehaviour
 
 
 
-
+    void Start()
+    {
+        
+   //     ObjetivoCartel.SetActive(false);
+    }
 
 
     void Update()
@@ -62,6 +69,7 @@ public class Evento_LevelStart_Mode : MonoBehaviour
             Debug.Log(MODO);
             Check1PVP = false;
             
+
         }
 
         if (Check1PVCPU)
@@ -69,7 +77,8 @@ public class Evento_LevelStart_Mode : MonoBehaviour
             MODO = "PvsCPU";
             Debug.Log(MODO);
             Check1PVCPU = false;
-            
+           
+
         }
 
         if (Check1CPUVCPU)
@@ -77,13 +86,15 @@ public class Evento_LevelStart_Mode : MonoBehaviour
             MODO = "CPUvsCPU";
 			Debug.Log(MODO);
             Check1CPUVCPU = false;
-            
+           
+
         }
 		
 		if (Check1Story ){
             MODO = "StoryMode";
             Debug.Log(MODO);
             Check1Story = false;
+          
             
         }
 		
@@ -92,13 +103,25 @@ public class Evento_LevelStart_Mode : MonoBehaviour
             Debug.Log(MODO);
             Check1Training = false;
            
+
         }
-		
-		if(Check2){
-			Analytics.CustomEvent("mode_selected", new Dictionary<string, object>{
-			{"modo", MODO}  });
-			//Debug.Log(MODO);
-			Check2 = false;
+
+      //  if  (MostrarCartelExtra == true){
+      //      ObjetivoCartel.SetActive(true);
+
+      //  }
+        
+
+
+
+        if (Check2){
+            /*Analytics.CustomEvent("mode_selected", new Dictionary<string, object>{
+			{"modo", MODO}  });*/
+
+            AnalyticsService.Instance.CustomData("mode_selected", new Dictionary<string, object>{
+            {"modo", MODO}  });
+            //Debug.Log(MODO);
+            Check2 = false;
 		}
 
 		
@@ -162,13 +185,25 @@ public class Evento_LevelStart_Mode : MonoBehaviour
         AbrirMenu = true;
     }
 
+  //  public void DesactivarCartelExtra()
+  //  {
+   //     MostrarCartelExtra = false;
+   //     ObjetivoCartel.SetActive(false);
+   // }
+
+
 
     public void ver_controles_menu()
     {
         if (activadobotoncontrol == false)
         {
             string menu = "menu";
-            Analytics.CustomEvent("ver_controles_menu", new Dictionary<string, object>{
+            /*Analytics.CustomEvent("ver_controles_menu", new Dictionary<string, object>{
+        {"donde", menu}
+
+        });*/
+
+            AnalyticsService.Instance.CustomData("ver_controles_menu", new Dictionary<string, object>{
         {"donde", menu}
 
         });

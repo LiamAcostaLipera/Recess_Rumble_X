@@ -102,7 +102,7 @@ TextureImporter:
     buildTarget: WebGL
     maxTextureSize: 4096
     resizeAlgorithm: 0
-    textureFormat: 12
+    textureFormat: 29
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -177,8 +177,8 @@ TextureImporter:
       name: TARO_DEFEAT_0
       rect:
         serializedVersion: 2
-        x: 156
-        y: 135
+        x: 1251
+        y: 83
         width: 1380
         height: 1919
       alignment: 9
@@ -198,8 +198,8 @@ TextureImporter:
       name: TARO_DEFEAT_1
       rect:
         serializedVersion: 2
-        x: 1728
-        y: 143
+        x: 2824
+        y: 92
         width: 945
         height: 2027
       alignment: 9
@@ -219,8 +219,8 @@ TextureImporter:
       name: TARO_DEFEAT_2
       rect:
         serializedVersion: 2
-        x: 2919
-        y: 149
+        x: 4013
+        y: 98
         width: 769
         height: 2066
       alignment: 7
@@ -240,8 +240,8 @@ TextureImporter:
       name: TARO_DEFEAT_3
       rect:
         serializedVersion: 2
-        x: 4061
-        y: 121
+        x: 5158
+        y: 68
         width: 746
         height: 2144
       alignment: 7
@@ -261,8 +261,8 @@ TextureImporter:
       name: TARO_DEFEAT_4
       rect:
         serializedVersion: 2
-        x: 5185
-        y: 121
+        x: 6280
+        y: 72
         width: 745
         height: 2128
       alignment: 7

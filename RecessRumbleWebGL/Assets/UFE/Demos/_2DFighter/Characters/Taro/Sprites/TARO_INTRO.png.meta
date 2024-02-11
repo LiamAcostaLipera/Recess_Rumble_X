@@ -87,7 +87,7 @@ TextureImporter:
     buildTarget: WebGL
     maxTextureSize: 4096
     resizeAlgorithm: 0
-    textureFormat: 12
+    textureFormat: 29
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -162,8 +162,8 @@ TextureImporter:
       name: TARO_INTRO_0
       rect:
         serializedVersion: 2
-        x: 59
-        y: 2339
+        x: 526
+        y: 2228
         width: 468
         height: 1414
       alignment: 9
@@ -183,8 +183,8 @@ TextureImporter:
       name: TARO_INTRO_1
       rect:
         serializedVersion: 2
-        x: 1003
-        y: 2339
+        x: 1470
+        y: 2229
         width: 570
         height: 1414
       alignment: 9
@@ -204,8 +204,8 @@ TextureImporter:
       name: TARO_INTRO_2
       rect:
         serializedVersion: 2
-        x: 1999
-        y: 2336
+        x: 2468
+        y: 2227
         width: 604
         height: 1412
       alignment: 9
@@ -225,8 +225,8 @@ TextureImporter:
       name: TARO_INTRO_3
       rect:
         serializedVersion: 2
-        x: 3447
-        y: 2342
+        x: 3914
+        y: 2235
         width: 1369
         height: 1790
       alignment: 9
@@ -246,10 +246,10 @@ TextureImporter:
       name: TARO_INTRO_4
       rect:
         serializedVersion: 2
-        x: 5232
-        y: 2347
+        x: 5723
+        y: 2235
         width: 1741
-        height: 1824
+        height: 1840
       alignment: 9
       pivot: {x: 0.29979178, y: -0.000053004216}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -267,8 +267,8 @@ TextureImporter:
       name: TARO_INTRO_8
       rect:
         serializedVersion: 2
-        x: 5576
-        y: 144
+        x: 6044
+        y: 35
         width: 698
         height: 1386
       alignment: 9
@@ -288,8 +288,8 @@ TextureImporter:
       name: TARO_INTRO_5
       rect:
         serializedVersion: 2
-        x: 137
-        y: 137
+        x: 602
+        y: 30
         width: 2253
         height: 1871
       alignment: 9
@@ -309,8 +309,8 @@ TextureImporter:
       name: TARO_INTRO_6
       rect:
         serializedVersion: 2
-        x: 2802
-        y: 137
+        x: 3268
+        y: 30
         width: 1296
         height: 1321
       alignment: 9
@@ -330,8 +330,8 @@ TextureImporter:
       name: TARO_INTRO_7
       rect:
         serializedVersion: 2
-        x: 4291
-        y: 135
+        x: 4755
+        y: 30
         width: 1014
         height: 1321
       alignment: 9
@@ -351,8 +351,8 @@ TextureImporter:
       name: TARO_INTRO_9
       rect:
         serializedVersion: 2
-        x: 6498
-        y: 132
+        x: 6965
+        y: 25
         width: 705
         height: 1299
       alignment: 7

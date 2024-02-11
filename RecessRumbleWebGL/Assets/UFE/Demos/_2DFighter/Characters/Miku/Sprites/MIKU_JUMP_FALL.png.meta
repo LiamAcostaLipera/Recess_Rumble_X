@@ -105,12 +105,24 @@ TextureImporter:
     buildTarget: WebGL
     maxTextureSize: 4096
     resizeAlgorithm: 0
-    textureFormat: 12
+    textureFormat: 29
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -120,8 +132,8 @@ TextureImporter:
       name: MIKU_JUMP-UP_4
       rect:
         serializedVersion: 2
-        x: 4733
-        y: 109
+        x: 5330
+        y: 871
         width: 721
         height: 2337
       alignment: 7
@@ -141,8 +153,8 @@ TextureImporter:
       name: MIKU_JUMP-UP_5
       rect:
         serializedVersion: 2
-        x: 5765
-        y: 392
+        x: 6362
+        y: 1156
         width: 929
         height: 1044
       alignment: 7

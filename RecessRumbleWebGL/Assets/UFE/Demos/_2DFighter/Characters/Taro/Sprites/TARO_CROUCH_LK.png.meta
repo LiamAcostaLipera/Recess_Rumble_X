@@ -57,7 +57,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 102
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -99,7 +99,7 @@ TextureImporter:
     buildTarget: WebGL
     maxTextureSize: 4096
     resizeAlgorithm: 0
-    textureFormat: 12
+    textureFormat: 29
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -174,8 +174,8 @@ TextureImporter:
       name: TARO_CROUCH_LK_1
       rect:
         serializedVersion: 2
-        x: 1488
-        y: 60
+        x: 1833
+        y: 36
         width: 1735
         height: 1478
       alignment: 9
@@ -195,8 +195,8 @@ TextureImporter:
       name: TARO_CROUCH_LK_2
       rect:
         serializedVersion: 2
-        x: 3468
-        y: 89
+        x: 3816
+        y: 63
         width: 2012
         height: 1445
       alignment: 9
@@ -216,8 +216,8 @@ TextureImporter:
       name: TARO_CROUCH_LK_3
       rect:
         serializedVersion: 2
-        x: 5690
-        y: 60
+        x: 6032
+        y: 37
         width: 1742
         height: 1477
       alignment: 9

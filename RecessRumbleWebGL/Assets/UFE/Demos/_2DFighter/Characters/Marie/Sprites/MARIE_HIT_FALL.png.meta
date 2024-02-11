@@ -87,7 +87,7 @@ TextureImporter:
     buildTarget: WebGL
     maxTextureSize: 4096
     resizeAlgorithm: 0
-    textureFormat: 12
+    textureFormat: 29
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -162,8 +162,8 @@ TextureImporter:
       name: MARIE_HIT_FALL_0
       rect:
         serializedVersion: 2
-        x: 265
-        y: 535
+        x: 56
+        y: 316
         width: 885
         height: 560
       alignment: 7
@@ -183,8 +183,8 @@ TextureImporter:
       name: MARIE_HIT_FALL_3
       rect:
         serializedVersion: 2
-        x: 3122
-        y: 337
+        x: 2913
+        y: 117
         width: 799
         height: 585
       alignment: 7

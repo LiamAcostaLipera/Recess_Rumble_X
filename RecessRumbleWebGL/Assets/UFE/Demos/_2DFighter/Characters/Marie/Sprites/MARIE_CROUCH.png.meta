@@ -108,7 +108,7 @@ TextureImporter:
     buildTarget: WebGL
     maxTextureSize: 4096
     resizeAlgorithm: 0
-    textureFormat: 12
+    textureFormat: 29
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -123,8 +123,8 @@ TextureImporter:
       name: MARIE_CROUCH_1
       rect:
         serializedVersion: 2
-        x: 3015
-        y: 1904
+        x: 3612
+        y: 1852
         width: 937
         height: 1976
       alignment: 7
@@ -144,8 +144,8 @@ TextureImporter:
       name: MARIE_CROUCH_2
       rect:
         serializedVersion: 2
-        x: 4450
-        y: 1945
+        x: 5047
+        y: 1896
         width: 1044
         height: 1401
       alignment: 7

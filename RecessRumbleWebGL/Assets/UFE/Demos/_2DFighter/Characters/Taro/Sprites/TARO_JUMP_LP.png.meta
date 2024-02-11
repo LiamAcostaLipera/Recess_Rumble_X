@@ -96,7 +96,7 @@ TextureImporter:
     buildTarget: WebGL
     maxTextureSize: 4096
     resizeAlgorithm: 0
-    textureFormat: 12
+    textureFormat: 29
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -171,10 +171,10 @@ TextureImporter:
       name: TARO_JUMP_LP_0
       rect:
         serializedVersion: 2
-        x: 532
-        y: 2426
-        width: 807
-        height: 1359
+        x: 1819
+        y: 375
+        width: 808
+        height: 1361
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -192,10 +192,10 @@ TextureImporter:
       name: TARO_JUMP_LP_1
       rect:
         serializedVersion: 2
-        x: 2098
-        y: 2436
-        width: 1147
-        height: 1344
+        x: 3385
+        y: 384
+        width: 1151
+        height: 1348
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -213,10 +213,10 @@ TextureImporter:
       name: TARO_JUMP_LP_2
       rect:
         serializedVersion: 2
-        x: 3638
-        y: 2433
-        width: 1457
-        height: 1284
+        x: 4925
+        y: 382
+        width: 1460
+        height: 1287
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

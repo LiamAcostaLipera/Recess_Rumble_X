@@ -2,7 +2,8 @@
 using UnityEngine.UI;
 using System.Collections;
 using System.Collections.Generic;
-using UnityEngine.Analytics;
+using Unity.Services.Core;
+using Unity.Services.Analytics;
 
 public class Evento_VerControles : MonoBehaviour
 {
@@ -12,7 +13,12 @@ public class Evento_VerControles : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Analytics.CustomEvent("ver_controles", new Dictionary<string, object>{     
+        /*Analytics.CustomEvent("ver_controles", new Dictionary<string, object>{     
+        {"protagonista",  UFE.config.player1Character.characterName}
+
+        });*/
+
+        AnalyticsService.Instance.CustomData("ver_controles", new Dictionary<string, object>{
         {"protagonista",  UFE.config.player1Character.characterName}
 
         });

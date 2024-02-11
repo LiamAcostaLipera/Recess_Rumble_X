@@ -96,7 +96,7 @@ TextureImporter:
     buildTarget: WebGL
     maxTextureSize: 4096
     resizeAlgorithm: 0
-    textureFormat: 12
+    textureFormat: 29
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -171,8 +171,8 @@ TextureImporter:
       name: TARO_ESPECIAL-1_0
       rect:
         serializedVersion: 2
-        x: 369
-        y: 447
+        x: 1464
+        y: 215
         width: 1382
         height: 1622
       alignment: 9
@@ -192,8 +192,8 @@ TextureImporter:
       name: TARO_ESPECIAL-1_1
       rect:
         serializedVersion: 2
-        x: 2320
-        y: 393
+        x: 3416
+        y: 162
         width: 1198
         height: 1543
       alignment: 9
@@ -213,8 +213,8 @@ TextureImporter:
       name: TARO_ESPECIAL-1_2
       rect:
         serializedVersion: 2
-        x: 4195
-        y: 426
+        x: 5291
+        y: 192
         width: 1350
         height: 1581
       alignment: 9

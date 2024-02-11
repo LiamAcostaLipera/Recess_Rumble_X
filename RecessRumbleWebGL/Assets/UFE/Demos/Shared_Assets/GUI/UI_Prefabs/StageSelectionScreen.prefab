@@ -84,6 +84,7 @@ MonoBehaviour:
   screenshotStage: {fileID: 11400032}
   stopPreviousSoundEffectsOnLoad: 0
   delayBeforePlayingMusic: 0.1
+  botonMapa: {fileID: 11400036}
 --- !u!114 &4373836893154424288
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -101,6 +102,7 @@ MonoBehaviour:
   Panel: {fileID: 0}
   activadobotoncontrol: 0
   tagStage: {fileID: 0}
+  MODO: 
   tagEscenario: {fileID: 0}
 --- !u!1 &100002
 GameObject:

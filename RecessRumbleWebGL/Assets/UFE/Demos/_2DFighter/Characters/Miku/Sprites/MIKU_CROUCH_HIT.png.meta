@@ -14,6 +14,12 @@ TextureImporter:
   - first:
       213: 5865011219465011255
     second: MIKU_CROUCH_HK_3
+  - first:
+      213: -7906948290029462149
+    second: MIKU_CROUCH_HK_0
+  - first:
+      213: 3220658975630480052
+    second: MIKU_CROUCH_HK_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +105,7 @@ TextureImporter:
     buildTarget: WebGL
     maxTextureSize: 4096
     resizeAlgorithm: 0
-    textureFormat: 12
+    textureFormat: 29
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -126,10 +132,10 @@ TextureImporter:
       name: MIKU_CROUCH_HK_0
       rect:
         serializedVersion: 2
-        x: 123
-        y: 349
-        width: 949
-        height: 1544
+        x: 1343
+        y: 122
+        width: 961
+        height: 1546
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,8 +143,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1db67370a15fcf1e0800000000000000
-      internalID: -2162584228905653295
+      spriteID: b7d596b4c60e44290800000000000000
+      internalID: -7906948290029462149
       vertices: []
       indices: 
       edges: []
@@ -147,9 +153,9 @@ TextureImporter:
       name: MIKU_CROUCH_HK_3
       rect:
         serializedVersion: 2
-        x: 4570
-        y: 354
-        width: 942
+        x: 5791
+        y: 129
+        width: 945
         height: 1536
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -158,8 +164,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 73084e341a4b46150800000000000000
-      internalID: 5865011219465011255
+      spriteID: 4b2d029464412bc20800000000000000
+      internalID: 3220658975630480052
       vertices: []
       indices: 
       edges: []

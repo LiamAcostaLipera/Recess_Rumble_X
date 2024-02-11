@@ -2,7 +2,8 @@
 using UnityEngine.UI;
 using System.Collections.Generic;
 using FPLibrary;
-using UnityEngine.Analytics;
+using Unity.Services.Core;
+using Unity.Services.Analytics;
 
 public class DefaultStageSelectionScreen : StageSelectionScreen{
 	#region public instance properties
@@ -17,18 +18,23 @@ public class DefaultStageSelectionScreen : StageSelectionScreen{
 	public Image screenshotStage;
 	public bool stopPreviousSoundEffectsOnLoad = false;
 	public float delayBeforePlayingMusic = 0.1f;
+	public Button botonMapa;
 	#endregion
 
 	#region public instance methods
 	public void StageName(){ //ete lo hizo papá, pablo sampler
 	Debug.Log(nameStage.text);
 	string escenarioActual = nameStage.text;
-	Analytics.CustomEvent("stage_selected", new Dictionary<string, object>{
-			{"escenario", escenarioActual}  });
-	}
+        /*Analytics.CustomEvent("stage_selected", new Dictionary<string, object>{
+                {"escenario", escenarioActual}  });*/
+
+        AnalyticsService.Instance.CustomData("stage_selected", new Dictionary<string, object>{
+            {"escenario", escenarioActual}  });
+    }
 	public virtual void NextStage(){
 		if (this.moveCursorSound != null) UFE.PlaySound(this.moveCursorSound);
 		this.SetHoverIndex((this.stageHoverIndex + 1) % UFE.config.stages.Length);
+
 	}
 
 	public virtual void PreviousStage(){
@@ -53,6 +59,25 @@ public class DefaultStageSelectionScreen : StageSelectionScreen{
 				);
 			}
 		}
+
+        if (stageIndex == 8)
+        {
+			botonMapa.interactable = false;
+        }
+
+		else botonMapa.interactable = true;
+
+		Debug.Log("Index de mapa: " + stageIndex);
+
+		/*if(SaveData.BanosSave == 1)
+        {
+			int length = UFE.config.stages;
+			if (UFE.config.stages[4])
+            {
+
+            }
+
+		}*/
 	}
 	#endregion
 
@@ -74,6 +99,8 @@ public class DefaultStageSelectionScreen : StageSelectionScreen{
 			new UFEScreenExtensions.ActionCallback(this.TrySelectStage),
 			new UFEScreenExtensions.ActionCallback(this.TryDeselectStage)
 		);
+
+		
 	}
 
 	public override void OnShow (){

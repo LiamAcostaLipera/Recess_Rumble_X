@@ -3506,7 +3506,7 @@ MonoBehaviour:
     techable: 1
     resetHitAnimations: 1
     forceStand: 0
-    fixRotation: 1
+    fixRotation: 0
     armorBreaker: 0
     continuousHit: 0
     unblockable: 0
@@ -3705,8 +3705,8 @@ MonoBehaviour:
           _serializedValue: 0
     hitToggle: 1
     damageOptionsToggle: 1
-    hitStunOptionsToggle: 0
-    forceOptionsToggle: 0
+    hitStunOptionsToggle: 1
+    forceOptionsToggle: 1
     opponentForceToggle: 1
     selfForceToggle: 1
     stageReactionsToggle: 0

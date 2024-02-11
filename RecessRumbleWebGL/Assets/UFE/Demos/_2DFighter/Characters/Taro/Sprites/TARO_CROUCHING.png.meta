@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 90
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -103,9 +103,9 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
-    maxTextureSize: 4096
+    maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: 12
+    textureFormat: 29
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -168,8 +168,8 @@ TextureImporter:
       name: TARO_CROUCHING_0
       rect:
         serializedVersion: 2
-        x: 288
-        y: 357
+        x: 672
+        y: 131
         width: 1270
         height: 1779
       alignment: 7
@@ -189,8 +189,8 @@ TextureImporter:
       name: TARO_CROUCHING_1
       rect:
         serializedVersion: 2
-        x: 1946
-        y: 332
+        x: 2329
+        y: 105
         width: 1002
         height: 1370
       alignment: 7

@@ -2,7 +2,8 @@
 using UnityEngine.UI;
 using System;
 using System.Collections.Generic;
-using UnityEngine.Analytics;
+using Unity.Services.Core;
+using Unity.Services.Analytics;
 
 public class DefaultOptionsScreen : OptionsScreen{
 	#region public instance properties
@@ -271,11 +272,15 @@ public class DefaultOptionsScreen : OptionsScreen{
 				//	FIN ANALYTICS MUTE MENU PAUSA
 				}
 				base.ToggleMusic();
-			Analytics.CustomEvent("mute", new Dictionary<string, object>{
+            /*Analytics.CustomEvent("mute", new Dictionary<string, object>{
            			{"donde", locacionMuteo}
-			});
-			
-		}
+			});*/
+
+            AnalyticsService.Instance.CustomData("mute", new Dictionary<string, object>{
+                       {"donde", locacionMuteo}
+            });
+
+        }
 	}
 
 

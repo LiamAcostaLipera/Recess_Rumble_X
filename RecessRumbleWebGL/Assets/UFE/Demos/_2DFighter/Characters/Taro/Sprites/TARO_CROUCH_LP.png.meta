@@ -111,7 +111,7 @@ TextureImporter:
     buildTarget: WebGL
     maxTextureSize: 4096
     resizeAlgorithm: 0
-    textureFormat: 12
+    textureFormat: 29
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -174,8 +174,8 @@ TextureImporter:
       name: TARO_CROUCH_LP_1
       rect:
         serializedVersion: 2
-        x: 1608
-        y: 257
+        x: 2204
+        y: 226
         width: 971
         height: 1162
       alignment: 7
@@ -195,8 +195,8 @@ TextureImporter:
       name: TARO_CROUCH_LP_2
       rect:
         serializedVersion: 2
-        x: 2972
-        y: 266
+        x: 3567
+        y: 235
         width: 1234
         height: 1216
       alignment: 9
@@ -216,8 +216,8 @@ TextureImporter:
       name: TARO_CROUCH_LP_3
       rect:
         serializedVersion: 2
-        x: 4384
-        y: 257
+        x: 4979
+        y: 226
         width: 971
         height: 1162
       alignment: 7

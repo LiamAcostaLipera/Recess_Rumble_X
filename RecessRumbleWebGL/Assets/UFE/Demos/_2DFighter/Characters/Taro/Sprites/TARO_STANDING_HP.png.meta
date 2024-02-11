@@ -108,7 +108,7 @@ TextureImporter:
     buildTarget: WebGL
     maxTextureSize: 4096
     resizeAlgorithm: 0
-    textureFormat: 12
+    textureFormat: 29
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -183,8 +183,8 @@ TextureImporter:
       name: TARO_STANDING_HP_0
       rect:
         serializedVersion: 2
-        x: 370
-        y: 2824
+        x: 967
+        y: 2826
         width: 1284
         height: 1927
       alignment: 7
@@ -204,7 +204,7 @@ TextureImporter:
       name: TARO_STANDING_HP_1
       rect:
         serializedVersion: 2
-        x: 1990
+        x: 2592
         y: 2829
         width: 1185
         height: 1842
@@ -225,7 +225,7 @@ TextureImporter:
       name: TARO_STANDING_HP_2
       rect:
         serializedVersion: 2
-        x: 3472
+        x: 4068
         y: 2812
         width: 1160
         height: 1757
@@ -246,8 +246,8 @@ TextureImporter:
       name: TARO_STANDING_HP_3
       rect:
         serializedVersion: 2
-        x: 4959
-        y: 2814
+        x: 5553
+        y: 2815
         width: 1886
         height: 1714
       alignment: 9
@@ -267,7 +267,7 @@ TextureImporter:
       name: TARO_STANDING_HP_4
       rect:
         serializedVersion: 2
-        x: 673
+        x: 1270
         y: 549
         width: 1782
         height: 1714
@@ -288,8 +288,8 @@ TextureImporter:
       name: TARO_STANDING_HP_5
       rect:
         serializedVersion: 2
-        x: 2802
-        y: 515
+        x: 3398
+        y: 516
         width: 1184
         height: 1842
       alignment: 9
@@ -309,8 +309,8 @@ TextureImporter:
       name: TARO_STANDING_HP_6
       rect:
         serializedVersion: 2
-        x: 4786
-        y: 541
+        x: 5385
+        y: 540
         width: 1285
         height: 1926
       alignment: 9

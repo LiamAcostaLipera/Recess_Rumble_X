@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEngine.Analytics;
+using Unity.Services.Core;
+using Unity.Services.Analytics;
 using UnityEngine.UI;
 using UnityEngine;
 
@@ -36,8 +37,12 @@ public class ReviewManager : MonoBehaviour
     {
        if(stars != -1)
         {
-           Analytics.CustomEvent("calificacion", new Dictionary<string, object>{
-             {"nota", stars}
+            /*Analytics.CustomEvent("calificacion", new Dictionary<string, object>{
+              {"nota", stars}
+           });*/
+
+            AnalyticsService.Instance.CustomData("calificacion", new Dictionary<string, object>{
+             {"nota_float", stars}
           });
             Debug.Log( stars);
         }
@@ -111,10 +116,15 @@ public class ReviewManager : MonoBehaviour
     }
 
 	public void reviews(string protagonista, int cantidadStars){
-		//Debug.Log(protagonista+stars);
-		Analytics.CustomEvent("calificar_historia", new Dictionary<string, object>{
+        //Debug.Log(protagonista+stars);
+        /*Analytics.CustomEvent("calificar_historia", new Dictionary<string, object>{
             {"protagonista", protagonista},
             {"puntuacion", cantidadStars}
-            });
-	}
+            });*/
+
+        AnalyticsService.Instance.CustomData("calificar_historia", new Dictionary<string, object>{
+            {"protagonista", protagonista},
+            {"puntaje", cantidadStars}
+        });
+    }
 }

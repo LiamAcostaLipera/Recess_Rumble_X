@@ -99,12 +99,24 @@ TextureImporter:
     buildTarget: WebGL
     maxTextureSize: 4096
     resizeAlgorithm: 0
-    textureFormat: 12
+    textureFormat: 29
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -114,8 +126,8 @@ TextureImporter:
       name: MARIE_CROUCHING_LK_0
       rect:
         serializedVersion: 2
-        x: 39
-        y: 26
+        x: 1119
+        y: 171
         width: 1242
         height: 1145
       alignment: 7
@@ -135,8 +147,8 @@ TextureImporter:
       name: MARIE_CROUCHING_LK_1
       rect:
         serializedVersion: 2
-        x: 1435
-        y: 24
+        x: 2516
+        y: 174
         width: 1364
         height: 1155
       alignment: 9
@@ -156,8 +168,8 @@ TextureImporter:
       name: MARIE_CROUCHING_LK_2
       rect:
         serializedVersion: 2
-        x: 3084
-        y: 28
+        x: 4163
+        y: 178
         width: 1660
         height: 1130
       alignment: 9
@@ -177,8 +189,8 @@ TextureImporter:
       name: MARIE_CROUCHING_LK_3
       rect:
         serializedVersion: 2
-        x: 4881
-        y: 25
+        x: 5962
+        y: 175
         width: 979
         height: 1121
       alignment: 7

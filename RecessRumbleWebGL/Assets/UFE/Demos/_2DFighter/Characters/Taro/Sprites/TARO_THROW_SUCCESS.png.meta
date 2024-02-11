@@ -60,7 +60,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 90
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -114,7 +114,7 @@ TextureImporter:
     buildTarget: WebGL
     maxTextureSize: 4096
     resizeAlgorithm: 0
-    textureFormat: 12
+    textureFormat: 29
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -177,8 +177,8 @@ TextureImporter:
       name: TARO_THROW_3
       rect:
         serializedVersion: 2
-        x: 4072
-        y: 75
+        x: 4669
+        y: 44
         width: 1366
         height: 1890
       alignment: 9
@@ -198,8 +198,8 @@ TextureImporter:
       name: TARO_THROW_4
       rect:
         serializedVersion: 2
-        x: 5580
-        y: 81
+        x: 6176
+        y: 55
         width: 1263
         height: 1929
       alignment: 9

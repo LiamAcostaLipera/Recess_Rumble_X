@@ -105,7 +105,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 70
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -147,12 +147,24 @@ TextureImporter:
     buildTarget: WebGL
     maxTextureSize: 4096
     resizeAlgorithm: 0
-    textureFormat: 12
+    textureFormat: 29
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -162,10 +174,10 @@ TextureImporter:
       name: MIKU_SUPER_1
       rect:
         serializedVersion: 2
-        x: 634
-        y: 8716
-        width: 243
-        height: 273
+        x: 548
+        y: 7539
+        width: 210
+        height: 236
       alignment: 4
       pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -183,10 +195,10 @@ TextureImporter:
       name: MIKU_SUPER_2
       rect:
         serializedVersion: 2
-        x: 1112
-        y: 8615
-        width: 230
-        height: 476
+        x: 961
+        y: 7450
+        width: 198
+        height: 413
       alignment: 4
       pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -204,10 +216,10 @@ TextureImporter:
       name: MIKU_SUPER_3
       rect:
         serializedVersion: 2
-        x: 1557
-        y: 8567
-        width: 229
-        height: 571
+        x: 1346
+        y: 7409
+        width: 197
+        height: 494
       alignment: 4
       pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -225,10 +237,10 @@ TextureImporter:
       name: MIKU_SUPER_4
       rect:
         serializedVersion: 2
-        x: 2016
-        y: 8589
-        width: 229
-        height: 522
+        x: 1743
+        y: 7429
+        width: 198
+        height: 450
       alignment: 4
       pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -246,10 +258,10 @@ TextureImporter:
       name: MIKU_SUPER_5
       rect:
         serializedVersion: 2
-        x: 2465
-        y: 8589
-        width: 230
-        height: 522
+        x: 2131
+        y: 7429
+        width: 198
+        height: 451
       alignment: 4
       pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -267,10 +279,10 @@ TextureImporter:
       name: MIKU_SUPER_6
       rect:
         serializedVersion: 2
-        x: 2912
-        y: 8589
-        width: 265
-        height: 522
+        x: 2519
+        y: 7429
+        width: 227
+        height: 449
       alignment: 4
       pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -288,10 +300,10 @@ TextureImporter:
       name: MIKU_SUPER_7
       rect:
         serializedVersion: 2
-        x: 3444
-        y: 8162
-        width: 716
-        height: 1310
+        x: 2979
+        y: 7071
+        width: 619
+        height: 1121
       alignment: 4
       pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -309,10 +321,10 @@ TextureImporter:
       name: MIKU_SUPER_8
       rect:
         serializedVersion: 2
-        x: 4378
-        y: 8187
-        width: 2905
-        height: 1285
+        x: 3787
+        y: 7082
+        width: 2510
+        height: 1110
       alignment: 9
       pivot: {x: 0.10077268, y: 0.499066}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -331,9 +343,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 6778
-        width: 8000
-        height: 1298
+        y: 5867
+        width: 6919
+        height: 1119
       alignment: 9
       pivot: {x: 0.03649002, y: 0.49930707}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -352,9 +364,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 5363
-        width: 8000
-        height: 1299
+        y: 4646
+        width: 6919
+        height: 1118
       alignment: 9
       pivot: {x: 0.036407407, y: 0.49906328}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -373,9 +385,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 3970
-        width: 8000
-        height: 1298
+        y: 3433
+        width: 6919
+        height: 1122
       alignment: 9
       pivot: {x: 0.037429933, y: 0.5005654}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -394,9 +406,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 2970
-        width: 8000
-        height: 911
+        y: 2567
+        width: 6919
+        height: 791
       alignment: 9
       pivot: {x: 0.036292136, y: 0.45383573}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -415,9 +427,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 2341
-        width: 8000
-        height: 563
+        y: 2022
+        width: 6919
+        height: 490
       alignment: 9
       pivot: {x: 0.03640619, y: 0.44942734}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -436,9 +448,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 1670
-        width: 8000
-        height: 522
+        y: 1441
+        width: 6919
+        height: 455
       alignment: 9
       pivot: {x: 0.03623804, y: 0.49348164}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -456,10 +468,10 @@ TextureImporter:
       name: MIKU_SUPER_15
       rect:
         serializedVersion: 2
-        x: 286
-        y: 960
-        width: 7714
-        height: 570
+        x: 248
+        y: 814
+        width: 6671
+        height: 511
       alignment: 4
       pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -477,10 +489,10 @@ TextureImporter:
       name: MIKU_SUPER_16
       rect:
         serializedVersion: 2
-        x: 287
-        y: 160
-        width: 230
-        height: 571
+        x: 247
+        y: 139
+        width: 199
+        height: 495
       alignment: 4
       pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -498,10 +510,10 @@ TextureImporter:
       name: MIKU_SUPER_17
       rect:
         serializedVersion: 2
-        x: 731
-        y: 208
-        width: 230
-        height: 476
+        x: 632
+        y: 180
+        width: 200
+        height: 412
       alignment: 4
       pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -519,10 +531,10 @@ TextureImporter:
       name: MIKU_SUPER_18
       rect:
         serializedVersion: 2
-        x: 1170
-        y: 309
-        width: 243
-        height: 273
+        x: 1012
+        y: 268
+        width: 209
+        height: 236
       alignment: 4
       pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}

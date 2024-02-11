@@ -123,7 +123,7 @@ TextureImporter:
     buildTarget: WebGL
     maxTextureSize: 4096
     resizeAlgorithm: 0
-    textureFormat: 12
+    textureFormat: 29
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -138,8 +138,8 @@ TextureImporter:
       name: MARIE_CROUCH_IDLE_5
       rect:
         serializedVersion: 2
-        x: 42
-        y: 336
+        x: 639
+        y: 285
         width: 1242
         height: 1158
       alignment: 7
@@ -159,8 +159,8 @@ TextureImporter:
       name: MARIE_CROUCH_IDLE_6
       rect:
         serializedVersion: 2
-        x: 1430
-        y: 337
+        x: 2026
+        y: 286
         width: 1260
         height: 1148
       alignment: 9
@@ -180,8 +180,8 @@ TextureImporter:
       name: MARIE_CROUCH_IDLE_7
       rect:
         serializedVersion: 2
-        x: 2837
-        y: 337
+        x: 3433
+        y: 286
         width: 1261
         height: 1152
       alignment: 9
@@ -201,8 +201,8 @@ TextureImporter:
       name: MARIE_CROUCH_IDLE_8
       rect:
         serializedVersion: 2
-        x: 4255
-        y: 337
+        x: 4851
+        y: 285
         width: 1261
         height: 1148
       alignment: 9
@@ -222,8 +222,8 @@ TextureImporter:
       name: MARIE_CROUCH_IDLE_9
       rect:
         serializedVersion: 2
-        x: 5638
-        y: 337
+        x: 6233
+        y: 284
         width: 1255
         height: 1146
       alignment: 9

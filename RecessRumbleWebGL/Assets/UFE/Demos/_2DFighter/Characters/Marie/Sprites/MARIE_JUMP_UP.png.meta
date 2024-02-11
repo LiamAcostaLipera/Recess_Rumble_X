@@ -63,7 +63,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 90
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -117,7 +117,7 @@ TextureImporter:
     buildTarget: WebGL
     maxTextureSize: 4096
     resizeAlgorithm: 0
-    textureFormat: 12
+    textureFormat: 29
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -132,8 +132,8 @@ TextureImporter:
       name: MARIE_JUMP_0
       rect:
         serializedVersion: 2
-        x: 274
-        y: 345
+        x: 242
+        y: 1077
         width: 832
         height: 1903
       alignment: 7
@@ -153,8 +153,8 @@ TextureImporter:
       name: MARIE_JUMP_1
       rect:
         serializedVersion: 2
-        x: 1466
-        y: 383
+        x: 1438
+        y: 1117
         width: 945
         height: 1479
       alignment: 7
@@ -174,8 +174,8 @@ TextureImporter:
       name: MARIE_JUMP_2
       rect:
         serializedVersion: 2
-        x: 2875
-        y: 198
+        x: 2846
+        y: 933
         width: 899
         height: 1544
       alignment: 7

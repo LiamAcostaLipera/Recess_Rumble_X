@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Marie
   m_EditorClassIdentifier: 
   gameplayType: 0
-  profilePictureSmall: {fileID: 2800000, guid: 8b27f797547bede488115b7e07d42fad, type: 3}
+  profilePictureSmall: {fileID: 2800000, guid: 93f1169ec4aecf94db135a5b98be4671, type: 3}
   profilePictureBig: {fileID: 2800000, guid: 7fa68a415926f9642930ac443f209daf, type: 3}
   characterName: MARIE
   gender: 2

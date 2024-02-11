@@ -99,7 +99,7 @@ TextureImporter:
     buildTarget: WebGL
     maxTextureSize: 4096
     resizeAlgorithm: 0
-    textureFormat: 12
+    textureFormat: 29
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -114,8 +114,8 @@ TextureImporter:
       name: MIKU_STAND_UP_0
       rect:
         serializedVersion: 2
-        x: 256
-        y: 78
+        x: 1097
+        y: 30
         width: 1798
         height: 456
       alignment: 7
@@ -135,8 +135,8 @@ TextureImporter:
       name: MIKU_STAND_UP_1
       rect:
         serializedVersion: 2
-        x: 2282
-        y: 125
+        x: 3123
+        y: 75
         width: 1397
         height: 925
       alignment: 7
@@ -156,8 +156,8 @@ TextureImporter:
       name: MIKU_STAND_UP_2
       rect:
         serializedVersion: 2
-        x: 4102
-        y: 191
+        x: 4945
+        y: 143
         width: 731
         height: 1211
       alignment: 7
@@ -177,8 +177,8 @@ TextureImporter:
       name: MIKU_STAND_UP_3
       rect:
         serializedVersion: 2
-        x: 5295
-        y: 186
+        x: 6142
+        y: 138
         width: 1096
         height: 1857
       alignment: 7

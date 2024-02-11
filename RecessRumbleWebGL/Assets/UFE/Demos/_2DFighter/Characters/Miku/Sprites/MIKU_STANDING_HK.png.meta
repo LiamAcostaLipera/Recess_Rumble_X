@@ -45,7 +45,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 70
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -87,12 +87,24 @@ TextureImporter:
     buildTarget: WebGL
     maxTextureSize: 4096
     resizeAlgorithm: 0
-    textureFormat: 12
+    textureFormat: 29
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -102,10 +114,10 @@ TextureImporter:
       name: MIKU_STANDING_HK_0
       rect:
         serializedVersion: 2
-        x: 705
-        y: 490
-        width: 739
-        height: 1571
+        x: 481
+        y: 506
+        width: 505
+        height: 1071
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -123,10 +135,10 @@ TextureImporter:
       name: MIKU_STANDING_HK_1
       rect:
         serializedVersion: 2
-        x: 1649
-        y: 490
-        width: 1210
-        height: 1519
+        x: 1125
+        y: 506
+        width: 825
+        height: 1035
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -144,10 +156,10 @@ TextureImporter:
       name: MIKU_STANDING_HK_2
       rect:
         serializedVersion: 2
-        x: 3083
-        y: 490
-        width: 949
-        height: 1457
+        x: 2104
+        y: 504
+        width: 648
+        height: 995
       alignment: 9
       pivot: {x: 0.45954856, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -165,10 +177,10 @@ TextureImporter:
       name: MIKU_STANDING_HK_4
       rect:
         serializedVersion: 2
-        x: 5605
-        y: 490
-        width: 1280
-        height: 1268
+        x: 4834
+        y: 501
+        width: 813
+        height: 859
       alignment: 9
       pivot: {x: 0.4400181, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -186,10 +198,10 @@ TextureImporter:
       name: MIKU_STANDING_HK_5
       rect:
         serializedVersion: 2
-        x: 7079
-        y: 486
-        width: 1195
-        height: 1258
+        x: 5826
+        y: 503
+        width: 530
+        height: 976
       alignment: 9
       pivot: {x: 0.4518138, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -207,10 +219,10 @@ TextureImporter:
       name: MIKU_STANDING_HK_6
       rect:
         serializedVersion: 2
-        x: 8529
-        y: 488
-        width: 782
-        height: 1428
+        x: 6565
+        y: 500
+        width: 461
+        height: 977
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -228,10 +240,10 @@ TextureImporter:
       name: MIKU_STANDING_HK_7
       rect:
         serializedVersion: 2
-        x: 9619
-        y: 484
-        width: 672
-        height: 1429
+        x: 7267
+        y: 501
+        width: 607
+        height: 1034
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

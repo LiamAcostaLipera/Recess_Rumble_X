@@ -66,7 +66,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 80
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -108,12 +108,24 @@ TextureImporter:
     buildTarget: WebGL
     maxTextureSize: 4096
     resizeAlgorithm: 0
-    textureFormat: 12
+    textureFormat: 29
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -123,10 +135,10 @@ TextureImporter:
       name: JUN_THROW_ATTEMPT_SUCESS_4
       rect:
         serializedVersion: 2
-        x: 5311
-        y: 219
-        width: 1110
-        height: 1544
+        x: 4349
+        y: 159
+        width: 873
+        height: 1267
       alignment: 9
       pivot: {x: 0.26417908, y: 0.0011939607}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -144,10 +156,10 @@ TextureImporter:
       name: JUN_THROW_ATTEMPT_SUCESS_5
       rect:
         serializedVersion: 2
-        x: 6517
-        y: 224
-        width: 865
-        height: 1416
+        x: 5338
+        y: 164
+        width: 710
+        height: 1162
       alignment: 9
       pivot: {x: 0.3295125, y: -0.0013018355}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -165,10 +177,10 @@ TextureImporter:
       name: JUN_THROW_ATTEMPT_SUCESS_6
       rect:
         serializedVersion: 2
-        x: 7484
-        y: 203
-        width: 760
-        height: 1479
+        x: 6129
+        y: 148
+        width: 626
+        height: 1212
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -186,10 +198,10 @@ TextureImporter:
       name: JUN_THROW_ATTEMPT_SUCESS_7
       rect:
         serializedVersion: 2
-        x: 8331
-        y: 229
-        width: 914
-        height: 1128
+        x: 6824
+        y: 167
+        width: 749
+        height: 928
       alignment: 9
       pivot: {x: 0.6443058, y: -0.0011576388}
       border: {x: 0, y: 0, z: 0, w: 0}

@@ -102,12 +102,24 @@ TextureImporter:
     buildTarget: WebGL
     maxTextureSize: 4096
     resizeAlgorithm: 0
-    textureFormat: 12
+    textureFormat: 29
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -117,8 +129,8 @@ TextureImporter:
       name: MARIE_STANDING_HP_0
       rect:
         serializedVersion: 2
-        x: 243
-        y: 130
+        x: 553
+        y: 86
         width: 767
         height: 1827
       alignment: 7
@@ -138,8 +150,8 @@ TextureImporter:
       name: MARIE_STANDING_HP_1
       rect:
         serializedVersion: 2
-        x: 1341
-        y: 154
+        x: 1652
+        y: 107
         width: 1334
         height: 1759
       alignment: 9
@@ -159,8 +171,8 @@ TextureImporter:
       name: MARIE_STANDING_HP_2
       rect:
         serializedVersion: 2
-        x: 2881
-        y: 153
+        x: 3191
+        y: 107
         width: 1483
         height: 1860
       alignment: 9
@@ -180,8 +192,8 @@ TextureImporter:
       name: MARIE_STANDING_HP_3
       rect:
         serializedVersion: 2
-        x: 4640
-        y: 164
+        x: 4947
+        y: 117
         width: 1482
         height: 1917
       alignment: 9
@@ -201,8 +213,8 @@ TextureImporter:
       name: MARIE_STANDING_HP_4
       rect:
         serializedVersion: 2
-        x: 6460
-        y: 129
+        x: 6771
+        y: 84
         width: 970
         height: 1758
       alignment: 7
