@@ -2,12 +2,12 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
 #
-/RecessRumbleWebGL/[Ll]ibrary/
+/RecessRumbleWebGL/Library/
 /RecessRumbleWebGL/[Tt]emp/
-/RecessRumbleWebGL/[Oo]bj/
+/RecessRumbleWebGL/obj/
 /RecessRumbleWebGL/[Bb]uild/
 /RecessRumbleWebGL/[Bb]uilds/
-/RecessRumbleWebGL/[Ll]ogs/
+/RecessRumbleWebGL/Logs/
 /RecessRumbleWebGL/[Mm]emoryCaptures/
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
@@ -20,7 +20,7 @@
 [Aa]ssets/Plugins/Editor/JetBrains*
 
 # Visual Studio cache directory
-.vs/
+/RecessRumbleWebGL/.vs/
 
 # Gradle cache directory
 .gradle/
