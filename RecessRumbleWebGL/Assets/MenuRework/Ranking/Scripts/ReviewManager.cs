@@ -41,6 +41,14 @@ public class ReviewManager : MonoBehaviour
               {"nota", stars}
            });*/
 
+            CustomEvent calificacion = new CustomEvent("calificacion")
+            {
+                { "Nota", stars}
+
+            };
+
+            AnalyticsService.Instance.RecordEvent(calificacion);
+
             AnalyticsService.Instance.CustomData("calificacion", new Dictionary<string, object>{
              {"nota_float", stars}
           });
@@ -121,6 +129,15 @@ public class ReviewManager : MonoBehaviour
             {"protagonista", protagonista},
             {"puntuacion", cantidadStars}
             });*/
+
+        CustomEvent calificarhistoria = new CustomEvent("calificar_historia")
+            {
+                {"protagonista", protagonista},
+                {"puntaje", cantidadStars}
+
+            };
+
+        AnalyticsService.Instance.RecordEvent(calificarhistoria);
 
         AnalyticsService.Instance.CustomData("calificar_historia", new Dictionary<string, object>{
             {"protagonista", protagonista},

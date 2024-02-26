@@ -404,12 +404,25 @@ public class DefaultBattleGUI : BattleGUI{
 				{"modo", modo}
 		});*/
 
-        AnalyticsService.Instance.CustomData("level_start", new Dictionary<string, object>{
+        /*AnalyticsService.Instance.CustomData("level_start", new Dictionary<string, object>{
                 {"queNivel", levelStartIndex},
                 {"protagonista", UFE.config.player1Character.characterName},
                 {"enemigo", UFE.config.player2Character.characterName},
                 {"modo", modo}
-        });
+        });*/
+
+        CustomEvent levelstart = new CustomEvent("level_start")
+    {
+				{"queNivel", levelStartIndex},
+                {"protagonista", UFE.config.player1Character.characterName},
+                {"enemigo", UFE.config.player2Character.characterName},
+                {"modo", modo}
+
+    };
+		print("Eventolevelstart" + UFE.config.player1Character.characterName);
+        AnalyticsService.Instance.RecordEvent(levelstart);
+
+
         //Debug.Log("level_start: level_index=" + levelStartIndex + " protagonista=" + UFE.config.player1Character.characterName + " enemigo=" + UFE.config.player2Character.characterName + " modo=" + modo); 
 
         /* QueNivel(this.player1GUI.name.text, this.player2GUI.name.text)+ */
@@ -847,13 +860,24 @@ public class DefaultBattleGUI : BattleGUI{
 
                 });*/
 
-                    AnalyticsService.Instance.CustomData("level_complete", new Dictionary<string, object>{
+                    /* viejo   AnalyticsService.Instance.CustomData("level_complete", new Dictionary<string, object>{
                             {"queNivel", levelIndexComplete},
                             {"protagonista", this.player1GUI.name.text},                          
                             {"enemigo", this.player2GUI.name.text},
                             {"modo", modoLevelComplete}
 
-                        });
+                        });*/
+
+                    CustomEvent levelcomplete = new CustomEvent ("level_complete")
+    {
+							{"queNivel", levelIndexComplete},
+                            {"protagonista", this.player1GUI.name.text},
+                            {"enemigo", this.player2GUI.name.text},
+                            {"modo", modoLevelComplete}
+
+    };
+					print("EventoLevelComplete");
+                    AnalyticsService.Instance.RecordEvent(levelcomplete);
 
 
 
@@ -890,13 +914,25 @@ public class DefaultBattleGUI : BattleGUI{
 							{"rondas",  UFE.config.currentRound},
 						});*/
 
-                    AnalyticsService.Instance.CustomData("game_over", new Dictionary<string, object>{
+                    /*AnalyticsService.Instance.CustomData("game_over", new Dictionary<string, object>{
                             {"queNivel", levelindexGameOver},
                             {"protagonista", this.player1GUI.name.text},
                             {"enemigo", this.player2GUI.name.text},
                             {"modo", modoGameOver},
                             {"numRondas",  UFE.config.currentRound},
-                        });
+                        });*/
+
+                    CustomEvent gameover = new CustomEvent("game_over")
+    {
+							{"queNivel", levelindexGameOver},
+                            {"protagonista", this.player1GUI.name.text},
+                            {"enemigo", this.player2GUI.name.text},
+                            {"modo", modoGameOver},
+                            {"numRondas",  UFE.config.currentRound},
+
+    };
+
+                    AnalyticsService.Instance.RecordEvent(gameover);
 
                     /*Debug.Log("Personaje1 Elegido= " + this.player1GUI.name.text);
                     Debug.Log("Personaje1 Elegido= " + this.player1GUI.name.text);
@@ -913,7 +949,7 @@ public class DefaultBattleGUI : BattleGUI{
 
 
                 }
-			}
+            }
 
 
 

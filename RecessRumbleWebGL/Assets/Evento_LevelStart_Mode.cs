@@ -118,6 +118,14 @@ public class Evento_LevelStart_Mode : MonoBehaviour
             /*Analytics.CustomEvent("mode_selected", new Dictionary<string, object>{
 			{"modo", MODO}  });*/
 
+            CustomEvent modeSelected = new CustomEvent("mode_selected")
+            {
+                {"modo", MODO}
+
+            };
+
+            AnalyticsService.Instance.RecordEvent(modeSelected);
+
             AnalyticsService.Instance.CustomData("mode_selected", new Dictionary<string, object>{
             {"modo", MODO}  });
             //Debug.Log(MODO);
@@ -203,10 +211,18 @@ public class Evento_LevelStart_Mode : MonoBehaviour
 
         });*/
 
-            AnalyticsService.Instance.CustomData("ver_controles_menu", new Dictionary<string, object>{
+            /*AnalyticsService.Instance.CustomData("ver_controles_menu", new Dictionary<string, object>{
         {"donde", menu}
 
-        });
+        });*/
+
+            CustomEvent controlesMenu = new CustomEvent("ver_controles_menu")
+            {
+                {"donde", menu}
+
+            };
+
+            AnalyticsService.Instance.RecordEvent(controlesMenu);
 
             activadobotoncontrol = true;
         }

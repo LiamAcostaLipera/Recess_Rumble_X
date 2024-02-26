@@ -24,18 +24,18 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   selectedStage:
-    stageName: DISTRITO
+    stageName: 'CAFE '
     stageLoadingMethod: 0
     stagePath: 
-    screenshot: {fileID: 2800000, guid: 0206f7788a936504ea9fef227be03587, type: 3}
-    prefab: {fileID: 100000, guid: e76a2ddcb709d734b8e263d0d9ada407, type: 3}
-    music: {fileID: 0}
+    screenshot: {fileID: 2800000, guid: dd7c0aa0614877247a9787cfd1400696, type: 3}
+    prefab: {fileID: 100000, guid: c2d36dd548fde94418ef797470477ee5, type: 3}
+    music: {fileID: 8300000, guid: 5acb7f152e0ac8841a8d942a31affc76, type: 3}
     _groundFriction:
-      _serializedValue: 429496729600
+      _serializedValue: 515396075520
     _leftBoundary:
-      _serializedValue: -51539607552
+      _serializedValue: -68719476736
     _rightBoundary:
-      _serializedValue: 51539607552
+      _serializedValue: 73014444032
     position:
       x:
         _serializedValue: 0
@@ -197,7 +197,7 @@ MonoBehaviour:
               type: 3}
             opponentCharacterIndex: 8
             possibleStagesIndexes: 00000000
-          showOpponentsInEditor: 1
+          showOpponentsInEditor: 0
         showStoryInEditor: 0
       - opening: {fileID: 0}
         ending: {fileID: 0}
@@ -252,7 +252,7 @@ MonoBehaviour:
             opponentCharacterIndex: 8
             possibleStagesIndexes: 00000000
           showOpponentsInEditor: 1
-        showStoryInEditor: 1
+        showStoryInEditor: 0
       - opening: {fileID: 0}
         ending: {fileID: 0}
         fightsGroups:
@@ -279,7 +279,7 @@ MonoBehaviour:
             opponentCharacterIndex: 8
             possibleStagesIndexes: 00000000
           showOpponentsInEditor: 1
-        showStoryInEditor: 1
+        showStoryInEditor: 0
       - opening: {fileID: 0}
         ending: {fileID: 0}
         fightsGroups: []
@@ -1876,9 +1876,9 @@ MonoBehaviour:
     enableNetworkSyncTest: 0
     synchronizationMessageFrequency: 2
     synchronizationAction: 1
-  music: 0
+  music: 1
   musicVolume: 1
-  soundfx: 0
+  soundfx: 1
   soundfxVolume: 1
   colorStateOne: {r: 1, g: 0, b: 0, a: 1}
   colorIsHit: {r: 1, g: 0, b: 1, a: 1}

@@ -27,6 +27,14 @@ public class DefaultStageSelectionScreen : StageSelectionScreen{
 	string escenarioActual = nameStage.text;
         /*Analytics.CustomEvent("stage_selected", new Dictionary<string, object>{
                 {"escenario", escenarioActual}  });*/
+        CustomEvent stageselected = new CustomEvent("stage_selected")
+        {
+			{"escenario", escenarioActual}
+
+        };
+
+        AnalyticsService.Instance.RecordEvent(stageselected);
+
 
         AnalyticsService.Instance.CustomData("stage_selected", new Dictionary<string, object>{
             {"escenario", escenarioActual}  });

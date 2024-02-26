@@ -6,9 +6,9 @@ using UFE3D;
 using UnityEngine.Analytics;
 
 public class DefaultCharacterSelectionScreen : CharacterSelectionScreen {
-	
+
 	#region public enum definitions
-	public enum DisplayMode{
+	public enum DisplayMode {
 		CharacterPortrait,
 		CharacterGameObject,
 	}
@@ -16,7 +16,7 @@ public class DefaultCharacterSelectionScreen : CharacterSelectionScreen {
 	#endregion
 
 	#region public instance fields
-	
+
 	public AudioClip moveCursorSound;
 	public AudioClip onLoadSound;
 	public AudioClip music;
@@ -26,10 +26,10 @@ public class DefaultCharacterSelectionScreen : CharacterSelectionScreen {
 	public Text namePlayer2;
 	public DisplayMode displayMode = DisplayMode.CharacterPortrait;
 	public Image portraitPlayer1;
-	public Image portraitPlayer2;
+    public Image portraitPlayer2;
 	public GameObject background3dPrefab;
-	public Vector3 positionPlayer1 = new Vector3(-4,0,0);
-	public Vector3 positionPlayer2 = new Vector3(4,0,0);
+	public Vector3 positionPlayer1 = new Vector3(-4, 0, 0);
+	public Vector3 positionPlayer2 = new Vector3(4, 0, 0);
 	public Image[] characters;
 	public Animator hudPlayer1;
 	public Animator hudPlayer2;
@@ -44,7 +44,7 @@ public class DefaultCharacterSelectionScreen : CharacterSelectionScreen {
 	// VARIABLES DE MARIECHROMA
 	public static bool DesbloquearMarieChroma;
 	public int IndexMarieChroma;
-    public Image CharacterMARIECHROMA;
+	public Image CharacterMARIECHROMA;
 
 	//VARIABLES DE MIKU
 	public static bool DesbloquearMikuChroma;
@@ -68,14 +68,14 @@ public class DefaultCharacterSelectionScreen : CharacterSelectionScreen {
 	public static int MikuChroma_On_Off;
 	public static int TaroChroma_On_Off;
 
-    void Start()
-    {
+	void Start()
+	{
 		JunChroma_On_Off = SaveData.JunChromaSave;
 		MarieChroma_On_Off = SaveData.MarieChromaSave;
 		MikuChroma_On_Off = SaveData.MikuChromaSave;
 		TaroChroma_On_Off = SaveData.TaroChromaSave;
 	}
-	
+
 
 
 
@@ -100,26 +100,26 @@ public class DefaultCharacterSelectionScreen : CharacterSelectionScreen {
 		IDictionary<InputReferences, InputEvents> player1CurrentInputs,
 		IDictionary<InputReferences, InputEvents> player2PreviousInputs,
 		IDictionary<InputReferences, InputEvents> player2CurrentInputs
-	){
+	) {
 		base.DoFixedUpdate(player1PreviousInputs, player1CurrentInputs, player2PreviousInputs, player2CurrentInputs);
 
-		if (UFE.gameMode != GameMode.StoryMode && !UFE.GetCPU(2)){
+		if (UFE.gameMode != GameMode.StoryMode && !UFE.GetCPU(2)) {
 			// If both characters will be controlled by human players...
 			this.SpecialNavigationSystem(
 				player1PreviousInputs
-				, 
+				,
 				player1CurrentInputs
 				,
 				new UFEScreenExtensions.MoveCursorCallback(
-				delegate(
-					Fix64 horizontalAxis, 
-					Fix64 verticalAxis, 
-					bool horizontalAxisDown, 
-					bool verticalAxisDown, 
-					bool confirmButtonDown, 
-					bool cancelButtonDown, 
+				delegate (
+					Fix64 horizontalAxis,
+					Fix64 verticalAxis,
+					bool horizontalAxisDown,
+					bool verticalAxisDown,
+					bool confirmButtonDown,
+					bool cancelButtonDown,
 					AudioClip sound
-				){
+				) {
 					this.MoveCursor(
 						1,
 						horizontalAxis,
@@ -132,30 +132,30 @@ public class DefaultCharacterSelectionScreen : CharacterSelectionScreen {
 					);
 				})
 				,
-				new UFEScreenExtensions.ActionCallback(delegate(AudioClip sound){
+				new UFEScreenExtensions.ActionCallback(delegate (AudioClip sound) {
 					this.TrySelectCharacter(this.p1HoverIndex, 1);
 				})
 				,
-				new UFEScreenExtensions.ActionCallback(delegate(AudioClip sound){
+				new UFEScreenExtensions.ActionCallback(delegate (AudioClip sound) {
 					this.TryDeselectCharacter(1);
 				})
 			);
 
-			this.SpecialNavigationSystem( 
+			this.SpecialNavigationSystem(
 				player2PreviousInputs
-				, 
+				,
 				player2CurrentInputs
 				,
 				new UFEScreenExtensions.MoveCursorCallback(
-				delegate(
-					Fix64 horizontalAxis, 
-					Fix64 verticalAxis, 
-					bool horizontalAxisDown, 
-					bool verticalAxisDown, 
-					bool confirmButtonDown, 
-					bool cancelButtonDown, 
+				delegate (
+					Fix64 horizontalAxis,
+					Fix64 verticalAxis,
+					bool horizontalAxisDown,
+					bool verticalAxisDown,
+					bool confirmButtonDown,
+					bool cancelButtonDown,
 					AudioClip sound
-				){
+				) {
 					this.MoveCursor(
 						2,
 						horizontalAxis,
@@ -168,30 +168,30 @@ public class DefaultCharacterSelectionScreen : CharacterSelectionScreen {
 					);
 				})
 				,
-				new UFEScreenExtensions.ActionCallback(delegate(AudioClip sound){
+				new UFEScreenExtensions.ActionCallback(delegate (AudioClip sound) {
 					this.TrySelectCharacter(this.p2HoverIndex, 2);
 				})
 				,
-				new UFEScreenExtensions.ActionCallback(delegate(AudioClip sound){
+				new UFEScreenExtensions.ActionCallback(delegate (AudioClip sound) {
 					this.TryDeselectCharacter(2);
 				})
 			);
-		}else{
+		} else {
 			// If at least one characters will be controlled by the CPU...
 			this.SpecialNavigationSystem(
 				player1PreviousInputs
-				, 
+				,
 				player1CurrentInputs
 				,
-				new UFEScreenExtensions.MoveCursorCallback(delegate(
-					Fix64 horizontalAxis, 
-					Fix64 verticalAxis, 
-					bool horizontalAxisDown, 
-					bool verticalAxisDown, 
-					bool confirmButtonDown, 
-					bool cancelButtonDown, 
+				new UFEScreenExtensions.MoveCursorCallback(delegate (
+					Fix64 horizontalAxis,
+					Fix64 verticalAxis,
+					bool horizontalAxisDown,
+					bool verticalAxisDown,
+					bool confirmButtonDown,
+					bool cancelButtonDown,
 					AudioClip sound
-				){
+				) {
 					this.MoveCursor(
 						UFE.config.player1Character == null ? 1 : 2,
 						horizontalAxis,
@@ -212,219 +212,220 @@ public class DefaultCharacterSelectionScreen : CharacterSelectionScreen {
 
 		// DESBLOQUEAR A JUN
 
-			if (JunChroma_On_Off == 1)
-			{
-				DesbloquearJunChroma = true;
-				CharacterJUNCHROMA.gameObject.SetActive(true);
-			}
-			if (JunChroma_On_Off == 0)
-			{
-				DesbloquearJunChroma = false;
-				CharacterJUNCHROMA.gameObject.SetActive(false);
-			}
-        // DESBLOQUEAR A MARIE
+		if (JunChroma_On_Off == 1)
+		{
+			DesbloquearJunChroma = true;
+			CharacterJUNCHROMA.gameObject.SetActive(true);
+		}
+		if (JunChroma_On_Off == 0)
+		{
+			DesbloquearJunChroma = false;
+			CharacterJUNCHROMA.gameObject.SetActive(false);
+		}
+		// DESBLOQUEAR A MARIE
 
-			if (MarieChroma_On_Off == 1)
-			 {
+		if (MarieChroma_On_Off == 1)
+		{
 			DesbloquearMarieChroma = true;
 			CharacterMARIECHROMA.gameObject.SetActive(true);
-			 }
-			if (MarieChroma_On_Off == 0)
-			{
+		}
+		if (MarieChroma_On_Off == 0)
+		{
 			DesbloquearMarieChroma = false;
 			CharacterMARIECHROMA.gameObject.SetActive(false);
-			}
+		}
 		// DESBLOQUEAR A MIKU
 
-			if (MikuChroma_On_Off == 1)
-			{
-				DesbloquearMikuChroma = true;
-				CharacterMIKUCHROMA.gameObject.SetActive(true);
-			}
-			if (MikuChroma_On_Off == 0)
-			{
-				DesbloquearMikuChroma = false;
-				CharacterMIKUCHROMA.gameObject.SetActive(false);
-			}
+		if (MikuChroma_On_Off == 1)
+		{
+			DesbloquearMikuChroma = true;
+			CharacterMIKUCHROMA.gameObject.SetActive(true);
+		}
+		if (MikuChroma_On_Off == 0)
+		{
+			DesbloquearMikuChroma = false;
+			CharacterMIKUCHROMA.gameObject.SetActive(false);
+		}
 
 		// DESBLOQUEAR A TARO
 
-			if (TaroChroma_On_Off == 1)
-			{
+		if (TaroChroma_On_Off == 1)
+		{
 			DesbloquearTaroChroma = true;
 			CharacterTAROCHROMA.gameObject.SetActive(true);
-			}
-			if (TaroChroma_On_Off == 0)
-			{
+		}
+		if (TaroChroma_On_Off == 0)
+		{
 			DesbloquearTaroChroma = false;
 			CharacterTAROCHROMA.gameObject.SetActive(false);
-			}
-
-
-
-
 		}
 
-	public override void SetHoverIndex(int player, int characterIndex){
-		if (!this.closing){
+
+
+
+	}
+
+	public override void SetHoverIndex(int player, int characterIndex) {
+		if (!this.closing) {
 			int maxCharacterIndex = this.GetMaxCharacterIndex();
 			this.p1HoverIndex = Mathf.Clamp(this.p1HoverIndex, 0, maxCharacterIndex);
 			this.p2HoverIndex = Mathf.Clamp(this.p2HoverIndex, 0, maxCharacterIndex);
 			base.SetHoverIndex(player, characterIndex);
 
-			if (characterIndex >= 0 && characterIndex <= maxCharacterIndex){
+			if (characterIndex >= 0 && characterIndex <= maxCharacterIndex) {
 				UFE3D.CharacterInfo character = this.selectableCharacters[characterIndex];
 
 				// First, update the big portrait or the character 3D model (depending on the Display Mode)
-				if (player == 1){
-					if (this.namePlayer1 != null){
+				if (player == 1) {
+					if (this.namePlayer1 != null) {
 						this.namePlayer1.text = character.characterName;
-						
+
 					}
 
-					if (this.displayMode == DisplayMode.CharacterPortrait){
-						if (this.portraitPlayer1 != null){
+					if (this.displayMode == DisplayMode.CharacterPortrait) {
+						if (this.portraitPlayer1 != null) {
 							this.portraitPlayer1.sprite = Sprite.Create(
 								character.profilePictureBig,
 								new Rect(0f, 0f, character.profilePictureBig.width, character.profilePictureBig.height),
 								new Vector2(0.5f * character.profilePictureBig.width, 0.5f * character.profilePictureBig.height)
 							);
 						}
-					}else{
+
+                    } else {
 						UFE3D.CharacterInfo characterInfo = UFE.config.characters[characterIndex];
-						if (this.gameObjectPlayer1 != null){
+						if (this.gameObjectPlayer1 != null) {
 							GameObject.Destroy(this.gameObjectPlayer1);
 						}
 
 
-						AnimationClip clip = 
+						AnimationClip clip =
 							characterInfo.selectionAnimation != null ?
-							characterInfo.selectionAnimation : 
+							characterInfo.selectionAnimation :
 							characterInfo.moves[0].basicMoves.idle.animMap[0].clip;
 
-                        
-                        if (characterInfo.characterPrefabStorage == StorageMode.Prefab) {
-                            this.gameObjectPlayer1 = GameObject.Instantiate(characterInfo.characterPrefab);
-						
+
+						if (characterInfo.characterPrefabStorage == StorageMode.Prefab) {
+							this.gameObjectPlayer1 = GameObject.Instantiate(characterInfo.characterPrefab);
+
 						} else {
-                            this.gameObjectPlayer1 = GameObject.Instantiate(Resources.Load<GameObject>(characterInfo.prefabResourcePath));
-                        }
+							this.gameObjectPlayer1 = GameObject.Instantiate(Resources.Load<GameObject>(characterInfo.prefabResourcePath));
+						}
 						//this.gameObjectPlayer1 = GameObject.Instantiate(characterInfo.characterPrefab);
 						this.gameObjectPlayer1.transform.position = this.positionPlayer1;
 						this.gameObjectPlayer1.transform.SetParent(this.transform, true);
 
 						HitBoxesScript hitBoxes = this.gameObjectPlayer1.GetComponent<HitBoxesScript>();
-						if (hitBoxes != null){
-							foreach (HitBox hitBox in hitBoxes.hitBoxes){
-								if (hitBox != null && hitBox.bodyPart != BodyPart.none && hitBox.position != null){
+						if (hitBoxes != null) {
+							foreach (HitBox hitBox in hitBoxes.hitBoxes) {
+								if (hitBox != null && hitBox.bodyPart != BodyPart.none && hitBox.position != null) {
 									hitBox.position.gameObject.SetActive(hitBox.defaultVisibility);
 								}
 							}
 						}
 
-						if (characterInfo.animationType == AnimationType.Legacy){
+						if (characterInfo.animationType == AnimationType.Legacy) {
 							Animation animation = this.gameObjectPlayer1.GetComponent<Animation>();
-							if (animation == null){
+							if (animation == null) {
 								animation = this.gameObjectPlayer1.AddComponent<Animation>();
 							}
 
 							animation.AddClip(clip, "Idle");
 							animation.wrapMode = WrapMode.Loop;
 							animation.Play("Idle");
-						}else {
+						} else {
 							Animator animator = this.gameObjectPlayer1.GetComponent<Animator>();
-							if (animator == null){
+							if (animator == null) {
 								animator = this.gameObjectPlayer1.AddComponent<Animator>();
 							}
-							
+
 							AnimatorOverrideController overrideController = new AnimatorOverrideController();
 							overrideController.runtimeAnimatorController = Resources.Load<RuntimeAnimatorController>("MC_Controller");
 							overrideController["State2"] = clip;
-							
+
 							animator.avatar = characterInfo.avatar;
 							animator.applyRootMotion = characterInfo.applyRootMotion;
 							animator.runtimeAnimatorController = overrideController;
 							animator.Play("State2");
 						}
 					}
-				}else if (player == 2){
-					if (this.namePlayer2 != null){
+				} else if (player == 2) {
+					if (this.namePlayer2 != null) {
 						this.namePlayer2.text = character.characterName;
-						
+
 					}
 
-					if (this.displayMode == DisplayMode.CharacterPortrait){
-						if (this.portraitPlayer2 != null){
+					if (this.displayMode == DisplayMode.CharacterPortrait) {
+						if (this.portraitPlayer2 != null) {
 							this.portraitPlayer2.sprite = Sprite.Create(
 								character.profilePictureBig,
 								new Rect(0f, 0f, character.profilePictureBig.width, character.profilePictureBig.height),
 								new Vector2(0.5f * character.profilePictureBig.width, 0.5f * character.profilePictureBig.height)
 							);
 						}
-					}else{
+					} else {
 						UFE3D.CharacterInfo characterInfo = UFE.config.characters[characterIndex];
-						if (this.gameObjectPlayer2 != null){
+						if (this.gameObjectPlayer2 != null) {
 							GameObject.Destroy(this.gameObjectPlayer2);
 						}
 						// STORY MODE ACA
-						if (UFE.gameMode != GameMode.StoryMode){
-							AnimationClip clip = 
+						if (UFE.gameMode != GameMode.StoryMode) {
+							AnimationClip clip =
 								characterInfo.selectionAnimation != null ?
-								characterInfo.selectionAnimation : 
+								characterInfo.selectionAnimation :
 								characterInfo.moves[0].basicMoves.idle.animMap[0].clip;
-							
+
 
 							if (characterInfo.characterPrefabStorage == StorageMode.Prefab) {
-                                this.gameObjectPlayer2 = GameObject.Instantiate(characterInfo.characterPrefab);
-                            } else {
-                                this.gameObjectPlayer2 = GameObject.Instantiate(Resources.Load<GameObject>(characterInfo.prefabResourcePath));
-                            }
+								this.gameObjectPlayer2 = GameObject.Instantiate(characterInfo.characterPrefab);
+							} else {
+								this.gameObjectPlayer2 = GameObject.Instantiate(Resources.Load<GameObject>(characterInfo.prefabResourcePath));
+							}
 							//this.gameObjectPlayer2 = GameObject.Instantiate(characterInfo.characterPrefab);
 							this.gameObjectPlayer2.transform.position = this.positionPlayer2;
 							this.gameObjectPlayer2.transform.localRotation = Quaternion.Euler(0f, -90f, 0f);
 							this.gameObjectPlayer2.transform.SetParent(this.transform, true);
 
-							
+
 
 							HitBoxesScript hitBoxes = this.gameObjectPlayer2.GetComponent<HitBoxesScript>();
-							if (hitBoxes != null){
-								foreach (HitBox hitBox in hitBoxes.hitBoxes){
-									if (hitBox != null && hitBox.bodyPart != BodyPart.none && hitBox.position != null){
+							if (hitBoxes != null) {
+								foreach (HitBox hitBox in hitBoxes.hitBoxes) {
+									if (hitBox != null && hitBox.bodyPart != BodyPart.none && hitBox.position != null) {
 										hitBox.position.gameObject.SetActive(hitBox.defaultVisibility);
 									}
 								}
 							}
-							
-							if (characterInfo.animationType == AnimationType.Legacy){
+
+							if (characterInfo.animationType == AnimationType.Legacy) {
 								Animation animation = this.gameObjectPlayer2.GetComponent<Animation>();
-								if (animation == null){
+								if (animation == null) {
 									animation = this.gameObjectPlayer2.AddComponent<Animation>();
 								}
-								
+
 								this.gameObjectPlayer2.transform.localScale = new Vector3(
-									-this.gameObjectPlayer2.transform.localScale.x, 
-									this.gameObjectPlayer2.transform.localScale.y, 
+									-this.gameObjectPlayer2.transform.localScale.x,
+									this.gameObjectPlayer2.transform.localScale.y,
 									this.gameObjectPlayer2.transform.localScale.z
 								);
-								
+
 								animation.AddClip(clip, "Idle");
 								animation.wrapMode = WrapMode.Loop;
 								animation.Play("Idle");
-							}else{
+							} else {
 								Animator animator = this.gameObjectPlayer2.GetComponent<Animator>();
-								if (animator == null){
+								if (animator == null) {
 									animator = this.gameObjectPlayer2.AddComponent<Animator>();
 								}
-								
+
 								// Mecanim, mirror via Animator...
 								AnimatorOverrideController overrideController = new AnimatorOverrideController();
-                                overrideController.runtimeAnimatorController = Resources.Load<RuntimeAnimatorController>("MC_Controller");
-                                overrideController["State3"] = clip;
-								
+								overrideController.runtimeAnimatorController = Resources.Load<RuntimeAnimatorController>("MC_Controller");
+								overrideController["State3"] = clip;
+
 								animator.avatar = characterInfo.avatar;
 								animator.applyRootMotion = characterInfo.applyRootMotion;
 								animator.runtimeAnimatorController = overrideController;
-                                animator.Play("State3");
+								animator.Play("State3");
 							}
 						}
 					}
@@ -448,30 +449,30 @@ public class DefaultCharacterSelectionScreen : CharacterSelectionScreen {
 				}*/
 
 				// Then, update the cursor position
-				if (this.hudPlayer1 != null){
+				if (this.hudPlayer1 != null) {
 					RectTransform rt = this.hudPlayer1.transform as RectTransform;
-					if (rt != null){
+					if (rt != null) {
 						rt.anchoredPosition = this.characters[this.p1HoverIndex].rectTransform.anchoredPosition;
-					}else{
+					} else {
 						this.hudPlayer1.transform.position = this.characters[this.p1HoverIndex].transform.position;
 					}
-					
+
 				}
 
-				if (this.hudPlayer2 != null){
+				if (this.hudPlayer2 != null) {
 					RectTransform rt = this.hudPlayer2.transform as RectTransform;
-					if (rt != null){
+					if (rt != null) {
 						rt.anchoredPosition = this.characters[this.p2HoverIndex].rectTransform.anchoredPosition;
-					}else{
+					} else {
 						this.hudPlayer2.transform.position = this.characters[this.p2HoverIndex].transform.position;
 					}
 				}
 
-				if (this.hudBothPlayers != null){
+				if (this.hudBothPlayers != null) {
 					RectTransform rt = this.hudBothPlayers.transform as RectTransform;
-					if (rt != null){
+					if (rt != null) {
 						rt.anchoredPosition = this.characters[this.p2HoverIndex].rectTransform.anchoredPosition;
-					}else{
+					} else {
 						this.hudBothPlayers.transform.position = this.characters[this.p2HoverIndex].transform.position;
 					}
 				}
@@ -481,41 +482,41 @@ public class DefaultCharacterSelectionScreen : CharacterSelectionScreen {
 		}
 	}
 
-	public override void OnCharacterSelectionAllowed (int characterIndex, int player){
-		base.OnCharacterSelectionAllowed (characterIndex, player);
+	public override void OnCharacterSelectionAllowed(int characterIndex, int player) {
+		base.OnCharacterSelectionAllowed(characterIndex, player);
 
 
-        //anterior analytics de modo de juegos EEEEEEEEEEEEEEEEEEEEEEEEEEE
+		//anterior analytics de modo de juegos EEEEEEEEEEEEEEEEEEEEEEEEEEE
 
-        this.UpdateHud();
+		this.UpdateHud();
 		Debug.Log("characterIndex=" + characterIndex);
 		//Debug.Log("Valor de JunChroma_On_Off:" + JunChroma_On_Off);
 	}
 
-	public override void OnHide(){
-		if (this.gameObjectPlayer1 != null){
+	public override void OnHide() {
+		if (this.gameObjectPlayer1 != null) {
 			GameObject.Destroy(this.gameObjectPlayer1);
 		}
-		if (this.gameObjectPlayer2 != null){
+		if (this.gameObjectPlayer2 != null) {
 			GameObject.Destroy(this.gameObjectPlayer2);
 		}
-		if (this.background != null){
+		if (this.background != null) {
 			GameObject.Destroy(this.background);
 		}
 
 		UFE.canvas.renderMode = RenderMode.ScreenSpaceOverlay;
 		UFE.canvas.worldCamera = null;
-		base.OnHide ();
+		base.OnHide();
 	}
 
-	public override void OnShow (){
+	public override void OnShow() {
 		// We add these lines before base.OnShow() because they will affect how will the engine display
 		// characters selected by default
-        Camera.main.transform.position = UFE.config.cameraOptions.initialDistance;
-        Camera.main.transform.eulerAngles = UFE.config.cameraOptions.initialRotation;
-        Camera.main.fieldOfView = UFE.config.cameraOptions.initialFieldOfView;
-		if (this.displayMode == DisplayMode.CharacterGameObject){
-			if (background3dPrefab != null){
+		Camera.main.transform.position = UFE.config.cameraOptions.initialDistance;
+		Camera.main.transform.eulerAngles = UFE.config.cameraOptions.initialRotation;
+		Camera.main.fieldOfView = UFE.config.cameraOptions.initialFieldOfView;
+		if (this.displayMode == DisplayMode.CharacterGameObject) {
+			if (background3dPrefab != null) {
 				this.background = GameObject.Instantiate(background3dPrefab);
 			}
 
@@ -525,23 +526,23 @@ public class DefaultCharacterSelectionScreen : CharacterSelectionScreen {
 		}
 		base.OnShow();
 		this.characterButtonsWhiteList.Clear();
-		
+
 
 		// Set the portraits of the characters
-		if (this.characters != null){
+		if (this.characters != null) {
 			// First, update the portraits of the characters until we run out of characters or portrait slots....
 			for (int i = 0; i < this.selectableCharacters.Length && i < this.characters.Length; ++i) {
 				Image character = this.characters[i];
 				UFE3D.CharacterInfo selectableCharacter = this.selectableCharacters[i];
-				Debug.Log("this.characters;"+ this.characters[i]);
-				
-				if (character != null){
+				Debug.Log("this.characters;" + this.characters[i]);
+
+				if (character != null) {
 					character.gameObject.SetActive(true);
 
 					//CharacterJUNCHROMA = character;
 					//CharacterMARIECHROMA = character;
 					// SE VAN AGREGANMDO NUEVOISSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSZZZZZZZZZZZZZZZZZZZZZZZZZ
-					CharacterJUNCHROMA=this.characters[4];
+					CharacterJUNCHROMA = this.characters[4];
 					CharacterMARIECHROMA = this.characters[5];
 					CharacterMIKUCHROMA = this.characters[6];
 					CharacterTAROCHROMA = this.characters[7];
@@ -555,60 +556,61 @@ public class DefaultCharacterSelectionScreen : CharacterSelectionScreen {
 					);
 
 					Button button = character.GetComponent<Button>();
-					if (button == null){
+					if (button == null) {
 						button = character.gameObject.AddComponent<Button>();
 					}
-					
+
 					int index = i;
-					button.onClick.AddListener(() => {this.TrySelectCharacter(index);});
+					//button.onClick.AddListener(() => {this.TrySelectCharacter(index);});
+					button.onClick.AddListener(() => { this.MoveCursor(1, index); });
 					button.targetGraphic = character;
 					this.characterButtonsWhiteList.Add(button);
-					}			
+				}
 			}
 
 
 			// If there are more slots than characters, fill the remaining slots with the "No Character" sprite...
 			// If the "No Character" sprite is undefined, hide the image instead.
-			for (int i = this.selectableCharacters.Length; i < this.characters.Length; ++i){
+			for (int i = this.selectableCharacters.Length; i < this.characters.Length; ++i) {
 				Image character = this.characters[i];
-				if (character != null){
-					if (this.noCharacterSprite != null){
+				if (character != null) {
+					if (this.noCharacterSprite != null) {
 						this.characters[i].gameObject.SetActive(true);
 						this.characters[i].sprite = this.noCharacterSprite;
-					}else{
+					} else {
 						this.characters[i].gameObject.SetActive(false);
 					}
 				}
 			}
 		}
 
-		if (this.music != null){
-			UFE.DelayLocalAction(delegate(){UFE.PlayMusic(this.music);}, this.delayBeforePlayingMusic);
+		if (this.music != null) {
+			UFE.DelayLocalAction(delegate () { UFE.PlayMusic(this.music); }, this.delayBeforePlayingMusic);
 		}
 
-		if (this.stopPreviousSoundEffectsOnLoad){
+		if (this.stopPreviousSoundEffectsOnLoad) {
 			UFE.StopSounds();
 		}
-		
-		if (this.onLoadSound != null){
-			UFE.DelayLocalAction(delegate(){UFE.PlaySound(this.onLoadSound);}, this.delayBeforePlayingMusic);
+
+		if (this.onLoadSound != null) {
+			UFE.DelayLocalAction(delegate () { UFE.PlaySound(this.onLoadSound); }, this.delayBeforePlayingMusic);
 		}
 
 		this.SetHoverIndex(1, Mathf.Clamp(this.defaultCharacterPlayer1, 0, this.selectableCharacters.Length - 1));
-		if (UFE.gameMode == GameMode.StoryMode){
-			if (this.namePlayer2 != null){
+		if (UFE.gameMode == GameMode.StoryMode) {
+			if (this.namePlayer2 != null) {
 				this.namePlayer2.text = "???";
 			}
 
-			if (this.portraitPlayer2 != null){
+			if (this.portraitPlayer2 != null) {
 				this.portraitPlayer2.gameObject.SetActive(false);
 			}
 
 			this.UpdateHud();
-		}else{
+		} else {
 			this.SetHoverIndex(2, Mathf.Clamp(this.defaultCharacterPlayer2, 0, this.selectableCharacters.Length - 1));
 
-			if (this.portraitPlayer2 != null){
+			if (this.portraitPlayer2 != null) {
 				this.portraitPlayer2.gameObject.SetActive(true);
 			}
 		}
@@ -617,51 +619,51 @@ public class DefaultCharacterSelectionScreen : CharacterSelectionScreen {
 
 
 	#region protected instance methods
-	protected override int GetMaxCharacterIndex(){
+	protected override int GetMaxCharacterIndex() {
 		return Mathf.Min(this.selectableCharacters.Length, this.characters.Length) - 1;
 	}
 
-	protected virtual void UpdateHud(){
-		if (UFE.gameMode == GameMode.StoryMode){
-			if (this.hudPlayer1 != null){
+	protected virtual void UpdateHud() {
+		if (UFE.gameMode == GameMode.StoryMode) {
+			if (this.hudPlayer1 != null) {
 				this.hudPlayer1.SetBool("IsHidden", false);
 				this.hudPlayer1.SetBool("IsSelected", UFE.config.player1Character != null);
 			}
-			
-			if (this.hudPlayer2 != null){
+
+			if (this.hudPlayer2 != null) {
 				this.hudPlayer2.SetBool("IsHidden", true);
 				this.hudPlayer2.SetBool("IsSelected", UFE.config.player2Character != null);
 			}
-			
-			if (this.hudBothPlayers != null){
+
+			if (this.hudBothPlayers != null) {
 				this.hudBothPlayers.SetBool("IsHidden", true);
 				this.hudBothPlayers.SetBool("IsSelected", UFE.config.player1Character != null && UFE.config.player2Character != null);
 			}
-		}else{
-			
-			if (this.hudPlayer1 != null){
+		} else {
+
+			if (this.hudPlayer1 != null) {
 				this.hudPlayer1.SetBool("IsHidden", this.p1HoverIndex == this.p2HoverIndex);
 				this.hudPlayer1.SetBool("IsSelected", UFE.config.player1Character != null);
 			}
-			
-			if (this.hudPlayer2 != null){
+
+			if (this.hudPlayer2 != null) {
 				this.hudPlayer2.SetBool("IsHidden", this.p1HoverIndex == this.p2HoverIndex);
 				this.hudPlayer2.SetBool("IsSelected", UFE.config.player2Character != null);
 			}
 
-			if (this.hudBothPlayers != null){
+			if (this.hudBothPlayers != null) {
 				this.hudBothPlayers.SetBool("IsHidden", this.p1HoverIndex != this.p2HoverIndex);
 
 				this.hudBothPlayers.SetBool(
-					"IsSelected", 
+					"IsSelected",
 					UFE.config.player1Character != null && UFE.config.player2Character != null
-				
+
 				);
 			}
 		}
 	}
 
-	protected virtual void MoveCursor(int player, int characterIndex){
+	protected virtual void MoveCursor(int player, int characterIndex) {
 		int previousIndex = this.GetHoverIndex(player);
 		this.SetHoverIndex(player, characterIndex);
 		int newIndex = this.GetHoverIndex(player);
@@ -672,69 +674,74 @@ public class DefaultCharacterSelectionScreen : CharacterSelectionScreen {
 	#region protected instance methods: methods required by the Special Navigation System (GUI)
 	protected virtual void MoveCursor(
 		int player,
-		Fix64 horizontalAxis, 
-		Fix64 verticalAxis, 
-		bool horizontalAxisDown, 
-		bool verticalAxisDown, 
-		bool confirmButtonDown, 
-		bool cancelButtonDown, 
+		Fix64 horizontalAxis,
+		Fix64 verticalAxis,
+		bool horizontalAxisDown,
+		bool verticalAxisDown,
+		bool confirmButtonDown,
+		bool cancelButtonDown,
 		AudioClip sound
-	){
+	) {
 		bool characterSelected = true;
 		int currentIndex = -1;
-		
-		if (player == 1){
+
+		if (player == 1) {
 			currentIndex = this.p1HoverIndex;
 			characterSelected = UFE.config.player1Character != null;
-		}else if (player == 2){
+		} else if (player == 2) {
 			currentIndex = this.p2HoverIndex;
 			characterSelected = UFE.config.player2Character != null;
 		}
-		
-		if (!characterSelected || currentIndex < 0){
+
+		if (!characterSelected || currentIndex < 0) {
 			Vector3 direction = Vector3.zero;
 
-			if (horizontalAxisDown){
-				if (horizontalAxis > 0)				direction = Vector3.right;
-				else if (horizontalAxis < 0)		direction = Vector3.left;
+			if (horizontalAxisDown) {
+				if (horizontalAxis > 0) direction = Vector3.right;
+				else if (horizontalAxis < 0) direction = Vector3.left;
 			}
 
-			if (verticalAxisDown){
-				if (verticalAxis > 0)				direction = Vector3.up;
-				else if (verticalAxis < 0)			direction = Vector3.down;
+			if (verticalAxisDown) {
+				if (verticalAxis > 0) direction = Vector3.up;
+				else if (verticalAxis < 0) direction = Vector3.down;
 			}
 
-			if (direction != Vector3.zero){
+			if (direction != Vector3.zero) {
 				GameObject currentGameObject = this.characters[currentIndex].gameObject;
 				GameObject nextGameObject = currentGameObject.FindSelectableGameObject(
-					direction, 
+					direction,
 					this.wrapInput,
 					this.characterButtonsWhiteList
 				);
 
-				if (nextGameObject != null && nextGameObject != currentGameObject){
+				if (nextGameObject != null && nextGameObject != currentGameObject) {
 					int index = -1;
-					
-					for (int i = 0; i < this.characters.Length; ++i){
-						if (this.characters[i].gameObject == nextGameObject){
+
+					for (int i = 0; i < this.characters.Length; ++i) {
+						if (this.characters[i].gameObject == nextGameObject) {
 							index = i;
 							break;
 						}
 					}
-					
+
 					this.MoveCursor(player, index);
 				}
 			}
 		}
 	}
-	
-	protected virtual void TryDeselectCharacter(AudioClip sound){
+
+	protected virtual void TryDeselectCharacter(AudioClip sound) {
 		this.TryDeselectCharacter();
 	}
-	
-	protected virtual void TrySelectCharacter(AudioClip sound){
+
+	protected virtual void TrySelectCharacter(AudioClip sound) {
 		this.TrySelectCharacter();
 	}
 
 	#endregion
+
+	public void empezar()
+	{
+        this.TrySelectCharacter();
+    }
 }

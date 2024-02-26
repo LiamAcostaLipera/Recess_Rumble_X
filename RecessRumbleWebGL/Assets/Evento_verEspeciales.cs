@@ -16,6 +16,13 @@ public class Evento_verEspeciales : MonoBehaviour
         {"protagonista",  UFE.config.player1Character.characterName}
 
         });*/
+        CustomEvent verespeciales = new CustomEvent("ver_especiales")
+        {
+         { "protagonista", UFE.config.player1Character.characterName}
+
+        };
+
+        AnalyticsService.Instance.RecordEvent(verespeciales);
 
         AnalyticsService.Instance.CustomData("ver_especiales", new Dictionary<string, object>{
         {"protagonista",  UFE.config.player1Character.characterName}

@@ -6,25 +6,39 @@ using Unity.Services.Analytics;
 
 public class IniciarAnalytics : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public static IniciarAnalytics instancia;
+
+    /*
+        private void Awake()
+        {
+
+            if(instancia!=null)
+            {
+                Destroy(gameObject);
+            }
+            else
+            {
+                instancia = this;
+                DontDestroyOnLoad(this);
+            }
+        }
+    */
+
+
     async void Start()
     {
-        try
-        {
-            await UnityServices.InitializeAsync();
-            List<string> consentIdentifiers = await AnalyticsService.Instance.CheckForRequiredConsents();
-        }
-        catch (ConsentCheckException e)
-        {
-            // Something went wrong when checking the GeoIP, check the e.Reason and handle appropriately.
-        }
+        await UnityServices.InitializeAsync();
+
+        ConsentGiven();
     }
 
-
-
-    // Update is called once per frame
-    void Update()
+    void AskForConsent()
     {
-        
+        // ... show the player a UI element that asks for consent.
+    }
+
+    void ConsentGiven()
+    {
+        AnalyticsService.Instance.StartDataCollection();
     }
 }
